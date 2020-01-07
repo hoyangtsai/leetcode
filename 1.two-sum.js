@@ -10,14 +10,14 @@
  */
 var twoSum = function(nums, target) {
     let result = [];
-    let obj = {};
+    let map = new Map();
     for (let i = 0; i < nums.length; i++) {
-        if (obj.hasOwnProperty(target - nums[i])) {
-            result.push(obj[target - nums[i]])
+        if (map.has(target - nums[i])) {
+            result.push(map.get(target - nums[i]))
             result.push(i)
             break;
         }
-        obj[nums[i]] = i;
+        map.set(nums[i], i)
     }
     return result
 };
