@@ -23,7 +23,7 @@ var reverse = function(x) {
         rev = 10 * rev + pop;
         x = Math.floor(x / 10);
     }
-    //@comment another method is convert x to string and traversal backward by string length to conjunct output
+    // @comment another method is convert x to string and traversal backward by string length to conjunct output
     // check after reversed is exceed the number range
     if (rev > posMax || rev < negMax) return 0;
     // if x is negative convert it back
