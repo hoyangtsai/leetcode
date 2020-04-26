@@ -41,8 +41,20 @@
  * @return {number}
  */
 var findKthLargest = function(nums, k) {
-    nums.sort((a, b) => a - b);
-    return nums[nums.length - k];
+    // a function of sorting array by the smallest number first
+    const sortSmallFirst = (a, b) => a - b;
+    let heap = [];
+    for (const i in nums) {
+        const n = nums[i];
+        heap = heap.concat(n).sort(sortSmallFirst);
+        // keep the size of heap as length as kth, so the first number always is the kth largest number
+        if (heap.length > k) {
+            heap.shift();
+        }
+    }
+    return heap.shift();
 };
 // @lc code=end
 
+// Time complexity: O(NlogK)
+// Space complexity: O(K)
