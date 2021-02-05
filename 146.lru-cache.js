@@ -39,7 +39,7 @@ LRUCache.prototype.put = function(key, value) {
   this.map.set(key, value);
   if (this.map.size > this.capacity) {
     const keys = this.map.keys(); // `keys` is an iterator
-    this.map.delete(keys.next().value)
+    this.map.delete(keys.next().value);
   }
 };
 
