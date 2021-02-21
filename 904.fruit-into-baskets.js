@@ -4,7 +4,7 @@
  * [904] Fruit Into Baskets
  */
 
-// #slideWindow, #twoPointers
+ // #sliding-window, #two-pointers
 
 // @lc code=start
 /**

@@ -4,6 +4,8 @@
  * [20] Valid Parentheses
  */
 
+// #stack
+
 // @lc code=start
 /**
  * @param {string} s
