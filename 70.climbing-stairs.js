@@ -5,6 +5,7 @@
  */
 
  // #dynamic-programming, #fibonacci
+ // @adobe, @apple
 
 // @lc code=start
 /**

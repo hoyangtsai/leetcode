@@ -4,7 +4,7 @@
  * [270] Closest Binary Search Tree Value
  */
 
- // [binary-search, tree]
+ // #binary-search, #tree
 
 // @lc code=start
 /**
@@ -21,8 +21,6 @@
  * @return {number}
  */
 var closestValue = function(root, target) {
-  // root.right < root.val < root.left
-
   let closestDiff = Infinity;
   let closestVal = Infinity;
 
@@ -34,6 +32,8 @@ var closestValue = function(root, target) {
       closestVal = node.val;
     }
 
+    // root.right < root.val < root.left
+    // if not, search both nodes
     if (target > node.val) {
       search(node.right);
     } else {

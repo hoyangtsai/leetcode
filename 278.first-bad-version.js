@@ -4,7 +4,7 @@
  * [278] First Bad Version
  */
 
- // #binary-search
+ // #binary-search, #calculate-middle
 
 // @lc code=start
 /**
@@ -42,8 +42,11 @@ var solution = function(isBadVersion) {
 
         return left;
     };
-    // Time complexity: O(log n). The search space is halved each time.
-    // Space complexity: O(1).
+
+    /**
+     * Time complexity: O(log n). The search space is halved each time.
+     * Space complexity: O(1).
+     */
 };
 // @lc code=end
 
