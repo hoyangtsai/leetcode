@@ -5,6 +5,8 @@
  */
 
  // #binary-search, #calculate-middle
+ // @facebook
+ // difficulty: Easy
 
 // @lc code=start
 /**
@@ -49,4 +51,3 @@ var solution = function(isBadVersion) {
      */
 };
 // @lc code=end
-

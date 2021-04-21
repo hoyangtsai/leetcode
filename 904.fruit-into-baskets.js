@@ -4,7 +4,8 @@
  * [904] Fruit Into Baskets
  */
 
- // #sliding-window, #two-pointers
+ // #tree, #dfs, #sliding-window, #two-pointers
+ // difficulty: Medium
 
 // @lc code=start
 /**
