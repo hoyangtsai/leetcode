@@ -4,6 +4,9 @@
  * [98] Validate Binary Search Tree
  */
 
+ // #tree, #depth-first-search, #dfs
+ // @amazon, @bloomberg, @facebook, @microsoft
+
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -17,17 +20,14 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function (root, min = Number.MIN_SAFE_INTEGER, max = Number.MAX_SAFE_INTEGER) {
-  if (root === null) {
-    return true;
+var isValidBST = function (root) {
+  function validate(node, minVal, maxVal) {
+    if (node === null) return true;
+    if (minVal >= node.val || maxVal <= node.val) return false;
+    // node.left < node.val
+    // node.right > node.val
+    return validate(node.left, minVal, node.val) && validate(node.right, node.val, maxVal);
   }
-
-  if (min < root.val && root.val < max) {
-    return isValidBST(root.left, min, root.val)
-      && isValidBST(root.right, root.val, max);
-  }
-
-  return false;
+  return validate(root, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY);
 };
 // @lc code=end
-

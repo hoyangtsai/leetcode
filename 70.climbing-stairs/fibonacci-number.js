@@ -4,15 +4,15 @@
  * [70] Climbing Stairs
  */
 
- // #dynamic-programming, #fibonacci
- // @adobe, @apple
+// #dynamic-programming, #fibonacci
+// @adobe, @apple
 
 // @lc code=start
 /**
  * @param {number} n
  * @return {number}
  */
-var climbStairs = function(n) {
+var climbStairs = function (n) {
   if (n < 2) return n;
 
   let first = 1;
