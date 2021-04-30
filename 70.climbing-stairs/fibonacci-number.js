@@ -4,9 +4,6 @@
  * [70] Climbing Stairs
  */
 
-// #dynamic-programming, #fibonacci
-// @adobe, @apple
-
 // @lc code=start
 /**
  * @param {number} n

@@ -4,7 +4,7 @@
  * [392] Is Subsequence
  */
 
- // #binary-search, #tow-pointer, #greedy
+ // #binary-search, #two-pointer, #greedy
 
 // @lc code=start
 /**

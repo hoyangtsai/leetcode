@@ -4,37 +4,33 @@
  * [5] Longest Palindromic Substring
  */
 
+// #string, #dynamic-programming
+// @amazon, @bloomberg, @microsoft
+
 // @lc code=start
 /**
  * @param {string} s
  * @return {string}
  */
 var longestPalindrome = function(s) {
-  if (!s || s.length < 1) {
-    return '';
-  }
+  let longest = '';
 
-  var expandAroundCenter = function(s, left, right) {
-    let L = left, R = right;
-    while (L >= 0 &&
-        R < s.length &&
-        s.charAt(L) == s.charAt(R)) {
-      L--;
-      R++;
+  function expandAroundCenter(str, i, j) {
+    while (i >= 0 && j < s.length && s[i] === s[j]) {
+      i--;
+      j++;
     }
-    return R - L - 1;
+    return str.slice(i + 1, j);;
   }
 
-  let start = 0, end = 0;
   for (let i = 0; i < s.length; i++) {
-    let len1 = expandAroundCenter(s, i, i);
-    let len2 = expandAroundCenter(s, i, i + 1);
-    let len = Math.max(len1, len2);
-    if (len > end - start) {
-      start = i - (len - 1) / 2;
-      end = i + len / 2;
+    let subStr1 = expandAroundCenter(s, i, i);
+    let subStr2 = expandAroundCenter(s, i, i + 1);
+    let longerPalindrome = subStr1.length > subStr2.length ? subStr1 : subStr2;
+    if (longerPalindrome.length > longest.length) {
+      longest = longerPalindrome;
     }
   }
-  return s.substring(start, end + 1);
+  return longest;
 };
 // @lc code=end

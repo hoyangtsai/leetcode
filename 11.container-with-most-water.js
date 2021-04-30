@@ -6,7 +6,7 @@
 
  // #array, #two-pointers, #calculate-between
  // @bloomberg
- // rel: 42
+ // &42
 
 // @lc code=start
 /**

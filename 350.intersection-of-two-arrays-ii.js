@@ -4,7 +4,7 @@
  * [350] Intersection of Two Arrays II
  */
 
- // [binary-search, hash-table]
+ // #binary-search, #hash-table
 
 // @lc code=start
 /**
