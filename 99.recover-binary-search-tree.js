@@ -20,19 +20,22 @@
  * @return {void} Do not return anything, modify root in-place instead.
  */
 var recoverTree = function(root) {
-  let prev;
-  let s, t;
-  function traverse(node) {
-    if (!node) return;
-    traverse(node.left);
-    if (node.val < prev.val) {
-      s = s ? prev : s;
-      t = node;
+  let x = null, y = null, prev = null;
+
+  function dfs(root) {
+    if (!root) return;
+    dfs(root.left);
+    if (prev != null && prev.val > root.val) {
+      y = root;
+      if (!x) x = prev;
+      else return;
     }
-    prev = node;
-    traverse(node.right);
+    prev = root;
+    dfs(root.right);
   }
-  return traverse(root);
+
+  dfs(root);
+  [x.val, y.val] = [y.val, x.val];
 };
 // @lc code=end
 

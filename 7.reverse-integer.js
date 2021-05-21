@@ -4,6 +4,9 @@
  * [7] Reverse Integer
  */
 
+// #math
+// @apple, @bloomberg
+
 // @lc code=start
 /**
  * @param {number} x

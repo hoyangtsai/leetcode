@@ -4,7 +4,7 @@
  * [350] Intersection of Two Arrays II
  */
 
- // #binary-search, #hash-table
+// #hash-table, #two-pointers, #binary-search, #sort
 
 // @lc code=start
 /**
@@ -34,3 +34,4 @@ var intersect = function(nums1, nums2) {
   return interNums;
 };
 // @lc code=end
+

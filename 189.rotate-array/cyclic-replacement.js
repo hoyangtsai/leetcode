@@ -4,16 +4,13 @@
  * [189] Rotate Array
  */
 
-// #array
-// @amazon, @bloomberg, @microsoft
-
 // @lc code=start
 /**
  * @param {number[]} nums
  * @param {number} k
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var rotate = function(nums, k) {
+var rotate = function (nums, k) {
   // make sure k not over-looping if nums.length is shorter than k
   k = k % nums.length;
   let count = 0;

@@ -4,7 +4,7 @@
  * [4] Median of Two Sorted Arrays
  */
 
-// #array, #binary-search, #divide-and-conquer
+// #array, #binary-search, #divide-and-conquer, #bit-manipulation, #shift-assignment
 // @adobe, @apple, @dropbox, @google, @microsoft, @yahoo, @zenefits
 // &278
 
@@ -23,7 +23,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
   let low = 0, high = x;
   while (low <= high) {
-    const partitionX = (low + high) >> 1;
+    const partitionX = (low + high) >> 1; // divided by 2, and only get the integer like Math.floor(x / 2)
     const partitionY = ((x + y + 1) >> 1) - partitionX;
 
     const leftMaxX = partitionX == 0 ? Number.NEGATIVE_INFINITY : nums1[partitionX - 1];
