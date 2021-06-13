@@ -4,7 +4,7 @@
  * [5] Longest Palindromic Substring
  */
 
-// #string, #dynamic-programming
+// #string, #dynamic-programming, #palindromic, #anagram
 // @amazon, @bloomberg, @microsoft
 
 // @lc code=start

@@ -4,6 +4,9 @@
  * [680] Valid Palindrome II
  */
 
+// #string, #two-pointers, #palindromic, #anagram
+// @facebook, @microsoft, @oracle, @bloomberg, @wish
+
 // @lc code=start
 /**
  * @param {string} s

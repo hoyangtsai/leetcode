@@ -22,9 +22,11 @@ var reverse = function(x) {
   x = isNeg ? x * -1 : x;
   let rev = 0;
   while(x > 0){
-      let pop = x % 10;
-      rev = 10 * rev + pop;
-      x = Math.floor(x / 10);
+    // get the unit digit
+    let pop = x % 10;
+    rev = 10 * rev + pop;
+    // shrink the input x 10 units each loop
+    x = Math.floor(x / 10);
   }
   // @comment another method is convert x to string and traversal backward by string length to conjunct output
   // check after reversed is exceed the number range

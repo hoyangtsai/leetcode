@@ -15,6 +15,8 @@
  */
 var rotate = function(nums, k) {
   // make sure k not over-looping if nums.length is shorter than k
+  // if k is greater than nums.length, it only loops multiples of nums.length's remaining
+  // else k is less than nums.length, it loops as many times as k.
   k = k % nums.length;
   let count = 0;
   for (let start = 0; count < nums.length; start++) {

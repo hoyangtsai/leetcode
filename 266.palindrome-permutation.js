@@ -1,8 +1,11 @@
-4/*
+/*
  * @lc app=leetcode id=266 lang=javascript
  *
  * [266] Palindrome Permutation
  */
+
+// #hash-table, #palindromic, #anagram
+// @bloomberg, @google, @uber, @facebook, @microsoft
 
 // @lc code=start
 /**

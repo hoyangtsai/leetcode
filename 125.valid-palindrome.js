@@ -4,7 +4,8 @@
  * [125] Valid Palindrome
  */
 
- // #two-pointers
+// #two-pointers, #string, #palindromic, #anagram
+// @facebook, @microsoft, @uber, @zenefits, @apple, @amazon, @yandex, @wayfair
 
 // @lc code=start
 /**

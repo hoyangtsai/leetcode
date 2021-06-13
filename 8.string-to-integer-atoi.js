@@ -4,25 +4,51 @@
  * [8] String to Integer (atoi)
  */
 
+// #math, #string
+// @amazon, @bloomberg, @microsoft, @uber
+
 // @lc code=start
 /**
  * @param {string} s
  * @return {number}
  */
 var myAtoi = function(s) {
-  const MIN_VALUE = Math.pow(-2, 31);
-  const MAX_VALUE = Math.pow(2, 31) - 1;
+  if (str === null || str.length == 0) return 0;
 
-  const str = s.trim();
+  str = str.trim();
 
-  const num = str.match(/^[\+\-]?\d+/); // find a match
+  // 3. +/- sign
+  let positive = true;
+  let i = 0;
+  if (str.charAt(0) == '+') {
+    i++;
+  } else if (str.charAt(0) == '-') {
+    positive = false;
+    i++;
+  }
 
-  if(!num) return 0;
+  const minVal = Math.pow(-2, 31);
+  const maxVal = Math.pow(2, 31);
 
-  if (+num[0] > MAX_VALUE) return MAX_VALUE;
-  if (+num[0] < MIN_VALUE) return MIN_VALUE;
+  // 4. calculate real value
+  let tmp = 0;
+  for (; i < str.length; i++) {
+    if (/\D/.test(str.charAt(i)) || isNaN(str.charAt(i))) break;
 
-  return +num[0];
+    let digit = +str.charAt(i);
+
+    // 5. handle min & max
+    if (positive) {
+      tmp = (10 * tmp) + digit;
+      if (tmp >= maxVal) return maxVal - 1;
+    } else {
+      tmp = (10 * tmp) - digit;
+      if (tmp < minVal) return minVal;
+    }
+  }
+
+  let ret = Number.parseInt(tmp, 10);
+  return ret;
 };
 // @lc code=end
 

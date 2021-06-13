@@ -4,9 +4,6 @@
  * [189] Rotate Array
  */
 
-// #array
-// @amazon, @bloomberg, @microsoft
-
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -18,3 +15,4 @@ var rotate = function (nums, k) {
   nums.unshift(...nums.splice(nums.length - k));
 };
 // @lc code=end
+

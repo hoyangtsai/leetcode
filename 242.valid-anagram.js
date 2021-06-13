@@ -4,7 +4,7 @@
  * [242] Valid Anagram
  */
 
-// #hash-table, #sort
+// #hash-table, #sort, #anagram, #palindromic
 // @amazon, @uber, @yelp
 
 // @lc code=start
