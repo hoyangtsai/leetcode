@@ -4,7 +4,8 @@
  * [26] Remove Duplicates from Sorted Array
  */
 
- // #two-pointer
+// #two-pointer
+// @facebook, @microsoft, @apple, @google
 
 // @lc code=start
 /**

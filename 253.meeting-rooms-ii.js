@@ -5,7 +5,7 @@
  */
 
 // #array, #greedy, #sort
-// @facebook, @google, @snapchat
+// @facebook, @google, @amazon, @microsoft
  
 // @lc code=start
 /**

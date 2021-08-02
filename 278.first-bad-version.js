@@ -24,30 +24,29 @@
  * @return {function}
  */
 var solution = function(isBadVersion) {
-    /**
-     * @param {integer} n Total versions
-     * @return {integer} The first bad version
-     */
-    return function(n) {
-        let left = 1;
-        let right = n;
+  /**
+   * @param {integer} n Total versions
+   * @return {integer} The first bad version
+   */
+  return function(n) {
+    let left = 1;
+    let right = n;
 
-        while (left < right) {
-            let mid = left + Math.floor((right - left) / 2);
+    while (left < right) {
+      let mid = Math.floor((left + right) / 2);
+      if (!isBadVersion(mid)) {
+        left = mid + 1;
+      } else {
+        right = mid;
+      }
+    }
 
-            if (!isBadVersion(mid)) {
-                left = mid + 1;
-            } else {
-                right = mid;
-            }
-        }
+    return left;
+  };
 
-        return left;
-    };
-
-    /**
-     * Time complexity: O(log n). The search space is halved each time.
-     * Space complexity: O(1).
-     */
+  /**
+   * Time complexity: O(log n). The search space is halved each time.
+   * Space complexity: O(1).
+   */
 };
 // @lc code=end

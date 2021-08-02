@@ -5,7 +5,7 @@
  */
 
 // #hash-table, #sliding-window, #string, #two-pointers, #calculate-between
-// @adobe, @amazon, @bloomberg, @yelp
+// @adobe, @amazon, @bloomberg, @yelp, @apple, @google
 
 /**
  * @param {string} s

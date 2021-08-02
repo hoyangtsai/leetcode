@@ -4,6 +4,9 @@
  * [146] LRU Cache
  */
 
+// #design
+// @amazon, @microsoft, @facebook, @apple, @google
+
 // @lc code=start
 /**
  * @param {number} capacity
@@ -22,6 +25,7 @@ LRUCache.prototype.get = function(key) {
     return -1;
   }
   const value = this.map.get(key);
+  // set the newest key as last (last in, last out)
   this.map.delete(key);
   this.map.set(key, value);
   return value;
@@ -39,6 +43,7 @@ LRUCache.prototype.put = function(key, value) {
   this.map.set(key, value);
   if (this.map.size > this.capacity) {
     const keys = this.map.keys(); // `keys` is an iterator
+    // delete the first like [].shift()
     this.map.delete(keys.next().value);
   }
 };
