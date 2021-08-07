@@ -4,7 +4,7 @@
  * [136] Single Number
  */
 
- // #hash-table, #bit-manipulation
+ // #hash-table, #bit-manipulation, #bitwise
  // @airbnb, @palantir
 
 // @lc code=start

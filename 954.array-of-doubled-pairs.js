@@ -4,7 +4,7 @@
  * [954] Array of Doubled Pairs
  */
 
-// #array, #hash-table, #bit-manipulation
+// #array, #hash-table, #bit-manipulation, #bitwise
 // @google
 
 // @lc code=start
