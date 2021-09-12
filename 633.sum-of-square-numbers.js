@@ -4,6 +4,9 @@
  * [633] Sum of Square Numbers
  */
 
+// #math
+// @linkedin, @apple
+
 // @lc code=start
 /**
  * @param {number} c
