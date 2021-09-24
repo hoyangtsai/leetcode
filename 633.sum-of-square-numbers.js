@@ -5,7 +5,7 @@
  */
 
 // #math
-// @apple
+// @linkedin, @apple
 
 // @lc code=start
 /**

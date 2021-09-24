@@ -170,4 +170,7 @@ int right_bound(int[] nums, int target) {
 }
 ```
 
-Source: [https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug](https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug)
+Source:
+
+- [https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug](https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug)
+- [https://labuladong.gitbook.io/algo/mu-lu-ye/er-fen-cha-zhao-xiang-jie](https://labuladong.gitbook.io/algo/mu-lu-ye/er-fen-cha-zhao-xiang-jie)
