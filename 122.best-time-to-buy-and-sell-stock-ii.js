@@ -4,9 +4,9 @@
  * [122] Best Time to Buy and Sell Stock II
  */
 
- // #array, #greedy
-
- // tips: cannot sell and buy at the same day
+// #array, #greedy
+// @amazon, @microsoft, @bloomberg
+// tips: cannot sell and buy at the same day
  
 // @lc code=start
 /**

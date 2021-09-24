@@ -5,6 +5,7 @@
  */
 
 // #two-pointers, #string
+// @apple, @microsoft, @amazon, @paypal, @rakuten
 
 // @lc code=start
 /**
@@ -18,3 +19,8 @@ var reverseString = function(s) {
 };
 // @lc code=end
 
+/**
+ * Two pointers, iteration
+ * Time complexity: O(n).
+ * Space complexity: O(1).
+ */
