@@ -4,7 +4,7 @@
  * [99] Recover Binary Search Tree
  */
 
-// #tree, #depth-first-search, #dfs
+// #tree, #depth-first-search
 
 // @lc code=start
 /**

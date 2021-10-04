@@ -4,8 +4,9 @@
  * [904] Fruit Into Baskets
  */
 
- // #tree, #dfs, #sliding-window, #two-pointers
- // difficulty: Medium
+// #array, #hash-table, #depth-first-search, #sliding-window
+// @apple
+// #google-interview
 
 // @lc code=start
 /**

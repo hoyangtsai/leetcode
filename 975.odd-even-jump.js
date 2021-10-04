@@ -4,6 +4,10 @@
  * [975] Odd Even Jump
  */
 
+// @google
+// #array, #dynamic-programming, #stack, #monotonic-stack, #ordered-set
+// #google-interview
+
 // @lc code=start
 /**
  * @param {number[]} A

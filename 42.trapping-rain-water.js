@@ -4,9 +4,10 @@
  * [42] Trapping Rain Water
  */
 
- // #array, #two-pointers, #stack
- // @facebook, @genera
- // &11
+// @goldmanSachs, @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
+// #array, #two-pointers, #stack
+// #google-interview
+// &11
 
 // @lc code=start
 /**
@@ -31,3 +32,9 @@ var trap = function(height) {
   return ans;
 };
 // @lc code=end
+
+/**
+ * Two pointer
+ * Time complexity: O(n).
+ * Sapce complexity: O(1).
+ */

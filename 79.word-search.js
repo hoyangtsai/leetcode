@@ -4,8 +4,8 @@
  * [79] Word Search
  */
 
-// #array, #backtracking, #matrix
 // @amazon, @microsoft, @snapchat, @bloomberg, @facebook, @apple, @twitter, @google, @rakuten
+// #array, #backtracking, #matrix, #depth-first-search
 
 // @lc code=start
 /**
@@ -14,7 +14,6 @@
  * @return {boolean}
  */
 var exist = function(board, word) {
-  
   const h = board.length;
   const w = board[0].length;
 

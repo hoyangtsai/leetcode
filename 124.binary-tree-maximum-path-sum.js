@@ -4,8 +4,8 @@
  * [124] Binary Tree Maximum Path Sum
  */
 
-// #tree, #deep-first-search, #dfs
 // @microsoft, @baidu
+// #tree
 
 // @lc code=start
 /**

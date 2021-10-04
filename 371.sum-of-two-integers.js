@@ -7,6 +7,13 @@
 // #bit-manipulation
 // @rakuten, @facebook
 
+/**
+ * 3 cases
+ * 1. x + y
+ * 2. x - y (where x > y)
+ * 3. -x - y
+ */
+
 // @lc code=start
 /**
  * @param {number} a

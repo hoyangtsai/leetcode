@@ -4,9 +4,6 @@
  * [14] Longest Common Prefix
  */
 
-// #string
-// @yelp
-
 // @lc code=start
 /**
  * @param {string[]} strs
@@ -29,12 +26,13 @@ var longestCommonPrefix = function(strs) {
   };
 
   return prefix;
-  /**
-   * Time complexity: O(S log m).
-   * Space complexity; O(1). Used one constant extra space.
-   */
 };
 // @lc code=end
 
+
+/**
+ * Time complexity: O(S log m).
+ * Space complexity; O(1). Used one constant extra space.
+ */
 
 console.log('["flower","flow","flight"] =>', longestCommonPrefix(["flower", "flow", "flight"]));

@@ -4,6 +4,9 @@
  * [14] Longest Common Prefix
  */
 
+// @amazon, @facebook, @adobe, @apple, @microsoft, @
+// #string
+
 // @lc code=start
 /**
  * @param {string[]} strs
@@ -21,11 +24,12 @@ var longestCommonPrefix = function (strs) {
     }
   }
   return prefix;
-  /**
-   * Horizontal scanning
-   * Time complexity: O(S).
-   * Space complexity; O(1). Used one constant extra space.
-   */
 };
 // @lc code=end
 
+/**
+ * Horizontal scanning
+ * 
+ * Time complexity: 𝑂(𝑆).
+ * Space complexity; 𝑂(1). We use one constant extra space.
+ */

@@ -4,9 +4,6 @@
  * [253] Meeting Rooms II
  */
 
-// #array, #greedy, #sort
-// @facebook, @google, @amazon, @microsoft
- 
 // @lc code=start
 /**
  * @param {number[][]} intervals

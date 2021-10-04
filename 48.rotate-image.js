@@ -4,9 +4,6 @@
  * [48] Rotate Image
  */
 
-// #array
-// @amazon, @apple, @microsoft
-
 // @lc code=start
 /**
  * @param {number[][]} matrix
@@ -34,4 +31,3 @@ var rotate = function(matrix) {
   reflect(matrix);
 };
 // @lc code=end
-

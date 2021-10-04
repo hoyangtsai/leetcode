@@ -4,7 +4,7 @@
  * [105] Construct Binary Tree from Preorder and Inorder Traversal
  */
 
-// #array, #tree, #depth-first-search, #dfs
+// #array, #tree, #depth-first-search
 // @bloomberg
 
 // @lc code=start

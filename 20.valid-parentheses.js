@@ -4,7 +4,9 @@
  * [20] Valid Parentheses
  */
 
-// #stack
+// @amazon, @linkedin, @microsoft, @facebook, @google, @apple
+// #stack, #string
+// #google-interview
 
 // @lc code=start
 /**

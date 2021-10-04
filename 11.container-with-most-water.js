@@ -4,9 +4,10 @@
  * [11] Container With Most Water
  */
 
- // #array, #two-pointers, #calculate-between
- // @bloomberg
- // &42
+// #array, #two-pointers, #greedy, #calculate-between
+// @amazon, @microsoft, @facebook, @google, @apple
+// &42
+// #google-interview
 
 // @lc code=start
 /**
@@ -14,26 +15,26 @@
  * @return {number}
  */
 var maxArea = function(height) {
-    let max = 0;
-    let l = 0, r = height.length - 1;
-    while (l < r) {
-      max = Math.max(
-        max,
-        Math.min(height[l], height[r]) * (r - l) // get the lowest threshold times ranges between two pointers
-      );
-      if (height[l] < height[r]) { // remain the largest threshold
-        l ++;
-      } else {
-        r --;
-      }
+  let max = 0;
+  let l = 0, r = height.length - 1;
+  while (l < r) {
+    max = Math.max(
+      max,
+      Math.min(height[l], height[r]) * (r - l) // get the lowest threshold times ranges between two pointers
+    );
+    if (height[l] < height[r]) { // remain the largest threshold
+      l ++;
+    } else {
+      r --;
     }
-    return max;
-
-    /**
-     * Two-pointer approach
-     * Complexity analysis
-     * Time complexity: O(n). Numbers of the height.
-     * Space complexity: O(1). Constant space is used.
-     */
+  }
+  return max;
 };
 // @lc code=end
+
+/**
+ * Two-pointer approach
+ * Complexity analysis
+ * Time complexity: O(n). Numbers of the height.
+ * Space complexity: O(1). Constant space is used.
+ */

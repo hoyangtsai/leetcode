@@ -5,7 +5,8 @@
  */
 
 // #aray, #two-pointers
-// @adobe, @amazon, @bloomberg, @facebook, @microsoft
+// @amazon, @apple, @facebook, @microsoft, @google, @uber, @yahoo, @bloomberg
+// #google-interview
 
 /**
  * @param {number[]} nums
@@ -20,8 +21,6 @@ var threeSum = function (nums) {
   nums = nums.sort((a, b) => a - b);
   
   for (i = 0; i < nums.length - 2;) {
-    if (nums[i] > 0) return results;
-
     // we don't want repeats, so skip numbers we've already seen
     if (i > 0 && nums[i] === nums[i - 1]) continue;
 
@@ -53,3 +52,12 @@ var threeSum = function (nums) {
 };
 // @lc code=end
 
+/**
+ * Two-pointers
+ * 
+ * Time complexity: O(n2). twoSumII is O(n), and we call it n times.
+ * Sorting the array takes O(n log n). so overall complexity is O(n log n + n2).
+ * This is asymptotically equivalent is O(n2).
+ * 
+ * Space complexity: from O(log n) to O(n), depending on the implementation of the sorting algorithm.
+ */

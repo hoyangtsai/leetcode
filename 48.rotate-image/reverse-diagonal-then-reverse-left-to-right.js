@@ -4,6 +4,9 @@
  * [48] Rotate Image
  */
 
+// @amazon, @apple, @microsoft, @google, @facebook
+// #array, #math, #matrix
+// #google-interview
 
 // @lc code=start
 /**
@@ -33,3 +36,8 @@ var rotate = function (matrix) {
 };
 // @lc code=end
 
+/**
+ * Reverse on Diagonal and the Reverse left to right
+ * Time complexity: O(M). Size of matrix
+ * Space complexity: O(1)
+ */

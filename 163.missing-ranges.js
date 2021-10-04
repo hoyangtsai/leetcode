@@ -4,8 +4,9 @@
  * [163] Missing Ranges
  */
 
+// @facebook, @google, @amazon
 // #array
-// @google
+// #google-interview
 
 // @lc code=start
 /**
@@ -15,17 +16,22 @@
  * @return {string[]}
  */
 var findMissingRanges = function(nums, lower, upper) {
-  const res = [];
-  nums = [lower - 1, ...nums, upper + 1];
+  let res = [];
 
-  for (let i = 1; i < nums.length; i++) {
-    const diff = nums[i] - nums[i - 1];
-
-    if (diff === 2) {
-      res.push(`${nums[i - 1] + 1}`);
-    } else if (diff > 2) {
-      res.push(`${nums[i - 1] + 1}->${nums[i] - 1}`);
+  const formatRange = (lower, upper) => {
+    if (lower === upper) {
+      return String(lower);
     }
+    return `${lower}->${upper}`;
+  };
+
+  let prev = lower - 1;
+  for (let i = 0; i <= nums.length; i++) {
+    let curr = (i < nums.length) ? nums[i] : upper + 1;
+    if (prev + 1 <= curr - 1) {
+      res.push(formatRange(prev + 1, curr - 1));
+    }
+    prev = curr;
   }
 
   return res;

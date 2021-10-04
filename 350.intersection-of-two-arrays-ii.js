@@ -5,6 +5,7 @@
  */
 
 // #hash-table, #two-pointers, #binary-search, #sort
+// @google, @amazon, @microsoft, @facebook, @linkedin, @apple
 
 // @lc code=start
 /**

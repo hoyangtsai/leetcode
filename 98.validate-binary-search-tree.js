@@ -4,7 +4,7 @@
  * [98] Validate Binary Search Tree
  */
 
- // #tree, #depth-first-search, #dfs
+ // #tree, #depth-first-search
  // @amazon, @bloomberg, @facebook, @microsoft
 
 // @lc code=start
