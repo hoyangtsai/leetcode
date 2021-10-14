@@ -37,8 +37,10 @@ var minMeetingRooms = function(intervals) {
 
 /**
  * Priority Order
- * Time complexity: 𝑂(𝑁 log 𝑁).
- *    - There are two major portions that take up time. One is sorting of the intervals that takes 𝑂(𝑁 log 𝑁) considering that the array consists of 𝑁 elements.
- *    - Then we have the min-heap. In the worst case, all 𝑁 meetings will collide with each other. In any case we have 𝑁 add oprations on the heap. In the worst case we will have 𝑁 min-extract(shift) operations as well.
- * Space complexity: 𝑂(𝑁), because we construct the min-heap and can contain 𝑁 elements.
+ * 
+ * - Time complexity: O(N log N).
+ *    - There are two major portions that take up time. One is sorting of the intervals that takes O(N log N) considering that the array consists of N elements.
+ *    - Then we have the min-heap. In the worst case, all N meetings will collide with each other. In any case we have N add oprations on the heap. In the worst case we will have N min-extract(shift) operations as well.
+ * 
+ * - Space complexity: O(N), because we construct the min-heap and can contain N elements.
  */

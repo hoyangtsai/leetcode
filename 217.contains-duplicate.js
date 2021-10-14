@@ -4,8 +4,8 @@
  * [217] Contains Duplicate
  */
 
+ // @amazon, @google, @adobe
  // #array, #hash-table
- // @airbnb, @palantir, @yahoo
 
 // @lc code=start
 /**

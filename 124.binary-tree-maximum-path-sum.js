@@ -4,8 +4,10 @@
  * [124] Binary Tree Maximum Path Sum
  */
 
-// @microsoft, @baidu
-// #tree
+// @facebook, @amazon, @microsoft, @google
+// #tree, #depth-first-search, #binary-tree
+// #google-interview
+// &543, &687
 
 // @lc code=start
 /**
@@ -35,3 +37,10 @@ var maxPathSum = function(root) {
   return ans;
 };
 // @lc code=end
+
+/**
+ * Resursion
+ * 
+ * - Time complexity: O(N), where N is number of nodes, since we visit each node no more than 2 times.
+ * - Space complexity: O(H), where H is a tree height, to keep the recursion stack. In the average case of balanced tree, the tree height H = logN, in the worst case of skewed tree H = N.
+ */

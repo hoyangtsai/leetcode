@@ -4,8 +4,9 @@
  * [56] Merge Intervals
  */
 
-// #array, #sortings
 // @amazon, @facebook, @microsoft, @google, @bloomberg, @adobe, @apple, @uber, @ebay, @linkedin, @paypal
+// #array, #sortings
+// #google-interview
 
 // @lc code=start
 /**
@@ -31,10 +32,10 @@ var merge = function(intervals) {
 /**
  * Sorting
  * 
- * Time complexity: O(n log n).
- * Other than the sort invocation (method), we do a simple linear scan of the list, so the runtime is dominated by the O(n log n) complexity of sorting.
+ * - Time complexity: O(n log n).
+ *   Other than the sort invocation (method), we do a simple linear scan of the list, so the runtime is dominated by the O(n log n) complexity of sorting.
  * 
- * Space complexity: O(log N) or O(n). 
- * If we can sort intervals in place. we don't need more than constant addition space, although the sorting itself takes O(log n) space.
- * Otherwise, we must allocate linear space to store a copy of intervals and sort that.
+ * - Space complexity: O(log N) or O(n). 
+ *   If we can sort intervals in place. we don't need more than constant addition space, although the sorting itself takes O(log n) space.
+ *   Otherwise, we must allocate linear space to store a copy of intervals and sort that.
  */

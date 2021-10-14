@@ -4,8 +4,9 @@
  * [57] Insert Interval
  */
 
+// @amazon, @uber, @apple, @rakuten
 // #array
-// @amazon, @apple, @uber, @google, @twitter, @facebook, @rakuten
+// #google-interview
 
 // @lc code=start
 /**

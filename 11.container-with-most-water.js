@@ -4,8 +4,8 @@
  * [11] Container With Most Water
  */
 
-// #array, #two-pointers, #greedy, #calculate-between
 // @amazon, @microsoft, @facebook, @google, @apple
+// #array, #two-pointers, #greedy, #binary-search
 // &42
 // #google-interview
 
@@ -34,7 +34,7 @@ var maxArea = function(height) {
 
 /**
  * Two-pointer approach
- * Complexity analysis
- * Time complexity: O(n). Numbers of the height.
- * Space complexity: O(1). Constant space is used.
+ * 
+ * - Time complexity: O(n). Numbers of the height.
+ * - Space complexity: O(1). Constant space is used.
  */

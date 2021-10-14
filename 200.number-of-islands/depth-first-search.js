@@ -46,6 +46,6 @@ var numIslands = function(grid) {
 
 /**
  * DFS
- * Time complexity: O(M x N), where M is the number of rows and N is the number of columns.
- * Space complexity: worst case O(M x N) in case the grid map is filled with lands where DFS goes M x N steps.
+ * - Time complexity: 𝑂(𝑀 x 𝑁), where 𝑀 is the number of rows and 𝑁 is the number of columns.
+ * - Space complexity: worst case 𝑂(𝑀 x 𝑁) in case the grid map is filled with lands where DFS goes 𝑀 x 𝑁 steps.
  */

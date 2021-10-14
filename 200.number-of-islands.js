@@ -4,48 +4,44 @@
  * [200] Number of Islands
  */
 
-// @amazon, @microsoft, @bloomberg, @google, @linkedin, @facebook, @apple, @yandex
-// #array, #depth-first-search, #breadth-first-search, #matrix
-
 // @lc code=start
 /**
  * @param {character[][]} grid
  * @return {number}
  */
 var numIslands = function(grid) {
-  const h = grid.length;
-  const w = grid[0].length;
-  // up, down, right, left
+  const m = grid.length;
+  if (m === 0) return 0;
+  const n = grid[0].length;
+
   const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]];
 
-  function search(grid, x, y) {
-    if (x < 0 || x >= h || y < 0 || y >= w || grid[x][y] == '0') {
-      return;
-    }
-    grid[x][y] = '0';
-    for (const [dx, dy] of dirs) {
-      const i = x + dx;
-      const j = y + dy;
-      search(grid, i, j);
-    }
-  }
+  let island = 0;
+  let queue = [];
 
-  let islands = 0;
-  for (let i = 0; i < h; i++) {
-    for (let j = 0; j < w; j++) {
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (grid[i][j] == '1') {
-        islands += 1;
-        search(grid, i, j);
+        grid[i][j] = '0';
+        island += 1;
+        queue.push([i, j]);
+
+        while (queue.length > 0) {
+          let [r, c] = queue.shift();
+          for (const [dx, dy] of dirs) {
+            let nr = r + dx;
+            let nc = c + dy;
+            if (nr >= 0 && nr < m && nc >= 0 && nc < n && grid[nr][nc] == '1') {
+              grid[nr][nc] = '0';
+              queue.push([nr, nc]);
+            }
+          }
+        }
       }
     }
   }
 
-  return islands;
+  return island;
 };
 // @lc code=end
 
-/**
- * DFS
- * Time complexity: O(M x N), where M is the number of rows and N is the number of columns.
- * Space complexity: worst case O(M x N) in case the grid map is filled with lands where DFS goes M x N steps.
- */

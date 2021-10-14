@@ -4,8 +4,9 @@
  * [7] Reverse Integer
  */
 
+// @adobe, @amazon, @google, @apple
 // #math
-// @apple, @bloomberg
+// #google-interview
 
 // @lc code=start
 /**
@@ -22,8 +23,9 @@ var reverse = function(x) {
   x = isNeg ? x * -1 : x;
   let rev = 0;
   while(x > 0){
-    // get the unit digit
+    // get last int
     let pop = x % 10;
+    // rise the unit
     rev = 10 * rev + pop;
     // shrink the input x 10 units each loop
     x = Math.floor(x / 10);
@@ -36,3 +38,10 @@ var reverse = function(x) {
 };
 // @lc code=end
 
+
+/**
+ * Pop and Push Digits
+ * 
+ * - Time complexity: O(log(x)).
+ * - Space complexity: O(1).
+ */

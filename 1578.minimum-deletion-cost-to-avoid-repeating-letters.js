@@ -4,8 +4,9 @@
  * [1578] Minimum Deletion Cost to Avoid Repeating Letters
  */
 
-// #greedy
 // @microsoft, @tesla, @foodpanda
+// #greedy, #array
+
 
 // @lc code=start
 /**

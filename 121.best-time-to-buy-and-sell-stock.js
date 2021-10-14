@@ -4,8 +4,9 @@
  * [121] Best Time to Buy and Sell Stock
  */
 
+// @amazon, @apple, @microsoft, @facebook, @adobe, @google, @bloomberg
 // #array, #dynamic-programming
-// @amazon, @apple, @microsoft, @adobe, @facebook, @snapchat, @google, @bloomberg, @expedia
+// #google-interview
 
 // @lc code=start
 /**

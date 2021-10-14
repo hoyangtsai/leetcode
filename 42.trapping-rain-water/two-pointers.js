@@ -41,6 +41,7 @@ var trap = function(height) {
 
 /**
  * Two pointer
- * Time complexity: O(n).
- * Sapce complexity: O(1).
+ * 
+ * - Time complexity: O(n).
+ * - Sapce complexity: O(1).
  */

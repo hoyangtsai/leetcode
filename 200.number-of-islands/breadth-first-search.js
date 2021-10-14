@@ -13,31 +13,30 @@
  * @return {number}
  */
 var numIslands = function(grid) {
-  const h = grid.length;
-  const w = grid[0].length;
-  // up, down, right, left
+  const m = grid.length;
+  if (m === 0) return 0;
+  const n = grid[0].length;
+
   const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]];
 
-  function search(m, n) {
-    return 0 <= m && m < h && 0 <= n && n < w;
-  }
-
+  let island = 0;
   let queue = [];
-  let islands = 0;
-  for (let i = 0; i < h; i++) {
-    for (let j = 0; j < w; j++) {
+
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (grid[i][j] == '1') {
-        islands += 1;
         grid[i][j] = '0';
+        island += 1;
         queue.push([i, j]);
+
         while (queue.length > 0) {
-          const [m, n] = queue.shift();
-          for (const [dy, dx] of dirs) {
-            const nbrM = m + dx;
-            const nbrN = n + dy;
-            if (search(nbrM, nbrN) && grid[nbrM][nbrN] == '1') {
-              grid[nbrM][nbrN] = '0'; // mark as visited
-              queue.push([nbrM, nbrN]);
+          let [r, c] = queue.shift();
+          for (const [dx, dy] of dirs) {
+            let nr = r + dx;
+            let nc = c + dy;
+            if (nr >= 0 && nr < m && nc >= 0 && nc < n && grid[nr][nc] == '1') {
+              grid[nr][nc] = '0'; // mark as visited
+              queue.push([nr, nc]);
             }
           }
         }
@@ -45,7 +44,7 @@ var numIslands = function(grid) {
     }
   }
 
-  return islands;
+  return island;
 };
 // @lc code=end
 

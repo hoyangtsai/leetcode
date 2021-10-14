@@ -4,8 +4,9 @@
  * [242] Valid Anagram
  */
 
-// #hash-table, #sort, #anagram, #palindromic
-// @amazon, @uber, @yelp
+// @bloomberg, @amazon, @facebook
+// #hash-table, #string, #sorting
+// #google-interview
 
 // @lc code=start
 /**

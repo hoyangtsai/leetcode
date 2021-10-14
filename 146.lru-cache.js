@@ -4,8 +4,8 @@
  * [146] LRU Cache
  */
 
-// #design
 // @amazon, @microsoft, @facebook, @apple, @google
+// #design
 
 // @lc code=start
 /**

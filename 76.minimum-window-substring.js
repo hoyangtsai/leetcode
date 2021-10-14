@@ -72,5 +72,5 @@ var minWindow = function(s, t) {
 // @lc code=end
 
 
-const mw = minWindow("ab", "a");
+const mw = minWindow("ADOBECODEBANC", "ABC");
 console.log(mw);

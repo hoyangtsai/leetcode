@@ -6,6 +6,7 @@
 
 // @amazon, @microsoft, @apple, @google
 // #array, #dynamic-programming, #breadth-first-search
+// #google-interview
 
 // @lc code=start
 /**
@@ -19,7 +20,7 @@ var coinChange = function(coins, amount) {
   for (let i = 1; i <= amount; i++) {
     for (const coin of coins) {
       // can be changed
-      if (i - coin >= 0) {
+      if (coin <= i) {
         dp[i] = Math.min(dp[i], dp[i - coin] + 1);
       }
     }

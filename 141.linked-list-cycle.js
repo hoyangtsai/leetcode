@@ -4,8 +4,9 @@
  * [141] Linked List Cycle
  */
 
-// #linked-list, #hash-table, #floyds-tortoise-and-hare
 // @amazon, @microsoft, @bloomberg
+// #linked-list, #hash-table, #floyds-tortoise-and-hare
+// &142
 
 // @lc code=start
 /**
@@ -33,5 +34,8 @@ var hasCycle = function(head) {
 };
 // @lc code=end
 
-// Space complexity: O(1)
-// Time complexity: O(n), the number of nodes.
+
+/**
+ * - Time complexity: O(n), the number of nodes.
+ * - Space complexity: O(1).
+ */

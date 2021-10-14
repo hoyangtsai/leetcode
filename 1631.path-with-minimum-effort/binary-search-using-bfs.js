@@ -5,7 +5,7 @@
  */
 
 // @google, @houzz
-// #array, #matrix, #binary-search, #depth-first-search, #breadth-first-search, #union-find, #heap(priority queue)
+// #array, #matrix, #binary-search, #depth-first-search, #breadth-first-search, #union-find, #heap (priority queue)
 
 // @lc code=start
 /**

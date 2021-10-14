@@ -5,7 +5,7 @@
  */
 
 // @amazon, @bloomberg, @microsoft, @facebook, @google
-// #array, #two-pointeers, #greedy, #sort, #heap(priority queue),
+// #array, #two-pointeers, #greedy, #sort, #heap (priority queue),
 // #google-interview 
 
 // @lc code=start

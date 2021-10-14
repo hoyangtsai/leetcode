@@ -20,6 +20,10 @@ var exist = function(board, word) {
   // up, down, right, left
   const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]]; 
 
+  const isValidCell = (x, y) => {
+    return x >= 0 && x < h && y >= 0 && y < w;
+  }
+
   const search = (x, y, k) => {
     if (board[x][y] !== word[k]) {
       return false;
@@ -33,10 +37,8 @@ var exist = function(board, word) {
     for (const [dx, dy] of dirs) {
       const i = x + dx;
       const j = y + dy;
-      if (i >= 0 && i < h && j >= 0 && j < w) {
-        if (search(i, j, k + 1)) {
-          return true;
-        }
+      if (isValidCell(i,j) && search(i, j, k + 1)) {
+        return true;
       }
     }
 
