@@ -4,8 +4,8 @@
  * [904] Fruit Into Baskets
  */
 
-// #array, #hash-table, #depth-first-search, #sliding-window
 // @apple
+// #array, #hash-table, #depth-first-search, #sliding-window
 // #google-interview
 
 // @lc code=start
@@ -21,10 +21,10 @@ var totalFruit = function(tree) {
   
   for (let right = 0; right < tree.length; right++) {
     // appear times
-    bucket.set(tree[right], isNaN(bucket.get(tree[right])) ? 1 : bucket.get(tree[right]) + 1);
+    bucket.set(tree[right], (bucket.get(tree[right]) || 0) + 1);
 
     while (bucket.size >= 3) {
-      bucket.set(tree[left], isNaN(bucket.get(tree[left])) ? 1 : bucket.get(tree[left]) - 1);
+      bucket.set(tree[left], (bucket.get(tree[left]) || 1) - 1);
       if (bucket.get(tree[left]) == 0) {
         bucket.delete(tree[left]);
       }

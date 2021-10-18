@@ -5,7 +5,7 @@
  */
 
 // @google, @facebook, @apple, @amazon
-// #dynamic-programming, #depth-first-search, #memoization
+// #depth-first-search, #memoization
 
 // https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Increment
 
@@ -15,15 +15,11 @@
  * @return {number}
  */
 var longestIncreasingPath = function(matrix) {
-  if (matrix.length == 0) return 0;
   const m = matrix.length;
   const n = matrix[0].length;
   const dirs = [[0, 1], [1, 0], [0, -1], [-1, 0]];
 
-  let cache = new Array(m).fill(0);
-  for (let i = 0; i < m; i++) {
-    cache[i] = new Array(n).fill(0);
-  }
+  let cache = Array.from(new Array(m).fill(0), () => new Array(n).fill(0));
 
   function dfs(i, j) {
     if (cache[i][j] != 0) return cache[i][j];

@@ -5,7 +5,7 @@
  */
 
 // @bloomberg, @amazon, @facebook
-// #hash-table, #string, #sorting
+// #string, #sorting
 // #google-interview
 
 // @lc code=start

@@ -4,6 +4,9 @@
  * [482] License Key Formatting
  */
 
+// #string
+// #google-interview
+
 // @lc code=start
 /**
  * @param {string} S

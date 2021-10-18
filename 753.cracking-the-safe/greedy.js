@@ -4,10 +4,6 @@
  * [753] Cracking the Safe
  */
 
-// @google
-// #depth-first-search, #graph
-// #google-interview
-
 // https://leetcode-cn.com/problems/cracking-the-safe/solution/yi-bu-yi-bu-tui-dao-chu-0ms-jie-fa-tan-xin-gou-zao/
 
 // @lc code=start

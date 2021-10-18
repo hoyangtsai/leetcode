@@ -4,7 +4,6 @@
  * [215] Kth Largest Element in an Array
  */
 
-
 // @lc code=start
 /**
  * @param {number[]} nums

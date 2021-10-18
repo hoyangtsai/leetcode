@@ -55,8 +55,8 @@ var mergeKLists = function(lists) {
 /**
  * Merge with Divide and Conquer
  * 
- * Time complexity: 𝑂(𝑁log𝐾), where K is the number of linked lists.next
- *    - Merge two sorted linked list in 𝑂(𝑛) time where n is the total number of nodes in two lists.
- * Space complexity: 𝑂(1).
- *    - Merge two sorted linked list in 𝑂(1) space. 
+ * Time complexity: O(N log K), where K is the number of linked lists.next
+ *    - Merge two sorted linked list in O(𝑛) time where n is the total number of nodes in two lists.
+ * Space complexity: O(1).
+ *    - Merge two sorted linked list in O(1) space. 
  */

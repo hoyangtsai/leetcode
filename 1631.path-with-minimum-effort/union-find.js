@@ -4,6 +4,8 @@
  * [1631] Path With Minimum Effort
  */
 
+// #union-find
+
 // @lc code=start
 /**
  * @param {number[][]} heights
@@ -12,7 +14,6 @@
 var minimumEffortPath = function(heights) {
   const row = heights.length;
   const col = heights[0].length;
-  const dirs = [[1, 0], [-1, 0], [0, 1], [0, -1]];
 
   function Edge(x, y, difference) {
     this.x = x;
@@ -26,7 +27,7 @@ var minimumEffortPath = function(heights) {
     this.edgeList = [];
     
     const parent = new Array(row * col);
-    const size = new Array(row * col);
+    const rank = new Array(row * col);
       
     for (let currentRow = 0; currentRow < row; currentRow++) {
       for (let currentCol = 0; currentCol < col; currentCol++) {
@@ -60,14 +61,14 @@ var minimumEffortPath = function(heights) {
       let parentY = this.find(y);
       if (parentX != parentY) {
         // avoid overweight one side of tree
-        // ex. size[3] = 5, the tree of root 3 has 5 nodes
-        if (size[parentX] > size[parentY]) {
+        // ex. rank[3] = 5, the tree of root 3 has 5 nodes
+        if (rank[parentX] > rank[parentY]) {
           parent[parentY] = parentX;
-        } else if (size[parentX] < size[parentY]) {
+        } else if (rank[parentX] < rank[parentY]) {
           parent[parentX] = parentY;
         } else {
           parent[parentY] = parentX;
-          size[parentX] += 1;
+          rank[parentX] += 1;
         }
       }
     }

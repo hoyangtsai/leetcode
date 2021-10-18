@@ -42,8 +42,8 @@ var removeNthFromEnd = function(head, n) {
 /**
  * One pass algorithm
  * 
- * - Time complexity: 𝑂(𝐿).
- *   The algorithm make one traverse of the list of 𝐿 nodes. Therefore time complexity is 𝑂(𝐿).
+ * - Time complexity: O(L).
+ *   The algorithm make one traverse of the list of L nodes. Therefore time complexity is O(L).
  * - Space complexity: O(1).
  *   We only use constant extra space.
  */

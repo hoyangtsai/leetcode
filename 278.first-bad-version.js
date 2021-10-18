@@ -32,7 +32,7 @@ var solution = function(isBadVersion) {
     let right = n;
 
     while (left < right) {
-      let mid = Math.floor((left + right) / 2);
+      let mid = parseInt((left + right) / 2);
       if (!isBadVersion(mid)) {
         left = mid + 1;
       } else {

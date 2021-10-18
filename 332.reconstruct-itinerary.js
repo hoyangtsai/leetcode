@@ -30,6 +30,8 @@ var findItinerary = function(tickets) {
   // Step 2). order the destinations
   flightMap.forEach((i, k) => i.sort());
 
+  console.log('flightMap =>', flightMap);
+
   let result = [];
 
   function dfs(origin) {
@@ -52,9 +54,10 @@ var findItinerary = function(tickets) {
 // @lc code=end
 
 
-const path = findItinerary([["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]);
-console.log('path =>', path);
-// findItinerary([["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "ATL"], ["ATL", "JFK"], ["ATL", "SFO"]]);
+// const path = findItinerary([["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]);
+// console.log('path =>', path);
+// const path = findItinerary([["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "ATL"], ["ATL", "JFK"], ["ATL", "SFO"]]);
+// console.log('path =>', path);
 
 /**
  * Hierholzer's Algorithm

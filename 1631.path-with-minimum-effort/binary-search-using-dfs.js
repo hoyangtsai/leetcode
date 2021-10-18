@@ -5,7 +5,7 @@
  */
 
 // @google, @houzz
-// #array, #matrix, #binary-search, #depth-first-search, #breadth-first-search, #union-find, #heap (priority queue)
+// #matrix, #binary-search, #depth-first-search
 
 // @lc code=start
 /**
@@ -43,10 +43,8 @@ var minimumEffortPath = function(heights) {
   }
 
   function dfs(mid) {
-    const visited = new Array(row).fill(false);
-    for (const r in visited) {
-      visited[r] = new Array(col).fill(false);
-    }
+    const visited = Array.from(new Array(row).fill(false),
+      () => new Array(col).fill(false));
     return canReachEnd(0, 0, visited, mid);
   }
 
@@ -71,6 +69,6 @@ var minimumEffortPath = function(heights) {
 /**
  * Binary search using DFS
  * 
- * Time complexity: O(𝑚 ⋅ 𝑛).
- * Space complexity: O(𝑚 ⋅ 𝑛).
+ * Time complexity: O(m * n).
+ * Space complexity: O(m * n).
  */

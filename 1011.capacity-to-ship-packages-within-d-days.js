@@ -4,8 +4,8 @@
  * [1011] Capacity To Ship Packages Within D Days
  */
 
-// #depth-first-search, #binary-search
-// @amazon, @google
+// @facebook, @amazon
+// #binary-search
 
 // @lc code=start
 /**

@@ -33,7 +33,7 @@ var search = function(nums, target) {
 
 
 /**
- * One-pass Binary Search
+ * One pass Binary Search
  * 
  * - Time complexity: O(logN).
  * - Space complexity: O(1).

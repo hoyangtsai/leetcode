@@ -4,6 +4,10 @@
  * [347] Top K Frequent Elements
  */
 
+// @facebook, @amazon, @microsoft
+// #heap, #quickselect, #sorting
+// &215
+
 // @lc code=start
 /**
  * @param {number[]} nums

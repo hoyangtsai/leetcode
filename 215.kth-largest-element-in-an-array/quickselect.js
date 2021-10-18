@@ -5,8 +5,9 @@
  */
 
 // @facebook, @amazon, @linkedin, @microsoft, @google, @apple
-// #array, #divide-and-conquer, #heap, #sorting, #quickselect
+// #heap, #sorting, #quickselect
 // #google-interview
+// &347
 
 // kth largest = (N - k)th smallest = 1st largest in a sorted array
 
@@ -41,24 +42,23 @@ var findKthLargest = function (nums, k) {
     return storeIndex;
   }
 
-  function quickselect(l, r, kthSmall) {
+  function quickselect(l, r, kSmallest) {
     // best case for the first input
     if (l === r) {
       return nums[l];
     }
 
-    let pivotIndex = l + Math.floor(Math.random() % (r - l + 1));
-    // let pivotIndex = Math.floor((r + l) / 2);
+    let pivotIndex = Math.floor(Math.random() * (r - l + 1) + l);
 
     // update position for next pivotIndex
     pivotIndex = partition(l, r, pivotIndex);
     
     // the pivotIndex is on (N - k)th smallest position
-    if (kthSmall == pivotIndex) return nums[kthSmall];
+    if (kSmallest == pivotIndex) return nums[kSmallest];
     // update right, go left side
-    else if (kthSmall < pivotIndex) return quickselect(l, pivotIndex - 1, kthSmall);
+    else if (kSmallest < pivotIndex) return quickselect(l, pivotIndex - 1, kSmallest);
     // update left, go right side
-    return quickselect(pivotIndex + 1, r, kthSmall);
+    return quickselect(pivotIndex + 1, r, kSmallest);
   }
 
   return quickselect(0, nums.length - 1, nums.length - k);

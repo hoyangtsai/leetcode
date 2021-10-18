@@ -53,12 +53,3 @@ var ladderLength = function(beginWord, endWord, wordList) {
   return 0;
 };
 // @lc code=end
-
-
-/**
- * Bidirectional Breadth First Search
- * 
- * - Time complexity: O(M^2 * N).
- *   M is the length of each word and N is the total number of words in the input word list.
- * - Sapce complexity: O(M^2 * N).
- */

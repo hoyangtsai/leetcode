@@ -4,8 +4,8 @@
  * [15] 3Sum
  */
 
+// @amazon, @apple, @facebook, @microsoft, @google, @uber
 // #aray, #two-pointers
-// @amazon, @apple, @facebook, @microsoft, @google, @uber, @yahoo, @bloomberg
 // #google-interview
 
 /**
@@ -55,9 +55,9 @@ var threeSum = function (nums) {
 /**
  * Two-pointers
  * 
- * Time complexity: O(n2). twoSumII is O(n), and we call it n times.
- * Sorting the array takes O(n log n). so overall complexity is O(n log n + n2).
- * This is asymptotically equivalent is O(n2).
+ * - Time complexity: O(n^2). twoSumII is O(n), and we call it n times.
+ *   Sorting the array takes O(n log n). so overall complexity is O(n log n + n^2).
+ *   This is asymptotically equivalent is O(n^2).
  * 
- * Space complexity: from O(log n) to O(n), depending on the implementation of the sorting algorithm.
+ * - Space complexity: from O(log n) to O(n), depending on the implementation of the sorting algorithm.
  */
