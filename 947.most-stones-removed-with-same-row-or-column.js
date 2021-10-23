@@ -5,7 +5,7 @@
 */
 
 // @google, @apple
-// #union-find
+// #union-find, #disjoint-set
 // #google-interview
 
 // @lc code=start
@@ -18,10 +18,6 @@ var removeStones = function(stones) {
     let parent = {};
     let count = 0;
 
-    this.count = () => {
-      return count;
-    }
-
     this.union = (x, y) => {
       let rootX = this.find(x);
       let rootY = this.find(y);
@@ -32,20 +28,24 @@ var removeStones = function(stones) {
 
       parent[rootX] = rootY;
       // 兩個連通分量合併成為一個，連通分量的總數 -1
-      count --;
+      count--;
     }
 
-    this.find = (x) => {
-      if (parent[x] == null) {
-        parent[x] = x;
-        count ++;
+    this.find = (i) => {
+      if (parent[i] == null) {
+        parent[i] = i;
+        count++;
       }
 
-      if (x != parent[x]) {
-        parent[x] = this.find(parent[x]);
+      if (parent[i] != i) {
+        parent[i] = this.find(parent[i]);
       }
 
-      return parent[x];
+      return parent[i];
+    }
+
+    this.getCount = () => {
+      return count;
     }
   }
 
@@ -59,7 +59,7 @@ var removeStones = function(stones) {
     unionFind.union(stone[0] + 10001, stone[1]);
   }
 
-  return stones.length - unionFind.count();
+  return stones.length - unionFind.getCount();
 };
 // @lc code=end
 

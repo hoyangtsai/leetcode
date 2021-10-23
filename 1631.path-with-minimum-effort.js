@@ -82,13 +82,3 @@ var minimumEffortPath = function(heights) {
   return -1;
 };
 // @lc code=end
-
-/**
- * Union Find
- * 
- * Time complexity: O(m*n(log(m*n)))
- * Space complexity: O(m*n), we use arrays edgeList, parent and rank of size m * n.
- */
-
-const res = minimumEffortPath([[1, 2, 2], [3, 8, 2], [5, 3, 5]]);
-console.log('res =>', res);

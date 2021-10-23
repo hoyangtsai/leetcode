@@ -73,9 +73,9 @@ var minimumEffortPath = function(heights) {
 /**
  * Binary search using BFS
  * 
- * Time complexity: 𝑂(𝑚 ⋅ 𝑛). We do a binary search to calculate the mid values and then do Breadth First Search on the matrix for each of those values.
- *    - Binary Search: to perform Binary Search on numbre in range (0...10⁶). the time taken would be 𝑂(log 10⁶).
- *      This gives us total time complexity as 𝑂(log 10⁶ ⋅ (𝑚 ⋅ 𝑛)) which is equivalent to 𝑂(𝑚 ⋅ 𝑛).
+ * Time complexity: O(m * n). We do a binary search to calculate the mid values and then do Breadth First Search on the matrix for each of those values.
+ *    - Binary Search: to perform Binary Search on numbre in range (0...10^6). the time taken would be O(log 10^6).
+ *      This gives us total time complexity as O(log 10^6 * (m * n)) which is equivalent to O(m * n).
  * 
- * Space complexity: 𝑂(𝑚 ⋅ 𝑛), as we use a queue and visited array of size 𝑚 ⋅ 𝑛.
+ * Space complexity: O(m * n), as we use a queue and visited array of size m * n.
  */

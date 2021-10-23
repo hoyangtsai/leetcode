@@ -4,6 +4,8 @@
  * [70] Climbing Stairs
  */
 
+// #dynamic-programming
+
 /**
  * @param {number} n
  * @return {number}
@@ -19,8 +21,12 @@ var climbStairs = function (n) {
   }
 
   return dp[n];
-  // dynamic programming
-  // time complexity: O(n). Single loop upto n.
-  // space complexity: O(n), an array of size n is used.
 };
 // @lc code=end
+
+/**
+ * Dynamic Programming
+ * 
+ * - Time complexity: O(n). Single loop upto n.
+ * - Space complexity: O(n), an array of size n is used.
+ */

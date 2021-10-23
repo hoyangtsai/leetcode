@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @facebook, @google, @apple
-// #array, #two-pointers, #greedy, #binary-search
+// #array, #two-pointers, #greedy
 // &42
 // #google-interview
 

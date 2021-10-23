@@ -5,7 +5,7 @@
  */
 
 // @google, @amazon
-// #array, #dynamic-programming, #breadth-first-search, #matrix
+// #array, #breadth-first-search, #matrix
 
 // @lc code=start
 /**
@@ -17,10 +17,7 @@ var updateMatrix = function(mat) {
   const cols = mat[0].length;
 
   let q = [];
-  let dist = new Array(rows).fill(Infinity);
-  for (let i = 0; i < rows; i++) {
-    dist[i] = new Array(cols).fill(Infinity);
-  }
+  let dist = Array.from(new Array(rows).fill(Infinity), () => new Array(cols).fill(Infinity));
 
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {

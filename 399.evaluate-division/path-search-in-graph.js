@@ -5,7 +5,7 @@
  */
 
 // @uber, @amazon
-// #array, #union-find, #depth-first-search
+// #array, #depth-first-search, #backtracking
 // #google-interview
 
 // @lc code=start

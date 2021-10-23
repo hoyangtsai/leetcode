@@ -4,6 +4,8 @@
  * [70] Climbing Stairs
  */
 
+// #memorization
+
 /**
  * @param {number} n
  * @return {number}
@@ -27,8 +29,12 @@ var climbStairs = function (n) {
   }
 
   return counting(n, {});
-  // recursive with memorization
-  // time complexity: O(n). Size of recursion tree can goe upto n
-  // space complexity: O(n), the depth of the recursion tree can go upto n.
 };
 // @lc code=end
+
+/**
+ * Recursive with Memorization
+ * 
+ * - Time complexity: O(n). Size of recursion tree can goe upto n.
+ * - Space complexity: O(n), the depth of the recursion tree can go upto n.
+ */

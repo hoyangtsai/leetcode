@@ -7,6 +7,10 @@
 // #array, #hash-table, #bit-manipulation, #bitwise
 // @google
 
+// arr such that arr[2 * i + 1] = 2 * arr[2 * i]
+// means current number equal to double of previous number
+// ex. i = 2, arr[2 * 2 + 1 = 5] =  arr[2 * 2 = 4] * 2 
+
 // @lc code=start
 /**
  * @param {number[]} arr
@@ -49,6 +53,6 @@ var canReorderDoubled = function(arr) {
 
 // console.log(canReorderDoubled([-33, 0]));
 // console.log(canReorderDoubled([0, 0]));
-// console.log(canReorderDoubled([1, 2, 1, -8, 8, -4, 4, -4, 2, -2]));
+console.log(canReorderDoubled([1, 2, 1, -8, 8, -4, 4, -4, 2, -2]));
 // console.log(canReorderDoubled([4, -2, 2, -4]));
-console.log(canReorderDoubled([2, 1, 2, 6]));
+// console.log(canReorderDoubled([2, 1, 2, 6]));

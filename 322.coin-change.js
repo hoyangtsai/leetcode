@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @apple, @google
-// #array, #dynamic-programming, #breadth-first-search
+// #dynamic-programming
 // #google-interview
 
 // @lc code=start

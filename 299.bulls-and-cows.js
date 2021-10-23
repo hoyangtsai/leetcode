@@ -7,6 +7,7 @@
 // @google
 // #hash-table, #string
 // #google-interview
+// #top-google-questions
 
 // @lc code=start
 /**
@@ -35,8 +36,6 @@ var getHint = function(secret, guess) {
       secretMap.set(gc, (secretMap.get(gc) || 0) - 1);
     }
   }
-
-  console.log('secretMap =>', secretMap);
 
   return `${bulls}A${cows}B`;
 };

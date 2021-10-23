@@ -5,7 +5,7 @@
  */
 
 // @goldmanSachs, @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
-// #array, #two-pointers, #stack
+// #array, #dynamic-programming
 // #google-interview
 // &11
 

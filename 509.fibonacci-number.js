@@ -4,6 +4,10 @@
  * [509] Fibonacci Number
  */
 
+// @facebook, @bloomberg
+// #fibonacci-number
+// &70
+
 // @lc code=start
 /**
  * @param {number} n
@@ -12,14 +16,19 @@
 var fib = function(n) {
   if (n < 2) return n;
 
-  let n2 = 0, n1 = 0, cur = 1;
+  let n1 = 0, n2 = 1;
+  let cur = 1;
   for (let i = 2; i <= n; i++) {
-    n2 = n1;
-    n1 = cur;
-    cur = n2 + n1;
+    cur = n1 + n2;
+    n1 = n2;
+    n2 = cur;
   }
 
-  return cur;
+  return n2;
 };
 // @lc code=end
 
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

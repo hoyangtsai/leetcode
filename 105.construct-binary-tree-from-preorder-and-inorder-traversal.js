@@ -4,8 +4,9 @@
  * [105] Construct Binary Tree from Preorder and Inorder Traversal
  */
 
-// #array, #tree, #depth-first-search, #top-interview-questions
-// @bloomberg
+// @amazon, @microsoft
+// #tree, #binary-tree, #DFS
+// #top-interview-questions
 
 // @lc code=start
 /**

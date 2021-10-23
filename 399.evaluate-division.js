@@ -20,8 +20,8 @@ var calcEquation = function(equations, values, queries) {
   // Step 1). build the union groups
   for (let i = 0; i < equations.length; i++) {
     let equation = equations[i];
-    let dividend = equation[0]
-    let divisor = equation[1];
+    let dividend = equation[0] // numerator
+    let divisor = equation[1]; // demominator
     let quotient = values[i];
 
     union(gidWeight, dividend, divisor, quotient);

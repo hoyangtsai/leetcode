@@ -4,8 +4,10 @@
  * [875] Koko Eating Bananas
  */
 
-// #two-pointers, #binary-search
 // @google, @facebook
+// #binary-search
+// #top-google-questions
+// &1011
 
 // @lc code=start
 /**
@@ -26,7 +28,7 @@ var minEatingSpeed = function(piles, h) {
   let r = Math.max(...piles);
 
   while (l < r) {
-    const m = Math.floor((l + r) / 2);
+    const m = parseInt((l + r) / 2);
     if (getSpeed(m) <= h) {
       r = m;
     } else {

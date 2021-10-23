@@ -33,12 +33,14 @@ var search = function (reader, target) {
   let left = 0, right = 1;
   while (reader.get(right) < target) {
     left = right;
-    right <<= 1;
+    // right <<= 1;
+    right = right * 2;
   }
 
   // binary search
   while (left <= right) {
-    let pivot = parseInt(left + ((right - left) >> 1));
+    // let pivot = parseInt(left + ((right - left) >> 1));
+    let pivot = parseInt(left + ((right - left) / 2));
     let num = reader.get(pivot);
 
     if (num == target) return pivot;
@@ -49,7 +51,6 @@ var search = function (reader, target) {
   return -1;
 };
 // @lc code=end
-
 
 /** 
  * Binary search 

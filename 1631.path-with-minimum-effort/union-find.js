@@ -4,7 +4,7 @@
  * [1631] Path With Minimum Effort
  */
 
-// #union-find
+// #union-find, #disjoint-set
 
 // @lc code=start
 /**
@@ -28,20 +28,23 @@ var minimumEffortPath = function(heights) {
     
     const parent = new Array(row * col);
     const rank = new Array(row * col);
-      
+    
+    // build the map
     for (let currentRow = 0; currentRow < row; currentRow++) {
       for (let currentCol = 0; currentCol < col; currentCol++) {
         if (currentRow > 0) {
-          this.edgeList.push(new Edge(currentRow * col + currentCol,
+          this.edgeList.push(new Edge(
+            currentRow * col + currentCol,
             (currentRow - 1) * col + currentCol,
-            Math.abs(heights[currentRow][currentCol] - heights[currentRow - 1][currentCol]))
-          );
+            Math.abs(heights[currentRow][currentCol] - heights[currentRow - 1][currentCol])
+          ));
         }
         if (currentCol > 0) {
-          this.edgeList.push(new Edge(currentRow * col + currentCol,
+          this.edgeList.push(new Edge(
+            currentRow * col + currentCol,
             currentRow * col + currentCol - 1,
-            Math.abs(heights[currentRow][currentCol] - heights[currentRow][currentCol - 1]))
-          );
+            Math.abs(heights[currentRow][currentCol] - heights[currentRow][currentCol - 1])
+          ));
         }
 
         parent[currentRow * col + currentCol] = currentRow * col + currentCol;

@@ -67,8 +67,8 @@ var findKthLargest = function (nums, k) {
 
 /**
  * Quick select
- * Time complexity:
- * space complexity: 
+ * Time complexity: O(N) in the average case, O(N^2) in the worst case.
+ * space complexity: O(1).
  */
 
 const ans1 = findKthLargest([3, 2, 1, 5, 6, 4], 4);
