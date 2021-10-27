@@ -32,3 +32,5 @@ var search = function(nums, target) {
 };
 // @lc code=end
 
+
+search([-1, 0, 3, 5, 9, 12], 6);

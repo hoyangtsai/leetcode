@@ -1,27 +1,28 @@
 /*
- * @lc app=leetcode id=547 lang=javascript
+ * @lc app=leetcode id=323 lang=javascript
  *
- * [547] Number of Provinces
+ * [323] Number of Connected Components in an Undirected Graph
  */
 
 // @amazon
 // #union-find
-// &323
+// &547
 
 // @lc code=start
 /**
- * @param {number[][]} isConnected
+ * @param {number} n
+ * @param {number[][]} edges
  * @return {number}
  */
-var findCircleNum = function(isConnected) {
+var countComponents = function(n, edges) {
   function UnionFind(n) {
-    let parent = Array.from(Array(n).keys());
     let count = n;
+    let parent = Array.from(Array(n).keys());
 
     this.union = (x, y) => {
-      const rootX = this.find(x);
-      const rootY = this.find(y);
-      
+      let rootX = this.find(x);
+      let rootY = this.find(y);
+
       if (rootX != rootY) {
         parent[rootX] = rootY;
         count--;
@@ -40,17 +41,19 @@ var findCircleNum = function(isConnected) {
     }
   }
 
-  const n = isConnected.length;
   const uf = new UnionFind(n);
-  for (let i = 0; i < n; i++) {
-    for (let j = i + 1; j < n; j++) {
-      if (isConnected[i][j] == 1) {
-        uf.union(i, j);
-      }
-    }
+  for (const e of edges) {
+    uf.union(e[0], e[1]);
   }
 
   return uf.getCount();
 };
 // @lc code=end
 
+
+/**
+ * Here E = Number of edges, V = Number of vertices.
+ * 
+ * - Time complexity: O(E * α(n)).
+ * - Space complexity: O(V).
+ */

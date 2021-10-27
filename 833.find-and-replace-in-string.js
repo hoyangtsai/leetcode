@@ -5,7 +5,7 @@
  */
 
 // @google
-// #array, #string, #bfs
+// #string-comb
 // #google-interview
 
 // @lc code=start
@@ -17,7 +17,7 @@
  * @return {string}
  */
 var findReplaceString = function(s, indices, sources, targets) {
-  // sort asce
+  // sort ascend
   const indexMap = {};
   indices.forEach((indexS, i) => {
     indexMap[indexS] = i;
@@ -31,12 +31,15 @@ var findReplaceString = function(s, indices, sources, targets) {
     let find = sources[i];
     let replace = targets[i];
     let next = pos + find.length;
-
+    // not found
     if (s.substring(pos, next) != find) {
       continue;
     }
+    // concat string from current index to the replace index of the indices
     str += s.substring(curr, pos);
+    // concat target string
     str += replace;
+    // update current index for next iteration
     curr = next;
   }
   str += s.substring(curr);

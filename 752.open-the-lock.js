@@ -5,7 +5,7 @@
  */
 
 // @google, @amazon
-// #array, #hash-table, #breadth-first-search
+// #hash-table, #breadth-first-search, #string-comb
 
 // @lc code=start
 /**

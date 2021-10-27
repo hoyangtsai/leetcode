@@ -55,7 +55,7 @@ var removeStones = function(stones) {
     // 下面這三種寫法任選其一
     // unionFind.union(~stone[0], stone[1]);
     // unionFind.union(stone[0] - 10001, stone[1]);
-    // for re-poisition outside of 10^4
+    // for re-position outside of 10^4
     unionFind.union(stone[0] + 10001, stone[1]);
   }
 

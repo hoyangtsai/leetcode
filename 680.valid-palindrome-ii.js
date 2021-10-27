@@ -5,7 +5,7 @@
  */
 
 // @facebook, @google, @amazon, @apple
-// #string, #two-pointers
+// #string, #two-pointers, #palindrome
 
 // @lc code=start
 /**

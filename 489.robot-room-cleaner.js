@@ -5,7 +5,7 @@
  */
 
 // @google
-// #backtracking
+// #backtracking, #interactive
 // #google-interview
 
 // @lc code=start

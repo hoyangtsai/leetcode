@@ -43,9 +43,9 @@ var longestCommonPrefix = function(strs) {
 /**
  * Binary search
  * 
- * - Time complexity: 𝑂(𝑆⋅log𝑚), where 𝑆 is the sum of all characters in all strings.
- *   The algorithm makes log 𝑚 iterations for each of them there are 𝑆 𝑚 comparisons, which gives in total 𝑂(𝑆⋅log𝑚) time complexity.
- * - Space complexity; 𝑂(1). We only used one constant extra space.
+ * - Time complexity: O(S * log m), where S is the sum of all characters in all strings.
+ *   The algorithm makes log m iterations for each of them there are S m comparisons, which gives in total O(S * log m) time complexity.
+ * - Space complexity; O(1). We only used one constant extra space.
  */
 
 console.log('["flower","flow","flight"] =>', longestCommonPrefix(["flower", "flow", "flight"]));

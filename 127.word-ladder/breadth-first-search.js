@@ -5,7 +5,7 @@
  */
 
 // @facebook, @amazon, @uber, @apple, @linkedin, @microsoft
-// #array, #breadth-first-search, #graph
+// #breadth-first-search, #graph, #string-comb
 // #google-interview
 
 // @lc code=start

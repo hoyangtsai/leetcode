@@ -5,7 +5,7 @@
  */
 
 // @facebook, @amazon, @microsoft, @uber, @google
-// #dynamic-programming
+// #dynamic-programming, #01-knapsack, #背包存在問題
 
 // @lc code=start
 /**
@@ -18,12 +18,11 @@ var wordBreak = function(s, wordDict) {
   let dp = new Array(s.length + 1).fill(false);
   dp[0] = true;
   for (let i = 1; i <= s.length; i++) {
-    for (let j = 0; j < i; j++) {
-      if (dp[j] && wordDictSet.has(s.substring(j, i))) {
-        dp[i] = true;
-        break;
+    for (const word of wordDictSet) {
+      if (i >= word.length && s.substring(i - word.length, i) == word) {
+        dp[i] = dp[i] || dp[i - word.length];
       }
-    } 
+    }
   }
   return dp[s.length];
 };

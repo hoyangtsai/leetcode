@@ -20,10 +20,10 @@ var asteroidCollision = function(asteroids) {
     let destroyed = false;
     while (res.length && res[res.length - 1] > 0 && ast < 0 && !destroyed) {
       // current negative ast destroyed if less than last positive ast
-      if (res[res.length - 1] >= -ast) destroyed = true;
+      if (res[res.length - 1] >= Math.abs(ast)) destroyed = true;
       // the last of positive ast smaller than current negative ast pop out
       // and continue challenge the next one from the last
-      if (res[res.length - 1] <= -ast) res.pop();
+      if (res[res.length - 1] <= Math.abs(ast)) res.pop();
     }
     if (!destroyed) res.push(ast);
   }

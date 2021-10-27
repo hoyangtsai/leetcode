@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @bloomberg, @facebook, @adobe, @apple, @google, @uber, @yandex
-// #hash-table, #sliding-window, #string, #two-pointers
+// #hash-table, #sliding-window, #two-pointers
 // #google-interview
 
 /**

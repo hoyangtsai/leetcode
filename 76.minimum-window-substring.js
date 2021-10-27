@@ -5,7 +5,7 @@
  */
 
 // @facebook, @amazon, @linkedin, @snapchat, @google, @apple
-// #hash-table, #two-pointers, #sliding-window
+// #hash-table, #two-pointers, #sliding-window, #string-comb
 // #google-interview
 
 // @lc code=start
@@ -19,16 +19,15 @@ var minWindow = function(s, t) {
     return '';
   }
 
+  // count the number of each characters in the string
   let dict = {};
   t.split('').forEach(c => {
-    if (dict[c]) {
-      dict[c] += 1;
-    } else {
-      dict[c] = 1;
-    }
+    dict[c] = (dict[c] || 0) + 1;
   });
 
+  // count how many unique characters
   let count = Object.keys(dict).length;
+  
   let min = '';
   let l = 0; r = -1;
   while (r < s.length) {

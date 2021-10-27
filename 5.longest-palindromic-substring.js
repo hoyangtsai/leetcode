@@ -4,7 +4,7 @@
  * [5] Longest Palindromic Substring
  */
 
-// #string, #dynamic-programming, #palindromic, #anagram
+// #two-pointers, #palindromic, #anagram
 // @amazon, @bloomberg, @microsoft
 
 // @lc code=start
@@ -15,12 +15,12 @@
 var longestPalindrome = function(s) {
   let longest = '';
 
-  function expandAroundCenter(str, i, j) {
-    while (i >= 0 && j < s.length && s[i] === s[j]) {
-      i--;
-      j++;
+  function expandAroundCenter(str, r, l) {
+    while (r >= 0 && l < s.length && s[l] === s[r]) {
+      r--;
+      l++;
     }
-    return str.slice(i + 1, j);;
+    return str.substring(r + 1, l);;
   }
 
   for (let i = 0; i < s.length; i++) {

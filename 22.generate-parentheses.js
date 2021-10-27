@@ -5,7 +5,7 @@
  */
 
 // @facebook, @amazon, @microsoft, @bloomberg, @apple, @uber, @adobe, @google
-// #string, #backtracking
+// #backtracking
 // &46
 
 // https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
@@ -48,6 +48,5 @@ var generateParenthesis = function(n) {
  * Backtracking
  * 
  * - Time complexity: O(4^n/√4). Each valid sequence has at most n steps during the backtracking procedure.
- * - Sapce complexity: O(4^n/√4).
- * 
+ * - Space complexity: O(4^n/√4).
  */

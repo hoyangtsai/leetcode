@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @google, @facebook
-// #breadth-first-search, #graph, #topological-sort
+// #graph, #topological-sort
 // #google-interview
 
 // @lc code=start
@@ -17,10 +17,10 @@
 var findOrder = function(numCourses, prerequisites) {
   const inDegrees = Array(numCourses).fill(0);
   // index as course id
-  for (const [v] of prerequisites) {
-    inDegrees[v]++;
+  for (const [c, pre] of prerequisites) {
+    inDegrees[c]++;
   }
-
+  
   // Add all vertices with 0 in-degree to the queue
   // find course id is 0 
   const q = [];
@@ -30,13 +30,13 @@ var findOrder = function(numCourses, prerequisites) {
 
   const res = [];
   while (q.length) {
-    const u0 = q.shift();
+    const pre0 = q.shift();
     numCourses--;
-    res.push(u0);
-    for (const [v, u] of prerequisites) {
-      if (u === u0) {
-        inDegrees[v]--;
-        if (inDegrees[v] === 0) q.push(v);
+    res.push(pre0);
+    for (const [c, pre] of prerequisites) {
+      if (pre === pre0) {
+        inDegrees[c]--;
+        if (inDegrees[c] === 0) q.push(c);
       }
     }
   }
@@ -52,4 +52,4 @@ var findOrder = function(numCourses, prerequisites) {
  * - Space complexity: O(V + E).
  */
 
-findOrder(4, [[1, 0], [2, 0], [3, 1], [3, 2]]);
+const res = findOrder(4, [[1, 0], [2, 0], [3, 1], [3, 2]]);

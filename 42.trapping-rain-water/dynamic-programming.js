@@ -4,8 +4,8 @@
  * [42] Trapping Rain Water
  */
 
-// @goldmanSachs, @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
-// #array, #dynamic-programming
+// @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
+// #dynamic-programming, #histogram
 // #google-interview
 // &11
 
@@ -43,5 +43,5 @@ var trap = function(height) {
 /**
  * Dynamic programming
  * Time complexity: O(n).
- * Sapce complexity: O(n).
+ * Space complexity: O(n).
  */
