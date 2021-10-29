@@ -4,6 +4,10 @@
  * [205] Isomorphic Strings
  */
 
+// @linkedin, @amazon, @google
+// #hash-table, #rhyme-pattern
+// #my-google-interview
+
 // @lc code=start
 /**
  * @param {string} s

@@ -4,8 +4,8 @@
  * [134] Gas Station
  */
 
-// #greedy
 // @amazon, @google
+// #greedy
 
 // @lc code=start
 /**

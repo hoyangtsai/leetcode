@@ -4,8 +4,6 @@
  * [1631] Path With Minimum Effort
  */
 
-// #dijkstra-algorithm
-
 // @lc code=start
 /**
  * @param {number[][]} heights
@@ -63,7 +61,8 @@ var minimumEffortPath = function(heights) {
 // @lc code=end
 
 /**
- *
+ * dijkstra algorithm
+ * 
  * - Time complexity: O(m * n(log(m * n)))
  * - Space complexity: O(m * n), we use arrays edgeList, parent and size of size m * n.
  */

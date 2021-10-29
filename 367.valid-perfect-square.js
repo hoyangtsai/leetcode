@@ -37,5 +37,5 @@ var isPerfectSquare = function(num) {
 /**
  * Binary search
  * Time complexity: O(log N).
- * Sapce complexity: O(1).
+ * Space complexity: O(1).
  */

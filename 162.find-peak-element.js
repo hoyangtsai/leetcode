@@ -22,6 +22,7 @@ var findPeakElement = function(nums) {
       r = mid;
     }
   }
+  // l = r, return l or r is the same.
   return l;
 };
 // @lc code=end

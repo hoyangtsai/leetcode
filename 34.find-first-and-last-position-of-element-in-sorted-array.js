@@ -19,7 +19,7 @@ var searchRange = function(nums, target) {
   function find(nums, target, isFirst) {
     let l = 0, r = nums.length - 1;
     while (l <= r) {
-      let mid = ~~((l + r) / 2);
+      let mid = parseInt((l + r) / 2);
       if (nums[mid] == target) {
         
         if (isFirst) {

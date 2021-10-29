@@ -5,7 +5,7 @@
  */
 
 // #array, #two-pointers
-// @facebook, @amazon, @apple, @microsoft, @adobe, @bloomberg, @google
+// @facebook, @amazon, @microsoft, @apple
 // #google-interview
 
 // @lc code=start
@@ -47,8 +47,10 @@ var nextPermutation = function(nums) {
 // @lc code=end
 
 /**
- * Time complexity: O(n)
- * Space complexity: O(1)
+ * Single pass algorithm
+ * 
+ * - Time complexity: O(n)
+ * - Space complexity: O(1)
  */
 
 const arr = [1, 2, 6, 8, 7];

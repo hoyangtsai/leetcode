@@ -4,7 +4,8 @@
  * [69] Sqrt(x)
  */
 
-// &357
+// #math, #binary-search
+// &367
 
 // @lc code=start
 /**
@@ -34,6 +35,6 @@ var mySqrt = function(x) {
 /**
  * Binary search
  * 
- * - Time complexity: O(logN).
+ * - Time complexity: O(log N).
  * - Space complexity: O(1).
  */

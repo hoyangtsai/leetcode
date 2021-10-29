@@ -7,6 +7,8 @@
 // @facebook, @amazon, @microsoft
 // #array, #two-pointers, #binary-search
 
+// find a Kth numbers close to x
+
 // @lc code=start
 /**
  * @param {number[]} arr

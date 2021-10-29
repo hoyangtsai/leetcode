@@ -180,9 +180,9 @@ Source:
 
 ### Template #1
 
+```javascript
 // Pre-processing
 
-```javascript
 left = 0, right = length - 1;
 while (left <= right) {
     mid = left + (right - left) / 2;
@@ -194,10 +194,10 @@ while (left <= right) {
         right = mid - 1;
     }
 }
-```
 
 // right + 1 == left;
 // No more candidate
+```
 
 right < left between the target's index
 
@@ -205,11 +205,11 @@ i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 4, right = 3
 
 ### Template #2
 
+```javascript
 // Pre-processing
 
-```javascript
 left = 0, right = length;
-while (left <= right) {
+while (left < right) {
     mid = left + (right - left) / 2;
     if (nums[mid] == target) {
         return mid;
@@ -219,11 +219,11 @@ while (left <= right) {
         right = mid;
     }
 }
-```
 
 // left == right;
 // 1 more candidate
 // Post-processing
+```
 
 index of left and right = index - 1 of the target
 
@@ -231,9 +231,9 @@ i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 4, right = 4
 
 ### Template #3
 
+```javascript
 // Pre-processing
 
-```javascript
 left = 0, right = length - 1;
 while (left + 1 < right) {
     mid = left + (right - left) / 2;
@@ -245,11 +245,11 @@ while (left + 1 < right) {
         right = mid;
     }
 }
-```
 
-// left + 1 == right;
+// left + 1 == right
 // 2 more candidate
 // Post-processing
+```
 
 left < right between the target's index
 

@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @facebook, @apple
-// #hash-table, #string, #backtracking
+// #hash-table, #backtracking
 // #google-interview
 
 // @lc code=start
@@ -40,6 +40,7 @@ var letterCombinations = function(digits) {
   }
 
   backtrack(0, '');
+  
   return res;
 };
 // @lc code=end
@@ -51,3 +52,5 @@ var letterCombinations = function(digits) {
  * - Time complexity: O(4^N * N), where N is the length of digits. Note that 4 in this expression is referring to the maximum value length in the hash map.
  * - Space complexity: O(N).
  */
+
+letterCombinations('23');

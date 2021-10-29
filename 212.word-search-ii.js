@@ -5,7 +5,7 @@
  */
 
 // @amazon, @microsoft, @uber, @google
-// #backtracking, #matrix
+// #backtracking, #matrix, #depth-first-search
 // #google-interview
 
 // @lc code=start
