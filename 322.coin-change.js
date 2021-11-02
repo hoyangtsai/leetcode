@@ -39,4 +39,4 @@ var coinChange = function(coins, amount) {
  * - Space complexity: O(S). We use extra space for the memorization table.
  */
 
-coinChange([1,2,5], 5);
+coinChange([1,2,5], 11);

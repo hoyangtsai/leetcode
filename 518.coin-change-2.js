@@ -20,7 +20,7 @@ var change = function(amount, coins) {
   dp[0] = 1;
 
   for (const coin of coins) {
-    for (let j = 1; j <= amount; j++) { // enumerate amount
+    for (let j = 1; j <= amount; j++) { // iterate amount
       if (j < coin) continue; 
       // coin must greater or equal to amount
       if (j >= coin) {

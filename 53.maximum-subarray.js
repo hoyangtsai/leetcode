@@ -4,8 +4,8 @@
  * [53] Maximum Subarray
  */
 
-// #dynamic-programming
 // @linkedin, @amazon, @microsoft, @adobe, @apple, @google
+// #dynamic-programming
 
 // @lc code=start
 /**

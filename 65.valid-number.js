@@ -3,6 +3,10 @@
  *
  * [65] Valid Number
  */
+
+// https://leetcode-cn.com/problems/valid-number/solution/biao-qu-dong-fa-by-user8973/
+
+// @lc code=start
 /**
  * @param {string} s
  * @return {boolean}
@@ -42,4 +46,4 @@ var isNumber = function(s) {
     }
     return finals[state];
 };
-// https://leetcode-cn.com/problems/valid-number/solution/biao-qu-dong-fa-by-user8973/
+// @lc code=end

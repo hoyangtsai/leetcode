@@ -17,9 +17,8 @@ var fib = function(n) {
   if (n < 2) return n;
 
   let n1 = 0, n2 = 1;
-  let cur = 1;
   for (let i = 2; i <= n; i++) {
-    cur = n1 + n2;
+    let cur = n1 + n2;
     n1 = n2;
     n2 = cur;
   }

@@ -18,7 +18,7 @@ var canPartition = function(nums) {
   //「等和子集」的和必然是總和的一半
   let sum = nums.reduce((acc, curr) => acc + curr, 0);
 
-  // 如果是和為奇數顯然無法分成兩個等和子集
+  // divide by 2, the sum must be even
   if (sum % 2 === 1) return false;
 
   let target = parseInt(sum / 2);

@@ -14,14 +14,14 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-  let minprice = Number.MAX_SAFE_INTEGER;
-  let maxprofit = 0;
+  let minPrice = Number.MAX_VALUE;
+  let maxProfit = 0;
   for (let i = 0; i < prices.length; i++) {
-    minprice = Math.min(minprice, prices[i]);
-    maxprofit = Math.max(maxprofit, prices[i] - minprice);
+    minPrice = Math.min(minPrice, prices[i]);
+    maxProfit = Math.max(maxProfit, prices[i] - minPrice);
   }
 
-  return maxprofit;
+  return maxProfit;
 };
 // @lc code=end
 

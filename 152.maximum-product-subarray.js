@@ -5,7 +5,7 @@
  */
 
 // @linkedin, @amazon, @google, @facebook
-// #array, #dynamic-programming
+// #dynamic-programming
 // #google-interview
 
 // @lc code=start
@@ -32,7 +32,6 @@ var maxProduct = function(nums) {
 
 
 /**
- * Dynamic programming
  * 
  * - Time complexity: O(N).
  * - Space complexity: O(1).
