@@ -6,6 +6,7 @@
 
 // @linkedin, @amazon, @microsoft, @adobe, @apple, @google
 // #dynamic-programming
+// &1746
 
 // @lc code=start
 /**
@@ -14,7 +15,7 @@
  */
 var maxSubArray = function(nums) {
   let currentSub = 0;
-  let maxSub = Number.NEGATIVE_INFINITY;
+  let maxSub = -Infinity;
 
   for (const num of nums) {
     currentSub = Math.max(num, currentSub + num);

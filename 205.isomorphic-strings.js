@@ -23,7 +23,15 @@ var isIsomorphic = function(s, t) {
     if (mapDict['t' + t[i]] == null) {
       mapDict['t' + t[i]] = s[i];
     }
-    if (s[i] != mapDict['t' + t[i]] || t[i] != mapDict['s' + s[i]]) {
+
+    // if (mapDict['s' + s[i]] == null) {
+    //   mapDict['s' + s[i]] = t[i];
+    // } 
+    // if (mapDict[s[i]] != t[i]) {
+    //   return false;
+    // }
+
+    if (mapDict['t' + t[i]] != s[i] || mapDict['s' + s[i]] != t[i]) {
       return false;
     }
   }
@@ -37,3 +45,6 @@ var isIsomorphic = function(s, t) {
  * - Time complexity: O(N).
  * - Space complexity: O(N).
  */
+
+
+isIsomorphic("badc", "baba"); // false
