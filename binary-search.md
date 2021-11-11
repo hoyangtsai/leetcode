@@ -1,5 +1,7 @@
 # Binary Search
 
+tags: #binary-search
+
 ## 零、二分查找框架
 
 ```c++

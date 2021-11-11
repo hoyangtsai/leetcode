@@ -5,9 +5,13 @@
  */
 
 // @facebook, @amazon, @microsoft, @google
-// #tree, #depth-first-search, #binary-tree
+// #depth-first-search, #binary-tree
 // #google-interview
-// &543, &687
+
+/**
+ * {@link diameterOfBinaryTree|543.diameter-of-binary-tree.js}
+ * {@link longestUnivaluePath|687.longest-univalue-path.js}
+ */
 
 // @lc code=start
 /**
@@ -23,7 +27,7 @@
  * @return {number}
  */
 var maxPathSum = function(root) {
-  // set a minimun threshold
+  // set a minimum threshold
   // in case of node.val is a negative number and not children
   let ans = Number.NEGATIVE_INFINITY;
   function getMaxSum(node) {
@@ -39,7 +43,7 @@ var maxPathSum = function(root) {
 // @lc code=end
 
 /**
- * Resursion
+ * Recursion
  * 
  * - Time complexity: O(N), where N is number of nodes, since we visit each node no more than 2 times.
  * - Space complexity: O(H), where H is a tree height, to keep the recursion stack. In the average case of balanced tree, the tree height H = logN, in the worst case of skewed tree H = N.

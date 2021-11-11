@@ -5,8 +5,12 @@
  */
 
 // @google
-// #tree, #depth-first-search, #binary-tree
-// &543, &124
+// #depth-first-search, #binary-tree
+
+/**
+ * {@link maxPathSum|124.binary-tree-maximum-path-sum.js}
+ * {@link diameterOfBinaryTree|543.diameter-of-binary-tree.js}
+ */
 
 // @lc code=start
 /**

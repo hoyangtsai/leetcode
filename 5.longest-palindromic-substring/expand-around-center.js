@@ -4,6 +4,12 @@
  * [5] Longest Palindromic Substring
  */
 
+/**
+ * com: #amazon, #microsoft, #bloomberg, #apple
+ * tags: #palindromic, #anagram
+ * {@link countSubstrings|./647.palindromic-substrings/expand-around-center.js}
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -33,3 +39,9 @@ var longestPalindrome = function(s) {
   return longest;
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(N^2).
+ * - Space complexity: O(1).
+ */

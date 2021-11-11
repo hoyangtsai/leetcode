@@ -24,7 +24,7 @@ var longestStrChain = function(words) {
 
     let presentLength = 1;
     
-    // mix up the word, i.e. "abcd"->"abc"->"abd"->"acd"->"bcd"
+    // re-assemble the word, i.e. "abcd"->"abc"->"abd"->"acd"->"bcd"
     for (let i = word.length - 1; i >= 0; i--) {
       const temp = word.substring(0, i) + word.substring(i + 1);
       // get the previous same word length if existed
@@ -42,4 +42,10 @@ var longestStrChain = function(words) {
 // @lc code=end
 
 
-longestStrChain(["abcd", "dbqca"]);
+/**
+ * - Time complexity: O(N * (logN + L^2)).
+ *   Sorting a list of size N takes O(N log N) time.
+ *   Next we use two for loops in which the outer loop runs for O(N) iterations and the inner loop runs for O(L^2) iterations in the worst case scenario.
+ *   The first L is for the inner loop and the second L is for creating each preprocessor. Thus the overall time complexity is O(N logN + (N + L^2)) which equals O(N * (LogN + L^2)).
+ * - Space complexity: O(N).
+ */

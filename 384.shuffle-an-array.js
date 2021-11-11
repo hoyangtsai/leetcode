@@ -5,7 +5,7 @@
  */
 
 // @google, @microsoft
-// #math
+// #math, #fisher-yates-algorithm
 // #top-google-questions
 
 // @lc code=start

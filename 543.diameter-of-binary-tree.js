@@ -5,9 +5,13 @@
  */
 
 // @facebook, @amazon, @microsoft, @google
-// #tree, #depth-first-search, #binary-tree, #binary-tree
+// #depth-first-search, #binary-tree
 // #google-interview
-// &124, &687
+
+/** 
+ * {@link maxPathSum|124.binary-tree-maximum-path-sum.js}
+ * {@link longestUnivaluePath|687.longest-univalue-path.js}
+ */
 
 // @lc code=start
 /**
