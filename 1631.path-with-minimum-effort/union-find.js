@@ -4,7 +4,9 @@
  * [1631] Path With Minimum Effort
  */
 
-// #union-find, #disjoint-set
+/**
+ * tags: #union-find, #disjoint-set, #matrix
+ */
 
 // @lc code=start
 /**

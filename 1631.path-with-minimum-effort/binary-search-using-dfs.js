@@ -4,8 +4,9 @@
  * [1631] Path With Minimum Effort
  */
 
-// @google, @houzz
-// #matrix, #binary-search, #depth-first-search
+/**
+ * tags: #matrix, #binary-search
+ */
 
 // @lc code=start
 /**

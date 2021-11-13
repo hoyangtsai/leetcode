@@ -4,8 +4,9 @@
  * [1631] Path With Minimum Effort
  */
 
-// @google, @houzz
-// #matrix, #binary-search, #breadth-first-search
+/**
+ * tags: #matrix, #binary-search
+ */
 
 // @lc code=start
 /**
@@ -70,9 +71,8 @@ var minimumEffortPath = function(heights) {
 };
 // @lc code=end
 
+
 /**
- * Binary search using BFS
- * 
  * - Time complexity: O(m * n).
  *   We do a binary search to calculate the mid values and 
  *   then do breadth-first search on the matrix for each of those values.

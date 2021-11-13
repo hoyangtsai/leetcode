@@ -6,7 +6,7 @@
 
 /**
  * company: #google, #amazon, #microsoft
- * tags: #dynamic-programming
+ * tags: #dynamic-programming, #subsequence
  */
 
 // @lc code=start
