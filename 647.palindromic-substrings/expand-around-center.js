@@ -29,11 +29,8 @@ var countSubstrings = function (s) {
     let ans = 0;
 
     while (lo >= 0 && hi < s.length) {
-      if (s.charAt(lo) != s.charAt(hi)) break;
-
-      lo--;
-      hi++;
-
+      if (s.charAt(lo--) != s.charAt(hi++)) break;
+      
       ans++;
     }
 

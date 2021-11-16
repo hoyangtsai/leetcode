@@ -4,6 +4,12 @@
  * [39] Combination Sum
  */
 
+/**
+ * 
+ * tags: #backtracking
+ * {@link subsets|./78.subsets.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[]} candidates
@@ -12,6 +18,7 @@
  */
 var combinationSum = function(candidates, target) {
   let results = [];
+  let comb = [];
 
   function backtrack(remain, comb, start) {
     if (remain == 0) {
@@ -31,8 +38,16 @@ var combinationSum = function(candidates, target) {
     }
   }
 
-  backtrack(target, [], 0);
+  backtrack(target, comb, 0);
   return results;
 };
 // @lc code=end
 
+
+/**
+ * 
+ * Let N be the number of candidates, T be the target of value, and M be the minimal value among the candidates.
+ * - Time complexity: O(N^T/M + 1)
+ * 
+ * - Space complexity: O(T/M)
+ */

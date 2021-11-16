@@ -4,7 +4,6 @@
  * [21] Merge Two Sorted Lists
  */
 
-
 // @lc code=start
 /**
  * Definition for singly-linked list.

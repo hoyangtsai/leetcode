@@ -4,9 +4,12 @@
  * [46] Permutations
  */
 
-// @microsoft, @amazon, @linkedin, @apple
-// #array, #backtracking, #depth-first-search
-// &79
+/**
+ * com: #microsoft, #amazon, #linkedin, #apple
+ * tags: #backtracking
+ * {@link subsets|./78.subsets.js}
+ * {@link permuteUnique|./47.permutations-ii.js}
+ */
 
 // @lc code=start
 /**
@@ -14,34 +17,33 @@
  * @return {number[][]}
  */
 var permute = function(nums) {
-  let res = [];
+  let ans = [];
 
-  const N = nums.length;
-
-  if (N == 0) return res;
-
-  function backtrack(depth, path, used, res) {
-    if (depth == N) {
-      res.push(Array.from(path));
+  function backtrack(arr, ans) {
+    if (arr.length == nums.length) {
+      // ans.push(Array.from(arr));
+      ans.push(arr.slice());
       return;
     }
 
-    for (let i = 0; i < N; i++) {
-      if (!used[i]) {
-        path.push(nums[i]);
-        used[i] = true;
+    for (let i = 0; i < nums.length; i++) {
+      // if (used[i]) continue;
+      if (arr.includes(nums[i])) continue;
 
-        backtrack(depth + 1, path, used, res);
+      arr.push(nums[i]);
+      // used[i] = true;
 
-        // reset for backtracking
-        path.pop();
-        used[i] = false;
-      }
+      backtrack(arr, ans);
+
+      // reset for backtracking
+      arr.pop();
+      // used[i] = false;
     }
   }
   
-  backtrack(0, [], Array(N).fill(false), res);
-  return res;
+  // backtrack([], ans, Array(nums.length).fill(false));
+  backtrack([], ans);
+  return ans;
 };
 // @lc code=end
 

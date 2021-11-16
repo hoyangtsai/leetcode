@@ -10,13 +10,13 @@
  * @return {number}
  */
 var countSubstrings = function(s) {
-  function isPalindromic(s, start, end) {
-    while (start < end) {
-      if (s.charAt(start) != s.charAt(end)) {
+  function isPalindrome(s, lo, hi) {
+    while (lo < hi) {
+      if (s.charAt(lo) != s.charAt(hi)) {
         return false;
       }
-      start++;
-      end--;
+      lo++;
+      hi--;
     }
     return true;
   }
@@ -24,7 +24,7 @@ var countSubstrings = function(s) {
   let ans = 0;
   for (let i = 0; i < s.length; i++) {
     for (let j = i; j < s.length; j++) {
-      if (isPalindromic(s, i, j)) {
+      if (isPalindrome(s, i, j)) {
         ans += 1;
       }
     }
