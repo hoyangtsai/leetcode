@@ -4,8 +4,10 @@
  * [283] Move Zeroes
  */
 
- // #array, #two-pointers
- // @bloomberg, @facebook
+ /**
+  * com: #facebook, #microsoft, #amazon, #adobe
+  * tags: #two-pointers
+  */
 
 // @lc code=start
 /**

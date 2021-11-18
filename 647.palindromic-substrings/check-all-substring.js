@@ -12,11 +12,11 @@
 var countSubstrings = function(s) {
   function isPalindrome(s, lo, hi) {
     while (lo < hi) {
-      if (s.charAt(lo) != s.charAt(hi)) {
+      if (s.charAt(lo++) != s.charAt(hi--)) {
         return false;
       }
-      lo++;
-      hi--;
+      // lo++;
+      // hi--;
     }
     return true;
   }
