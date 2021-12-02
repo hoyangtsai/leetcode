@@ -17,7 +17,7 @@ var topKFrequent = function(nums, k) {
       numMap[n] = (numMap[n] || 0) + 1;
     }
 
-    // sort occurrences ascendently by values and return a array of the keys
+    // sort ascendant occurrences by values and return a array of the keys
     let sortedKeyHeap = Object.keys(numMap).sort((a, b) => numMap[a] - numMap[b]);
 
     let result = [];

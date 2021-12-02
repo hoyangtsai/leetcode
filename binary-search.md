@@ -197,7 +197,7 @@ while (left <= right) {
     }
 }
 
-// right + 1 == left;
+// left == right + 1;
 // No more candidate
 ```
 

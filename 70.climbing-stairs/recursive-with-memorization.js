@@ -33,7 +33,6 @@ var climbStairs = function (n) {
 // @lc code=end
 
 /**
- * Recursive with Memorization
  * 
  * - Time complexity: O(n). Size of recursion tree can goe upto n.
  * - Space complexity: O(n), the depth of the recursion tree can go upto n.

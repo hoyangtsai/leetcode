@@ -4,8 +4,10 @@
  * [198] House Robber
  */
 
-// @amazon, @microsoft, @google
-// #dynamic-programming
+/**
+ * com: #amazon, #microsoft, #google
+ * tags: #dynamic-programming
+ */
 
 // @lc code=start
 /**
@@ -17,15 +19,15 @@ var rob = function(nums) {
 
   if (N === 1) return nums[0];
 
-  let first = 0;
-  let second = 0;
+  let t1 = 0;
+  let t2 = 0;
   for (let i = 0; i < N; i++) {
-    let temp = second;
-    second = Math.max(first + nums[i], second);
-    first = temp;
+    let temp = t1;
+    t1 = Math.max(t2 + nums[i], t1);
+    t2 = temp;
   }
 
-  return second;
+  return t1;
 };
 // @lc code=end
 

@@ -4,8 +4,10 @@
  * [70] Climbing Stairs
  */
 
-// #dynamic-programming
-// &518
+/**
+ * tags: #dynamic-programming
+ * {@link change|./518.coin-change-2.js}
+ */
 
 /**
  * @param {number} n
@@ -24,7 +26,6 @@ var climbStairs = function (n) {
 // @lc code=end
 
 /**
- * Dynamic Programming
  * 
  * - Time complexity: O(n). Single loop upto n.
  * - Space complexity: O(n), an array of size n is used.

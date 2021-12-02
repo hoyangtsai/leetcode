@@ -4,9 +4,11 @@
  * [70] Climbing Stairs
  */
 
-// @amazon, @google, @microsoft
-// #fibonacci-number
-// &509
+/**
+ * com: #amazon, #google
+ * tags: #fibonacci
+ * {@link fib|./509.fibonacci-number.js}
+ */
 
 // @lc code=start
 /**
@@ -30,7 +32,6 @@ var climbStairs = function (n) {
 
 
 /**
- * Fibonacci number
  * 
  * - Time complexity: O(n). Single loop upto n is required to calculate n power of th.
  * - Space complexity: O(1). Constant space is used.

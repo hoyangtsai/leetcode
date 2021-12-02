@@ -4,8 +4,10 @@
  * [213] House Robber II
  */
 
-// @amazon, @ebay
-// #dynamic-programming
+/**
+ * com: #amazon, #ebay
+ * tags: #dynamic-programming
+ */
 
 // @lc code=start
 /**
@@ -15,6 +17,7 @@
 var rob = function(nums) {
   if (nums.length == 1) return nums[0];
 
+  // like even and odd
   let max1 = robSimple(nums, 0, nums.length - 2);
   let max2 = robSimple(nums, 1, nums.length - 1);
 
