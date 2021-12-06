@@ -4,8 +4,10 @@
  * [206] Reverse Linked List
  */
 
-// #linked-list
-// @amazon, @microsoft, @apple, @adobe, @google
+/**
+ * com: #amazon, #microsoft
+ * tags: #linked-list
+ */
 
 // @lc code=start
 /**

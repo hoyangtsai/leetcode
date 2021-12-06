@@ -13,11 +13,8 @@
  */
 var findMaxConsecutiveOnes = function(nums) {
   let max1s = 0;
-  let left = 0;
-  let right = 0;
   let numZeroes = 0;
-
-  while (right < nums.length) {
+  for (let left = 0, right = 0; right < nums.length; right++) {
     if (nums[right] == 0) {
       numZeroes++;
     }
@@ -30,14 +27,11 @@ var findMaxConsecutiveOnes = function(nums) {
     }
 
     max1s = Math.max(max1s, right - left + 1);
-
-    right++;
   }
 
   return max1s;
 };
 // @lc code=end
-
 
 
 /**

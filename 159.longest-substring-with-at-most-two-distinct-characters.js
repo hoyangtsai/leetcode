@@ -30,12 +30,12 @@ var lengthOfLongestSubstringTwoDistinct = function(s) {
 
     if (hash.size == 3) {
       // find the leftmost index to delete
-      let delIdx = n;
+      let deleteId = n;
       for (let v of hash.values()) {
-        delIdx = Math.min(delIdx, v);
+        deleteId = Math.min(deleteId, v);
       }
-      hash.delete(s.charAt(delIdx));
-      l = delIdx + 1;
+      hash.delete(s[deleteId]);
+      l = deleteId + 1;
     }
 
     maxLen = Math.max(maxLen, r - l);

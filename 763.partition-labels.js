@@ -6,7 +6,7 @@
 
 /**
  * com: #amazon
- * tags: #greedy, #string-charCode, #top-100-liked
+ * tags: #greedy, #hash-table, #two-pointer
  */
 
 // @lc code=start
@@ -26,7 +26,7 @@ var partitionLabels = function(s) {
   let ans = [];
   for (let i = 0; i < s.length; i++) {
     j = Math.max(j, last[s.charCodeAt(i) - 'a'.charCodeAt(0)]);
-    if (i === j) {
+    if (j === i) {
       ans.push(i - anchor + 1);
       anchor = i + 1;
     }

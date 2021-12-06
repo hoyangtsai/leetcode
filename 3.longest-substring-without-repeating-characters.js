@@ -4,9 +4,11 @@
  * [3] Longest Substring Without Repeating Characters
  */
 
-// @amazon, @microsoft, @bloomberg, @facebook, @adobe, @apple, @google, @uber, @yandex
-// #hash-table, #sliding-window, #two-pointers
-// #google-interview
+/**
+ * com: #amazon, #microsoft
+ * tags: #hash-table, #sliding-window, #two-pointers
+ * topic: #google-interview
+ */
 
 /**
  * @param {string} s
@@ -18,7 +20,7 @@ var lengthOfLongestSubstring = function(s) {
   let max = 0;
 
   while (r < s.length && l < s.length) {
-    if (arr.indexOf(s[r]) < 0) {
+    if (!arr.includes(s[r])) {
       arr.push(s[r]);
       max = Math.max(max, r - l + 1);
       r += 1;

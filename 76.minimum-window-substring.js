@@ -4,9 +4,11 @@
  * [76] Minimum Window Substring
  */
 
-// @facebook, @amazon, @linkedin, @snapchat, @google, @apple
-// #hash-table, #two-pointers, #sliding-window, #string-comb
-// #google-interview
+/**
+ * com: #facebook, #amazon, #linkedin
+ * tags: #hash-table, #two-pointers, #sliding-window, #string-comb
+ * #google-interview
+ */
 
 // @lc code=start
 /**
