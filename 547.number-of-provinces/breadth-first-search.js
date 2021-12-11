@@ -4,7 +4,9 @@
  * [547] Number of Provinces
  */
 
-// #breadth-first-search
+/**
+ * tags: #breadth-first-search
+ */
 
 // @lc code=start
 /**

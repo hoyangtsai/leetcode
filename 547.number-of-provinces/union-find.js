@@ -4,8 +4,10 @@
  * [547] Number of Provinces
  */
 
-// @amazon
-// #union-find, #disjoint-set
+/**
+ * com: #amazon
+ * tags: #union-find, #disjoint-set
+ */
 
 // @lc code=start
 /**

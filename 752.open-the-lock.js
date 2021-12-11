@@ -4,8 +4,11 @@
  * [752] Open the Lock
  */
 
-// @google, @amazon
-// #hash-table, #breadth-first-search, #string-comb
+/**
+ * com: #google, #amazon
+ * tags: #breadth-first-search, #string-comb
+ * {@link orangesRotting|./994.rotting-oranges.js}
+ */
 
 // @lc code=start
 /**

@@ -56,5 +56,5 @@ var pathSum = function(root, targetSum) {
  * Prefix Sum (hash map)
  * 
  * - Time complexity: O(N).
- * - O(N) complexity: O(N).
+ * - Space complexity: O(N).
  */

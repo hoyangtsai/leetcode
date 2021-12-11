@@ -11,11 +11,14 @@
  */
 var numIslands = function(grid) {
   const m = grid.length;
-  if (m === 0) return 0;
   const n = grid[0].length;
 
   const dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]];
 
+  function isValidCell(x, y) {
+    return x >= 0 && x < m && y >= 0 && y < n;
+  }
+  
   let island = 0;
   let queue = [];
 
@@ -28,11 +31,12 @@ var numIslands = function(grid) {
 
         while (queue.length > 0) {
           let [r, c] = queue.shift();
+          // check its neighbor is also island
           for (const [dx, dy] of dirs) {
             let nr = r + dx;
             let nc = c + dy;
-            if (nr >= 0 && nr < m && nc >= 0 && nc < n && grid[nr][nc] == '1') {
-              grid[nr][nc] = '0';
+            if (isValidCell(nr, nc) && grid[nr][nc] == '1') {
+              grid[nr][nc] = '0'; // mark as visited
               queue.push([nr, nc]);
             }
           }

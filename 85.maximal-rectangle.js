@@ -55,6 +55,6 @@ var maximalRectangle = function(matrix) {
 
 
 /**
- * - Time complexity: O(NM).
+ * - Time complexity: O(N * M).
  * - Space complexity: O(M).
  */
