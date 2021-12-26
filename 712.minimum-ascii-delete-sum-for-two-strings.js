@@ -4,8 +4,8 @@
  * [712] Minimum ASCII Delete Sum for Two Strings
  */
 
-// #dynamic-programming
 /**
+ * tags: #dynamic-programming, #two-string-grid
  * {@link longestCommonSubsequence|1143.longest-common-subsequence.js}
  */
 
@@ -20,7 +20,7 @@ var minimumDeleteSum = function(s1, s2) {
 
   let dp = Array.from(Array(m + 1).fill(0), () => Array(n + 1).fill(0));
 
-  // init
+  // init boundaries
   for (let i = 1; i <= m; i++) {
     dp[i][0] = dp[i - 1][0] + s1.charCodeAt(i - 1);
   }

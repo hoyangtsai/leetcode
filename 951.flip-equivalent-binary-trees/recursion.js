@@ -4,9 +4,10 @@
  * [951] Flip Equivalent Binary Trees
  */
 
-// @google
-// #tree, #binary-tree
-// #google-interview
+/**
+ * tags: #tree, #binary-tree
+ * #google-interview
+ */
 
 // @lc code=start
 /**

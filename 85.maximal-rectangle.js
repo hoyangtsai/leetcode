@@ -4,8 +4,11 @@
  * [85] Maximal Rectangle
  */
 
-// @amazon, @google
-// #stack, #dynamic-programming
+/**
+ * com: #amazon, #google
+ * tags: #stack, #dynamic-programming
+ * {@link largestRectangleArea|./84.largest-rectangle-in-histogram.js}
+ */
 
 // @lc code=start
 /**

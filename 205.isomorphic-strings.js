@@ -4,9 +4,9 @@
  * [205] Isomorphic Strings
  */
 
-// @linkedin, @amazon, @google
-// #hash-table, #rhyme-pattern
-// #my-google-interview
+/**
+ * tags: #hash-table, #rhyme-pattern, #my-google-interview
+ */
 
 // @lc code=start
 /**
@@ -23,17 +23,16 @@ var isIsomorphic = function(s, t) {
     if (mapDict['t' + t[i]] == null) {
       mapDict['t' + t[i]] = s[i];
     }
+    if (mapDict['t' + t[i]] != s[i] || mapDict['s' + s[i]] != t[i]) {
+      return false;
+    }
 
-    // if (mapDict['s' + s[i]] == null) {
-    //   mapDict['s' + s[i]] = t[i];
+    // if (mapDict[s[i]] == null) {
+    //   mapDict[s[i]] = t[i];
     // } 
     // if (mapDict[s[i]] != t[i]) {
     //   return false;
     // }
-
-    if (mapDict['t' + t[i]] != s[i] || mapDict['s' + s[i]] != t[i]) {
-      return false;
-    }
   }
   return true;
 };

@@ -4,9 +4,11 @@
  * [547] Number of Provinces
  */
 
-// @amazon
-// #union-find
-// &323
+/**
+ * com: #amazon
+ * tags: #union-find, #graph
+ * {@link countComponents|./323.number-of-connected-components-in-an-undirected-graph.js}
+ */
 
 // @lc code=start
 /**

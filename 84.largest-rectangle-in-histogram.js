@@ -4,9 +4,11 @@
  * [84] Largest Rectangle in Histogram
  */
 
-// @amazon, @microsoft, @google
-// #stack, #histogram
-// &85
+/**
+ * com: #amazon, #microsoft, #google
+ * tags: #stack, #histogram
+ * {@link maximalRectangle|./85.maximal-rectangle.js}
+ */
 
 // @lc code=start
 /**

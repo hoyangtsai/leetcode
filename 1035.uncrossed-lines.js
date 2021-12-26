@@ -4,10 +4,9 @@
  * [1035] Uncrossed Lines
  */
 
-// tags: #dynamic-programming, #string-subsequence
 /**
- * {@link longestCommonSubsequence|1143.longest-common-subsequence}
- * {@link ./1143.longest-common-subsequence.js}
+ * tags: #dynamic-programming, #string-subsequence, #two-string-grid
+ * {@link longestCommonSubsequence|./1143.longest-common-subsequence}
  */
 
 // @lc code=start

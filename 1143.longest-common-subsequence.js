@@ -4,12 +4,14 @@
  * [1143] Longest Common Subsequence
  */
 
-// #google, #amazon
-// tags: #dynamic-programming, #string-subsequence
+/**
+ * com: #google, #amazon
+ * tags: #dynamic-programming, #string-subsequence, #two-string-grid
+ */
 
 /**
- * {@link minimumDeleteSum|712.minimum-ascii-delete-sum-for-two-strings.js}
- * {@link maxUncrossedLines|1035.uncrossed-lines.js}
+ * {@link minimumDeleteSum|./712.minimum-ascii-delete-sum-for-two-strings.js}
+ * {@link maxUncrossedLines|./1035.uncrossed-lines.js}
  */
 
 // @lc code=start

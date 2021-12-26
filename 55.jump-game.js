@@ -4,9 +4,9 @@
  * [55] Jump Game
  */
 
-// @amazon, @apple, @microsoft, @facebook
-// #array, #greedy
-// #google-interview
+/**
+ * tags: #greedy, #google-interview, #top-100-liked-questions
+ */
 
 // @lc code=start
 /**
