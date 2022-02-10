@@ -14,12 +14,12 @@
  * @return {number}
  */
 var reverse = function(x) {
-  // set the threshold of postive and negative number
+  // set the threshold of positive and negative number
   let posMax = Math.pow(2, 31) - 1;
   let negMax = -(Math.pow(2, 31));
   // check x is negative
   let isNeg = (x < 0);
-  // convert negative number to postive
+  // convert negative number to positive
   x = isNeg ? x * -1 : x;
   let rev = 0;
   while(x > 0){

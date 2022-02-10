@@ -23,7 +23,8 @@ var crackSafe = function(n, k) {
     // s[i] = nums[node]-- + '0';
     s = s.replace(i, rp);
     let pos = i - (n - 1);
-    let factor = (s[pos] - '0');
+    // let factor = (s[pos] - '0');
+    let factor = parseInt(s[pos]);
     node = node * k - factor * kn_1 + nums[node] + 1;
   }
   return s;

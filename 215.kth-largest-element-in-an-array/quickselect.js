@@ -4,10 +4,11 @@
  * [215] Kth Largest Element in an Array
  */
 
-// @facebook, @amazon, @linkedin, @microsoft, @google, @apple
-// #heap, #sorting, #quickselect
-// #google-interview
-// &347
+/**
+ * com: #facebook, #linkedin, #amazon
+ * tags: #sorting, #quickselect, #google-interview
+ * {@link topKFrequent|./347.top-k-frequent-elements/quickselect.js}
+ */
 
 // kth largest = (N - k)th smallest = 1st largest in a sorted array
 
@@ -18,50 +19,48 @@
  * @return {number}
  */
 var findKthLargest = function (nums, k) {
-  function swap(i, j) {
-    [nums[i], nums[j]] = [nums[j], nums[i]];
-  }
-
-  function partition(l, r, pivotIndex) {
-    const privotValue = nums[pivotIndex];
-    // 1. move pivotIndex to end
-    swap(pivotIndex, r);
-
-    let storeIndex = l;
-    // 2. move all elements of nums smaller than nums[pivotIndex] to the left
-    for (let i = l; i <= r; i++) {
-      if (nums[i] < privotValue) {
-        swap(storeIndex, i);
-        storeIndex++;
-      }
-    }
-
-    // 3. move 1st element larger than nums[pivotIndex] to its right
-    swap(storeIndex, r);
-
-    return storeIndex;
-  }
-
-  function quickselect(l, r, kSmallest) {
+  function quickselect(nums, l, r, kSmallest) {
     // best case for the first input
     if (l === r) {
       return nums[l];
+    }
+
+    const swap = (nums, i, j) => [nums[i], nums[j]] = [nums[j], nums[i]];
+
+    const partition = (l, r, pivotIndex) => {
+      const pivotValue = nums[pivotIndex];
+      // 1. move pivotIndex to end
+      swap(nums, pivotIndex, r);
+
+      let storeIndex = l;
+      // 2. move all elements of nums smaller than nums[pivotIndex] to the left
+      for (let i = l; i <= r; i++) {
+        if (nums[i] < pivotValue) {
+          swap(nums, storeIndex, i);
+          storeIndex++;
+        }
+      }
+
+      // 3. move 1st element larger than nums[pivotIndex] to its right
+      swap(nums, storeIndex, r);
+
+      return storeIndex;
     }
 
     let pivotIndex = Math.floor(Math.random() * (r - l + 1) + l);
 
     // update position for next pivotIndex
     pivotIndex = partition(l, r, pivotIndex);
-    
+
     // the pivotIndex is on (N - k)th smallest position
     if (kSmallest == pivotIndex) return nums[kSmallest];
     // update right, go left side
-    else if (kSmallest < pivotIndex) return quickselect(l, pivotIndex - 1, kSmallest);
+    else if (kSmallest < pivotIndex) return quickselect(nums, l, pivotIndex - 1, kSmallest);
     // update left, go right side
-    return quickselect(pivotIndex + 1, r, kSmallest);
+    return quickselect(nums, pivotIndex + 1, r, kSmallest);
   }
 
-  return quickselect(0, nums.length - 1, nums.length - k);
+  return quickselect(nums, 0, nums.length - 1, nums.length - k);
 };
 // @lc code=end
 

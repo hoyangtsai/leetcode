@@ -4,9 +4,10 @@
  * [135] Candy
  */
 
-// @amazon
-// #array, #greedy
-// #google-interview
+/**
+ * com: #amazon
+ * tags: #greedy, #google-interview, #array-bidirectional
+ */
 
 // @lc code=start
 /**

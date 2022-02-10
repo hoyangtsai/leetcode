@@ -52,5 +52,5 @@ var diameterOfBinaryTree = function(root) {
  * Let N be the number of nodes in the tree.
  * 
  * - Time complexity:O(N).
- * - Sapce complexity:O(N).
+ * - Space complexity:O(N).
  */

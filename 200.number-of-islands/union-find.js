@@ -4,8 +4,10 @@
  * [200] Number of Islands
  */
 
-// #union-find, #matrix, #disjoint-set
-// &305
+/**
+ * tags: #union-find, #disjoint-set
+ * {@link numIslands2|./305.number-of-islands-ii.js}
+ */
 
 // @lc code=start
 /**
@@ -29,7 +31,6 @@ var numIslands = function (grid) {
           // init every 1s as an independent island
           count++;
         }
-        rank[i * n + j] = 0;
       }
     }
 
@@ -44,7 +45,6 @@ var numIslands = function (grid) {
           parent[rootY] = rootX;
         } else {
           parent[rootY] = rootX;
-          rank[rootX] += 1;
         }
         // union adjacent 1s as union multiple islands as one
         count--;

@@ -4,6 +4,11 @@
  * [714] Best Time to Buy and Sell Stock with Transaction Fee
  */
 
+/**
+ * tags: #greedy, #dynamic-programming, #state-machine
+ * {@link maxProfit|./309.best-time-to-buy-and-sell-stock-with-cooldown.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[]} prices
@@ -21,3 +26,8 @@ var maxProfit = function(prices, fee) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N), where N is the number of prices.
+ * - Space complexity: O(1), the space used by cash and hold.
+ */

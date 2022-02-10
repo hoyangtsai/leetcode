@@ -4,9 +4,11 @@
  * [20] Valid Parentheses
  */
 
-// @amazon, @linkedin, @microsoft, @facebook, @google, @apple
-// #stack, #string
-// #google-interview
+/**
+ * com: #amazon, #linkedin, #microsoft, #facebook, #google, #apple, #paypay
+ * tags: #stack, #string, #parentheses
+ * #google-interview
+ */
 
 // @lc code=start
 /**

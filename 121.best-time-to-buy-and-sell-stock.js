@@ -4,9 +4,10 @@
  * [121] Best Time to Buy and Sell Stock
  */
 
-// @amazon, @apple, @microsoft, @facebook, @adobe, @google, @bloomberg
-// #array, #dynamic-programming
-// #google-interview
+/**
+ * com: #amazon, #facebook, #apple, #microsoft
+ * tags: #dynamic-programming, #google-interview
+ */
 
 // @lc code=start
 /**
@@ -14,13 +15,12 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-  let minPrice = Number.MAX_VALUE;
-  let maxProfit = 0;
-  for (let i = 0; i < prices.length; i++) {
-    minPrice = Math.min(minPrice, prices[i]);
+  let minPrice = prices[0];
+  let maxProfit = prices[1] - prices[0];
+  for (let i = 1; i < prices.length; i++) {
     maxProfit = Math.max(maxProfit, prices[i] - minPrice);
+    minPrice = Math.min(minPrice, prices[i]);
   }
-
   return maxProfit;
 };
 // @lc code=end

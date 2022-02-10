@@ -14,13 +14,13 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-  let maxprofit = 0;
+  let maxProfit = 0;
   for (let i = 1; i < prices.length; i++) {
     // if next day greater than the previous day
     if (prices[i] > prices[i - 1]) {
-      maxprofit += prices[i] - prices[i - 1];
+      // accumulation
+      maxProfit += prices[i] - prices[i - 1];
     }
-  }
-  return maxprofit;
+  return maxProfit;
 };
 // @lc code=end

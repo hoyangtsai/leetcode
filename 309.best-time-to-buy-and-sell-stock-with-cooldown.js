@@ -17,9 +17,10 @@
   dp[0][2] = 0 //可以理解成第0天買入又賣出，那麼第0天就是“不持股且當天賣出了”這個狀態了，其收益為0，所以初始化為0是合理的
  */
 
-// @adobe
-// #dynamic-programming
-// &713
+/**
+ * tags: #dynamic-programming
+ * {@link maxProfit|./714.best-time-to-buy-and-sell-stock-with-transaction-fee.js}
+ */
 
 // @lc code=start
 /**

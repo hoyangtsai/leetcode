@@ -5,7 +5,7 @@
  */
 
 // @google, @microsoft
-// #hash-table, #string, @sliding-window
+// #hash-table, #string, #sliding-window
 
 // @lc code=start
 /**

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming
+ * tags: #dynamic-programming, #two-string-grid
  * {@link minDistance|./72.edit-distance.js}
  */
 

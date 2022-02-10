@@ -5,8 +5,14 @@
  */
 
 // @google, @uber
-// #union-find, #disjoint-set
+// 
 // &200
+
+/**
+ * tags: #union-find, #disjoint-set
+ * {@link numIslands|./200.number-of-islands/union-find.js}
+ */
+
 
 // @lc code=start
 /**

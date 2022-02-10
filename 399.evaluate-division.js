@@ -93,7 +93,7 @@ var calcEquation = function(equations, values, queries) {
 // @lc code=end
 
 /**
- * Union-Find with Weights
+ * Union-Find with Weights
  * 
  * - Time complexity: O((M + N) * log^2 N).
  * - Space complexity: O(N).

@@ -4,9 +4,10 @@
  * [242] Valid Anagram
  */
 
-// @bloomberg, @amazon, @facebook
-// #string, #sorting
-// #google-interview
+/**
+ * tags: #anagram, #palindrome, #hash-table, #alphabet-table
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -16,9 +17,25 @@
  */
 var isAnagram = function(s, t) {
   if (s.length != t.length) return false;
-  const str1 = s.split('').sort();
-  const str2 = t.split('').sort();
-  return str1.join() === str2.join();
+
+  let table = Array(26).fill(0);
+  for (let i = 0; i < s.length; i++) {
+    table[s.charCodeAt(i) - 'a'.charCodeAt(0)]++;
+  }
+
+  for (let i = 0; i < t.length; i++) {
+    table[t.charCodeAt(i) - 'a'.charCodeAt(0)]--;
+    if (table[t.charCodeAt(i) - 'a'.charCodeAt(0)] < 0) {
+      return false;
+    }
+  }
+
+  return true;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

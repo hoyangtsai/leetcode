@@ -6,6 +6,7 @@
 
 /**
  * com: #facebook, #amazon
+ * tags: #prefix-sum #array-bidirectional
  */
 
 // @lc code=start

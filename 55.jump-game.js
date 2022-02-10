@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #greedy, #google-interview, #top-100-liked-questions
+ * tags: #greedy, #dynamic-programming
+ * #google-interview, #top-100-liked-questions
  */
 
 // @lc code=start

@@ -4,8 +4,9 @@
  * [155] Min Stack
  */
 
-// @amazon, @microsoft, @bloomberg
-// #stack, #design
+/**
+ * tags: #design
+ */
 
 // @lc code=start
 

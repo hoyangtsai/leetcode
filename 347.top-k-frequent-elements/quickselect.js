@@ -4,9 +4,11 @@
  * [347] Top K Frequent Elements
  */
 
-// @facebook, @amazon, @microsoft
-// #heap, #quickselect, #sorting
-// &215
+/**
+ * com: #facebook, #amazon, #microsoft
+ * tags: #sorting, #quickselect
+ * {@link findKthLargest|./215.kth-largest-element-in-an-array/quickselect.js}
+ */
 
 // @lc code=start
 /**
@@ -29,14 +31,14 @@ var topKFrequent = function(nums, k) {
   }
 
   function partition(left, right, pivotIndex) {
-    const privotFrequency = numMap[unique[pivotIndex]];
+    const pivotFreq = numMap[unique[pivotIndex]];
     // move pivot to the end
     swap(pivotIndex, right);
 
     let storeIndex = left;
     // move all elements of less frequency nums to the left
     for (let i = left; i <= right; i++) {
-      if (numMap[unique[i]] < privotFrequency) {
+      if (numMap[unique[i]] < pivotFreq) {
         swap(storeIndex, i);
         storeIndex++;
       }

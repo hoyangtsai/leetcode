@@ -4,9 +4,10 @@
  * [975] Odd Even Jump
  */
 
-// @google
-// #dynamic-programming, #stack
-// #google-interview
+/**
+ * tags: #dynamic-programming, #stack
+ * #google-interview
+ */
 
 // @lc code=start
 /**

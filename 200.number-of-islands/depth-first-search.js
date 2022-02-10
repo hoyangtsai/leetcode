@@ -4,8 +4,10 @@
  * [200] Number of Islands
  */
 
-// @amazon, @microsoft, @bloomberg, @google, @linkedin, @facebook, @apple
-// #depth-first-search, #matrix
+/**
+ * com: #amazon, #microsoft, #google, #linkedin, #facebook, #apple
+ * tags: #depth-first-search, #matrix
+ */
 
 // @lc code=start
 /**
@@ -45,8 +47,6 @@ var numIslands = function(grid) {
 // @lc code=end
 
 /**
- * Depth-First Search
- * 
  * - Time complexity: O(M * N), where M is the number of rows and N is the number of columns.
  * - Space complexity: worst case O(M * N) in case the grid map is filled with lands where DFS goes M * N steps.
  */
