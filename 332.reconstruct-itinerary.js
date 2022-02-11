@@ -4,8 +4,9 @@
  * [332] Reconstruct Itinerary
  */
 
-// @uber, @amazon, @microsoft
-// #depth-first-search, #graph
+/**
+ * tags: #depth-first-search, #graph , #directed-graph, #airport, #歐拉
+ */
 
 // @lc code=start
 /**
@@ -29,8 +30,6 @@ var findItinerary = function(tickets) {
 
   // Step 2). order the destinations
   flightMap.forEach((i, k) => i.sort());
-
-  console.log('flightMap =>', flightMap);
 
   let result = [];
 

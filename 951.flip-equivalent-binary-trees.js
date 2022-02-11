@@ -47,10 +47,3 @@ var flipEquiv = function(root1, root2) {
 };
 // @lc code=end
 
-
-/**
- * DFS
- * 
- * - Time complexity: O(N1 + N2), where N1, N2 are the lengths of root1 and root2.
- * - Space complexity: O(N1 + N2).
- */

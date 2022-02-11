@@ -4,9 +4,10 @@
  * [1049] Last Stone Weight II
  */
 
-// @google
-// #dynamic-programming, #01-knapsack, #背包最值問題
-// &322
+/**
+ * tags: #dynamic-programming, #01-knapsack, #背包最值問題
+ * {@link coinChange|./322.coin-change.js}
+ */
 
 // @lc code=start
 /**

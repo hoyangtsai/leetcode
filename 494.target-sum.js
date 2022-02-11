@@ -4,9 +4,10 @@
  * [494] Target Sum
  */
 
-// @facebook, @amazon, @microsoft
-// #dynamic-programming, #01-knapsack
-// &518
+/**
+ * tags: #dynamic-programming, #01-knapsack
+ * {@link change|./518.coin-change-2.js}
+ */
 
 // @lc code=start
 /**
@@ -21,18 +22,18 @@ var findTargetSumWays = function(nums, target) {
 
   if (diff % 2 != 0 || diff < 0) return 0;
 
-  let neg = Math.floor(diff / 2);
+  let mid = Math.floor(diff / 2);
 
-  let dp = new Array(neg + 1).fill(0);
+  let dp = new Array(mid + 1).fill(0);
   dp[0] = 1;
 
   for (const num of nums) {
-    for (let i = neg; i >= num; i--) {
+    for (let i = mid; i >= num; i--) {
       dp[i] += dp[i - num];
     }
   }
 
-  return dp[neg];
+  return dp[mid];
 };
 // @lc code=end
 

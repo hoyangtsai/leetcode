@@ -4,10 +4,11 @@
  * [322] Coin Change
  */
 
-// @amazon, @microsoft, @apple, @google
-// #dynamic-programming, #unbounded-knapsack, #背包最值問題
-// #google-interview
-// &1049
+/**
+ * tags: #dynamic-programming, #unbounded-knapsack, #背包最值問題
+ * #google-interview
+ * {@link lastStoneWeightII|./1049.last-stone-weight-ii.js}
+ */
 
 // @lc code=start
 /**

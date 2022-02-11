@@ -26,7 +26,6 @@ var climbStairs = function (n) {
 // @lc code=end
 
 /**
- * 
  * - Time complexity: O(n). Single loop upto n.
  * - Space complexity: O(n), an array of size n is used.
  */
