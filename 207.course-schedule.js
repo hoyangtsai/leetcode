@@ -4,9 +4,10 @@
  * [207] Course Schedule
  */
 
-// @amazon, @microsoft
-// #graph
-// &210
+/**
+ * tags: #graph, #breadth-first-search
+ * {@link findOrder|./210.course-schedule-ii.js}
+ */
 
 // @lc code=start
 /**

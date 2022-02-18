@@ -4,9 +4,10 @@
  * [210] Course Schedule II
  */
 
-// @amazon, @microsoft, @google, @facebook
-// #graph, #topological-sort
-// #google-interview
+/**
+ * tags: #graph, #topological-sort, #breadth-first-search
+ * #google-interview
+ */
 
 // @lc code=start
 /**

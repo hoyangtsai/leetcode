@@ -4,6 +4,17 @@
  * [371] Sum of Two Integers
  */
 
+/**
+ * com: #facebook, #rakuten
+ * tags: #bit-manipulation
+ */
+
+/**
+ * 3 cases
+ * 1. x + y
+ * 2. x - y (where x > y)
+ * 3. -x - y
+ */
 
 // @lc code=start
 /**
@@ -23,3 +34,8 @@ var getSum = function(a, b) {
 };
 // @lc code=end
 
+/**
+ * Bit Manipulation: Short Language-Specific Solution
+ * Time complexity: O(1).
+ * Space complexity: O(1).
+ */

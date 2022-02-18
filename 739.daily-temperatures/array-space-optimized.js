@@ -4,10 +4,6 @@
  * [739] Daily Temperatures
  */
 
-/**
- * tags: #array
- */
-
 // @lc code=start
 /**
  * @param {number[]} temperatures

@@ -4,6 +4,10 @@
  * [261] Graph Valid Tree
  */
 
+/**
+ * tags: #graph, #depth-first-search
+ */
+
 // @lc code=start
 /**
  * @param {number} n
@@ -25,7 +29,7 @@ var validTree = function(n, edges) {
       dfs(neighbor);
     }
   }
-
+  
   for (const edge of edges) {
     adjacencyList[edge[0]] = [...adjacencyList[edge[0]], edge[1]];
     adjacencyList[edge[1]] = [...adjacencyList[edge[1]], edge[0]];
@@ -35,7 +39,7 @@ var validTree = function(n, edges) {
   dfs(0);
 
   // Inspect result and return the verdict.
-  return seen.size == n;  
+  return seen.size == n;   
 };
 // @lc code=end
 

@@ -4,9 +4,10 @@
  * [735] Asteroid Collision
  */
 
-// @google, @amazon
-// #array, #stack
-// #top-google-questions
+/**
+ * tags: #stack
+ * #top-google-question
+ */
 
 // @lc code=start
 /**

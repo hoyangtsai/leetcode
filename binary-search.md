@@ -256,3 +256,7 @@ while (left + 1 < right) {
 left < right between the target's index
 
 i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 3, right = 4
+
+## Confusion of Binary Search
+
+[Answers](https://leetcode.com/problems/single-element-in-a-sorted-array/solution/538224) of a comment

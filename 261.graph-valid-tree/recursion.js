@@ -4,6 +4,10 @@
  * [261] Graph Valid Tree
  */
 
+/**
+ * tags: #graph, #depth-first-search
+ */
+
 // @lc code=start
 /**
  * @param {number} n
@@ -16,26 +20,28 @@ var validTree = function(n, edges) {
   let adjacencyList = Array(n).fill([]);;
   let seen = new Set();
 
-  function dfs(node) {
-    if (seen.has(node)) return;
+  function dfs(node, parent) {
+    if (seen.has(node)) return false;
 
     seen.add(node);
 
     for (const neighbor of adjacencyList[node]) {
-      dfs(neighbor);
+      if (parent != neighbor) {
+        let result = dfs(neighbor, node);
+        if (!result) return false;
+      }
     }
+    return true;
   }
-
+  
   for (const edge of edges) {
     adjacencyList[edge[0]] = [...adjacencyList[edge[0]], edge[1]];
     adjacencyList[edge[1]] = [...adjacencyList[edge[1]], edge[0]];
   }
 
-  // Carry out depth first search.
-  dfs(0);
-
-  // Inspect result and return the verdict.
-  return seen.size == n;  
+  // We return true iff no cycles were detected,
+  // AND the entire graph has been reached.
+  return dfs(0, -1) && seen.size == n;   
 };
 // @lc code=end
 

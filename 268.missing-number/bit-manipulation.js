@@ -4,8 +4,9 @@
  * [268] Missing Number
  */
 
-// @microsoft, @amazon, @facebook
-// #array, #hash-table, #bit-manipulation
+/**
+ * tags: #bit-manipulation
+ */
 
 // @lc code=start
 /**
@@ -23,7 +24,6 @@ var missingNumber = function(nums) {
 
 
 /**
- * Bit Manipulation
  * 
  * - Time complexity: O(n).
  * - Space complexity: O(1).

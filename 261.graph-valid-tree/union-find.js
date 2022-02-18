@@ -1,21 +1,22 @@
 /*
- * @lc app=leetcode id=323 lang=javascript
+ * @lc app=leetcode id=261 lang=javascript
  *
- * [323] Number of Connected Components in an Undirected Graph
+ * [261] Graph Valid Tree
  */
 
 /**
- * tags: #union-find, #disjoint-set
- * {@link findCircleNum|./547.number-of-provinces.js}
+ * tags: #graph, #union-find
  */
 
 // @lc code=start
 /**
  * @param {number} n
  * @param {number[][]} edges
- * @return {number}
+ * @return {boolean}
  */
-var countComponents = function(n, edges) {
+var validTree = function(n, edges) {
+  if (edges.length != n - 1) return false;
+
   function UnionFind(n) {
     let count = n;
     let parent = Array.from(Array(n).keys());
@@ -47,14 +48,7 @@ var countComponents = function(n, edges) {
     uf.union(e[0], e[1]);
   }
 
-  return uf.getCount();
+  return uf.getCount() == 1;
 };
 // @lc code=end
 
-
-/**
- * Here E = Number of edges, V = Number of vertices.
- * 
- * - Time complexity: O(E * α(n)).
- * - Space complexity: O(V).
- */

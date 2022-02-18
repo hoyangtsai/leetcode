@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #anagram, #alphabet-table
+ * tags: #hash-table, #alphabet-table, #two-string
  */
 
 // @lc code=start
