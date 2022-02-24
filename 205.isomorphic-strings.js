@@ -38,6 +38,7 @@ var isIsomorphic = function(s, t) {
 };
 // @lc code=end
 
+
 /**
  * Character Mapping
  * 

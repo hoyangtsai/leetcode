@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #array-merge, #two-pointer
+ * tags: #merge-array, #two-pointers
  */
 
 // @lc code=start

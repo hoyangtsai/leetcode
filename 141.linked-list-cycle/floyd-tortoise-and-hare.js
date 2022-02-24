@@ -4,6 +4,11 @@
  * [141] Linked List Cycle
  */
 
+/**
+ * #linked-list, #floyd-tortoise-and-hare
+ * {@link detectCycle|./142.linked-list-cycle-ii.js}
+ */
+
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -30,3 +35,8 @@ var hasCycle = function(head) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n), the number of nodes.
+ * - Space complexity: O(1).
+ */

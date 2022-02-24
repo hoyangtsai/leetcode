@@ -6,7 +6,7 @@
 
 /**
  * com: #google
- * tags: #two-pointer, #greedy, #subsequence
+ * tags: #two-pointers, #greedy, #subsequence
  */
 
 // @lc code=start

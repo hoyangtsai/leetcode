@@ -4,10 +4,12 @@
  * [11] Container With Most Water
  */
 
-// @amazon, @microsoft, @facebook, @google, @apple
-// #two-pointers, #greedy, #histogram
-// &42
-// #google-interview
+/**
+ * com: #amazon, #microsoft, #facebook, #google, #apple
+ * tags: #two-pointers, #greedy, #histogram
+ * #google-interview
+ * {@link trap|./42.trapping-rain-water/two-pointers.js}
+ */
 
 // @lc code=start
 /**
@@ -32,9 +34,8 @@ var maxArea = function(height) {
 };
 // @lc code=end
 
+
 /**
- * Two-pointer approach
- * 
  * - Time complexity: O(n). Numbers of the height.
  * - Space complexity: O(1). Constant space is used.
  */

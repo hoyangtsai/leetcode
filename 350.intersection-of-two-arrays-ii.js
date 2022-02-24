@@ -4,8 +4,7 @@
  * [350] Intersection of Two Arrays II
  */
 
-// #hash-table, #two-pointers, #binary-search, #sort
-// @google, @amazon, @microsoft, @facebook, @linkedin, @apple
+// #hash-table
 
 // @lc code=start
 /**

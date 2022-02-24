@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon, #google
  * tags: #stack, #dynamic-programming
  * {@link largestRectangleArea|./84.largest-rectangle-in-histogram.js}
  */
@@ -39,7 +38,7 @@ var maximalRectangle = function(matrix) {
   }
 
   if (matrix.length == 0) return 0;
-  let maxarea = 0;
+  let maxArea = 0;
   let dp = new Array(matrix[0].length).fill(0);
 
   for (let i = 0; i < matrix.length; i++) {
@@ -48,11 +47,11 @@ var maximalRectangle = function(matrix) {
       // by keeping track of the number of consecutive ones
       dp[j] = matrix[i][j] == '1' ? dp[j] + 1 : 0;
     }
-    // update maxarea with the maximum area from this row's histogram
-    maxarea = Math.max(maxarea, leetcode84(dp));
+    // update maxArea with the maximum area from this row's histogram
+    maxArea = Math.max(maxArea, leetcode84(dp));
   } 
   
-  return maxarea;
+  return maxArea;
 };
 // @lc code=end
 

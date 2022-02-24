@@ -4,9 +4,10 @@
  * [287] Find the Duplicate Number
  */
 
-// @microsoft, @google, @adobe
-// #array, #binary-search
-// &34
+/**
+ * #binary-search
+ * {@link searchRange|./34.find-first-and-last-position-of-element-in-sorted-array.js} 
+ */
 
 // @lc code=start
 /**

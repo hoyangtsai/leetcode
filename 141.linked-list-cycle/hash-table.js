@@ -31,4 +31,4 @@ var hasCycle = function (head) {
 // @lc code=end
 
 // Time complexity: O(n), The number of nodes.
-// Sapce complexity: O(n), A hash table needed.
+// Space complexity: O(n), A hash table needed.

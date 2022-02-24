@@ -5,9 +5,8 @@
  */
 
 /**
- * com: #amazon, #microsoft
  * tags: #hash-table, #sliding-window, #two-pointers
- * topic: #google-interview
+ * #google-interview
  */
 
 /**
@@ -15,21 +14,27 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-  let arr = [];
   let r = 0, l = 0;
   let max = 0;
+  let str = '';
 
-  while (r < s.length && l < s.length) {
-    if (!arr.includes(s[r])) {
-      arr.push(s[r]);
+  while (r < s.length) {
+    if (str.indexOf(s[r]) < 0) {
+      str += s[r];
       max = Math.max(max, r - l + 1);
-      r += 1;
+      r++;
     } else {
-      arr.splice(arr.indexOf(s[l]), 1);
-      l += 1;
+      str = str.substring(1);
+      l++;
     }
   }
 
   return max;
 };
 // @lc code=end
+
+
+/**
+ * - Space complexity: O(n).
+ * - Time complexity: O(1).
+ */

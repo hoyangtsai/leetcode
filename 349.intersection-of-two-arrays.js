@@ -4,8 +4,9 @@
  * [349] Intersection of Two Arrays
  */
 
-// #hash-table, #two-pointers, #binary-search, #sort
-// @twosigma
+/**
+ * #merge-array
+ */
 
 // @lc code=start
 /**

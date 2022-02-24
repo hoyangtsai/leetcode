@@ -4,10 +4,12 @@
  * [42] Trapping Rain Water
  */
 
-// @goldmanSachs, @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
-// #array, #two-pointers
-// #google-interview
-// &11
+/**
+ * #facebook, #amazon, #SmartNews
+ * tags: #two-pointers
+ * #google-interview
+ * {@link maxArea|./11.container-with-most-water.js}
+ */
 
 // @lc code=start
 /**
@@ -39,9 +41,8 @@ var trap = function(height) {
 };
 // @lc code=end
 
+
 /**
- * Two pointer
- * 
  * - Time complexity: O(n).
- * - Sapce complexity: O(1).
+ * - Space complexity: O(1).
  */

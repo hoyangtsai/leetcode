@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon, #microsoft, #google
  * tags: #stack, #histogram
  * {@link maximalRectangle|./85.maximal-rectangle.js}
  */

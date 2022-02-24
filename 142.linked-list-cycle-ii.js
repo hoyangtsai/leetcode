@@ -4,9 +4,10 @@
  * [142] Linked List Cycle II
  */
 
-// @microsoft, @amazon
-// #two-pointer, #linked-list, #floyds-tortoise-and-hare
-// &287
+/**
+ * #two-pointers, #linked-list, #floyd-tortoise-and-hare
+ * {@link findDuplicate|./287.find-the-duplicate-number/floyd-tortoise-and-hare.js} 
+ */
 
 // @lc code=start
 /**

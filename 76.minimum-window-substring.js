@@ -5,8 +5,7 @@
  */
 
 /**
- * com: #facebook, #amazon, #linkedin
- * tags: #hash-table, #two-pointers, #sliding-window, #string-comb
+ * tags: #hash-table, #sliding-window, #string-comb
  * #google-interview
  */
 
@@ -31,8 +30,8 @@ var minWindow = function(s, t) {
   let count = Object.keys(dict).length;
   
   let min = '';
-  let l = 0; r = -1;
-  while (r < s.length) {
+  let l = 0; r = 0;
+  while (r <= s.length) {
     // found a valid substring
     if (count == 0) {
       let char = s[l];
@@ -45,7 +44,7 @@ var minWindow = function(s, t) {
         count ++;
       }
 
-      let temp = s.substring(l, r + 1);
+      let temp = s.substring(l, r);
 
       if (min == '') {
         min = temp;
@@ -53,9 +52,8 @@ var minWindow = function(s, t) {
         min = min.length < temp.length ? min : temp;
       }
 
-      l ++;
+      l++;
     } else {
-      r ++;
       let char = s[r];
 
       if (dict[char] != null) {
@@ -65,6 +63,8 @@ var minWindow = function(s, t) {
       if (dict[char] == 0) {
         count --;
       }
+
+      r++;
     }
   }
 
@@ -75,3 +75,7 @@ var minWindow = function(s, t) {
 
 const mw = minWindow("ADOBECODEBANC", "ABC");
 console.log(mw);
+
+
+const ans = minWindow("ab", "a");
+console.log(ans);

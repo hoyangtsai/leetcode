@@ -4,10 +4,11 @@
  * [42] Trapping Rain Water
  */
 
-// @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
-// #dynamic-programming, #histogram
-// #google-interview
-// &11
+/**
+ * tags: #dynamic-programming, #histogram
+ * #google-interview
+ * {@link maxArea|./11.container-with-most-water.js}
+ */
 
 // @lc code=start
 /**
@@ -40,8 +41,8 @@ var trap = function(height) {
 };
 // @lc code=end
 
+
 /**
- * Dynamic programming
  * Time complexity: O(n).
  * Space complexity: O(n).
  */

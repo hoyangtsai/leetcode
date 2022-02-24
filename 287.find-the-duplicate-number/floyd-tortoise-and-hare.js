@@ -4,9 +4,10 @@
  * [287] Find the Duplicate Number
  */
 
-// @microsoft, @google, @adobe
-// #array, #binary-search, #two-pointers, #floyds-tortoise-and-hare
-// &141, &142
+/**
+ * #floyd-tortoise-and-hare
+ * {@link hasCycle|./141.linked-list-cycle/floyd-tortoise-and-hare.js}
+ */
 
 // @lc code=start
 /**

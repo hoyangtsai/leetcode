@@ -5,8 +5,7 @@
  */
 
 /**
- * com: #amazon
- * tags: #greedy, #hash-table, #two-pointer
+ * #greedy, #hash-table, #two-pointers
  */
 
 // @lc code=start

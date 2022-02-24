@@ -4,8 +4,9 @@
  * [159] Longest Substring with At Most Two Distinct Characters
  */
 
-// @google, @microsoft
-// #hash-table, #string, #sliding-window
+/**
+ * tags: #hash-table, #sliding-window, #longest-substring
+ */
 
 // @lc code=start
 /**

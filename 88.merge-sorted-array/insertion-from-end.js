@@ -4,10 +4,6 @@
  * [88] Merge Sorted Array
  */
 
-/**
- * tags: #merge-array, #two-pointers
- */
-
 // @lc code=start
 /**
  * @param {number[]} nums1
@@ -16,18 +12,11 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-var merge = function(nums1, m, nums2, n) {
-  let p1 = m - 1;
-  let p2 = n - 1;
-
-  for (let p = m + n - 1; p >= 0; p--) {
-    if (p2 < 0) break;
-
-    if (p1 >= 0 && nums1[p1] > nums2[p2]) {
-      nums1[p] = nums1[p1--];
-    } else {
-      nums1[p] = nums2[p2--];
-    }
+var merge = function (nums1, m, nums2, n) {
+  let insertPos = m + n - 1;
+  m -= 1, n -= 1;
+  while (n >= 0) {
+    nums1[insertPos--] = (nums1[m] > nums2[n]) ? nums1[m--] : nums2[n--];
   }
 };
 // @lc code=end
