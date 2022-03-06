@@ -4,9 +4,10 @@
  * [43] Multiply Strings
  */
 
-// @facebook, @microsoft, @apple, @google, @amazon
-// #math, #string
-// #google-interview
+/**
+ * tags: #math
+ * #google-interview
+ */
 
 // @lc code=start
 /**

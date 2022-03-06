@@ -4,9 +4,10 @@
  * [22] Generate Parentheses
  */
 
-// @facebook, @amazon, @microsoft, @bloomberg, @apple, @uber, @adobe, @google
-// #backtracking
-// &46
+/**
+ * tags: #backtracking, #string-comb
+ * {@link permute|./46.permutations.js}
+ */
 
 // https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
 

@@ -4,9 +4,9 @@
  * [17] Letter Combinations of a Phone Number
  */
 
-// @amazon, @microsoft, @facebook, @apple
-// #hash-table, #backtracking
-// #google-interview
+/**
+ * tags: #backtracking, #string-comb
+ */
 
 // @lc code=start
 /**

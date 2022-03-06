@@ -4,9 +4,10 @@
  * [399] Evaluate Division
  */
 
-// @uber, @amazon
-// #array, #depth-first-search, #backtracking
-// #google-interview
+/**
+ * tags: #depth-first-search, #backtracking
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -35,7 +36,7 @@ var calcEquation = function(equations, values, queries) {
     graph.get(divisor).set(dividend, 1 / quotient);
   }
 
-  // Step 2). Evaluate each query via bactracking (DFS)
+  // Step 2). Evaluate each query via backtracking (DFS)
   // by verifying if there exists a path from dividend to divisor
   let results = [];
   for (let i = 0; i < queries.length; i++) {

@@ -4,6 +4,12 @@
  * [647] Palindromic Substrings
  */
 
+/**
+ * tags: #palindrome, #anagram
+ * {@link validPalindrome|./680.valid-palindrome-ii.js}
+ */
+
+
 // @lc code=start
 /**
  * @param {string} s

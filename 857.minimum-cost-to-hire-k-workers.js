@@ -4,9 +4,10 @@
  * [857] Minimum Cost to Hire K Workers
  */
 
-// @google
-// #array, #greedy, #sorting, #heap (priority queue)
-// #google-interview
+/**
+ * tags: #greedy, #heap(priority-queue)
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -46,15 +47,14 @@ var mincostToHireWorkers = function(quality, wage, k) {
 };
 // @lc code=end
 
+
 /**
- * Heap
- * 
- * Time complexity: O(NlogN).
- * Space complexity: O(N).
+ * - Time complexity: O(N * log N).
+ * - Space complexity: O(N).
  */
 
-// const ans = mincostToHireWorkers([3, 1, 10, 10, 1], [4, 8, 2, 2, 7], 3);
 
+// const ans = mincostToHireWorkers([3, 1, 10, 10, 1], [4, 8, 2, 2, 7], 3);
 const ans2 = mincostToHireWorkers([10, 20, 5], [70, 50, 30], 2);
 
 // const ans3 = mincostToHireWorkers([25, 68, 35, 62, 52, 57, 35, 83, 40, 51], [147, 97, 251, 129, 438, 443, 120, 366, 362, 343], 6);

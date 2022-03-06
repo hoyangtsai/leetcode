@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #palindromic, #anagram
+ * tags: #palindrome, #anagram
  * {@link longestPalindrome|./5.longest-palindromic-substring/expand-around-center.js}
  */
 
@@ -40,3 +40,9 @@ var countSubstrings = function (s) {
   return ans;
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(N^2).
+ * - Space complexity: O(1).
+ */

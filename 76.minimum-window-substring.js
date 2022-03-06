@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table, #sliding-window, #string-comb
+ * tags: #hash-table, #sliding-window, #string-comb, #substring
  * #google-interview
  */
 

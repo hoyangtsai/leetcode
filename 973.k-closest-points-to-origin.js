@@ -4,8 +4,9 @@
  * [973] K Closest Points to Origin
  */
 
-// @facebook, @amazon, @linkedin
-// #math, #geometry, #heap
+/**
+ * tags: #math #geometry, #heap
+ */
 
 // @lc code=start
 /**

@@ -4,9 +4,10 @@
  * [279] Perfect Squares
  */
 
-// @amazon, @google
-// #math, #dynamic-programming, #breadth-first-search
-// &367
+/**
+ * tags: #math, #breadth-first-search
+ * {@link 367.valid-perfect-square.js}
+ */
 
 // @lc code=start
 /**

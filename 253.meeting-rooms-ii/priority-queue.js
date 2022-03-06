@@ -4,6 +4,10 @@
  * [253] Meeting Rooms II
  */
 
+/**
+ * tags: #heap(priority-queue)
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -20,7 +24,7 @@ var minMeetingRooms = function(intervals) {
   // Add the first meeting end time
   allocator.push(intervals[0][1]);
 
-  // iterate over the remaing meetings
+  // iterate over the remaining meetings
   for (let i = 1; i < intervals.length; i++) {
     // existed meeting ended
     if (allocator.length > 0 && allocator[0] <= intervals[i][0]) {
@@ -32,16 +36,14 @@ var minMeetingRooms = function(intervals) {
   }
 
   return allocator.length;
-};𝑂
+};
 // @lc code=end
 
 /**
- * Priority Order
- * 
- * - Time complexity: O(N log N).
+ * - Time complexity: O(N logN).
  *    - There are two major portions that take up time. One is sorting of the intervals that takes O(N log N) considering that the array consists of N elements.
  *    - Then we have the min-heap. In the worst case, all N meetings will collide with each other. 
- *      In any case we have N add oprations on the heap. In the worst case we will have N min-extract(shift) operations as well.
+ *      In any case we have N add operations on the heap. In the worst case we will have N min-extract(shift) operations as well.
  * 
  * - Space complexity: O(N), because we construct the min-heap and can contain N elements.
  */

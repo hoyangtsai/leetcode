@@ -4,9 +4,11 @@
  * [212] Word Search II
  */
 
-// @amazon, @microsoft, @uber, @google
-// #backtracking, #matrix, #depth-first-search
-// #google-interview
+/**
+ * tags: #backtracking, #matrix, #depth-first-search
+ * #google-interview
+ * {@link ./79.word-search.js}
+ */
 
 // @lc code=start
 /**

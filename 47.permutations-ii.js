@@ -4,6 +4,10 @@
  * [47] Permutations II
  */
 
+/**
+ * tags: #permutation, #backtracking
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

@@ -4,8 +4,10 @@
  * [69] Sqrt(x)
  */
 
-// #math, #binary-search
-// &367
+/**
+ * tags: #math, #binary-search
+ * {@link 367.valid-perfect-square.js}
+ */
 
 // @lc code=start
 /**

@@ -4,8 +4,11 @@
  * [680] Valid Palindrome II
  */
 
-// @facebook, @google, @amazon, @apple
-// #string, #two-pointers, #palindrome
+/**
+ * #facebook
+ * tags: #two-pointers, #palindrome, #anagram
+ * {@link isPalindrome|./125.valid-palindrome.js}
+ */
 
 // @lc code=start
 /**
@@ -13,18 +16,25 @@
  * @return {boolean}
  */
 var validPalindrome = function(s) {
-  const isPalindrome = (s) => s === s.split('').reverse().join('');
-
-  const cut = (s, i) => s.substring(0, i) + s.substring(i + 1);
-
-  for (let i = 0, end = s.length / 2; i < end; i++) {
-    let j = s.length - i - 1;
-    if (s[i] !== s[j]) {
-      return isPalindrome(cut(s, i)) || isPalindrome(cut(s, j));
+  function isPalindrome(str, i, j) {
+    while (i < j) {
+      if (str[i++] !== str[j--]) {
+        return false;
+      }
     }
+    return true;
   }
+
+  let l = 0, r = s.length - 1;
+  while (l < r) {
+     if (s[l] !== s[r]) {
+      return isPalindrome(s, l + 1, r) || isPalindrome(s, l, r - 1);
+    }
+    l++;
+    r--;
+  }
+
   return true;
 };
 // @lc code=end
 
-console.log(validPalindrome("decdadccbaabtccdadced"));

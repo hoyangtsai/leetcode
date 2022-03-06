@@ -4,9 +4,9 @@
  * [9] Palindrome Number
  */
 
-// #math, #palindromic, #anagram
-// @adobe, @bloomberg, @google, @microsoft, @amazon, @yahoo, @apple
-// &43
+/**
+ * tags: #math, #palindrome, #anagram
+ */
 
 // @lc code=start
 /**

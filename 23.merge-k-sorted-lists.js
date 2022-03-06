@@ -4,9 +4,10 @@
  * [23] Merge k Sorted Lists
  */
 
-// @amazon, @facebook, @microsoft, @apple, @google, @bloomberg, @uber, @ebay, @adobe, @
-// #linked-list, #divide-and-conquer, #heap (priority queue), #merge-sort
-// #google-interview
+/**
+ * tags: #linked-list, #divide-and-conquer, #heap(priority-queue), #merge-sort
+ * #google-interview
+ */
 
 // @lc code=start
 /**

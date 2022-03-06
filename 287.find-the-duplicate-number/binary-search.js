@@ -5,8 +5,8 @@
  */
 
 /**
- * #binary-search
- * {@link searchRange|./34.find-first-and-last-position-of-element-in-sorted-array.js} 
+ * tags: #binary-search
+ * {@link 34.find-first-and-last-position-of-element-in-sorted-array.js} 
  */
 
 // @lc code=start
@@ -19,7 +19,7 @@ var findDuplicate = function(nums) {
   let duplicate = -1;
 
   while(low <= high) {
-    let cur = ~~((low + high) / 2);
+    let cur = parseInt((low + high) / 2);
 
     let count = 0;
     for (const n of nums) {
@@ -40,9 +40,8 @@ var findDuplicate = function(nums) {
 };
 // @lc code=end
 
+
 /**
- * Binary search
- * 
  * - Time complexity: O(n log n).
  * - Space complexity: O(1).
  */

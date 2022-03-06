@@ -4,9 +4,10 @@
  * [91] Decode Ways
  */
 
-// @amazon, @google
-// #dynamic-programming
-// &70
+/**
+ * tags: #dynamic-programming, #string-group-possibility
+ * {@link partition|./131.palindrome-partitioning.js}
+ */
 
 // @lc code=start
 /**
@@ -51,8 +52,9 @@ var numDecodings = function(s) {
 
 /**
  * - Time complexity: O(n).
- * - Space complexity: O(n).
+ * - Space complexity: O(1).
  */
+
 
 // numDecodings('226');
 numDecodings('12');

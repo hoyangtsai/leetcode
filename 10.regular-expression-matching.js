@@ -4,8 +4,9 @@
  * [10] Regular Expression Matching
  */
 
-// @amazon, @facebook, @apple
-// #string, #recursion
+/**
+ * tags: #regex, #recursion
+ */
 
 // @lc code=start
 /**
@@ -28,3 +29,11 @@ var isMatch = function(s, p) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: Let T, P be the length of text and the pattern respectively.
+ *   In the worst case, a call to match(text[i:], pattern[2j:]) will be made (i + j / i) times, and strings of the order O(T - i) and O(P - 2 * j) will be made.
+ *   This is bounded by O((T + P)2^T + P / 2).
+ * 
+ * - Space complexity: If memory is not freed, this will also take a total of ((T + P)2^T + P / 2) space, even through there are only order O(T^2 + P^2) unique suffixes of P and T that are actually required.
+ */

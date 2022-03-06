@@ -4,9 +4,10 @@
  * [489] Robot Room Cleaner
  */
 
-// @google
-// #backtracking, #interactive
-// #google-interview
+/**
+ * tags: #backtracking, #interactive
+ * #google-interview
+ */
 
 // @lc code=start
 /**

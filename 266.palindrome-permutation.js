@@ -4,8 +4,10 @@
  * [266] Palindrome Permutation
  */
 
-// #hash-table, #palindromic, #anagram
-// @bloomberg, @google, @uber, @facebook, @microsoft
+/**
+ * tags: #hash-table, #palindrome, #anagram, #permutation
+ * {@link longestPalindrome|./409.longest-palindrome.js}
+ */
 
 // @lc code=start
 /**
@@ -13,17 +15,23 @@
  * @return {boolean}
  */
 var canPermutePalindrome = function(s) {
-  let dict = {};
-
+  // s consists of only lowercase English letters
+  let map = Array(26).fill(0);
+  let count = 0;
   for (let i = 0; i < s.length; i++) {
-    if (s[i] in dict) {
-      delete dict[s[i]];
+    map[s.charCodeAt(i) - 'a'.charCodeAt()]++;
+    if (map[s.charCodeAt(i) - 'a'.charCodeAt()] % 2 == 0) {
+      count--;
     } else {
-      dict[s[i]] = true;
+      count++;
     }
   }
-
-  return Object.keys(dict).length <= 1;
+  return count <= 1;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n). 
+ * - Space complexity: O(1).
+ */

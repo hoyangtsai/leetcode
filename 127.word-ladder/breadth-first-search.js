@@ -4,9 +4,10 @@
  * [127] Word Ladder
  */
 
-// @facebook, @amazon, @uber, @apple, @linkedin, @microsoft
-// #breadth-first-search, #graph, #string-comb
-// #google-interview
+/**
+ * tags: #breadth-first-search, #graph, #string-comb
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -60,5 +61,5 @@ var ladderLength = function(beginWord, endWord, wordList) {
  * 
  * - Time complexity: O(M^2 * N).
  *   M is the length of each word and N is the total number of words in the input word list.
- * - Sapce complexity: O(M^2 * N).
+ * - Space complexity: O(M^2 * N).
  */

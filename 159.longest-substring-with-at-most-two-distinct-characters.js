@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #hash-table, #sliding-window, #longest-substring
+ * tags: #hash-table, #sliding-window, #substring
+ * {@link lengthOfLongestSubstring|./3.longest-substring-without-repeating-characters.js}
  */
 
 // @lc code=start
@@ -27,7 +28,7 @@ var lengthOfLongestSubstringTwoDistinct = function(s) {
   let hash = new Map();
 
   while (r < n) {
-    hash.set(s[r], r++);
+    hash.set(s[r], r);
 
     if (hash.size == 3) {
       // find the leftmost index to delete
@@ -39,7 +40,9 @@ var lengthOfLongestSubstringTwoDistinct = function(s) {
       l = deleteId + 1;
     }
 
-    maxLen = Math.max(maxLen, r - l);
+    maxLen = Math.max(maxLen, r - l + 1);
+
+    r++;
   }
 
   return maxLen;

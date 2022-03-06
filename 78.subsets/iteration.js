@@ -5,7 +5,7 @@
  */
 
 /**
- * com: #facebook, #amazon
+ * #facebook, #amazon
  * tags: #backtracking, #powerset
  */
 

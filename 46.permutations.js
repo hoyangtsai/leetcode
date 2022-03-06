@@ -5,8 +5,8 @@
  */
 
 /**
- * com: #microsoft, #amazon, #linkedin, #apple
- * tags: #backtracking
+ * #microsoft, #amazon, #linkedin, #apple
+ * tags: #backtracking, #permutation
  * {@link subsets|./78.subsets.js}
  * {@link permuteUnique|./47.permutations-ii.js}
  */
@@ -19,9 +19,8 @@
 var permute = function(nums) {
   let ans = [];
 
-  function backtrack(arr, ans) {
+  function backtrack(arr) {
     if (arr.length == nums.length) {
-      // ans.push(Array.from(arr));
       ans.push(arr.slice());
       return;
     }
@@ -33,7 +32,7 @@ var permute = function(nums) {
       arr.push(nums[i]);
       // used[i] = true;
 
-      backtrack(arr, ans);
+      backtrack(arr);
 
       // reset for backtracking
       arr.pop();
@@ -42,7 +41,7 @@ var permute = function(nums) {
   }
   
   // backtrack([], ans, Array(nums.length).fill(false));
-  backtrack([], ans);
+  backtrack([]);
   return ans;
 };
 // @lc code=end

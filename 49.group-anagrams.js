@@ -4,8 +4,9 @@
  * [49] Group Anagrams
  */
 
-// #hash-table, #string, #anagram, #palindromic
-// @amazon, @bloomberg, @facebook, @uber, @yelp
+/**
+ * tags: #hash-table, #anagram, #palindrome, #string-group
+ */
 
 // @lc code=start
 /**

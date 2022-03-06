@@ -5,8 +5,9 @@
  */
 
 /**
- * tags: #hash-table, #sliding-window, #two-pointers
+ * tags: #sliding-window, #two-pointers, #substring
  * #google-interview
+ * {@link lengthOfLongestSubstringTwoDistinct|./3.longest-substring-without-repeating-characters.js}
  */
 
 /**

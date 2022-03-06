@@ -4,10 +4,11 @@
  * [34] Find First and Last Position of Element in Sorted Array
  */
 
-// @facebook, @linkedin, @apple, @uber, @google, @microsoft
-// #array, #binary-search
-// #google-interview
-// &287
+/**
+ * tags: #binary-search
+ * #google-interview
+ * {@link 287.find-the-duplicate-number/binary-search.js}
+ */
 
 // @lc code=start
 /**
@@ -20,8 +21,8 @@ var searchRange = function(nums, target) {
     let l = 0, r = nums.length - 1;
     while (l <= r) {
       let mid = parseInt((l + r) / 2);
+
       if (nums[mid] == target) {
-        
         if (isFirst) {
           // This means we found our lower bound.
           if (mid == l || nums[mid - 1] != target) {
@@ -39,7 +40,6 @@ var searchRange = function(nums, target) {
           // Search on the right side for the bound.
           l = mid + 1;
         }
-
       } else if (nums[mid] < target) {
         l = mid + 1;
       } else if (nums[mid] > target) {
@@ -62,9 +62,8 @@ var searchRange = function(nums, target) {
 };
 // @lc code=end
 
-/**
- * Binary search
- * 
- * - Time complexity: O(logN).
+
+/** 
+ * - Time complexity: O(log N).
  * - Space complexity: O(1).
  */

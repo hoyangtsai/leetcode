@@ -5,7 +5,7 @@
  */
 
 /**
- * com: #amazon, #linkedin, #microsoft, #facebook, #google, #apple, #paypay
+ * #amazon, #linkedin, #microsoft, #facebook, #google, #apple, #paypay
  * tags: #stack, #string, #parentheses
  * #google-interview
  */

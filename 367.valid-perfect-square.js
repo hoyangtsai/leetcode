@@ -4,9 +4,12 @@
  * [367] Valid Perfect Square
  */
 
-// #math, #binary-search
-// @facebook, @linkedin, @rakuten
-// &69, &279
+/**
+ * #facebook, #linkedin, #rakuten
+ * tags: #math, #binary-search
+ * {@link 69.sqrt-x.js}
+ * {@link 279.perfect-squares.js}
+ */
 
 // @lc code=start
 /**

@@ -4,9 +4,11 @@
  * [79] Word Search
  */
 
-// @amazon, @microsoft, @snapchat, @bloomberg, @facebook, @apple, @twitter, @google, @rakuten
-// #backtracking, #matrix, #depth-first-search
-// &212
+/**
+ * #rakuten
+ * tags: #backtracking, #matrix, #depth-first-search
+ * {@link ./212.word-search-ii.js}
+ */
 
 // @lc code=start
 /**

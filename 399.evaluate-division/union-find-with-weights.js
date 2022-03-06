@@ -4,6 +4,10 @@
  * [399] Evaluate Division
  */
 
+/**
+ * tags: #union-find
+ */
+
 // @lc code=start
 /**
  * @param {string[][]} equations
@@ -90,8 +94,6 @@ var calcEquation = function(equations, values, queries) {
 // @lc code=end
 
 /**
- * Union-Find with Weights
- * 
  * Let N be the number of input equations and M be the number of queries.
  * 
  * - Time complexity: O((M + N) * log^2 N).

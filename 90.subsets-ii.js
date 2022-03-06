@@ -5,10 +5,8 @@
  */
 
 /**
- * com: #facebook
  * tags: #backtracking
  * {@link subsets|./78.subsets.js}
- * 
  */
 
 // @lc code=start

@@ -5,7 +5,9 @@
  */
 
 /**
+ * #facebook, #microsoft
  * tags: #two-pinter, #palindrome, #anagram
+ * {@link validPalindrome|./680.valid-palindrome-ii.js}
  */
 
 // @lc code=start
@@ -14,13 +16,20 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    const str = s.toLowerCase().replace(/[^a-z\d]/g, '');
+  const str = s.toLowerCase().replace(/[^a-z\d]/g, '');
 
-    for (let i = 0, j = str.length - 1; i < j; i++, j--) {
-      if (str[i] !== str[j]) {
-        return false;
-      }
+  let l = 0, r = str.length - 1;
+  while (l < r) {
+    if (str[l++] !== str[r--]) {
+      return false;
     }
-    return true;
+  }
+  return true;
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

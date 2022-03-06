@@ -5,8 +5,8 @@
  */
 
 /**
- * #floyd-tortoise-and-hare
- * {@link hasCycle|./141.linked-list-cycle/floyd-tortoise-and-hare.js}
+ * tags: #floyd-tortoise-and-hare
+ * {@link ./141.linked-list-cycle/floyd-tortoise-and-hare.js}
  */
 
 // @lc code=start
@@ -36,9 +36,8 @@ var findDuplicate = function(nums) {
 };
 // @lc code=end
 
+
 /**
- * Floyd's Tortoise and Hare 
- * 
  * - Time complexity: O(n).
  * - Space complexity: O(1).
  */

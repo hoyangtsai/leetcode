@@ -4,9 +4,10 @@
  * [253] Meeting Rooms II
  */
 
-// @amazon, @bloomberg, @microsoft, @facebook, @google
-// #array, #two-pointeers, #greedy, #sort, #heap (priority queue),
-// #google-interview 
+/**
+ * tags: #two-pointers
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -27,9 +28,9 @@ var minMeetingRooms = function(intervals) {
   let endIdx = 0;
   for (let i = 0; i < intervals.length; i++) {
     if (starts[i] < ends[endIdx]) {
-      rooms ++;
+      rooms++;
     } else {
-      endIdx ++;
+      endIdx++;
     }
   }
   return rooms;
@@ -37,7 +38,6 @@ var minMeetingRooms = function(intervals) {
 // @lc code=end
 
 /**
- * Chronological Ordering
- * Time complexity: 𝑂(𝑛 log 𝑛).
- * Space complexity: 𝑂(𝑛), because we need two separate array size of 𝑁, one for recording the start times and one for the end times.
+ * - Time complexity: O(n * log n)
+ * - Space complexity: O(n), because we need two separate array size of 𝑁, one for recording the start times and one for the end times.
  */
