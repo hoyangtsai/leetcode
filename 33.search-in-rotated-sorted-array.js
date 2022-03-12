@@ -4,8 +4,10 @@
  * [33] Search in Rotated Sorted Array
  */
 
-// @microsoft, @amazon, @linkedin, @facebook, @apple
-// #array, #binary-search
+/**
+ * tags: #binary-search
+ * {@link 153.find-minimum-in-rotated-sorted-array.js}
+ */
 
 // @lc code=start
 /**
@@ -33,8 +35,6 @@ var search = function(nums, target) {
 
 
 /**
- * One pass Binary Search
- * 
  * - Time complexity: O(logN).
  * - Space complexity: O(1).
  */

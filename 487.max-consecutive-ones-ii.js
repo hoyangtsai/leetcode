@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #sliding-window, #two-pointers
+ * tags: #sliding-window, #two-pointers, #zero
  */
 
 // @lc code=start

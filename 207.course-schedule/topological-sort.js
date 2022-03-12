@@ -4,6 +4,12 @@
  * [207] Course Schedule
  */
 
+/**
+ * tags: #graph, #topological-sort
+ * {@link 210.course-schedule-ii.js}
+ * {@link 332.reconstruct-itinerary.js}
+ */
+
 // @lc code=start
 /**
  * @param {number} numCourses
@@ -40,3 +46,8 @@ var canFinish = function(numCourses, prerequisites) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(|E| + |V|) where |V| is the number of courses, and |E| is the number of dependencies.
+ * - Space complexity: O(|E| + |V|), with the same denotation as in the above time complexity. 
+ */

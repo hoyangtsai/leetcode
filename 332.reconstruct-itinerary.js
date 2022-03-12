@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #depth-first-search, #graph , #directed-graph, #airport, #歐拉
+ * tags: #depth-first-search, #graph , #directed-graph, #歐拉, #hierholzer
  */
 
 // @lc code=start
@@ -53,14 +53,7 @@ var findItinerary = function(tickets) {
 // @lc code=end
 
 
-// const path = findItinerary([["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]);
-// console.log('path =>', path);
-// const path = findItinerary([["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "ATL"], ["ATL", "JFK"], ["ATL", "SFO"]]);
-// console.log('path =>', path);
-
 /**
- * Hierholzer's Algorithm
- * 
  * - Time complexity: O(|E|log|E/V|) where |E| is the number of edges(flights) in the input.
  * - Space complexity: O(|V|+|E|) where |V| is the number of airports and |E| is the number of flights.
  */

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #graph, #topological-sort, #breadth-first-search
+ * tags: #graph, #topological-sort
  * #google-interview
  */
 

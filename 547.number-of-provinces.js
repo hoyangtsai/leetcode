@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon
  * tags: #union-find, #graph, #disjoint-set
  * {@link countComponents|./323.number-of-connected-components-in-an-undirected-graph.js}
  */

@@ -4,8 +4,9 @@
  * [189] Rotate Array
  */
 
-// #array
-// @amazon, @bloomberg, @microsoft
+/**
+ * tags: #math, #cyclic-replacement
+ */
 
 // @lc code=start
 /**
@@ -34,3 +35,8 @@ var rotate = function(nums, k) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

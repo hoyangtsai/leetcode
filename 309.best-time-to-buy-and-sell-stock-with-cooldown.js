@@ -18,8 +18,8 @@
  */
 
 /**
- * tags: #dynamic-programming
- * {@link maxProfit|./714.best-time-to-buy-and-sell-stock-with-transaction-fee.js}
+ * tags: #dynamic-programming, #stock
+ * {@link 714.best-time-to-buy-and-sell-stock-with-transaction-fee.js}
  */
 
 // @lc code=start

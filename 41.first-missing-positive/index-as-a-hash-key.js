@@ -4,8 +4,9 @@
  * [41] First Missing Positive
  */
 
-// @amazon, @microsoft, @facebook, @adobe, @apple
-// #array, #hash-table
+/**
+ * tags: #hash-table
+ */
 
 // @lc code=start
 /**

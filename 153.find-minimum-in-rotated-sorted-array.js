@@ -4,9 +4,10 @@
  * [153] Find Minimum in Rotated Sorted Array
  */
 
-// @microsoft, @amazon, @facebook
-// #array, #binary-search
-// &33
+/**
+ * tags: #binary-search
+ * {@link 33.search-in-rotated-sorted-array.js}
+ */
 
 // @lc code=start
 /**
@@ -31,7 +32,7 @@ var findMin = function(nums) {
   // if mid element > first element of array, look for the inflection point on the right of mid
   // if mid element < first element of array, look for the inflection point on the left of mid
   while (l <= r) {
-    let mid = ~~((l + r) / 2);
+    let mid = parseInt((l + r) / 2);
 
     // if the mid element is greater than its next element then mid+1 element is the smallest
     // This point would be the point of change. From higher to lower value.
@@ -60,8 +61,6 @@ var findMin = function(nums) {
 
 
 /**
- * Binary search
- * 
- * - Time complexity: O(log N).
+ * - Time complexity: O(logN).
  * - Space complexity: O(1).
  */

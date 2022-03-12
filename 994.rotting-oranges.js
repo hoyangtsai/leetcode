@@ -5,7 +5,6 @@
  */
 
 /**
- * 
  * tags: #breadth-first-search, #matrix
  */
 
@@ -66,3 +65,8 @@ var orangesRotting = function(grid) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N), where N is the size of the grid.
+ * - Space complexity: O(N), where N is the size of the grid.
+ */

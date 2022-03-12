@@ -5,8 +5,8 @@
  */
 
  /**
-  * com: #facebook, #microsoft, #amazon, #adobe
-  * tags: #two-pointers
+  * #facebook, #microsoft, #amazon, #adobe
+  * tags: #two-pointers, #zero
   */
 
 // @lc code=start

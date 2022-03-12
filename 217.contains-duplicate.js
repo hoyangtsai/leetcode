@@ -4,8 +4,9 @@
  * [217] Contains Duplicate
  */
 
- // @amazon, @google, @adobe
- // #array, #hash-table
+ /**
+  * tags: #hash-table
+  */
 
 // @lc code=start
 /**
@@ -13,6 +14,15 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-  return nums.length != new Set(nums).size;
+  // return nums.length != new Set(nums).size;
+
+  while (nums.length > 0) {
+    const n = nums.shift();
+    if (nums.indexOf(n) > -1) {
+      return true;
+    }
+  }
+  return false;
 };
 // @lc code=end
+

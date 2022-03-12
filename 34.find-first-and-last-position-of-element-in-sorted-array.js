@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search
+ * tags: #binary-search, #duplicate
  * #google-interview
  * {@link 287.find-the-duplicate-number/binary-search.js}
  */

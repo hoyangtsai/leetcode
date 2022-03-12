@@ -4,6 +4,10 @@
  * [485] Max Consecutive Ones
  */
 
+/**
+ * tags: #greedy
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

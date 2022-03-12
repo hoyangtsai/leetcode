@@ -5,8 +5,8 @@
  */
 
 /**
- * com: #amazon, #facebook, #apple, #microsoft
- * tags: #dynamic-programming, #google-interview
+ * tags: #dynamic-programming, #greedy, #stock
+ * #google-interview
  */
 
 // @lc code=start

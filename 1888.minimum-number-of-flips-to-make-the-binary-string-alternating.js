@@ -4,25 +4,34 @@
  * [1888] Minimum Number of Flips to Make the Binary String Alternating
  */
 
+/**
+ * tags: #sliding-window, #greedy
+ */
+
 // @lc code=start
 /**
  * @param {string} s
  * @return {number}
  */
 var minFlips = function(s) {
-  function getFlipCount(str, expected) {
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
-      if (str[i] != expected) count++;
-      expected = expected == '0' ? '1' : '0';
+  const n = s.length;
+  let ans1 = 0, ans2 = 0, ans = Number.MAX_VALUE;
+  for (let i = 0; i < 2 * n; i++) {
+    if (i % 2 != s[i % n]) ++ans1;
+    if ((i + 1) % 2 != s[i % n]) ++ans2;
+    if (i >= n) {
+      if ((i - n) % 2 != s[i - n]) --ans1;
+      if ((i - n + 1) % 2 != s[i - n]) --ans2;
     }
-    return count;
+    if (i >= n - 1)
+      ans = Math.min(ans1, ans2, ans);
   }
-
-  return Math.min(getFlipCount(s, '0'), getFlipCount(s, '1'));
+  return ans;
 };
 // @lc code=end
 
 
-const ans = minFlips("01001001101") // 2
-console.log('ans :>> ', ans);
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

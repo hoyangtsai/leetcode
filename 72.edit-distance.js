@@ -5,11 +5,10 @@
  */
 
 /**
- * 
  * tags: #dynamic-programming, #two-string-grid, #top-100-liked-questions
- * {@link minimumDeleteSum|./712.minimum-ascii-delete-sum-for-two-strings.js}
- * {@link longestCommonSubsequence|./1143.longest-common-subsequence.js}
- * {@link minDistance|./583.delete-operation-for-two-strings.js}
+ * {@link 712.minimum-ascii-delete-sum-for-two-strings.js}
+ * {@link 1143.longest-common-subsequence.js}
+ * {@link 583.delete-operation-for-two-strings.js}
  */
 
 // @lc code=start

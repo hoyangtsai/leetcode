@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #greedy, #dynamic-programming, #state-machine
- * {@link maxProfit|./309.best-time-to-buy-and-sell-stock-with-cooldown.js}
+ * tags: #greedy, #dynamic-programming, #state-machine, #stock
+ * {@link 309.best-time-to-buy-and-sell-stock-with-cooldown.js}
  */
 
 // @lc code=start
