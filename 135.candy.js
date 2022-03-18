@@ -5,8 +5,9 @@
  */
 
 /**
- * com: #amazon
- * tags: #greedy, #google-interview, #array-bidirectional
+ * #amazon
+ * tags: #greedy, #bidirectional
+ * #google-interview
  */
 
 // @lc code=start
@@ -51,8 +52,6 @@ var candy = function(ratings) {
 
 
 /**
- * Using two arrays
- * 
  * - Time complexity: O(n).
  * - Space complexity: O(n). Two arrays forward and backward of size n are used.
  */

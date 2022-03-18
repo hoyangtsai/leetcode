@@ -4,6 +4,11 @@
  * [32] Longest Valid Parentheses
  */
 
+/**
+ * tags: #stack, #stack-parentheses
+ * {@link 20.valid-parentheses.js}
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -30,3 +35,8 @@ var longestValidParentheses = function(s) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n). n is the length of the given string.
+ * - Space complexity: O(n). The size of stack can go up to n.
+ */

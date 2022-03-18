@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #hash-table, #palindrome, #anagram, #permutation
- * {@link longestPalindrome|./409.longest-palindrome.js}
+ * tags: #hash-table, #palindrome, #anagram, #permutation, #alphabet-table
+ * {@link 409.longest-palindrome.js}
  */
 
 // @lc code=start

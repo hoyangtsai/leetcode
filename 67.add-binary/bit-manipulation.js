@@ -6,7 +6,7 @@
 
 /**
  * tags: #bit-manipulation
- * {@link getSum|./371.sum-of-two-integers/};
+ * {@link 371.sum-of-two-integers/};
  */
 
 // @lc code=start

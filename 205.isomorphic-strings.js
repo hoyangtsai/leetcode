@@ -6,6 +6,7 @@
 
 /**
  * tags: #hash-table, #rhyme-pattern, #my-google-interview
+ * {@link 290.word-pattern.js}
  */
 
 // @lc code=start
@@ -15,24 +16,28 @@
  * @return {boolean}
  */
 var isIsomorphic = function(s, t) {
+  if (s.length !== t.length) return false;
+
   let mapDict = {};
   for (let i = 0; i < s.length; i++) {
-    if (mapDict['s' + s[i]] == null) {
-      mapDict['s' + s[i]] = t[i];
-    }
-    if (mapDict['t' + t[i]] == null) {
-      mapDict['t' + t[i]] = s[i];
-    }
-    if (mapDict['t' + t[i]] != s[i] || mapDict['s' + s[i]] != t[i]) {
-      return false;
-    }
-
-    // if (mapDict[s[i]] == null) {
-    //   mapDict[s[i]] = t[i];
-    // } 
-    // if (mapDict[s[i]] != t[i]) {
+    // if (mapDict['s' + s[i]] == null) {
+    //   mapDict['s' + s[i]] = t[i];
+    // }
+    // if (mapDict['t' + t[i]] == null) {
+    //   mapDict['t' + t[i]] = s[i];
+    // }
+    // if (mapDict['t' + t[i]] != s[i] || mapDict['s' + s[i]] != t[i]) {
     //   return false;
     // }
+
+    if (mapDict['s' + s[i]] == null) {
+      mapDict['s' + s[i]] = i;
+    }
+    if (mapDict['t' + t[i]] == null) {
+      mapDict['t' + t[i]] = i;
+    }
+
+    if (mapDict['s' + s[i]] != mapDict['t' + t[i]]) return false;
   }
   return true;
 };

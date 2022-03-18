@@ -4,8 +4,9 @@
  * [8] String to Integer (atoi)
  */
 
-// @facebook, @microsoft, @amazon
-// tags: #math, #string
+/**
+ * tags: #math, #string-math
+ */
 
 // @lc code=start
 /**

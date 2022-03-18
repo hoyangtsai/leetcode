@@ -30,5 +30,8 @@ var hasCycle = function (head) {
 };
 // @lc code=end
 
-// Time complexity: O(n), The number of nodes.
-// Space complexity: O(n), A hash table needed.
+
+/**
+ * - Time complexity: O(n). The number of nodes.
+ * - Space complexity: O(n). A hash table needed.
+ */

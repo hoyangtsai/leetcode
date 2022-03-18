@@ -4,8 +4,6 @@
  * [68] Text Justification
  */
 
-// @google, @uber, @linkedin
-
 // @lc code=start
 /**
  * @param {string[]} words

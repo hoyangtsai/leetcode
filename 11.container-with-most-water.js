@@ -5,10 +5,10 @@
  */
 
 /**
- * com: #amazon, #microsoft, #facebook, #google, #apple
+ * #amazon, #microsoft, #facebook, #google, #apple
  * tags: #two-pointers, #greedy, #histogram
  * #google-interview
- * {@link trap|./42.trapping-rain-water/two-pointers.js}
+ * {@link 42.trapping-rain-water/two-pointers.js}
  */
 
 // @lc code=start
@@ -25,9 +25,9 @@ var maxArea = function(height) {
       Math.min(height[l], height[r]) * (r - l) // get the lowest threshold times ranges between two pointers
     );
     if (height[l] < height[r]) { // remain the largest threshold
-      l ++;
+      l++;
     } else {
-      r --;
+      r--;
     }
   }
   return max;

@@ -4,6 +4,10 @@
  * [67] Add Binary
  */
 
+/**
+ * {@link 415.add-strings.js}
+ */
+
 // @lc code=start
 /**
  * @param {string} a
@@ -33,6 +37,7 @@ var addBinary = function(a, b) {
   return ans.split('').reverse().join('');
 };
 // @lc code=end
+
 
 /**
  * - Time complexity: O(max(N, M)), where N and M are lengths of the input strings a and b.

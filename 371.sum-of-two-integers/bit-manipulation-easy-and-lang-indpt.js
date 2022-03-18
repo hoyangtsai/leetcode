@@ -4,8 +4,10 @@
  * [371] Sum of Two Integers
  */
 
-// #bit-manipulation
-// @rakuten, @facebook
+/**
+ * tags: #bit-manipulation, #calculation
+ * {@link 67.add-binary.js}
+ */
 
 // @lc code=start
 /**

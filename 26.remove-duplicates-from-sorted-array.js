@@ -4,8 +4,9 @@
  * [26] Remove Duplicates from Sorted Array
  */
 
-// #two-pointer
-// @facebook, @microsoft, @apple, @google
+/**
+ * tags: #two-pointers
+ */
 
 // @lc code=start
 /**
@@ -13,15 +14,19 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-  if (nums.length === 0) return 0;
-  let i = 0;
-  for (let j = 1; j < nums.length; j++) {
-    if (nums[i] != nums[j]) {
-      i ++;
-      nums[i] = nums[j];
+  let insertIndex = 1;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] != nums[i - 1]) {
+      nums[insertIndex] = nums[i];
+      insertIndex++;
     }
   }
-  return i + 1;
+  return insertIndex;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

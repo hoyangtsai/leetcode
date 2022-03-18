@@ -4,6 +4,10 @@
  * [127] Word Ladder
  */
 
+/**
+ * tags: #breadth-first-search, #bidirectional
+ */
+
 // @lc code=start
 /**
  * @param {string} beginWord
@@ -55,10 +59,9 @@ var ladderLength = function(beginWord, endWord, wordList) {
 // @lc code=end
 
 
-/**
- * Bidirectional Breadth First Search
- * 
+/** 
  * - Time complexity: O(M^2 * N).
  *   M is the length of each word and N is the total number of words in the input word list.
+ * 
  * - Space complexity: O(M^2 * N).
  */

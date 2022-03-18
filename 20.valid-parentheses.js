@@ -6,7 +6,7 @@
 
 /**
  * #amazon, #linkedin, #microsoft, #facebook, #google, #apple, #paypay
- * tags: #stack, #string, #parentheses
+ * tags: #stack, #stack-parentheses
  * #google-interview
  */
 
@@ -21,11 +21,14 @@ var isValid = function(s) {
   for (let i = 0 ; i < s.length; i++) {
     let c = s.charAt(i);
     switch(c) {
-      case '(': stack.push(')');
+      case '(':
+        stack.push(')');
         break;
-      case '[': stack.push(']');
+      case '[':
+        stack.push(']');
         break;
-      case '{': stack.push('}');
+      case '{':
+        stack.push('}');
         break;
       default:
         if (c !== stack.pop()) {

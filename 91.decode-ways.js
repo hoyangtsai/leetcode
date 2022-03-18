@@ -6,7 +6,7 @@
 
 /**
  * tags: #dynamic-programming, #string-group-possibility
- * {@link partition|./131.palindrome-partitioning.js}
+ * {@link 131.palindrome-partitioning.js}
  */
 
 // @lc code=start

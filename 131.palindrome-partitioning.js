@@ -50,5 +50,6 @@ var partition = function(s) {
  * - Time complexity: O(N * 2^N).
  *   Example, if s = "aaa", N = 3, Total nodes = 2^N = 2^3 = 8
  *   Hence, there could be 2^N possible substring in the worst case. For each substring, it takes O(N) time to generate substring and determine if a palindrome or not. This gives us time complexity as O(N * 2^N).
+ * 
  * - Space complexity: O(N).
  */

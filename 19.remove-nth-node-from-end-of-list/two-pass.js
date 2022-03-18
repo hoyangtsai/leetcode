@@ -4,9 +4,10 @@
  * [19] Remove Nth Node From End of List
  */
 
-// @facebook, @amazon, @microsoft
-// #linked-list, #two-pointers
-// #google-interview
+/**
+ * tags: #linked-list, #two-pointers
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -43,12 +44,11 @@ var removeNthFromEnd = function(head, n) {
 };
 // @lc code=end
 
+
 /**
- * Two pass algorithm
- * 
- * - Time complexity: 𝑂(𝐿).
- *   The algorithm make two traverse of the list, first to calculate the list length 𝐿 and second to find (𝐿 - 𝑛)th node.
- *   There are 2𝐿 - 𝑛 operations and time complexity is 𝑂(𝐿).
+ * - Time complexity: O(L).
+ *   The algorithm make two traverse of the list, first to calculate the list length L and second to find (L - n)th node.
+ *   There are 2L - n operations and time complexity is O(L).
  * - Space complexity: O(1).
  *   We only use constant extra space.
  */

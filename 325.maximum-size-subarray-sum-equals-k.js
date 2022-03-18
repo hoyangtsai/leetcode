@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #prefix-sum, #hash-map
+ * tags: #prefix-sum, #hash-table
  */
 
 // @lc code=start

@@ -4,9 +4,10 @@
  * [19] Remove Nth Node From End of List
  */
 
-// @facebook, @amazon, @microsoft
-// #linked-list, #two-pointers
-// #google-interview
+/**
+ * tags: #linked-list
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -39,9 +40,8 @@ var removeNthFromEnd = function(head, n) {
 };
 // @lc code=end
 
+
 /**
- * One pass algorithm
- * 
  * - Time complexity: O(L).
  *   The algorithm make one traverse of the list of L nodes. Therefore time complexity is O(L).
  * - Space complexity: O(1).

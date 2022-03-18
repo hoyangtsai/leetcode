@@ -6,7 +6,7 @@
 
 /**
  * tags: #floyd-tortoise-and-hare
- * {@link ./141.linked-list-cycle/floyd-tortoise-and-hare.js}
+ * {@link 141.linked-list-cycle/floyd-tortoise-and-hare.js}
  */
 
 // @lc code=start

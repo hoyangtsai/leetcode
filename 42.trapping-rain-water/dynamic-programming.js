@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming, #histogram
+ * tags: #dynamic-programming, #histogram, #bidirectional
  * #google-interview
  * {@link maxArea|./11.container-with-most-water.js}
  */

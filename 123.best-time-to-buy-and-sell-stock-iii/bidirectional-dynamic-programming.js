@@ -4,6 +4,10 @@
  * [123] Best Time to Buy and Sell Stock III
  */
 
+/**
+ * tags: #dynamic-programming, #bidirectional
+ */
+
 // @lc code=start
 /**
  * @param {number[]} prices
@@ -36,9 +40,8 @@ var maxProfit = function(prices) {
 };
 // @lc code=end
 
+
 /**
- * Bidirectional Dynamic Programming
- * 
  * - Time complexity: O(N).
  * - Space complexity: O(N) for the two arrays that we keep in the algorithm.
  */

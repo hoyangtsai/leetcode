@@ -4,11 +4,6 @@
  * [42] Trapping Rain Water
  */
 
-// @goldmanSachs, @amazon, @facebook, @google, @microsoft, @adobe, @bloomberg
-// #two-pointers, #histogram
-// #google-interview
-// &11
-
 // @lc code=start
 /**
  * @param {number[]} height
@@ -33,8 +28,3 @@ var trap = function(height) {
 };
 // @lc code=end
 
-/**
- * Two pointer
- * Time complexity: O(n).
- * Sapce complexity: O(1).
- */

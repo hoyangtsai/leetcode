@@ -5,8 +5,9 @@
  */
 
 /**
- * com: #facebook, #rakuten
+ * #facebook, #rakuten
  * tags: #bit-manipulation
+ * {@link 67.add-binary.js}
  */
 
 /**
@@ -33,6 +34,7 @@ var getSum = function(a, b) {
   return a;
 };
 // @lc code=end
+
 
 /**
  * Bit Manipulation: Short Language-Specific Solution

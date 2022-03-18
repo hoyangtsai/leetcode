@@ -6,7 +6,7 @@
 
 /**
  * tags: #backtracking, #string-comb
- * {@link permute|./46.permutations.js}
+ * {@link 46.permutations.js}
  */
 
 // https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/

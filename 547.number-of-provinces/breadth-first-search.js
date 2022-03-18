@@ -38,8 +38,6 @@ var findCircleNum = function (isConnected) {
 
 
 /**
- * Breadth-First Search
- *
  * - Time complexity: O(n^2). The complete matrix of size n^2 is traversed.
  * - Space complexity: O(n).
  */
