@@ -4,8 +4,10 @@
  * [246] Strobogrammatic Number
  */
 
-// @google
-// #hash-table, #two-pointers
+/**
+ * tags: #hash-table, #two-pointers
+ * {@link 1056.confusing-number.js}
+ */
 
 // @lc code=start
 /**
@@ -21,21 +23,23 @@ var isStrobogrammatic = function(num) {
     '9': '6',
   };
 
-  for (let left = 0, right = num.length - 1; left <= right; left++, right--) {
+  let left = 0, right = num.length - 1;
+  while (left <= right) {
     let leftChar = num[left];
     let rightChar = num[right];
     if (rotateDigits[rightChar] == null || leftChar !== rotateDigits[rightChar]) {
       return false;
     }
+    left++;
+    right--;
   }
 
   return true;
 };
 // @lc code=end
 
+
 /**
- * Two Pointers
- * 
  * - Time complexity: O(N).
  * - Space complexity: O(1).
  */

@@ -4,6 +4,10 @@
  * [136] Single Number
  */
 
+/**
+ * tags: #bit-manipulation
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

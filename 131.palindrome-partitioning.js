@@ -5,8 +5,7 @@
  */
 
 /**
- * tags: #backtracking, #palindrome, #string-group-possibility
- * {@link numDecodings|./91.decode-ways.js}
+ * tags: #backtracking, #palindrome, #string-group, #anagram
  */
 
 // @lc code=start

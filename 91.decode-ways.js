@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #dynamic-programming, #string-group-possibility
- * {@link 131.palindrome-partitioning.js}
+ * tags: #dynamic-programming, #string-group
+ * {@link 17.letter-combinations-of-a-phone-number.js}
  */
 
 // @lc code=start

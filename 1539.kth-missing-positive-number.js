@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search
+ * tags: #binary-search, #missing-number
  */
 
 // @lc code=start
@@ -19,7 +19,7 @@ var findKthPositive = function(arr, k) {
   while (left <= right) {
     // index + 1 = number 
     let mid = parseInt(left + (right - left) / 2);
-    if (arr[mid] - mid <= k) {
+    if (arr[mid] - mid - 1 < k) {
       left = mid + 1;
     } else {
       right = mid - 1;

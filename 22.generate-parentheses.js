@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #backtracking, #string-comb
+ * tags: #backtracking, #string-group
  * {@link 46.permutations.js}
  */
 
@@ -46,8 +46,8 @@ var generateParenthesis = function(n) {
 
 
 /**
- * Backtracking
+ * - Time complexity: O(4^n / √4). 
+ *   Each valid sequence has at most n steps during the backtracking procedure.
  * 
- * - Time complexity: O(4^n/√4). Each valid sequence has at most n steps during the backtracking procedure.
- * - Space complexity: O(4^n/√4).
+ * - Space complexity: O(4^n / √4).
  */

@@ -4,6 +4,12 @@
  * [1143] Longest Common Subsequence
  */
 
+/**
+ * tags: #dynamic-programming, #string-subsequence, #two-string-calculation
+ * {@link 712.minimum-ascii-delete-sum-for-two-strings.js}
+ * {@link 1035.uncrossed-lines.js}
+ */
+
 // @lc code=start
 /**
  * @param {string} text1
@@ -30,3 +36,12 @@ var longestCommonSubsequence = function(text1, text2) {
   return dpGrid[0][0];
 };
 // @lc code=end
+
+
+/**
+ * Time complexity: O(M * N).
+ * Space complexity: O(M * N). 
+ */
+
+const res = longestCommonSubsequence("actgattag", "gtgtgatcg");
+console.log('res =>', res);

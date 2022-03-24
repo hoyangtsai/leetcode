@@ -4,9 +4,10 @@
  * [833] Find And Replace in String
  */
 
-// @google
-// #string-comb
-// #google-interview
+/**
+ * tags: #string-replace
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -53,6 +54,3 @@ var findReplaceString = function(s, indices, sources, targets) {
 
 const r2 = findReplaceString("abcd", [0, 2], ["ab", "ec"], ["eee", "ffff"]);
 console.log('r2 =>', r2);
-
-// "abc"\n[0, 1]\n["ab", "bc"]\n["eee", "ffff"]
-// "vmokgggqzp"\n[3, 5, 1]\n["kg", "ggq", "mo"]\n["s", "so", "bfr"]

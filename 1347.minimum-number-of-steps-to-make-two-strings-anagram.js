@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table, #alphabet-table, #two-string
+ * tags: #hash-table, #alphabet-table, #two-string-calculation
  */
 
 // @lc code=start
@@ -30,3 +30,8 @@ var minSteps = function(s, t) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

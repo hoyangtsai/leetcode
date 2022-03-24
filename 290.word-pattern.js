@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table
+ * tags: #hash-table, #two-string-calculation
  * {@link 205.isomorphic-strings.js}
  */
 

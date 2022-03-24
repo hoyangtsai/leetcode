@@ -5,8 +5,7 @@
  */
 
 /**
- * com: #microsoft
- * tags: #two-pointers, #dutch-national-flag
+ * tags: #two-pointers, #dutch-national-flag, #three-number-sort
  */
 
 // @lc code=start

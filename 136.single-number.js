@@ -4,9 +4,6 @@
  * [136] Single Number
  */
 
- // #hash-table, #bit-manipulation, #bitwise
- // @airbnb, @palantir
-
 // @lc code=start
 /**
  * @param {number[]} nums

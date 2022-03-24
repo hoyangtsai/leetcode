@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #two-pointers
+ * #line, #shopback
+ * tags: #two-pointers, #number-pair
  */
 
 // @lc code=start
@@ -18,28 +19,25 @@ var findPairs = function(nums, k) {
   nums = nums.sort((a, b) => a - b);
 
   let left = 0, right = 1;
-  let result = 0;
+  let count = 0;
   while (left < nums.length && right < nums.length) {
     if (left == right || nums[right] - nums[left] < k) {
-      // List item 1 in the text
       right++;
     } else if (nums[right] - nums[left] > k) {
-      // List item 2 in the text
       left++;
     } else {
-      // List item 3 in the text
       left++;
-      result++;
+      count++;
       while (left < nums.length && nums[left] == nums[left - 1])
         left++;
     }
   }
-  return result;
+  return count;
 };
 // @lc code=end
 
 
 /**
  * - Time complexity: O(N log N).
- * - Space complexity: O(N)
+ * - Space complexity: O(N).
  */

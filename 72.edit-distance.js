@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming, #two-string-grid, #top-100-liked-questions
+ * tags: #dynamic-programming, #two-string-calculation, #top-100-liked-questions
  * {@link 712.minimum-ascii-delete-sum-for-two-strings.js}
  * {@link 1143.longest-common-subsequence.js}
  * {@link 583.delete-operation-for-two-strings.js}
@@ -60,6 +60,6 @@ var minDistance = function(word1, word2) {
 
 
 /**
- * - Time complexity: O(mn).
- * - Space complexity: O(mm).
+ * - Time complexity: O(m * n).
+ * - Space complexity: O(m * n).
  */

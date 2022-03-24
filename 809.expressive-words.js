@@ -4,9 +4,10 @@
  * [809] Expressive Words
  */
 
-// @cisco, @google
-// #array, #two-pointers
-// #google-interview
+/**
+ * tags: #two-pointers
+ * #google-interview
+ */
 
 // @lc code=start
 /**

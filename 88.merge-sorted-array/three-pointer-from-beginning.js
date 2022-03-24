@@ -4,10 +4,6 @@
  * [88] Merge Sorted Array
  */
 
-/**
- * tags: #merge-array, #two-pointers
- */
-
 // @lc code=start
 /**
  * @param {number[]} nums1
@@ -37,6 +33,7 @@ var merge = function(nums1, m, nums2, n) {
   }
 };
 // @lc code=end
+
 
 /**
  * - Time complexity: O(n + m).

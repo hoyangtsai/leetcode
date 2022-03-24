@@ -4,6 +4,10 @@
  * [136] Single Number
  */
 
+/**
+ * tags: #hash-table
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

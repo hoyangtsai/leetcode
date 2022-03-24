@@ -4,8 +4,9 @@
  * [139] Word Break
  */
 
-// @facebook, @amazon, @microsoft, @uber, @google
-// #breadth-first-search, #string-comb
+/**
+ * tags: #breadth-first-search, #string-group
+ */
 
 // @lc code=start
 /**
@@ -40,8 +41,8 @@ var wordBreak = function (s, wordDict) {
 
 
 /**
- * Breadth First Search
+ * - Time complexity: O(n^3). 
+ *   For every starting index, the search can continue till the end of the given string.
  * 
- * - Time complexity: O(n^3). For every starting index, the search can continue till the end of the given string.
  * - Space complexity: O(n).
  */

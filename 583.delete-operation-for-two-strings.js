@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #dynamic-programming, #two-string-grid
- * {@link minDistance|./72.edit-distance.js}
+ * tags: #dynamic-programming, #two-string-calculation
+ * {@link 72.edit-distance.js}
  */
 
 // @lc code=start

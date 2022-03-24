@@ -5,9 +5,9 @@
  */
 
 /**
- * tags: #palindrome, #backtracking
- * {@link canPermutePalindrome|./266.palindrome-permutation.js}
- * {@link permute|./46.permutations.js}
+ * tags: #palindrome, #backtracking, #permutation, #string-group
+ * {@link 266.palindrome-permutation.js}
+ * {@link 46.permutations.js}
  */
 
 // @lc code=start

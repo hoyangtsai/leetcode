@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #heap(priority-queue)
+ * tags: #heap, #priority-queue
  * #google-interview
  */
 

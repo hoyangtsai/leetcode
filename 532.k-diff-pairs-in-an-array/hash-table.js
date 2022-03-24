@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #hash-table
+ * #line, #shopback
+ * tags: #hash-table, #number-pair
  */
 
 // @lc code=start

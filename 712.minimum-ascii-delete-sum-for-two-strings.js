@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #dynamic-programming, #two-string-grid
- * {@link longestCommonSubsequence|1143.longest-common-subsequence.js}
+ * tags: #dynamic-programming, #two-string-calculation
+ * {@link 1143.longest-common-subsequence.js}
  */
 
 // @lc code=start

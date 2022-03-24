@@ -5,9 +5,8 @@
  */
 
 /**
- * com: #google, #amazon
- * tags: #breadth-first-search, #string-comb
- * {@link orangesRotting|./994.rotting-oranges.js}
+ * tags: #breadth-first-search
+ * {@link 994.rotting-oranges.js}
  */
 
 // @lc code=start
@@ -48,6 +47,7 @@ var openLock = function(deadends, target) {
   return -1;
 };
 // @lc code=end
+
 
 const step = openLock(["0201", "0101", "0102", "1212", "2002"], "0202");
 console.log('step =>', step);

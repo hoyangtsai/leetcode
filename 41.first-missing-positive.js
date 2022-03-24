@@ -4,9 +4,6 @@
  * [41] First Missing Positive
  */
 
-// @amazon, @microsoft, @facebook, @adobe, @apple
-// #array, #hash-table
-
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -61,5 +58,3 @@ var firstMissingPositive = function(nums) {
 };
 // @lc code=end
 
-
-firstMissingPositive([3,4,-1,-2,1,5,16,0,2,0])

@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #backtracking, #string-comb
+ * tags: #backtracking, #string-group
+ * {@link 91.decode-ways.js}
  */
 
 // @lc code=start
@@ -47,8 +48,6 @@ var letterCombinations = function(digits) {
 
 
 /**
- * Backtracking
- * 
  * - Time complexity: O(4^N * N), where N is the length of digits. Note that 4 in this expression is referring to the maximum value length in the hash map.
  * - Space complexity: O(N).
  */

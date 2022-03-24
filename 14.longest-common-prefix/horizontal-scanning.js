@@ -4,8 +4,9 @@
  * [14] Longest Common Prefix
  */
 
-// @amazon, @facebook, @adobe, @apple, @microsoft
-// #string-comb
+/**
+ * tags: #string-group
+ */
 
 // @lc code=start
 /**
@@ -30,12 +31,10 @@ var longestCommonPrefix = function (strs) {
 };
 // @lc code=end
 
-/**
- * Horizontal scanning
- * 
- * Time complexity: O(S).
- * Space complexity; O(1). We use one constant extra space.
- */
 
+/**
+ * - Time complexity: O(S).
+ * - Space complexity; O(1). We use one constant extra space.
+ */
 
 longestCommonPrefix(['leets', 'leetcode', 'leet', 'leeds']);

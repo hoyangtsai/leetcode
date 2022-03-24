@@ -4,9 +4,10 @@
  * [410] Split Array Largest Sum
  */
 
-// @google, @amazon
-// #dynamic-programming
-// #google-interview
+/**
+ * tags: #dynamic-programming
+ * #google-interview
+ */
 
 // @lc code=start
 /**

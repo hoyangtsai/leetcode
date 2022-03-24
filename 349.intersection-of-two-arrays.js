@@ -5,7 +5,7 @@
  */
 
 /**
- * #merge-array
+ * tags: #array-merge, #intersection
  */
 
 // @lc code=start

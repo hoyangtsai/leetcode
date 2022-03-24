@@ -6,6 +6,7 @@
 
 /**
  * tags: #bit-manipulation
+ * {@link 136.single-number/bit-manipulation.js}
  */
 
 // @lc code=start
@@ -24,7 +25,6 @@ var missingNumber = function(nums) {
 
 
 /**
- * 
  * - Time complexity: O(n).
  * - Space complexity: O(1).
  */

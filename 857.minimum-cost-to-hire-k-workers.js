@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #greedy, #heap(priority-queue)
+ * tags: #greedy, #heap, #priority-queue
  * #google-interview
  */
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #merge-array, #two-pointers
+ * tags: #array-merge, #two-pointers
  */
 
 // @lc code=start
@@ -32,8 +32,8 @@ var merge = function(nums1, m, nums2, n) {
 };
 // @lc code=end
 
+
 /**
  * - Time complexity: O(n + m).
  * - Space complexity: O(1).
  */
-

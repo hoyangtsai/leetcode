@@ -4,8 +4,9 @@
  * [268] Missing Number
  */
 
-// @microsoft, @amazon, @facebook
-// #array, #hash-table, #bit-manipulation, #math
+/**
+ * tags: #math, #missing-number, #sequence-sum
+ */
 
 // @lc code=start
 /**
@@ -13,6 +14,7 @@
  * @return {number}
  */
 var missingNumber = function(nums) {
+  // sequence sum
   let expectedSum = nums.length * (nums.length + 1) / 2;
   let actualSum = 0;
   for (const n of nums) {
@@ -24,8 +26,6 @@ var missingNumber = function(nums) {
 
 
 /**
- * Gauss Formula
- * 
  * - Time complexity: O(n).
  * - Space complexity: O(1).
  */
