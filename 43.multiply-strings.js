@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #math
+ * tags: #math, #modular-arithmetic
  * #google-interview
  */
 
@@ -30,7 +30,7 @@ var multiply = function(num1, num2) {
       // last int
       res[p2] = sum % 10; 
       // carry
-      res[p1] += Math.floor(sum / 10);
+      res[p1] += parseInt(sum / 10);
     }
   }
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #bit-manipulation
+ * tags: #bit-manipulation, #bitwise-operation
  * {@link 136.single-number/bit-manipulation.js}
  */
 

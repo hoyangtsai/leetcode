@@ -6,7 +6,7 @@
 
 /**
  * #facebook, #rakuten
- * tags: #bit-manipulation
+ * tags: #bit-manipulation, #bitwise-operation
  * {@link 67.add-binary.js}
  */
 

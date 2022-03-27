@@ -4,8 +4,9 @@
  * [4] Median of Two Sorted Arrays
  */
 
-// #array, #binary-search, #divide-and-conquer, #bit-manipulation, #shift-assignment
-// @adobe, @apple, @dropbox, @google, @microsoft, @yahoo, @zenefits
+/**
+ * tags: #binary-search, #divide-and-conquer, #shift-assignment
+ */
 
 // @lc code=start
 /**

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #math, #calculation
+ * tags: #math, #calculation, #modular-arithmetic
  * {@link 415.add-strings.js}
  */
 

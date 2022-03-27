@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #floyd-tortoise-and-hare
+ * tags: #floyd-tortoise-and-hare, #modular-arithmetic
  * {@link 141.linked-list-cycle/floyd-tortoise-and-hare.js}
  */
 

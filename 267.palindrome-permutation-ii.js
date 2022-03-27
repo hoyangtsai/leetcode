@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #palindrome, #backtracking, #permutation, #string-group
+ * tags: #palindrome, #backtracking, #permutation, #string-combination-possibility
  * {@link 266.palindrome-permutation.js}
  * {@link 46.permutations.js}
  */

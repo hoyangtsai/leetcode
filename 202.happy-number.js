@@ -12,7 +12,7 @@
 var isHappy = function(n) {
   function getNext(n) {
     let totalSum = 0;
-    while (n > 0) {
+    while (n != 0) {
       let d = n % 10;
       n = parseInt(n / 10);
       totalSum += d * d;

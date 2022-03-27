@@ -4,6 +4,10 @@
  * [14] Longest Common Prefix
  */
 
+/**
+ * tags: #divide-and-conquer
+ */
+
 // @lc code=start
 /**
  * @param {string[]} strs
@@ -36,9 +40,8 @@ var longestCommonPrefix = function(strs) {
 };
 // @lc code=end
 
+
 /**
- * Divide and Conquer
- * 
  * - Time complexity: O(S), where S is the number of all characters in the array, S = m * n Time complexity is 2 * T (n / 2) + O(m). Therefore time complexity is O(S). In the base case this algorithm perform O(minLen * n) comparisons, where minLen is the shortest string of the array.
  * - Space complexity; 𝑂(m * log n).
  */

@@ -4,10 +4,6 @@
  * [9] Palindrome Number
  */
 
-/**
- * tags: #math, #palindrome, #anagram
- */
-
 // @lc code=start
 /**
  * @param {number} x
@@ -17,15 +13,14 @@ var isPalindrome = function(x) {
     if (x < 0 || (x % 10 === 0 && x !== 0)) {
         return false;
     }
-    let revertedNumber = 0;
-    while (x > revertedNumber) {
-        // carry the last digit and get the last digit from x
-        revertedNumber = (revertedNumber * 10) + (x % 10);
-        // chop off the last digit, carry
-        x = Math.floor(x / 10);
+
+    let strX = String(x);
+    let i = 0, j = strX.length - 1;
+    while (i <= j) {
+      if (strX[i++] != strX[j--]) return false;
     }
 
-    return x == revertedNumber || x == Number.parseInt(revertedNumber / 10);
+    return true;
 };
 // @lc code=end
 

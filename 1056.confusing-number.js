@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table
+ * tags: #hash-table, #modular-arithmetic
  * {@link 246.strobogrammatic-number.js}
  */
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #string-group
+ * tags: #array-string-common
  */
 
 // @lc code=start
@@ -25,7 +25,7 @@ var longestCommonPrefix = function (strs) {
       // all sub-string not match
       if (prefix === '') return '';
     }
-    console.log('prefix =>', prefix);
+    // console.log('prefix =>', prefix);
   }
   return prefix;
 };

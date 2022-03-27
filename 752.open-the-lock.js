@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search
+ * tags: #breadth-first-search, #substring-concat
  * {@link 994.rotting-oranges.js}
  */
 

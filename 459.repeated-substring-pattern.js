@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #repeat-string, #mirror, 
+ * tags: #repeat-string, #mirror
  */
 
 // @lc code=start

@@ -4,8 +4,9 @@
  * [954] Array of Doubled Pairs
  */
 
-// #array, #hash-table, #bit-manipulation, #bitwise
-// @google
+/**
+ * tags: #hash-table, #bit-manipulation, #bitwise-operation
+ */
 
 // arr such that arr[2 * i + 1] = 2 * arr[2 * i]
 // means current number equal to double of previous number

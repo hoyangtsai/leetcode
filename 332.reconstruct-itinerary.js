@@ -6,6 +6,7 @@
 
 /**
  * tags: #depth-first-search, #graph , #directed-graph, #歐拉, #hierholzer
+ * {@see hierholzer-algorithm.md}
  */
 
 // @lc code=start
@@ -54,6 +55,6 @@ var findItinerary = function(tickets) {
 
 
 /**
- * - Time complexity: O(|E|log|E/V|) where |E| is the number of edges(flights) in the input.
- * - Space complexity: O(|V|+|E|) where |V| is the number of airports and |E| is the number of flights.
+ * - Time complexity: O(|E| log |E/V|) where |E| is the number of edges(flights) in the input.
+ * - Space complexity: O(|V| + |E|) where |V| is the number of airports and |E| is the number of flights.
  */

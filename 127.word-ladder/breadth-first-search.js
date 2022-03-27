@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search, #graph, #string-group
+ * tags: #breadth-first-search, #graph, #string-combination-possibility, #substring-concat
  * #google-interview
  */
 
@@ -60,5 +60,5 @@ var ladderLength = function(beginWord, endWord, wordList) {
  * - Time complexity: O(M^2 * N).
  *   M is the length of each word and N is the total number of words in the input word list.
  *
- *  - Space complexity: O(M^2 * N).
+ * - Space complexity: O(M^2 * N).
  */

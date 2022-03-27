@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #bit-manipulation
+ * tags: #bit-manipulation, #bitwise-operation
  */
 
 // @lc code=start

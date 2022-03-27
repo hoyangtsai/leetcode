@@ -4,6 +4,10 @@
  * [989] Add to Array-Form of Integer
  */
 
+/**
+ * tags: #modular-arithmetic
+ */
+
 // @lc code=start
 /**
  * @param {number[]} num

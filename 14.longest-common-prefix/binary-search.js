@@ -4,6 +4,10 @@
  * [14] Longest Common Prefix
  */
 
+/**
+ * tags: #binary-search
+ */
+
 // @lc code=start
 /**
  * @param {string[]} strs
@@ -40,11 +44,11 @@ var longestCommonPrefix = function(strs) {
 };
 // @lc code=end
 
+
 /**
- * Binary search
- * 
  * - Time complexity: O(S * log m), where S is the sum of all characters in all strings.
  *   The algorithm makes log m iterations for each of them there are S m comparisons, which gives in total O(S * log m) time complexity.
+ * 
  * - Space complexity; O(1). We only used one constant extra space.
  */
 

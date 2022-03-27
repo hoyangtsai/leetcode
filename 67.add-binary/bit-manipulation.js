@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #bit-manipulation
- * {@link 371.sum-of-two-integers/};
+ * tags: #bit-manipulation, #bitwise-operation
+ * {@link 371.sum-of-two-integers/}
  */
 
 // @lc code=start

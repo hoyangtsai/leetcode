@@ -4,9 +4,10 @@
  * [7] Reverse Integer
  */
 
-// @adobe, @amazon, @google, @apple
-// #math
-// #google-interview
+/**
+ * tags: #math, #modular-arithmetic
+ * #google-interview
+ */
 
 // @lc code=start
 /**
