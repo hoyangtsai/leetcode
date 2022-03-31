@@ -5,6 +5,7 @@
  */
 
 /**
+ * #microsoft
  * tags: #binary-search
  * {@link 33.search-in-rotated-sorted-array.js}
  */
@@ -61,6 +62,6 @@ var findMin = function(nums) {
 
 
 /**
- * - Time complexity: O(logN).
+ * - Time complexity: O(log N).
  * - Space complexity: O(1).
  */

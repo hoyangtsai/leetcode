@@ -3,6 +3,8 @@
  *
  * [1] Two Sum
  */
+
+// @lc code=start
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -21,4 +23,4 @@ var twoSum = function (nums, target) {
   }
   return result;
 };
-
+// @lc code=end

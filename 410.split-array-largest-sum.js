@@ -23,6 +23,8 @@ var splitArray = function(nums, m) {
     sub[i + 1] = sub[i] + nums[i];
   }
 
+  console.log('sub :>> ', sub);
+
   // dp[i][j]表示將從nums[0]到nums[i]這(i+1)個數分為j組的情況下,得到的符合題意的最小組和
   let dp = Array.from(Array(n + 1).fill(Number.MAX_VALUE),
     () => Array(m + 1).fill(Number.MAX_VALUE));
@@ -45,3 +47,5 @@ var splitArray = function(nums, m) {
  * - Time complexity: O(n^2 * m).
  * - Space complexity: (n * m).
  */
+
+splitArray([7, 2, 5, 10, 8], 2)

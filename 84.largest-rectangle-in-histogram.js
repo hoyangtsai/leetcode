@@ -6,7 +6,7 @@
 
 /**
  * tags: #stack, #histogram
- * {@link maximalRectangle|./85.maximal-rectangle.js}
+ * {@link 85.maximal-rectangle.js}
  */
 
 // @lc code=start
@@ -15,14 +15,14 @@
  * @return {number}
  */
 var largestRectangleArea = function(heights) {
-  let stack = [-1];
+  let stack = [-1]; // need 2 variables of height and width
   let maxArea = 0;
   const length = heights.length;
   for (let i = 0; i < length; i++) {
-    while ((stack[stack.length - 1] != -1) && 
-      (heights[stack[stack.length - 1]] >= heights[i])) {
+    while (stack[stack.length - 1] != -1 && 
+      heights[stack[stack.length - 1]] >= heights[i]) {
       let currentHeight = heights[stack.pop()];
-      let currentWidth = i - stack[stack.length - 1] - 1;
+      let currentWidth = i - stack[stack.length - 1] - 1; // current stack length as width
       maxArea = Math.max(maxArea, currentHeight * currentWidth);
     }
     stack.push(i);

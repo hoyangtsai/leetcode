@@ -27,14 +27,14 @@ var trap = function(height) {
       } else {
         ans += (leftMax - height[left]);
       }
-      left ++;
+      left++;
     } else {
       if (height[right] >= rightMax) {
         rightMax = height[right]
       } else {
         ans += (rightMax - height[right]);
       }
-      right --;
+      right--;
     }
   }
   return ans;

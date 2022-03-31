@@ -6,7 +6,8 @@
 
 /**
  * tags: #stack, #monotonic-stack, #hash-table
- * {@link dailyTemperatures|./739.daily-temperatures/monotonic-stack.js}
+ * {@link 739.daily-temperatures/monotonic-stack.js}
+ * {@link 503.next-greater-element-ii.js}
  */
 
 // @lc code=start
@@ -16,16 +17,20 @@
  * @return {number[]}
  */
 var nextGreaterElement = function(nums1, nums2) {
+  // num1 is a subset of num2
+  // all numbers of num1 will be contained in num2
   let stack = [];
   let map = new Map();
 
+  // record what is number 1 the greater number to number 2
   for (let i = 0; i < nums2.length; i++) {
     while (stack.length > 0 && nums2[i] > stack[stack.length - 1]) {
-      map.set(stack.pop(), nums2[i])
+      map.set(stack.pop(), nums2[i]) // map {number 1, number 2}
     }
     stack.push(nums2[i]);
   }
 
+  // the numbers no next greater numbers set -1
   while (stack.length > 0) {
     map.set(stack.pop(), -1);
   }

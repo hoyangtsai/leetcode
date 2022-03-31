@@ -6,6 +6,7 @@
 
 /**
  * tags: #binary-search
+ * {@link 81.search-in-rotated-sorted-array-ii.js}
  * {@link 153.find-minimum-in-rotated-sorted-array.js}
  */
 
@@ -35,7 +36,7 @@ var search = function(nums, target) {
 
 
 /**
- * - Time complexity: O(logN).
+ * - Time complexity: O(log N).
  * - Space complexity: O(1).
  */
 

@@ -5,6 +5,7 @@
  */
 
 /**
+ * tags: #stack, #greedy
  * https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/discuss/780221/Python-Simple-and-Fast-or-Time-O(n)-or-Space-O(1)
  */
 
@@ -15,8 +16,6 @@
  */
 var minInsertions = function(s) {
   s = s.replaceAll('))', '}');
-
-  console.log('s =>', s);
 
   let count = 0;
   let openBracketCount = 0;

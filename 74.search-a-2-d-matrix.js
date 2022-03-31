@@ -1,11 +1,7 @@
 /*
- * @lc app=leetcode id=240 lang=javascript
+ * @lc app=leetcode id=74 lang=javascript
  *
- * [240] Search a 2D Matrix II
- */
-
-/**
- * {@link 74.search-a-2-d-matrix/search-space-reduction.js}
+ * [74] Search a 2D Matrix
  */
 
 // @lc code=start
@@ -15,15 +11,16 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
-  let row = matrix.length - 1;
-  let col = 0;
+  const m = matrix.length;
+  const n = matrix[0].length;
 
-  while (row >= 0 && col < matrix[0].length) {
+  let row = matrix.length - 1, col = 0;
+  while (row >= 0 && col < n) {
     if (matrix[row][col] > target) {
       row--;
     } else if (matrix[row][col] < target) {
       col++;
-    } else { // found it
+    } else {
       return true;
     }
   }
@@ -32,8 +29,3 @@ var searchMatrix = function(matrix, target) {
 };
 // @lc code=end
 
-
-/**
- * - Time complexity: O(n + m).
- * - Space complexity: O(1).
- */
