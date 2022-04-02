@@ -5,9 +5,11 @@
  */
 
 /**
+ * #shopback
  * tags: #dynamic-programming, #unbounded-knapsack, #背包最值問題
  * #google-interview
- * {@link lastStoneWeightII|./1049.last-stone-weight-ii.js}
+ * {@link 518.coin-change-2.js}
+ * {@link 1049.last-stone-weight-ii.js}
  */
 
 // @lc code=start
@@ -33,11 +35,10 @@ var coinChange = function(coins, amount) {
 };
 // @lc code=end
 
+
 /**
  * Dynamic programming - Bottom up
  * 
  * - Time complexity: O(S * n).
  * - Space complexity: O(S). We use extra space for the memorization table.
  */
-
-coinChange([1,2,5], 11);

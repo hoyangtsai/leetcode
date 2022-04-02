@@ -30,13 +30,12 @@ var mySqrt = function(x) {
     }
   }
   // return r = l - 1;
-  return l - 1;
+  return r;
 };
 // @lc code=end
 
+
 /**
- * Binary search
- * 
  * - Time complexity: O(log N).
  * - Space complexity: O(1).
  */

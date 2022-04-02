@@ -5,7 +5,7 @@
  */
 
 /**
- * com: #facebook,
+ * #facebook, #shopback
  * tags: #hash-table, #prefix-sum
  */
 
@@ -29,6 +29,7 @@ var subarraySum = function(nums, k) {
   return count;
 };
 // @lc code=end
+
 
 /**
  * - Time complexity: O(n).

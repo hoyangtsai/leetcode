@@ -1,7 +1,5 @@
 # Binary Search
 
-tags: #binary-search
-
 ## 零、二分查找框架
 
 ```c++
@@ -175,19 +173,19 @@ int right_bound(int[] nums, int target) {
 
 Source:
 
-- [https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug](https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug)
-- [https://labuladong.gitbook.io/algo/mu-lu-ye/er-fen-cha-zhao-xiang-jie](https://labuladong.gitbook.io/algo/mu-lu-ye/er-fen-cha-zhao-xiang-jie)
+- <https://mp.weixin.qq.com/s/M1KfTfNlu4OCK8i9PSAmug>
+- <https://labuladong.gitbook.io/algo/mu-lu-ye/er-fen-cha-zhao-xiang-jie>
 
 ## Binary Search Template
 
 ### Template #1
 
-```javascript
+```java
 // Pre-processing
 
-left = 0, right = length - 1;
+int left = 0, right = length - 1;
 while (left <= right) {
-    mid = left + (right - left) / 2;
+    int mid = left + (right - left) / 2;
     if (nums[mid] == target) {
         return mid;
     } else if (nums[mid] < target) {
@@ -207,12 +205,12 @@ i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 4, right = 3
 
 ### Template #2
 
-```javascript
+```java
 // Pre-processing
 
-left = 0, right = length;
+int left = 0, right = length;
 while (left < right) {
-    mid = left + (right - left) / 2;
+    int mid = left + (right - left) / 2;
     if (nums[mid] == target) {
         return mid;
     } else if (nums[mid] < target) {
@@ -233,12 +231,12 @@ i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 4, right = 4
 
 ### Template #3
 
-```javascript
+```java
 // Pre-processing
 
-left = 0, right = length - 1;
+int left = 0, right = length - 1;
 while (left + 1 < right) {
-    mid = left + (right - left) / 2;
+    int mid = left + (right - left) / 2;
     if (nums[mid] == target) {
         return mid;
     } else if (nums[mid] < target) {
@@ -259,4 +257,4 @@ i.e. (nums = [-1, 0, 3, 5, 9, 12], target = 6) => return left = 3, right = 4
 
 ## Confusion of Binary Search
 
-[Answers](https://leetcode.com/problems/single-element-in-a-sorted-array/solution/538224) of a comment
+<https://leetcode.com/problems/single-element-in-a-sorted-array/solution/538224>

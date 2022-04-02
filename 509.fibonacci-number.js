@@ -4,9 +4,10 @@
  * [509] Fibonacci Number
  */
 
-// @facebook, @bloomberg
-// #fibonacci-number
-// &70
+/**
+ * tags: #fibonacci
+ * {@link 70.climbing-stairs/fibonacci-number.js}
+ */
 
 // @lc code=start
 /**

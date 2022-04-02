@@ -4,8 +4,10 @@
  * [344] Reverse String
  */
 
-// #two-pointers, #string
-// @apple, @microsoft, @amazon, @paypal, @rakuten
+/**
+ * #apple, #microsoft, #amazon, #paypal, #rakuten
+ * #two-pointers
+ */
 
 // @lc code=start
 /**
@@ -13,14 +15,17 @@
  * @return {void} Do not return anything, modify s in-place instead.
  */
 var reverseString = function(s) {
-  for (let i = 0, j = s.length - 1; i < j; i++, j--) {
-    [s[i], s[j]] = [s[j], s[i]];
+  let left = 0, right = s.length - 1;
+  while (left < right) {
+    [s[left], s[right]] = [s[right], s[left]];
+    left++;
+    right--;
   }
 };
 // @lc code=end
 
+
 /**
- * Two pointers, iteration
- * Time complexity: O(n).
- * Space complexity: O(1).
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
  */

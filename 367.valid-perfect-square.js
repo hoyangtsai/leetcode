@@ -21,13 +21,13 @@ var isPerfectSquare = function(num) {
     return true;
   }
 
-  let left = 0, right = num;
+  let left = 2, right = parseInt(num / 2);
   while (left <= right) {
     let mid = parseInt((left + right) / 2);
-    if (mid * mid == num) {
+    let sqrt = mid * mid;
+    if (sqrt == num) {
       return true;
-    }
-    if (mid * mid > num) {
+    } else if (sqrt > num) {
       right = mid - 1;
     } else {
       left = mid + 1;
@@ -37,8 +37,8 @@ var isPerfectSquare = function(num) {
 };
 // @lc code=end
 
+
 /**
- * Binary search
- * Time complexity: O(log N).
- * Space complexity: O(1).
+ * - Time complexity: O(log N).
+ * - Space complexity: O(1).
  */

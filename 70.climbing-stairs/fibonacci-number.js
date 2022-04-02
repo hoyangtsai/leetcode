@@ -5,9 +5,8 @@
  */
 
 /**
- * com: #amazon, #google
  * tags: #fibonacci
- * {@link fib|./509.fibonacci-number.js}
+ * {@link 509.fibonacci-number.js}
  */
 
 // @lc code=start

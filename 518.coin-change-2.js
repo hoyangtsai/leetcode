@@ -6,8 +6,8 @@
 
 /**
  * tags: #dynamic-programming, #unbounded-knapsack
- * {@link climbStairs|./70.climbing-stairs/dynamic-programming.js}
- * {@link coinChange|./322.coin-change.js}
+ * {@link 70.climbing-stairs/dynamic-programming.js}
+ * {@link 322.coin-change.js}
  */
 
 // https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/

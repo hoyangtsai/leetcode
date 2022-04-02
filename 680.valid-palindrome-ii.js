@@ -7,7 +7,7 @@
 /**
  * #facebook
  * tags: #two-pointers, #palindrome, #anagram
- * {@link isPalindrome|./125.valid-palindrome.js}
+ * {@link 125.valid-palindrome.js}
  */
 
 // @lc code=start
@@ -38,3 +38,13 @@ var validPalindrome = function(s) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N).
+ *   The main while loop we can iterate up to N/2 times, since each iteration represents a pair of characters.
+ *   On any given iteration, we may find a mismatch and call `isPalindrome` twice. `isPalindrome` can also iterate up to N/2 times, in the worst case where the first and last character of s do not match.
+ *   Because we are only allowed up to one deletion, the algorithm only considers one mismatch. The means that `isPalindrome` will never be called more than twice.
+ * 
+ * - Space complexity: O(1).
+ *   The only extra space is used by two pointers i and j, which can be considered constant relative to the input size.
+ */
