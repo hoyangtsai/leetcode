@@ -4,6 +4,10 @@
  * [215] Kth Largest Element in an Array
  */
 
+/**
+ * tags: #heap
+ * {@link 347.top-k-frequent-elements/heap.js}
+ */
 
 // @lc code=start
 /**
@@ -26,8 +30,8 @@ var findKthLargest = function (nums, k) {
 };
 // @lc code=end
 
+
 /**
- * Heap
- * Time complexity: O(N log K).
- * space complexity: O(K) to store the heap elements.
+ * - Time complexity: O(N log k).
+ * - Space complexity: O(K) to store the heap elements.
  */

@@ -38,3 +38,9 @@ var totalFruit = function(tree) {
   return maxLen;
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(n).
+ */

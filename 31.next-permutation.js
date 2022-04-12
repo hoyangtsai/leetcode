@@ -4,9 +4,10 @@
  * [31] Next Permutation
  */
 
-// #array, #two-pointers
-// @facebook, @amazon, @microsoft, @apple
-// #google-interview
+/**
+ * tags: #two-pointers, #number-swap
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -45,6 +46,7 @@ var nextPermutation = function(nums) {
   }
 };
 // @lc code=end
+
 
 /**
  * Single pass algorithm

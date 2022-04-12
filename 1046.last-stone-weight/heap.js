@@ -14,7 +14,9 @@
  * @return {number}
  */
 var lastStoneWeight = function(stones) {
+  // descending sort
   stones.sort((a, b) => b - a);
+  console.log('stones :>> ', stones);
 
   while(stones.length > 1) {
     let stone1 = stones.shift();
@@ -33,7 +35,7 @@ var lastStoneWeight = function(stones) {
 
 /**
  * - Time complexity: O(N log N).
-
+ * 
  * - Space complexity: O(N). 
  *   In Java/Javascript though, it's O(N) to create the priority queue.
  */

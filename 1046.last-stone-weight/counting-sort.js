@@ -61,7 +61,7 @@ var lastStoneWeight = function(stones) {
  *   In the worst case, the main loop iterates through all of the W indexes of the bucket array. Processing each bucket is an O(1) operation. This, therefore, is O(W).
  *   Seeing as we don't know which is larger out of N and W, we get a total of O(N + W).
  * 
- * - Space complexity: O(W). 
+ * - Space complexity: O(W).
  *   We allocated a new array of size W.
  */
 

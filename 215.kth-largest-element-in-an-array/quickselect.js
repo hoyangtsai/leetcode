@@ -5,9 +5,10 @@
  */
 
 /**
- * com: #facebook, #linkedin, #amazon
- * tags: #sorting, #quickselect, #google-interview
- * {@link topKFrequent|./347.top-k-frequent-elements/quickselect.js}
+ * #facebook, #linkedin, #amazon
+ * tags: #sorting, #quickselect
+ * #google-interview
+ * {@link 347.top-k-frequent-elements/quickselect.js}
  */
 
 // kth largest = (N - k)th smallest = 1st largest in a sorted array
@@ -65,13 +66,9 @@ var findKthLargest = function (nums, k) {
 // @lc code=end
 
 /**
- * Quick select
- * Time complexity: O(N) in the average case, O(N^2) in the worst case.
- * space complexity: O(1).
+ * - Time complexity: O(N) in the average case, O(N^2) in the worst case.
+ * - Space complexity: O(1).
  */
 
-const ans1 = findKthLargest([3, 2, 1, 5, 6, 4], 4);
-console.log('ans1 =>', ans1); // ans1: 4
-
-const ans2 = findKthLargest([3, 2, 1, 5, 6, 4], 2);
-console.log('ans2 =>', ans2); // ans2: 5
+console.log(findKthLargest([3, 2, 1, 5, 6, 4], 4)) // 4
+console.log(findKthLargest([3, 2, 1, 5, 6, 4], 2)) // 5

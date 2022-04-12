@@ -20,11 +20,12 @@
 
 - Two Pointers
 
+  - [11. Container With Most Water](11.container-with-most-water.js)
   - [32. Longest Valid Parentheses](32.longest-valid-parentheses/two-pointers.js) 👍
   - [42. Trapping Rain Water](42.trapping-rain-water/two-pointers.js) 👍
   - [344. Reverse String](344.reverse-string.js)
   - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/two-pointers.js) 👍
-  - [680. Valid Palindrome II](680.valid-palindrome-ii.js)
+  - [680. Valid Palindrome II](680.valid-palindrome-ii.js) [#facebook]
 
 - Dynamic Programming
 
@@ -39,6 +40,21 @@
   - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
   - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js)
 
+- Heap
+
+  - [215. Kth Largest Element in an Array](215.kth-largest-element-in-an-array/heap.js)
+  - [347. Kth Largest Element in an Array](347.top-k-frequent-elements/heap.js)
+  - [1046. Last Stone Weight](1046.last-stone-weight/heap.js)
+
+- Counting Sort
+
+  - [1046. Last Stone Weight](1046.last-stone-weight/counting-sort.js) 👍
+  - [1200. Minimum Absolute Difference](1200.minimum-absolute-difference/counting-sort.js)
+
+- Sliding Window
+
+  - [904. Fruit Into Baskets](904.fruit-into-baskets.js)
+
 ## Company
 
 - Google
@@ -48,10 +64,6 @@
 - Microsoft
 
   - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js)
-
-- Facebook
-
-  - [680. Valid Palindrome II](680.valid-palindrome-ii.js)
 
 ## VS Code Extension
 

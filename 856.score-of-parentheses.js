@@ -26,10 +26,3 @@ var scoreOfParentheses = function(s) {
   return cur;
 };
 // @lc code=end
-
-
-scoreOfParentheses("()(()())") // 1 + (2 * 2) = 5
-scoreOfParentheses("()((()()())()())") // 1 + (2 * ((2 * 3) + 2)) = 1 + (2 * (6 + 2)) = 17
-
-// stack = [1, 1], cur = 1 + 2 = 3
-// stack = [1, 1, 3] 

@@ -5,9 +5,9 @@
  */
 
 /**
- * com: #facebook, #amazon, #microsoft
+ * #facebook, #amazon, #microsoft
  * tags: #sorting, #quickselect
- * {@link findKthLargest|./215.kth-largest-element-in-an-array/quickselect.js}
+ * {@link 215.kth-largest-element-in-an-array/quickselect.js}
  */
 
 // @lc code=start
