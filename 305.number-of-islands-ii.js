@@ -4,15 +4,10 @@
  * [305] Number of Islands II
  */
 
-// @google, @uber
-// 
-// &200
-
 /**
  * tags: #union-find, #disjoint-set
- * {@link numIslands|./200.number-of-islands/union-find.js}
+ * {@link 200.number-of-islands/union-find.js}
  */
-
 
 // @lc code=start
 /**

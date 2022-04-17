@@ -4,7 +4,9 @@
  * [547] Number of Provinces
  */
 
-// #depth-first-search
+/**
+ * tags: #depth-first-search
+ */
 
 // @lc code=start
 /**
@@ -38,8 +40,6 @@ var findCircleNum = function (isConnected) {
 
 
 /**
- * Depth-First Search
- * 
  * - Time complexity: O(n^2). The complete matrix of size n^2 is traversed.
  * - Space complexity: O(n).
  */

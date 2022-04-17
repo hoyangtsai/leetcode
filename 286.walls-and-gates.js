@@ -4,8 +4,9 @@
  * [286] Walls and Gates
  */
 
-// @facebook, @amazon
-// #breadth-first-search, #matrix
+/**
+ * tags: #matrix, #breadth-first-search
+ */
 
 // @lc code=start
 /**

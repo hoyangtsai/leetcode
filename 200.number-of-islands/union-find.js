@@ -6,7 +6,7 @@
 
 /**
  * tags: #union-find, #disjoint-set
- * {@link numIslands2|./305.number-of-islands-ii.js}
+ * {@link 305.number-of-islands-ii.js}
  */
 
 // @lc code=start

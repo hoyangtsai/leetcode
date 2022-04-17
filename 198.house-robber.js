@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon, #microsoft, #google
  * tags: #dynamic-programming
  */
 

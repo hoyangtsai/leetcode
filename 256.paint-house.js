@@ -4,8 +4,10 @@
  * [256] Paint House
  */
 
-// @linkedin
-// #dynamic-programming
+/**
+ * tags: #dynamic-programming
+ * {@link 265.paint-house-ii.js}
+ */
 
 // @lc code=start
 /**

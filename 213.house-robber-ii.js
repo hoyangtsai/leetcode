@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon, #ebay
  * tags: #dynamic-programming
  */
 

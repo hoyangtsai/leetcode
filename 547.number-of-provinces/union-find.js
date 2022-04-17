@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon
  * tags: #union-find, #disjoint-set
  */
 

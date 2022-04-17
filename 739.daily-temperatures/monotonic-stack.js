@@ -6,7 +6,7 @@
 
 /**
  * tags: #monotonic-stack, #stack
- * {@link nextGreaterElement|./496.next-greater-element-i.js}
+ * {@link 496.next-greater-element-i.js}
  */
 
 // @lc code=start

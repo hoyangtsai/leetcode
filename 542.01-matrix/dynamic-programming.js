@@ -4,8 +4,9 @@
  * [542] 01 Matrix
  */
 
-// @google, @amazon
-// #array, #dynamic-programming, #breadth-first-search, #matrix
+/**
+ * tags: #dynamic-programming
+ */
 
 // @lc code=start
 /**
@@ -49,9 +50,10 @@ var updateMatrix = function(mat) {
 };
 // @lc code=end
 
+
 /**
- * Dynamic programming
- * Time complexity: O(r * n).
- * Space complexity: O(1).
- *    - No extra space is required other than the space used to store the output (dist), and the output does not count towards the space complexity.
+ * - Time complexity: O(r * n).
+ * 
+ * - Space complexity: O(1).
+ *   No extra space is required other than the space used to store the output (dist), and the output does not count towards the space complexity.
  */

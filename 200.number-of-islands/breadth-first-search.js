@@ -4,9 +4,9 @@
  * [200] Number of Islands
  */
 
-// @amazon, @microsoft, @bloomberg, @google, @linkedin, @facebook, @apple
-// #breadth-first-search, #matrix
-// &305
+/**
+ * tags: #breadth-first-search, #matrix
+ */
 
 // @lc code=start
 /**
@@ -54,8 +54,6 @@ var numIslands = function(grid) {
 // @lc code=end
 
 /**
- * Breadth-First Search
- * 
- * Time complexity: O(M x N), where M is the number of rows and N is the number of columns.
- * Space complexity: O(min(M, N)) because in worst case where the grid is filled with island, the size of queue can grow up to min(M, N).
+ * - Time complexity: O(M x N), where M is the number of rows and N is the number of columns.
+ * - Space complexity: O(min(M, N)) because in worst case where the grid is filled with island, the size of queue can grow up to min(M, N).
  */

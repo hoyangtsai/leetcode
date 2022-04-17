@@ -5,8 +5,7 @@
  */
 
 /**
- * #facebook, #amazon
- * tags: #prefix-sum #bidirectional
+ * tags: #prefix-sum, #bidirectional
  */
 
 // @lc code=start

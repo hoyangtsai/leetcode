@@ -4,9 +4,11 @@
  * [681] Next Closest Time
  */
 
-// @facebook, @amazon, @google
-// #string, #enumeration
-// #google-interview
+/**
+ * #facebook, #amazon, #google
+ * tags: #enumeration
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -25,7 +27,9 @@ var nextClosestTime = function(time) {
     return pos == 4 ? digits[0] : digits[pos];
   }
 
+  // sorting hour and min ascending
   const digits = time.replace(/:/, '').split('').sort((a, b) => a - b);
+  // convert time into array, ex. ['1', '9', ':', '3', '4']
   let result = time.split('');
 
   // find next digit for HH:M_
@@ -51,6 +55,7 @@ var nextClosestTime = function(time) {
   return result.join('');  // e.g. 19:59 -> 11:11
 };
 // @lc code=end
+
 
 const t = nextClosestTime('19:34');
 console.log('t =>', t);

@@ -4,8 +4,9 @@
  * [542] 01 Matrix
  */
 
-// @google, @amazon
-// #array, #breadth-first-search, #matrix
+/**
+ * tags: #breadth-first-search, #matrix
+ */
 
 // @lc code=start
 /**
@@ -28,7 +29,7 @@ var updateMatrix = function(mat) {
     }
   }
 
-  // left, right, up, dowm
+  // left, right, up, down
   const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
 
   while (q.length > 0) {
@@ -51,9 +52,10 @@ var updateMatrix = function(mat) {
 };
 // @lc code=end
 
+
 /**
- * Breadth first search
- * Time complexity: O(r * c).
- * Space complexity: O(r * c).
- *    - An additional O(r * c) space is required to maintain the queue.
+ * - Time complexity: O(r * c).
+ * 
+ * - Space complexity: O(r * c).
+ *   An additional O(r * c) space is required to maintain the queue.
  */

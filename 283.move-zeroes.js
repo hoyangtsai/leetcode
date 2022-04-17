@@ -5,7 +5,6 @@
  */
 
  /**
-  * #facebook, #microsoft, #amazon, #adobe
   * tags: #two-pointers, #zero
   */
 

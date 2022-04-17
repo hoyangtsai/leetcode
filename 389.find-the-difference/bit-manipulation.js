@@ -35,6 +35,5 @@ var findTheDifference = function(s, t) {
 
 /**
  * - Time complexity: O(N), where N is the length of strings. Since, we iterate through both strings once.
- * 
  * - Space complexity: O(1).
  */

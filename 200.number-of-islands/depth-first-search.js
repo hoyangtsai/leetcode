@@ -5,7 +5,6 @@
  */
 
 /**
- * com: #amazon, #microsoft, #google, #linkedin, #facebook, #apple
  * tags: #depth-first-search, #matrix
  */
 

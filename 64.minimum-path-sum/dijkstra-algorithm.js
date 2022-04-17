@@ -5,9 +5,7 @@
  */
 
 /**
- * com: #google
  * tags: #matrix, #dijkstra-algorithm
- * {@link minPathSum|./64.minimum-path-sum/}
  */
 
 // @lc code=start

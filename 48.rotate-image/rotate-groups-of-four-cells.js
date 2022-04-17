@@ -4,7 +4,6 @@
  * [48] Rotate Image
  */
 
-
 // @lc code=start
 /**
  * @param {number[][]} matrix
