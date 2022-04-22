@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-tree, #recursion, #DFS
+ * tags: #binary-tree, #binary-search-tree
  */
 
 // @lc code=start
@@ -34,5 +34,6 @@ var searchBST = function(root, val) {
 
 /**
  * - Time complexity: O(H), where H is a tree height. The results in O(log N) in the average case, and O(N) in the worst case.
+ * 
  * - Space complexity: O(H) to keep the recursion stack, i.e. O(log N) in the average case, and O(N) in the worst case.
  */

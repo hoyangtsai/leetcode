@@ -4,8 +4,9 @@
  * [230] Kth Smallest Element in a BST
  */
 
-// @amazon, @facebook
-// #tree, #inorder
+/**
+ * tags: #binary-tree
+ */
 
 // @lc code=start
 /**
@@ -23,16 +24,22 @@
  */
 var kthSmallest = function(root, k) {
   let nums = [];
-  (function inorder(node, arr) {
-    if (nums.length != k) { //no need to keep going after reach k-th number
+
+  function inorder(node) {
+    if (nums.length != k) {
       if (node.left) inorder(node.left); //go left first
       nums.push(node.val); //finished going left, now start adding values
       if (node.right) inorder(node.right); //if have right, go there and repeat process
     }
-  })(root);
+  }
+
+  inorder(root);
   return nums[k - 1];
 };
 // @lc code=end
 
 
-// [1,null,2]\n2
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(n).
+ */

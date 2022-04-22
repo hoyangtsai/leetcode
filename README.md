@@ -9,7 +9,6 @@
   - [84. Largest Rectangle in Histogram](84.largest-rectangle-in-histogram.js)
   - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
   - [1249.Minimum Remove to Make Valid Parentheses](1249.minimum-remove-to-make-valid-parentheses.js)
-  - [1475. Final Prices With a Special Discount in a Shop](1475.final-prices-with-a-special-discount-in-a-shop.js)
 
   [Monotonic Stack](./monotonic-stack/README.md)
 
@@ -17,6 +16,7 @@
   - [503. Next Greater Element II](503.next-greater-element-ii.js)
   - [739. Daily Temperatures](739.daily-temperatures/monotonic-stack.js)
   - [907. Sum of Subarray Minimums](907.sum-of-subarray-minimums.js)
+  - [1475. Final Prices With a Special Discount in a Shop](1475.final-prices-with-a-special-discount-in-a-shop.js)
 
 - Hash Table
 
@@ -39,7 +39,7 @@
 
 - Dynamic Programming
 
-  - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js) #smartnews
+  - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
   - [198. House Robber](198.house-robber.js)
   - [213. House Robber II](213.house-robber-ii.js)
   - [256. Paint House](256.paint-house.js)
@@ -81,10 +81,16 @@
 
 - [Binary Tree](binary-tree/README.md)
   
+  - [99. Recover Binary Search Tree](99.recover-binary-search-tree.js)
+  - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
   - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
   - [669. Trim a Binary Search Tree](669.trim-a-binary-search-tree.js)
-  - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
   - [897. Increasing Order Search Tree](897.increasing-order-search-tree.js)
+
+  Binary Search Tree
+
+  - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
+  - [705. Design HashSet](705.design-hash-set.js)
 
 - Bit manipulation
   

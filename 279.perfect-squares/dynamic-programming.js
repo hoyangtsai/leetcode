@@ -20,14 +20,15 @@ var numSquares = function(n) {
   // pre-calculate the square numbers.
   let maxSqrtIndex = parseInt(Math.sqrt(n)) + 1;
   let squareNums = Array(maxSqrtIndex).fill(0);
+
   for (let i = 1; i < maxSqrtIndex; i++) {
     squareNums[i] = i * i;
   }
 
   for (let i = 1; i <= n; i++) {
     for (let s = 1; s < maxSqrtIndex; s++) {
-      if (i < squareNums[s])
-        break;
+      if (i < squareNums[s]) break;
+
       dp[i] = Math.min(dp[i], dp[i - squareNums[s]] + 1);
     }
   }
@@ -41,3 +42,5 @@ var numSquares = function(n) {
  * - Space complexity: O(n)
  */
 
+
+console.log(numSquares(12));

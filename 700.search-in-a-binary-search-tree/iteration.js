@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #BFS, #iteration
+ * tags: #binary-tree, #binary-search-tree
  */
 
 // @lc code=start

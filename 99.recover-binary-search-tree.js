@@ -4,7 +4,9 @@
  * [99] Recover Binary Search Tree
  */
 
-// #tree, #depth-first-search
+/**
+ * tags: #binary-tree, #depth-first-search
+ */
 
 // @lc code=start
 /**
@@ -22,16 +24,15 @@
 var recoverTree = function(root) {
   let x = null, y = null, prev = null;
 
-  function dfs(root) {
-    if (!root) return;
-    dfs(root.left);
-    if (prev != null && prev.val > root.val) {
-      y = root;
-      if (!x) x = prev;
-      else return;
+  function dfs(node) {
+    if (node == null) return;
+    dfs(node.left);
+    if (prev != null && prev.val > node.val) {
+      y = node;
+      if (x == null) x = prev;
     }
-    prev = root;
-    dfs(root.right);
+    prev = node;
+    dfs(node.right);
   }
 
   dfs(root);

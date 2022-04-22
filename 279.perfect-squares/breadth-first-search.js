@@ -20,28 +20,24 @@ var numSquares = function(n) {
     squareNums.push(i * i);
   }
 
-  console.log('squareNums :>> ', squareNums);
-
   let queue = [n];
   let level = 0; // layer
   while(queue.length > 0) {
     level += 1;
     let nextQueue = [];
 
-    console.log('queue :>> ', queue);
     for (const remainder of queue) {
       for (const square of squareNums) {
-        if (remainder == square) {
-          console.log('nextQueue :>> ', nextQueue);
+        if (square == remainder) {
           return level;
-        } else if (remainder < square) {
+        } else if (square > remainder) {
           break;
         } else {
           nextQueue.push(remainder - square);
         }
       }
     }
-    console.log('nextQueue :>> ', nextQueue);
+    
     queue = nextQueue;
   }
   return level;
@@ -55,5 +51,4 @@ var numSquares = function(n) {
  * - Space complexity: O(sqrt(n)^h), which is also the maximal number of nodes that can appear at the level h.
  */
 
-const l = numSquares(12);
-console.log('l :>> ', l);
+console.log(numSquares(12));

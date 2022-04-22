@@ -4,10 +4,14 @@
  * [706] Design HashMap
  */
 
+/**
+ * tags: #design, #hashmap
+ */
+
 // @lc code=start
 
 var MyHashMap = function() {
-    
+  this.map = new Map();
 };
 
 /** 
@@ -16,7 +20,7 @@ var MyHashMap = function() {
  * @return {void}
  */
 MyHashMap.prototype.put = function(key, value) {
-    
+  this.map.set(key, value);
 };
 
 /** 
@@ -24,7 +28,8 @@ MyHashMap.prototype.put = function(key, value) {
  * @return {number}
  */
 MyHashMap.prototype.get = function(key) {
-    
+  if (!this.map.has(key)) return -1;
+  return this.map.get(key);
 };
 
 /** 
@@ -32,7 +37,7 @@ MyHashMap.prototype.get = function(key) {
  * @return {void}
  */
 MyHashMap.prototype.remove = function(key) {
-    
+  this.map.delete(key);
 };
 
 /** 
