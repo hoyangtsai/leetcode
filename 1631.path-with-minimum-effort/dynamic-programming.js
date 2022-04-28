@@ -4,10 +4,6 @@
  * [1631] Path With Minimum Effort
  */
 
-/**
- * tags: #matrix, #binary-search
- */
-
 // @lc code=start
 /**
  * @param {number[][]} heights
@@ -53,5 +49,3 @@ var minimumEffortPath = function (heights) {
 };
 // @lc code=end
 
-
-minimumEffortPath([[1, 10, 6, 7, 9, 10, 4, 9]])

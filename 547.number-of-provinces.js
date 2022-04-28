@@ -6,7 +6,7 @@
 
 /**
  * tags: #union-find, #graph, #disjoint-set
- * {@link countComponents|./323.number-of-connected-components-in-an-undirected-graph.js}
+ * {@link 323.number-of-connected-components-in-an-undirected-graph.js}
  */
 
 // @lc code=start

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #binary-search
+ * tags: #matrix, #binary-search, #depth-first-search
  */
 
 // @lc code=start
@@ -67,9 +67,8 @@ var minimumEffortPath = function(heights) {
 };
 // @lc code=end
 
-/**
- * Binary search using DFS
- * 
- * Time complexity: O(m * n).
- * Space complexity: O(m * n).
+
+/** 
+ * - Time complexity: O(m * n).
+ * - Space complexity: O(m * n).
  */

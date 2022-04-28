@@ -4,8 +4,10 @@
  * [1746] Maximum Subarray Sum After One Operation
  */
 
-// #dynamic-programming
-// &53
+/**
+ * tags: #dynamic-programming
+ * {@link 53.maximum-subarray/kadane-algorithm.js}
+ */
 
 // @lc code=start
 /**
@@ -14,13 +16,13 @@
  */
 var maxSumAfterOperation = function(nums) {
   let a = 0, b = 0;
-  let res = Number.MIN_VALUE;
+  let max = -Infinity;
   for (const n of nums) {
     b = Math.max(n * n, Math.max(b + n, a + n * n));
     a = Math.max(0, a + n);
-    res = Math.max(res, b);
+    max = Math.max(max, b);
   }
-  return res;
+  return max;
 };
 // @lc code=end
 

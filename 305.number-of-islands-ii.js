@@ -19,11 +19,11 @@
 var numIslands2 = function(m, n, positions) {
   function UnionFind(N) {
     let count = 0;
-    let parent = Array.from(new Array(N).fill(0), () => new Array(N).fill(0));
+    let root = Array.from(new Array(N).fill(0), () => new Array(N).fill(0));
     let rank = Array.from(new Array(N).fill(0), () => new Array(N).fill(0));
 
     for (let i = 0; i < N; i++) {
-      parent[i] = -1;
+      root[i] = -1;
       rank[i] = 0;
     }
 
@@ -32,13 +32,13 @@ var numIslands2 = function(m, n, positions) {
       const rootY = this.find(y);
 
       if (rootX != rootY) {
-        // smaller tree's parent (root) becomes bigger tree's root
+        // smaller tree's root becomes bigger tree's root
         if (rank[rootX] < rank[rootY]) {
-          parent[rootX] = rootY;
-        } else if (rank[rootY] < rank[rootX]) {
-          parent[rootY] = rootX;
+          root[rootX] = rootY;
+        } else if (rank[rootX] > rank[rootY]) {
+          root[rootY] = rootX;
         } else {
-          parent[rootY] = rootX;
+          root[rootY] = rootX;
           rank[rootX] += 1;
         }
         count--;
@@ -46,10 +46,10 @@ var numIslands2 = function(m, n, positions) {
     }
 
     this.find = (i) => {
-      if (parent[i] != i) {
-        parent[i] = this.find(parent[i]);
+      if (root[i] != i) {
+        root[i] = this.find(root[i]);
       }
-      return parent[i];
+      return root[i];
     }
 
     this.getCount = () => {
@@ -57,11 +57,11 @@ var numIslands2 = function(m, n, positions) {
     }
 
     this.isValid = (i) => {
-      return parent[i] >= 0;
+      return root[i] >= 0;
     }
 
     this.setParent = (i) => {
-      parent[i] = i;
+      root[i] = i;
       count++;
     }
   }

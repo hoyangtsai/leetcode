@@ -40,12 +40,14 @@
 - Dynamic Programming
 
   - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
+  - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
   - [198. House Robber](198.house-robber.js)
   - [213. House Robber II](213.house-robber-ii.js)
   - [256. Paint House](256.paint-house.js)
   - [322. Coin Change](322.coin-change.js)
   - [518. Coin Change 2](518.coin-change-2.js)
   - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
+  - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 
 - [Binary Search](./binary-search/README.md)
 
@@ -53,6 +55,10 @@
   - [74. Search a 2D Matrix](74.search-a-2-d-matrix/binary-search.js)
   - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
   - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js) #microsoft
+
+  - Depth-first Search
+
+    - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/binary-search-using-dfs.js)
 
 - Heap
 
@@ -90,6 +96,7 @@
   Binary Search Tree
 
   - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
+  - [701. Insert into a Binary Search Tree](701.insert-into-a-binary-search-tree/iteration.js)
   - [705. Design HashSet](705.design-hash-set.js)
 
 - Bit manipulation
@@ -135,6 +142,10 @@
   - [200. Number of Islands](200.number-of-islands/union-find.js)
   - [305. Number of Islands II](305.number-of-islands-ii.js)
   - [547. Number of Provinces](547.number-of-provinces/union-find.js)
+
+  - Minimum Spanning Tree
+
+  - [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
   - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
 
 - Boyer Moore Voting Algorithm

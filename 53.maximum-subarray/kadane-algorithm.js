@@ -1,35 +1,34 @@
 /*
- * @lc app=leetcode id=13 lang=javascript
+ * @lc app=leetcode id=53 lang=javascript
  *
- * [13] Roman to Integer
+ * [53] Maximum Subarray
+ */
+
+/**
+ * tags: #kadane-algorithm, #dynamic-programming, #max-subarray
+ * {@link 1746.maximum-subarray-sum-after-one-operation.js}
  */
 
 // @lc code=start
 /**
- * @param {string} s
+ * @param {number[]} nums
  * @return {number}
  */
-var romanToInt = function(s) {
-  const symbols = {
-    'I': 1,
-    'V': 5,
-    'X': 10,
-    'L': 50,
-    'C': 100,
-    'D': 500,
-    'M': 1000
-  };
+var maxSubArray = function(nums) {
+  let currentSub = 0;
+  let maxSub = -Infinity;
 
-  let total = 0;
-  for (let i = 0; i < s.length; i += 1) {
-    if (symbols[s[i]] < symbols[s[i + 1]]) {
-      total -= symbols[s[i]];
-    } else {
-      total += symbols[s[i]];
-    }
+  for (const num of nums) {
+    currentSub = Math.max(num, currentSub + num);
+    maxSub = Math.max(maxSub, currentSub);
   }
 
-  return total;
+  return maxSub;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N).
+ * - Space complexity: O(1).
+ */

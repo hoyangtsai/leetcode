@@ -4,8 +4,9 @@
  * [450] Delete Node in a BST
  */
 
- // #tree, #bfs
- // @bloomberg, @google, @oracle
+/**
+ * tags: #binary-tree, #binary-search-tree
+ */
 
 // @lc code=start
 /**

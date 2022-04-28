@@ -4,6 +4,10 @@
  * [13] Roman to Integer
  */
 
+/**
+ * tags: #math
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -33,3 +37,8 @@ var romanToInt = function(s) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */

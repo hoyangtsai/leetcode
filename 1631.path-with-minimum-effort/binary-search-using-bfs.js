@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #binary-search
+ * tags: #matrix, #binary-search, #breadth-first-search
  */
 
 // @lc code=start

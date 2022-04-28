@@ -4,10 +4,6 @@
  * [53] Maximum Subarray
  */
 
-// @linkedin, @amazon, @microsoft, @adobe, @apple, @google
-// #dynamic-programming
-// &1746
-
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -26,9 +22,3 @@ var maxSubArray = function(nums) {
 };
 // @lc code=end
 
-/**
- * Kadane's Algorithm
- * 
- * - Time complexity: O(N).
- * - Space complexity: O(1).
- */

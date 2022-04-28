@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #union-find, #disjoint-set, #matrix
+ * tags: #union-find, #disjoint-set, #matrix, #minimum-spanning-tree
  */
 
 // @lc code=start
@@ -96,12 +96,8 @@ var minimumEffortPath = function(heights) {
 };
 // @lc code=end
 
-/**
- * Union Find
- * 
- * Time complexity: O(m*n(log(m*n)))
- * Space complexity: O(m*n), we use arrays edgeList, parent and size of size m * n.
- */
 
-const res = minimumEffortPath([[1, 2, 2], [3, 8, 2], [5, 3, 5]]);
-console.log('res =>', res);
+/**
+ * - Time complexity: O(m * n (log(m * n))).
+ * - Space complexity: O(m * n), we use arrays edgeList, parent and size of size m * n.
+ */
