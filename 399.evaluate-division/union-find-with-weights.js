@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #union-find
+ * tags: #union-find, #disjoint-set
  */
 
 // @lc code=start
@@ -93,10 +93,11 @@ var calcEquation = function(equations, values, queries) {
 };
 // @lc code=end
 
+
 /**
  * Let N be the number of input equations and M be the number of queries.
  * 
- * - Time complexity: O((M + N) * log^2 N).
+ * - Time complexity: O((M + N) * log^* N).
  * - Space complexity: O(N).
  */
 

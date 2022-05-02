@@ -25,8 +25,8 @@ var maxProfit = function(prices) {
 };
 // @lc code=end
 
+
 /**
- * One Pass
- * Time complexity: O(n). Only one loop of a single pass is needed.
- * Space complexity: O(1). Only two variables are used.
+ * - Time complexity: O(n). Only one loop of a single pass is needed.
+ * - Space complexity: O(1). Only two variables are used.
  */

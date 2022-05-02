@@ -17,6 +17,7 @@
   - [739. Daily Temperatures](739.daily-temperatures/monotonic-stack.js)
   - [907. Sum of Subarray Minimums](907.sum-of-subarray-minimums.js)
   - [1475. Final Prices With a Special Discount in a Shop](1475.final-prices-with-a-special-discount-in-a-shop.js)
+  - [1673. Find the Most Competitive Subsequence](1673.find-the-most-competitive-subsequence.js)
 
 - Hash Table
 
@@ -35,12 +36,15 @@
   - [344. Reverse String](344.reverse-string.js)
   - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/two-pointers.js) 👍
   - [680. Valid Palindrome II](680.valid-palindrome-ii.js) #facebook
+  - [905. Sort Array By Parity](905.sort-array-by-parity.js)
+  - [844. Backspace String Compare](844.backspace-string-compare/two-pointer.js)
   - [881. Boats to Save People](881.boats-to-save-people.js)
 
 - Dynamic Programming
 
   - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
   - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
+  - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js) #greedy
   - [198. House Robber](198.house-robber.js)
   - [213. House Robber II](213.house-robber-ii.js)
   - [256. Paint House](256.paint-house.js)
@@ -55,6 +59,11 @@
   - [74. Search a 2D Matrix](74.search-a-2-d-matrix/binary-search.js)
   - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
   - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js) #microsoft
+
+  Longest Increasing Sequence
+  
+  - [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/binary-search.js)
+  - [1671. Minimum Number of Removals to Make Mountain Array](1671.minimum-number-of-removals-to-make-mountain-array.js)
 
   - Depth-first Search
 
@@ -158,4 +167,4 @@
 
 ## VS Code Extension
 
-[LeetCode](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode)
+<https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode>

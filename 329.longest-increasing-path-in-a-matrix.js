@@ -4,10 +4,9 @@
  * [329] Longest Increasing Path in a Matrix
  */
 
-// @google, @facebook, @apple, @amazon
-// #depth-first-search, #memoization
-
-// https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Increment
+/**
+ * tags: #matrix, #depth-first-search, #DFS
+ */
 
 // @lc code=start
 /**
@@ -47,6 +46,6 @@ var longestIncreasingPath = function(matrix) {
 /**
  * DFS + memoization
  * 
- * - Time complexity: O(m*n). Each vertex/cell will be calculated once and only once, and each edge will be visited once and only once. The total time complexity is then O(V + E). V is the total number of vertices and E is the total number of edges. In our problem, O(V) = O(mn), O(E) = O(4V) = O(mn).
- * - Space complexity: O(m*n). The cache dominates the space complexity.
+ * - Time complexity: O(m * n). Each vertex/cell will be calculated once and only once, and each edge will be visited once and only once. The total time complexity is then O(V + E). V is the total number of vertices and E is the total number of edges. In our problem, O(V) = O(mn), O(E) = O(4V) = O(mn).
+ * - Space complexity: O(m * n). The cache dominates the space complexity.
  */

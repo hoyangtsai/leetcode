@@ -4,6 +4,11 @@
  * [844] Backspace String Compare
  */
 
+/**
+ * tags: #build-string, #stack
+ * #google-interview
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -23,3 +28,8 @@ var backspaceCompare = function(s, t) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(M + N), where M, N are the lengths of S and T respectively.
+ * - Space complexity: O(M + N).
+ */

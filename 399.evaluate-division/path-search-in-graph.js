@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #depth-first-search, #backtracking
+ * tags: #depth-first-search, #backtracking, #graph
  * #google-interview
  */
 
@@ -84,13 +84,14 @@ var calcEquation = function(equations, values, queries) {
 };
 // @lc code=end
 
+
 /**
  * Path Search in Graph
  * 
  * Let N be the number of input equations and M be the number of queries.
  * 
  * - Time complexity: O(M * N).
- * - Space complexity: O(N)
+ * - Space complexity: O(N).
  */
 
 // Output: [6.00000, 0.50000, -1.00000, 1.00000, -1.00000]

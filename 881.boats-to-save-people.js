@@ -32,5 +32,5 @@ var numRescueBoats = function(people, limit) {
 
 /**
  * - Time complexity: O(N log N), where N is the length of people.
- * - Space complexity: O(N)
+ * - Space complexity: O(N).
  */
