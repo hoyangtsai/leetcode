@@ -7,13 +7,17 @@
   - [20. Valid Parentheses](20.valid-parentheses.js)
   - [32. Longest Valid Parentheses](32.longest-valid-parentheses/stack.js)
   - [84. Largest Rectangle in Histogram](84.largest-rectangle-in-histogram.js)
+  - [456. 132 Pattern](456.132-pattern/stack.js)
   - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
+  - [1047. Remove All Adjacent Duplicates In String](1047.remove-all-adjacent-duplicates-in-string.js) #string-duplicates
+  - [1209. Remove All Adjacent Duplicates in String II](1209.remove-all-adjacent-duplicates-in-string-ii.js) #string-duplicates
   - [1249.Minimum Remove to Make Valid Parentheses](1249.minimum-remove-to-make-valid-parentheses.js)
 
   [Monotonic Stack](./monotonic-stack/README.md)
 
   - [496. Next Greater Element I](496.next-greater-element-i.js)
   - [503. Next Greater Element II](503.next-greater-element-ii.js)
+  - [581. Shortest Unsorted Continuous Subarray](581.shortest-unsorted-continuous-subarray/monotonic-stack.js)
   - [739. Daily Temperatures](739.daily-temperatures/monotonic-stack.js)
   - [907. Sum of Subarray Minimums](907.sum-of-subarray-minimums.js)
   - [1475. Final Prices With a Special Discount in a Shop](1475.final-prices-with-a-special-discount-in-a-shop.js)
@@ -25,6 +29,7 @@
   - [205. Isomorphic Strings](205.isomorphic-strings.js) #google
   - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/hash-table.js)
   - [1436. Destination City](1436.destination-city.js)
+  - [1679. Max Number of K-Sum Pairs](1679.max-number-of-k-sum-pairs/hashmap-single-pass.js)
 
 - Two Pointers
 
@@ -83,6 +88,7 @@
 
   - [238. Product of Array Except Self](238.product-of-array-except-self.js)
   - [325. Maximum Size Subarray Sum Equals k](325.maximum-size-subarray-sum-equals-k.js)
+  - [523. Continuous Subarray Sum](523.continuous-subarray-sum.js)
   - [560. Subarray Sum Equals K](560.subarray-sum-equals-k.js)
 
 - Counting Sort

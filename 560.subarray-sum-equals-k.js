@@ -7,6 +7,7 @@
 /**
  * #facebook, #shopback
  * tags: #hash-table, #prefix-sum
+ * {@link 523.continuous-subarray-sum.js}
  */
 
 // @lc code=start
@@ -19,6 +20,7 @@ var subarraySum = function(nums, k) {
   let count = 0, sum = 0;
   let map = new Map();
   map.set(0, 1); // means when sum - k = 0 meet the condition
+
   for (let i = 0; i < nums.length; i++) {
     sum += nums[i];
     if (map.has(sum - k)) {
