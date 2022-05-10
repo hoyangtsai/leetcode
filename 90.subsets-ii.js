@@ -6,7 +6,7 @@
 
 /**
  * tags: #backtracking
- * {@link subsets|./78.subsets.js}
+ * {@link 78.subsets.js}
  */
 
 // @lc code=start

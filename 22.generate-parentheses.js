@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #backtracking, #string-combination-possibility
+ * tags: #backtracking, #string-combination
  * {@link 46.permutations.js}
  */
 

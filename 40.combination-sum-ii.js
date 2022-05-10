@@ -4,6 +4,12 @@
  * [40] Combination Sum II
  */
 
+/**
+ * tags: #backtracking
+ * {@link 39.combination-sum.js}
+ * {@link 216.combination-sum-iii.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[]} candidates
@@ -13,7 +19,7 @@
 var combinationSum2 = function(candidates, target) {
   let results = [];
 
-  function backtrack(remain, comb, start) {
+  function backtrack(remain, comb, next) {
     if (remain == 0) {
       results.push(comb.slice());
       return;
@@ -22,8 +28,8 @@ var combinationSum2 = function(candidates, target) {
     // exceed the scope, stop exploration.
     if (remain < 0) return;
 
-    for (let i = start; i < candidates.length; i++) {
-      if (i > start && candidates[i] == candidates[i - 1]) continue;
+    for (let i = next; i < candidates.length; i++) {
+      if (i > next && candidates[i] == candidates[i - 1]) continue;
 
       comb.push(candidates[i]);
       backtrack(remain - candidates[i], comb, i + 1);

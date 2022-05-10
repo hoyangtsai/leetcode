@@ -4,11 +4,6 @@
  * [78] Subsets
  */
 
-/**
- * #facebook, #amazon
- * tags: #backtracking, #powerset
- */
-
 // @lc code=start
 /**
  * @param {number[]} nums

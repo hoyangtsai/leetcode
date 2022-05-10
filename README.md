@@ -31,6 +31,15 @@
   - [1436. Destination City](1436.destination-city.js)
   - [1679. Max Number of K-Sum Pairs](1679.max-number-of-k-sum-pairs/hashmap-single-pass.js)
 
+- Backtracking
+
+  - [17. Letter Combinations of a Phone Number](17.letter-combinations-of-a-phone-number.js) #string-combination
+  - [39. Combination Sum](39.combination-sum.js)
+  - [40. Combination Sum II](40.combination-sum-ii.js)
+  - [216. Combination Sum III](216.combination-sum-iii.js)
+  - [78. Subsets](78.subsets.js)
+  - [90. Subsets II](90.subsets-ii.js)
+
 - Two Pointers
 
   - [11. Container With Most Water](11.container-with-most-water.js)
@@ -70,9 +79,9 @@
   - [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/binary-search.js)
   - [1671. Minimum Number of Removals to Make Mountain Array](1671.minimum-number-of-removals-to-make-mountain-array.js)
 
-  - Depth-first Search
+  Depth-first Search
 
-    - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/binary-search-using-dfs.js)
+  - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/binary-search-using-dfs.js)
 
 - Heap
 
@@ -158,7 +167,7 @@
   - [305. Number of Islands II](305.number-of-islands-ii.js)
   - [547. Number of Provinces](547.number-of-provinces/union-find.js)
 
-  - Minimum Spanning Tree
+  Minimum Spanning Tree
 
   - [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
   - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)

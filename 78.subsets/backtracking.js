@@ -4,12 +4,6 @@
  * [78] Subsets
  */
 
-/**
- * com: #facebook, #amazon
- * tags: #backtracking
- * {@link subsetsWithDup|./90.subsets-ii.js}
- */
-
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -34,8 +28,3 @@ var subsets = function(nums) {
 };
 // @lc code=end
 
-
-/**
- * - Time complexity: O(N * 2^N).
- * - Space complexity: O(N).
- */

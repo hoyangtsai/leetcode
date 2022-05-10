@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #substring-concat, #string-combination-possibility
+ * tags: #substring-concat, #string-combination
  */
 
 // @lc code=start

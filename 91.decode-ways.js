@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming, #string-combination-possibility
+ * tags: #dynamic-programming, #string-combination
  * {@link 17.letter-combinations-of-a-phone-number.js}
  */
 

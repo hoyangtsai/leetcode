@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #backtracking, #string-combination-possibility
+ * tags: #hash-table, #backtracking, #string-combination
  * {@link 91.decode-ways.js}
  */
 
@@ -51,5 +51,3 @@ var letterCombinations = function(digits) {
  * - Time complexity: O(4^N * N), where N is the length of digits. Note that 4 in this expression is referring to the maximum value length in the hash map.
  * - Space complexity: O(N).
  */
-
-letterCombinations('23');

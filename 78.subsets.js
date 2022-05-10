@@ -4,6 +4,12 @@
  * [78] Subsets
  */
 
+/**
+ * tags: #backtracking
+ * {@link 39.combination-sum.js}
+ * {@link 90.subsets-ii.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -28,3 +34,8 @@ var subsets = function(nums) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N * 2^N).
+ * - Space complexity: O(N).
+ */

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search, #string-combination-possibility
+ * tags: #breadth-first-search, #string-combination
  */
 
 // @lc code=start
