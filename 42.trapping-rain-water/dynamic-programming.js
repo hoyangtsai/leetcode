@@ -7,7 +7,7 @@
 /**
  * tags: #dynamic-programming, #histogram, #bidirectional
  * #google-interview
- * {@link maxArea|./11.container-with-most-water.js}
+ * {@link 11.container-with-most-water.js}
  */
 
 // @lc code=start

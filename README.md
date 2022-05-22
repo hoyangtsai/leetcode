@@ -37,8 +37,11 @@
   - [39. Combination Sum](39.combination-sum.js)
   - [40. Combination Sum II](40.combination-sum-ii.js)
   - [216. Combination Sum III](216.combination-sum-iii.js)
+  - [46. Permutations](46.permutations.js)
+  - [47. Permutations II](47.permutations-ii.js)
   - [78. Subsets](78.subsets.js)
   - [90. Subsets II](90.subsets-ii.js)
+  - [1641. Count Sorted Vowel Strings](1641.count-sorted-vowel-strings/backtracking.js)
 
 - Two Pointers
 
@@ -57,6 +60,7 @@
 - Dynamic Programming
 
   - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
+  - [63. Unique Paths II](63.unique-paths-ii.js) #matrix
   - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
   - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js) #greedy
   - [198. House Robber](198.house-robber.js)
@@ -112,6 +116,7 @@
 - [Binary Tree](binary-tree/README.md)
   
   - [99. Recover Binary Search Tree](99.recover-binary-search-tree.js)
+  - [104. Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree/iteration.js)
   - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
   - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
   - [669. Trim a Binary Search Tree](669.trim-a-binary-search-tree.js)
@@ -122,6 +127,8 @@
   - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
   - [701. Insert into a Binary Search Tree](701.insert-into-a-binary-search-tree/iteration.js)
   - [705. Design HashSet](705.design-hash-set.js)
+  - [1302. Deepest Leaves Sum](1302.deepest-leaves-sum/dfs-iteration.js) #preorder
+  - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/dfs-recursion.js) #inorder
 
 - Bit manipulation
   
@@ -130,18 +137,39 @@
   - [389. Find the Difference](389.find-the-difference/bit-manipulation.js)
   - [461. Hamming Distance](461.hamming-distance/bit-shift.js)
 
-- Matrix
+- Matrix / Graph
 
   - [48. Rotate Image](48.rotate-image/reverse-diagonal-then-reverse-left-to-right.js)
   - [79. Word Search](79.word-search.js)
   - [286. Walls and Gates](286.walls-and-gates.js)
   - [200. Number of Islands](200.number-of-islands/breadth-first-search.js)
   - [289. Game of Life](289.game-of-life.js)
+  - [329. Longest Increasing Path in a Matrix](329.longest-increasing-path-in-a-matrix.js)
   - [422. Valid Word Square](422.valid-word-square.js)
   - [542. 01 Matrix](542.01-matrix/breadth-first-search.js)
   - [994. Rotting Oranges](994.rotting-oranges.js)
   - [1260. Shift 2D Grid](1260.shift-2-d-grid.js)
   - [1337. The K Weakest Rows in a Matrix](1337.the-k-weakest-rows-in-a-matrix/vertical-iteration.js)
+
+  [Dijkstra Algorithm](dijkstra-algorithm/README.md)
+
+  - [64. Minimum Path Sum](64.minimum-path-sum/dijkstra-algorithm.js)
+  - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/dijkstra-algorithm.js)
+
+  [Bellman-Ford Algorithm](bellman-ford-algorithm/README.md)
+
+  - [743. Network Delay Time](743.network-delay-time.js) #directional-graph
+
+  Union Find
+
+  - [200. Number of Islands](200.number-of-islands/union-find.js)
+  - [305. Number of Islands II](305.number-of-islands-ii.js)
+  - [547. Number of Provinces](547.number-of-provinces/union-find.js)
+
+    Minimum Spanning Tree
+
+    - [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
+    - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
 
 - Floyd Tortoise and Hare
 
@@ -156,21 +184,6 @@
 
   - [332. Reconstruct Itinerary](332.reconstruct-itinerary.js)
 
-- Dijkstra Algorithm
-
-  - [64. Minimum Path Sum](64.minimum-path-sum/dijkstra-algorithm.js)
-  - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/dijkstra-algorithm.js)
-
-- Union Find
-
-  - [200. Number of Islands](200.number-of-islands/union-find.js)
-  - [305. Number of Islands II](305.number-of-islands-ii.js)
-  - [547. Number of Provinces](547.number-of-provinces/union-find.js)
-
-  Minimum Spanning Tree
-
-  - [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
-  - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
 
 - Boyer Moore Voting Algorithm
 

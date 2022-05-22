@@ -5,8 +5,8 @@
  */
 
 /**
- * com: #linkedin, #google
  * tags: #binary-tree, #top-100-liked
+ * {@link 1302.deepest-leaves-sum/dfs.js}
  */
 
 // @lc code=start
@@ -32,8 +32,6 @@ var maxDepth = function(root) {
 
 
 /**
- * Recursion
- * 
  * - Time complexity: O(N)
  * - Space complexity: O(log N).
  */

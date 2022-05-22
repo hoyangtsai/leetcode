@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #prefix-sum, #bidirectional
+ * tags: #prefix-sum
  */
 
 // @lc code=start

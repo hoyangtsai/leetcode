@@ -6,6 +6,7 @@
 
 /**
  * tags: #permutation, #backtracking
+ * {@link 46.permutations.js}
  */
 
 // @lc code=start
@@ -55,3 +56,9 @@ var permuteUnique = function(nums) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(\sum_{n=1}^{N} P(N,k)), where P(N, k) = N!/(N - k)! = N(N-1)...(N-k+1) is so-called [k-permutations_of_N or partial permutation](https://en.wikipedia.org/wiki/Permutation#k-permutations_of_n). 
+ * 
+ * - Space complexity: O(N)
+ */

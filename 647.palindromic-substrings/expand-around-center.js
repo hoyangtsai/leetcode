@@ -6,7 +6,7 @@
 
 /**
  * tags: #palindrome, #anagram
- * {@link longestPalindrome|./5.longest-palindromic-substring/expand-around-center.js}
+ * {@link 5.longest-palindromic-substring/expand-around-center.js}
  */
 
 // @lc code=start

@@ -44,3 +44,15 @@ var combinationSum2 = function(candidates, target) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(2^N)
+ *   - In the worst case, the algorithm will exhaust all possible combinations from the input array, which in total amounts to 2^N.
+ *   - The sorting will take O(N log N).
+ *   - To sum up, the overall time complexity of the algorithm is dominated by backtracking process, which is O(2^N).
+ * 
+ * - Space complexity: (N).
+ *   - The variable `comb` to keep track of the current combination we build, which requires O(N) space.
+ *   - In addition, we apply recursion in the algorithm, which will incur additional memory consumption in the function call stack. In the worst case, the stack will pile up to O(N) space.
+ *    - To sum up, the overall space complexity of the algorithm is O(N) + O(N) = O(N).
+ */

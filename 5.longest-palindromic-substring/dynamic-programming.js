@@ -6,7 +6,7 @@
 
 /**
  * tags: #dynamic-programming
- * {@link countSubstrings|./647.palindromic-substrings/dynamic-programming.js}
+ * {@link 647.palindromic-substrings/dynamic-programming.js}
  */
 
 // @lc code=start

@@ -6,7 +6,7 @@
 
 /**
  * tags: #palindrome, #dynamic-programming
- * {@link longestPalindrome|./5.longest-palindromic-substring/dynamic-programming.js}
+ * {@link 5.longest-palindromic-substring/dynamic-programming.js}
  */
 
 // @lc code=start

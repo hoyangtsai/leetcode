@@ -6,7 +6,7 @@
 
 /**
  * tags: #palindrome, #anagram
- * {@link countSubstrings|./647.palindromic-substrings/expand-around-center.js}
+ * {@link 647.palindromic-substrings/expand-around-center.js}
  */
 
 // @lc code=start

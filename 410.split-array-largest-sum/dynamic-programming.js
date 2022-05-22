@@ -4,6 +4,11 @@
  * [410] Split Array Largest Sum
  */
 
+/**
+ * tags: #dynamic-programming
+ * #google-interview
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -37,3 +42,10 @@ var splitArray = function(nums, m) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n^2 * m).
+ * - Space complexity: (n * m).
+ */
+
+splitArray([7, 2, 5, 10, 8], 2)

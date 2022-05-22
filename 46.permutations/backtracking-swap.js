@@ -12,29 +12,29 @@
 var permute = function (nums) {
   let ans = [];
 
-  function backtrack(arr, ans, first) {
-    if (first == nums.length) {
+  function backtrack(arr, next) {
+    if (next == nums.length) {
       ans.push(arr.slice());
       return;
     }
 
-    for (let i = first; i < nums.length; i++) {
-      // place i-th integer first 
+    for (let i = next; i < nums.length; i++) {
+      // place i-th integer next 
       // in the current permutation
-      [arr[first], arr[i]] = [arr[i], arr[first]];
+      [arr[next], arr[i]] = [arr[i], arr[next]];
 
       // use next integers to complete the permutations
-      backtrack(arr, ans, first + 1);
+      backtrack(arr, ans, next + 1);
 
       // backtrack
-      [arr[first], arr[i]] = [arr[i], arr[first]];
+      [arr[next], arr[i]] = [arr[i], arr[next]];
     }
   }
 
   // convert nums into list since the output is a list of lists
   let numsList = Array.from(nums);
 
-  backtrack(numsList, ans, 0);
+  backtrack(numsList, 0);
   return ans;
 };
 // @lc code=end

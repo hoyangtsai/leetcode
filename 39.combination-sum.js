@@ -45,7 +45,6 @@ var combinationSum = function(candidates, target) {
 
 
 /**
- * 
  * Let N be the number of candidates, T be the target of value, and M be the minimal value among the candidates.
  * - Time complexity: O(N^T/M + 1)
  * 

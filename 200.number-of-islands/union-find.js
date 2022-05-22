@@ -92,9 +92,8 @@ var numIslands = function (grid) {
 };
 // @lc code=end
 
+
 /**
- * Union Find (aka Disjoint Set)
- * 
  * - Time complexity: O(M x N).
  * - Space complexity: O(M x N).
  */

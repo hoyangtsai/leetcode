@@ -6,7 +6,7 @@
 
 /**
  * tags: #palindrome, #anagram
- * {@link validPalindrome|./680.valid-palindrome-ii.js}
+ * {@link 680.valid-palindrome-ii.js}
  */
 
 
