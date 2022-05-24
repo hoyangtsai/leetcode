@@ -4,8 +4,9 @@
  * [62] Unique Paths
  */
 
-// @google, @facebook, @amazon
-// #dynamic-programming
+/**
+ * tags: #dynamic-programming
+ */
 
 // @lc code=start
 /**
