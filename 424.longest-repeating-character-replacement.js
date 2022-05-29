@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table, #sliding-window, #alphabet-table, #char-replace-longest
+ * tags: #hash-table, #sliding-window, #alphabet-table, #char-code
  */
 
 // @lc code=start

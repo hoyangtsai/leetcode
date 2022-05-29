@@ -133,9 +133,12 @@
 - Bit manipulation
   
   - [136. Single Number](136.single-number/bit-manipulation.js)
+  - [191. Number of 1 Bits](191.number-of-1-bits.js)
   - [268. Missing Number](268.missing-number/bit-manipulation.js)
+  - [318. Maximum Product of Word Lengths](318.maximum-product-of-word-lengths.js) #char-code
   - [389. Find the Difference](389.find-the-difference/bit-manipulation.js)
   - [461. Hamming Distance](461.hamming-distance/bit-shift.js)
+  - [1342. Number of Steps to Reduce a Number to Zero](1342.number-of-steps-to-reduce-a-number-to-zero.js)
 
 - Matrix / Graph
 
