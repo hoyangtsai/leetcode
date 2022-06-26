@@ -20,6 +20,7 @@ var merge = function(nums1, m, nums2, n) {
 };
 // @lc code=end
 
+
 /**
  * - Time complexity: O((n + m) * log(n + m)).
  * - Space complexity: O(n).

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #two-pointer
+ * tags: #two-pointers
  */
 
 // @lc code=start

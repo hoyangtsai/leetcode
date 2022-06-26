@@ -21,7 +21,7 @@ var calcEquation = function(equations, values, queries) {
   for (let i = 0; i < equations.length; i++) {
     let equation = equations[i];
     let dividend = equation[0] // numerator
-    let divisor = equation[1]; // demominator
+    let divisor = equation[1]; // denominator
     let quotient = values[i];
 
     union(gidWeight, dividend, divisor, quotient);
