@@ -4,6 +4,10 @@
  * [101] Symmetric Tree
  */
 
+/**
+ * #binary-tree, #breadth-first-search
+ */
+
 // @lc code=start
 /**
  * Definition for a binary tree node.

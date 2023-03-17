@@ -26,17 +26,23 @@
 var rangeSumBST = function(root, low, high) {
   // add values which are greater or equal to low and 
   // lower or equal to high
-  let stack = [root];
+  let queue = [root];
   let ans = 0;
-  while (stack.length > 0) {
-    let node = stack.pop();
+  while (queue.length > 0) {
+    let node = queue.pop();
     if (node != null) {
-      if (low <= node.val && node.val <= high)
+      if (low <= node.val && node.val <= high) {
         ans += node.val;
-      if (low < node.val)
-        stack.push(node.left);
-      if (node.val < high)
-        stack.push(node.right);
+      }
+      
+      // a valid binary search tree 
+      // node.left < node.val, node.right > node.val
+      if (low < node.val) {
+        queue.push(node.left);
+      }
+      if (node.val < high) {
+        queue.push(node.right);
+      }
     }
   }
   return ans;

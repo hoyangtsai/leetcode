@@ -5,8 +5,8 @@
  */
 
 // @facebook, @amazon
-// #binary-search
-// &875
+// tags: #binary-search
+// {@link 875.koko-eating-bananas.js}
 
 // @lc code=start
 /**
@@ -52,3 +52,8 @@ var shipWithinDays = function(weights, days) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n⋅log(500⋅n)) = O(n⋅log(n))
+ * - Space complexity: O(1)
+ */

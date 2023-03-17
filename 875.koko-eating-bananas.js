@@ -5,9 +5,8 @@
  */
 
 // @google, @facebook
-// #binary-search
-// #top-google-questions
-// &1011
+// #binary-search, #top-google-questions
+// {@link 1011.capacity-to-ship-packages-within-d-days.js}
 
 // @lc code=start
 /**
@@ -39,3 +38,9 @@ var minEatingSpeed = function(piles, h) {
   return l;
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(n * log m).
+ * - Space complexity: O(1).
+ */

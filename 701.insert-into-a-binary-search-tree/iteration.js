@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-tree, #binary-search-tree
+ * #binary-tree, #binary-search-tree
  */
 
 // @lc code=start
@@ -49,6 +49,5 @@ var insertIntoBST = function(root, val) {
 
 /**
  * - Time complexity: O(H), where H is a tree height.
- * 
  * - Space complexity: O(1).
  */

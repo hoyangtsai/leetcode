@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix
+ * #matrix
  */
 
 // @lc code=start

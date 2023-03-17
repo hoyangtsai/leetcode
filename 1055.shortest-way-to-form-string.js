@@ -5,8 +5,7 @@
  */
 
 /**
- * com: #google
- * tags: #two-pointers, #greedy, #subsequence
+ * #two-pointers, #greedy
  */
 
 // @lc code=start
@@ -23,7 +22,7 @@ var shortestWay = function(source, target) {
 
     for (let s = 0; s < source.length; s++) {
       if (t < target.length && source.charAt(s) == target.charAt(t)) {
-        t ++;
+        t++;
       }
     }
 

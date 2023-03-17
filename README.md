@@ -26,7 +26,7 @@
 ### Hash Table
 
 - [141. Linked List Cycle](141.linked-list-cycle/hash-table.js)
-- [205. Isomorphic Strings](205.isomorphic-strings.js) #google
+- [205. Isomorphic Strings](205.isomorphic-strings.js) @google
 - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/hash-table.js)
 - [1436. Destination City](1436.destination-city.js)
 - [1679. Max Number of K-Sum Pairs](1679.max-number-of-k-sum-pairs/hashmap-single-pass.js)
@@ -52,10 +52,11 @@
 - [283. Move Zeroes](283.move-zeroes.js)
 - [344. Reverse String](344.reverse-string.js)
 - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/two-pointers.js) 👍
-- [680. Valid Palindrome II](680.valid-palindrome-ii.js) #facebook
+- [680. Valid Palindrome II](680.valid-palindrome-ii.js) @facebook
 - [905. Sort Array By Parity](905.sort-array-by-parity.js)
 - [844. Backspace String Compare](844.backspace-string-compare/two-pointer.js)
 - [881. Boats to Save People](881.boats-to-save-people.js)
+- [1055. Shortest Way to Form String](1055.shortest-way-to-form-string.js)
 
 ### Dynamic Programming
 
@@ -77,7 +78,10 @@
 - [33. Search in Rotated Sorted Array](33.search-in-rotated-sorted-array.js)
 - [74. Search a 2D Matrix](74.search-a-2-d-matrix/binary-search.js)
 - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
-- [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js) #microsoft
+- [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js) @microsoft
+- [875. Koko Eating Bananas](875.koko-eating-bananas.js)
+- [958. Check Completeness of a Binary Tree](958.check-completeness-of-a-binary-tree.js) #breadth-first-search
+- [1011. Capacity To Ship Packages Within D Days](1011.capacity-to-ship-packages-within-d-days.js)
 
 ### Longest Increasing Sequence
   
@@ -117,7 +121,9 @@
 ### [Binary Tree](binary-tree/README.md)
   
 - [99. Recover Binary Search Tree](99.recover-binary-search-tree.js)
+- [101. Symmetric Tree](101.symmetric-tree.js)
 - [104. Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree/iteration.js)
+- [109. Convert Sorted List to Binary Search Tree](109.convert-sorted-list-to-binary-search-tree.js) #linked-list
 - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
 - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
 - [669. Trim a Binary Search Tree](669.trim-a-binary-search-tree.js)

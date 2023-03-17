@@ -21,12 +21,12 @@
  * @return {boolean}
  */
 var isValidBST = function (root) {
-  function validate(node, minVal, maxVal) {
+  function validate(node, left, right) {
     if (node === null) return true;
-    if (minVal >= node.val || maxVal <= node.val) return false;
+    if (left >= node.val || right <= node.val) return false;
     // node.left < node.val
     // node.right > node.val
-    return validate(node.left, minVal, node.val) && validate(node.right, node.val, maxVal);
+    return validate(node.left, left, node.val) && validate(node.right, node.val, right);
   }
   return validate(root, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY);
 };

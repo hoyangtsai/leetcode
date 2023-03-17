@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #linked-list, #divide-and-conquer, #heap, #priority-queue, #merge-sort
+ * #linked-list, #divide-and-conquer, #heap, #priority-queue, #merge-sort
  * #google-interview
  */
 

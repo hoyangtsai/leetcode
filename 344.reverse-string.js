@@ -5,7 +5,6 @@
  */
 
 /**
- * #apple, #microsoft, #amazon, #paypal, #rakuten
  * #two-pointers
  */
 
