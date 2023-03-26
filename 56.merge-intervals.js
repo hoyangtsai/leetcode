@@ -4,9 +4,11 @@
  * [56] Merge Intervals
  */
 
-// @amazon, @facebook, @microsoft, @google, @bloomberg, @adobe, @apple, @uber, @ebay, @linkedin, @paypal
-// #array, #sortings
-// #google-interview
+/**
+ * tags: #number-interval
+ * #google-interview
+ * {@link 57.insert-interval.js}
+ */
 
 // @lc code=start
 /**

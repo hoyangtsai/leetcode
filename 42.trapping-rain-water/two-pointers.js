@@ -5,7 +5,7 @@
  */
 
 /**
- * #facebook, #amazon, #SmartNews
+ * @SmartNews
  * tags: #two-pointers
  * #google-interview
  * {@link 11.container-with-most-water.js}

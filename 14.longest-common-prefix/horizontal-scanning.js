@@ -25,7 +25,6 @@ var longestCommonPrefix = function (strs) {
       // all sub-string not match
       if (prefix === '') return '';
     }
-    // console.log('prefix =>', prefix);
   }
   return prefix;
 };

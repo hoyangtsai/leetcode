@@ -5,9 +5,10 @@
  */
 
 /**
- * #rakuten
- * tags: #backtracking, #matrix, #depth-first-search
- * {@link ./212.word-search-ii.js}
+ * @rakuten
+ * tags: #backtracking, #matrix, #depth-first-search, #square-traverse, #4-way-traverse
+ * #my-interview
+ * {@link 212.word-search-ii.js}
  */
 
 // @lc code=start

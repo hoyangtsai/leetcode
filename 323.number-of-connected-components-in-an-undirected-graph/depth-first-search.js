@@ -4,8 +4,9 @@
  * [323] Number of Connected Components in an Undirected Graph
  */
 
-// @amazon
-// #depth-first-search
+/**
+ * tags: #depth-first-search
+ */
 
 // @lc code=start
 /**

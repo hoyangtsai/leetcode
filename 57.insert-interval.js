@@ -4,9 +4,11 @@
  * [57] Insert Interval
  */
 
-// @amazon, @uber, @apple, @rakuten
-// #array
-// #google-interview
+/**
+ * tags: #number-interval
+ * #google-interview
+ * {@link 56.merge-intervals.js}
+ */
 
 // @lc code=start
 /**

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #depth-first-search, #DFS
+ * tags: #matrix, #depth-first-search, #square-traverse, #4-way-traverse
  */
 
 // @lc code=start

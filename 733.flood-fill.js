@@ -6,7 +6,7 @@
 
 /**
  * tags: #depth-first-search
- * {@link numIslands|./200.number-of-islands}
+ * {@link 200.number-of-islands/depth-first-search.js}
  */
 
 // similar: https://medium.com/@obiwankenoobi/interview-question-9-paint-bucket-22b54d4b75df

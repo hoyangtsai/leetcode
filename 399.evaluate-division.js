@@ -4,9 +4,6 @@
  * [399] Evaluate Division
  */
 
-// @uber, @amazon
-// #dpeth-first-search, #union-find, #graph
-
 // @lc code=start
 /**
  * @param {string[][]} equations
@@ -91,14 +88,3 @@ var calcEquation = function(equations, values, queries) {
   return results;
 };
 // @lc code=end
-
-/**
- * Union-Find with Weights
- * 
- * - Time complexity: O((M + N) * log^2 N).
- * - Space complexity: O(N).
- */
-
-// Output: [6.00000, 0.50000, -1.00000, 1.00000, -1.00000]
-const res = calcEquation([["a", "b"], ["b", "c"]], [2.0, 3.0], [["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"]]);
-console.log('res =>', res);

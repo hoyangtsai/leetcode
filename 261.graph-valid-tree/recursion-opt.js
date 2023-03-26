@@ -4,10 +4,6 @@
  * [261] Graph Valid Tree
  */
 
-/**
- * tags: #graph, #depth-first-search
- */
-
 // @lc code=start
 /**
  * @param {number} n

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #greedy
+ * tags: #greedy, #array-of-digits, #plant-flowers
  */
 
 // @lc code=start
@@ -27,6 +27,7 @@ var canPlaceFlowers = function(flowerbed, n) {
       if (emptyLeftPlot && emptyRightPlot) {
         flowerbed[i] = 1;
         count++;
+        // return earlier if matched criteria for optimization
         if (count >= n) {
           return true;
         }
@@ -40,6 +41,7 @@ var canPlaceFlowers = function(flowerbed, n) {
 
 
 /**
+ * Single scan
  * - Time complexity: O(n).
  * - Space complexity: O(1).
  */

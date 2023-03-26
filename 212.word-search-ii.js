@@ -5,9 +5,9 @@
  */
 
 /**
- * tags: #backtracking, #matrix, #depth-first-search
+ * tags: #backtracking, #matrix, #depth-first-search, #square-traverse, #4-way-traverse
  * #google-interview
- * {@link ./79.word-search.js}
+ * {@link 79.word-search.js}
  */
 
 // @lc code=start

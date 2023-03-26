@@ -4,9 +4,9 @@
  * [359] Logger Rate Limiter
  */
 
-// @google
-// #design
-// #top-google-questions
+/**
+ * tags: #design
+ */
 
 // @lc code=start
 

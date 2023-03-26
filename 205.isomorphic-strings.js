@@ -5,8 +5,9 @@
  */
 
 /**
+ * @google
  * tags: #hash-table, #rhyme-pattern, #two-string-calculation
- * #my-google-interview
+ * #my-interview
  * {@link 290.word-pattern.js}
  */
 

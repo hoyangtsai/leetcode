@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #dijkstra-algorithm
+ * tags: #matrix, #dijkstra-algorithm, #square-traverse, #4-way-traverse
  * {@link 64.minimum-path-sum/dijkstra-algorithm.js}
  */
 

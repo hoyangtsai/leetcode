@@ -4,6 +4,10 @@
  * [208] Implement Trie (Prefix Tree)
  */
 
+/**
+ * tags: #trie
+ */
+
 // @lc code=start
 
 var Trie = function() {

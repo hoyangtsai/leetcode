@@ -5,8 +5,9 @@
  */
 
 /**
- * #microsoft
+ * @microsoft
  * tags: #binary-search
+ * #my-interview
  * {@link 33.search-in-rotated-sorted-array.js}
  */
 

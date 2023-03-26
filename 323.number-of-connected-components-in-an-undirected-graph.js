@@ -4,11 +4,6 @@
  * [323] Number of Connected Components in an Undirected Graph
  */
 
-/**
- * tags: #union-find, #disjoint-set
- * {@link findCircleNum|./547.number-of-provinces.js}
- */
-
 // @lc code=start
 /**
  * @param {number} n

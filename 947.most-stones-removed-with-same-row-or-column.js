@@ -4,9 +4,10 @@
  * [947] Most Stones Removed with Same Row or Column
 */
 
-// @google, @apple
-// #union-find, #disjoint-set
-// #google-interview
+/**
+ * tags: #union-find, #disjoint-set
+ * #google-interview
+ */
 
 // @lc code=start
 /**

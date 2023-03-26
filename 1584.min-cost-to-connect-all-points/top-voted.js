@@ -4,10 +4,6 @@
  * [1584] Min Cost to Connect All Points
  */
 
-/**
- * tags: #prim-algorithm
- */
-
 // @lc code=start
 /**
  * @param {number[][]} points
