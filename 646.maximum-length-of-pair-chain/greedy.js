@@ -4,8 +4,9 @@
  * [646] Maximum Length of Pair Chain
  */
 
-// #amazon
-// tags: #dynamic-programming, #greedy
+/**
+ * tags: #greedy
+ */
 
 // @lc code=start
 /**

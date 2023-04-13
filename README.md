@@ -6,12 +6,15 @@
 
 - [20. Valid Parentheses](20.valid-parentheses.js)
 - [32. Longest Valid Parentheses](32.longest-valid-parentheses/stack.js)
+- [71. Simplify Path](71.simplify-path.js)
 - [84. Largest Rectangle in Histogram](84.largest-rectangle-in-histogram.js)
 - [456. 132 Pattern](456.132-pattern/stack.js)
 - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
+- [946. Validate Stack Sequences](946.validate-stack-sequences.js)
 - [1047. Remove All Adjacent Duplicates In String](1047.remove-all-adjacent-duplicates-in-string.js) #string-duplicates
 - [1209. Remove All Adjacent Duplicates in String II](1209.remove-all-adjacent-duplicates-in-string-ii.js) #string-duplicates
-- [1249.Minimum Remove to Make Valid Parentheses](1249.minimum-remove-to-make-valid-parentheses.js)
+- [1249. Minimum Remove to Make Valid Parentheses](1249.minimum-remove-to-make-valid-parentheses.js)
+- [2390. Removing Stars From a String](2390.removing-stars-from-a-string.js)
 
 #### [Monotonic Stack](./monotonic-stack/README.md)
 
@@ -71,6 +74,7 @@
 - [518. Coin Change 2](518.coin-change-2.js)
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
+- [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 
 ### [Binary Search](./binary-search/README.md)
@@ -96,7 +100,13 @@
 
 ### Greedy
 
+- [134. Gas Station](134.gas-station.js)
+- [135. Candy](135.candy.js)
+- [485. Max Consecutive Ones](485.max-consecutive-ones.js)
 - [605. Can Place Flowers](605.can-place-flowers.js)
+- [646. Maximum Length of Pair Chain](646.maximum-length-of-pair-chain/greedy.js)
+- [881. Boats to Save People](881.boats-to-save-people.js)
+- [1402. Reducing Dishes](1402.reducing-dishes.js)
 
 ### Prefix Sum
 

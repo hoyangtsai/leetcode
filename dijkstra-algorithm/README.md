@@ -1,7 +1,7 @@
 # Dijkstra Algorithm
 
 - 兩個頂點之間的最短路徑
-- **不能**有效處理帶有負權邊的圖（使用 Bellman-Ford 算法）
+- **不能**有效處理帶有負權邊的圖（使用 [Bellman-Ford](../bellman-ford-algorithm/README.md) 算法）
 - 演算法概念與流程：
   - 一張表格紀錄以下內容 - 點到點的距離、前一個點（回推得知最短路徑）、是否已經存取過節點（Boolean）
   - 距離欄位，與自己本身指定為 0、其餘設定為 ∞

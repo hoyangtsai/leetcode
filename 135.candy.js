@@ -5,7 +5,6 @@
  */
 
 /**
- * #amazon
  * tags: #greedy, #bidirectional
  * #google-interview
  */

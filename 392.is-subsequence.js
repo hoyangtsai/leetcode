@@ -4,7 +4,9 @@
  * [392] Is Subsequence
  */
 
- // #binary-search, #two-pointers, #greedy
+ /**
+  * tags: #two-pointers
+  */
 
 // @lc code=start
 /**
@@ -23,11 +25,11 @@ var isSubsequence = function(s, t) {
     tIndex += 1;
   }
   return sIndex === s.length;
-
-  /**
-   * Two-pointers approach
-   * Time complexity: O(|T|).
-   * Space complexity: O(1). In the iteration, a constant memory is consumed regardless of the input.
-   */
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(|T|).
+ * - Space complexity: O(1). In the iteration, a constant memory is consumed regardless of the input.
+ */
