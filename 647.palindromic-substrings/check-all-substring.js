@@ -9,7 +9,6 @@
  * {@link 680.valid-palindrome-ii.js}
  */
 
-
 // @lc code=start
 /**
  * @param {string} s

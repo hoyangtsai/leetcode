@@ -63,6 +63,7 @@
 
 ### Dynamic Programming
 
+- [5. Longest Palindromic Substring](5.longest-palindromic-substring/dynamic-programming.js)
 - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
 - [63. Unique Paths II](63.unique-paths-ii.js) #matrix
 - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
@@ -71,9 +72,11 @@
 - [213. House Robber II](213.house-robber-ii.js)
 - [256. Paint House](256.paint-house.js)
 - [322. Coin Change](322.coin-change.js)
+- [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
 - [518. Coin Change 2](518.coin-change-2.js)
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
+- [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
 - [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 

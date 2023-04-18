@@ -5,8 +5,9 @@
  */
 
 /**
- * 
+ * tags: #stack
  */
+
 // @lc code=start
 /**
  * @param {string} path
