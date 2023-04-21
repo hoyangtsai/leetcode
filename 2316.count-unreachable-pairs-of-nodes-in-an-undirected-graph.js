@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #undirected-graph
+ * tags: #undirected-graph, #connect-node
  */
 
 // @lc code=start

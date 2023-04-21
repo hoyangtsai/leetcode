@@ -128,23 +128,22 @@
 - [424. Longest Repeating Character Replacement](424.longest-repeating-character-replacement.js)
 - [904. Fruit Into Baskets](904.fruit-into-baskets.js)
 
-### [Binary Tree](binary-tree/README.md)
-  
+### [Binary Search Tree](binary-search-tree/README.md)
+
 - [99. Recover Binary Search Tree](99.recover-binary-search-tree.js)
 - [101. Symmetric Tree](101.symmetric-tree.js)
 - [104. Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree/iteration.js)
 - [109. Convert Sorted List to Binary Search Tree](109.convert-sorted-list-to-binary-search-tree.js) #linked-list
 - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
 - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
+- [662. Maximum Width of Binary Tree](./662.maximum-width-of-binary-tree.js)
 - [669. Trim a Binary Search Tree](669.trim-a-binary-search-tree.js)
-- [897. Increasing Order Search Tree](897.increasing-order-search-tree.js)
-
-### Binary Search Tree
-
 - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
 - [701. Insert into a Binary Search Tree](701.insert-into-a-binary-search-tree/iteration.js)
 - [705. Design HashSet](705.design-hash-set.js)
+- [897. Increasing Order Search Tree](897.increasing-order-search-tree.js)
 - [1302. Deepest Leaves Sum](1302.deepest-leaves-sum/dfs-iteration.js) #preorder
+- [1372. Longest ZigZag Path in a Binary Tree](1372.longest-zig-zag-path-in-a-binary-tree.js)
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/dfs-recursion.js) #inorder
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/binary-search-using-dfs.js)
 
@@ -173,6 +172,9 @@
 - [994. Rotting Oranges](994.rotting-oranges.js)
 - [1260. Shift 2D Grid](1260.shift-2-d-grid.js)
 - [1337. The K Weakest Rows in a Matrix](1337.the-k-weakest-rows-in-a-matrix/vertical-iteration.js)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](1466.reorder-routes-to-make-all-paths-lead-to-the-city-zero.js)
+- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](2316.count-unreachable-pairs-of-nodes-in-an-undirected-graph.js)
+- [2360. Longest Cycle in a Graph](2360.longest-cycle-in-a-graph.js)
 
 ### Union Find
 

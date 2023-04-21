@@ -5,8 +5,9 @@
  */
 
 /**
- * 
+ * tags: #stack, #string-remove-char, #asterisk
  */
+
 // @lc code=start
 /**
  * @param {string} s

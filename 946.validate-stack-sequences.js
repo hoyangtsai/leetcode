@@ -4,6 +4,10 @@
  * [946] Validate Stack Sequences
  */
 
+/**
+ * tags: #stack
+ */
+
 // @lc code=start
 /**
  * @param {number[]} pushed

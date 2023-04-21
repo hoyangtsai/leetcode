@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #depth-first-search
+ * tags: #depth-first-search, #directed-graph
  */
 
 // @lc code=start
