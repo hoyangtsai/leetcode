@@ -4,6 +4,10 @@
  * [516] Longest Palindromic Subsequence
  */
 
+/**
+ * tags: #dynamic-programming
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -27,3 +31,8 @@ var longestPalindromeSubseq = function(s) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n^2).
+ * - Space complexity: O(n^2).
+ */

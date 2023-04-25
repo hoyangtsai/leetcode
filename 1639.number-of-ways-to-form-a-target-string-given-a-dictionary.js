@@ -4,6 +4,10 @@
  * [1639] Number of Ways to Form a Target String Given a Dictionary
  */
 
+/**
+ * tags: #dynamic-programming, #char-code
+ */
+
 // @lc code=start
 /**
  * @param {string[]} words

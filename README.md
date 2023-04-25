@@ -77,7 +77,9 @@
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
 - [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
+- [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
 - [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](1639.number-of-ways-to-form-a-target-string-given-a-dictionary.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 
 ### [Binary Search](./binary-search/README.md)

@@ -17,18 +17,15 @@
 var mincostTickets = function(days, costs) {
   // index of ticket
   const [_1day, _7day, _30day] = [0, 1, 2];
-    
-  // set of travel days
-  const travelDays = new Set(days);
   
   const lastTravelDay = days[days.length - 1];
 
   // DP table, record for minimum cost of ticket to travel
-  dpCost = new Array(lastTravelDay + 1).fill(0);
+  let dpCost = new Array(lastTravelDay + 1).fill(0);
 
   // solve min cost by DP
   for (let day = 1; day <= lastTravelDay; day++) {
-    if (!travelDays.has(day)) {
+    if (!days.includes(parseInt(day))) {
       // today is not traveling day
       // no extra cost
       dpCost[day] = dpCost[day - 1];

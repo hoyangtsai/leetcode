@@ -16,7 +16,6 @@
 var lastStoneWeight = function(stones) {
   // descending sort
   stones.sort((a, b) => b - a);
-  console.log('stones :>> ', stones);
 
   while(stones.length > 1) {
     let stone1 = stones.shift();

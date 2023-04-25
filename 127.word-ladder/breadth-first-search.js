@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search, #graph, #string-combination, #substring-concat
+ * tags: #breadth-first-search, #string-combination, #substring-concat
  * #google-interview
  */
 
