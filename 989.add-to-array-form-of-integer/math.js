@@ -24,8 +24,8 @@ var addToArrayForm = function(num, k) {
   // value = sum % 10
   // carry = sum / 10
   while (i >= 0 || j >= 0) {
-    const x1 = i >= 0 ? num[i] - '0' : 0; // - '0' = parseInt
-    const x2 = j >= 0 ? k[j] - '0' : 0;
+    const x1 = i >= 0 ? parseInt(num[i]) : 0; // num[i] - '0' = parseInt(num[i])
+    const x2 = j >= 0 ? parseInt(k[j]) : 0;
     const value = (x1 + x2 + carry) % 10;
     carry = parseInt((x1 + x2 + carry) / 10); // get integer only without floats
     sum.unshift(value);

@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #modular-arithmetic
+ * tags: #math, #modular-arithmetic
+ * {@link 258.add-digits.js}
  */
 
 // @lc code=start
@@ -19,7 +20,7 @@ var convertToBase7 = function(num) {
   let isNeg = (num < 0);
   num = Math.abs(num);
   let digits = '';
-  while (num != 0) {
+  while (num > 0) {
     digits = String(num % 7) + digits;
     num = parseInt(num / 7);
   }

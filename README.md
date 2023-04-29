@@ -190,6 +190,7 @@
 - [1319. Number of Operations to Make Network Connected](1319.number-of-operations-to-make-network-connected.js)
 - [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
+- [1697. Checking Existence of Edge Length Limited Paths](1697.checking-existence-of-edge-length-limited-paths.js)
 - [2492. Minimum Score of a Path Between Two Cities](2492.minimum-score-of-a-path-between-two-cities.js)
 
 #### [Dijkstra Algorithm](dijkstra-algorithm/README.md)
