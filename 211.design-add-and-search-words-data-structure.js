@@ -6,6 +6,7 @@
 
 /**
  * tags: #design, #trie, #字典樹
+ * {@link 1065.index-pairs-of-a-string.js}
  */
 
 // @lc code=start
