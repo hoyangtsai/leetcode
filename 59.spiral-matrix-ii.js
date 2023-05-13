@@ -6,6 +6,7 @@
 
 /**
  * tags: #matrix
+ * {@link ./54.spiral-matrix.js}
  */
 
 // @lc code=start
@@ -46,6 +47,6 @@ var generateMatrix = function(n) {
  * For n = 3, layer = 2
  * For n = 6, layer = 3
  * 
- * - Time complexity: O(n^2)
+ * - Time complexity: O(n^2).
  * - Space complexity: O(1). We use constant extra space for storing `cnt`.
  */

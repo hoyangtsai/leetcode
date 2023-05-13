@@ -4,6 +4,10 @@
  * [1498] Number of Subsequences That Satisfy the Given Sum Condition
  */
 
+/**
+ * tags: #two-pointers, #math
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -27,13 +31,13 @@ var numSubseq = function(nums, target) {
   let left = 0, right = n - 1;
 
   while (left <= right) {
-      if (nums[left] + nums[right] <= target) {
-          answer += power[right - left];
-          answer %= mod;
-          left++;
-      } else {
-          right--;
-      }
+    if (nums[left] + nums[right] <= target) {
+      answer += power[right - left];
+      answer %= mod;
+      left++;
+    } else {
+      right--;
+    }
   }
   
   return answer;
