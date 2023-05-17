@@ -31,7 +31,6 @@ var climbStairs = function (n) {
 
 
 /**
- * 
  * - Time complexity: O(n). Single loop upto n is required to calculate n power of th.
  * - Space complexity: O(1). Constant space is used.
  */

@@ -1,12 +1,7 @@
 /*
- * @lc app=leetcode id=234 lang=javascript
+ * @lc app=leetcode id=2130 lang=javascript
  *
- * [234] Palindrome Linked List
- */
-
-/**
- * tags: #linked-list, #palindrome, #reverse-half
- * {@link 206.reverse-linked-list.js}
+ * [2130] Maximum Twin Sum of a Linked List
  */
 
 // @lc code=start
@@ -19,12 +14,13 @@
  */
 /**
  * @param {ListNode} head
- * @return {boolean}
+ * @return {number}
  */
-var isPalindrome = function(head) {
-  // get second half
+var pairSum = function(head) {
   let slow = head;
   let fast = head;
+
+  // Get middle of the linked list
   while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
@@ -39,20 +35,15 @@ var isPalindrome = function(head) {
     prev = temp;
   }
 
-  // starting compare
-  fast = head, slow = prev;
-  while (slow) {
-    if (fast.val !== slow.val) return false;
-    fast = fast.next;
-    slow = slow.next;
+  let start = head;
+  let maxSum = 0;
+  while (prev) {
+    maxSum = Math.max(maxSum, start.val + prev.val);
+    prev = prev.next;
+    start = start.next;
   }
 
-  return true;
+  return maxSum
 };
 // @lc code=end
 
-
-/**
- * - Time complexity: O(N).
- * - Space complexity: O(1).
- */

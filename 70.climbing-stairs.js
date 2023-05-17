@@ -4,9 +4,6 @@
  * [70] Climbing Stairs
  */
 
- // #dynamic-programming, #fibonacci
- // @adobe, @apple
-
 // @lc code=start
 /**
  * @param {number} n
@@ -24,8 +21,5 @@ var climbStairs = function(n) {
   }
 
   return second;
-  // Fibonacci number
-  // time complexity: O(n). Single loop upto n is required to calculate n power of th.
-  // space complexity: O(1). Constant space is used.
 };
 // @lc code=end
