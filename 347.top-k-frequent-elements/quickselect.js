@@ -5,7 +5,6 @@
  */
 
 /**
- * #facebook, #amazon, #microsoft
  * tags: #sorting, #quickselect
  * {@link 215.kth-largest-element-in-an-array/quickselect.js}
  */
@@ -75,5 +74,11 @@ var topKFrequent = function(nums, k) {
   return unique.slice(n - k);
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(N).
+ * - Space complexity: O(N).
+ */
 
 console.log(topKFrequent([1,1,1,2,2,3], 2))

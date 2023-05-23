@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #design, #heap, #priority-queue
+ * tags: #design, #heap, #priority-queue, #binary-search
  */
 
 // @lc code=start

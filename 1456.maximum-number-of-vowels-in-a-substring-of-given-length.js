@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #sliding-window
+ * tags: #sliding-window, #substring
  */
 
 // @lc code=start
@@ -18,6 +18,7 @@ var maxVowels = function(s, k) {
   const vowels = ['a', 'e', 'i', 'o', 'u'];
 
   // Build the window of size k, count the number of vowels it contains.
+  // assume the first k length of string s has the longest vowel counts
   let count = 0;
   for (let i = 0; i < k; i++) {
     count += vowels.includes(s.charAt(i)) ? 1 : 0;
@@ -27,6 +28,8 @@ var maxVowels = function(s, k) {
 
   // Slide the window to the right, focus on the added character and the
   // removed character and update "count". Record the largest "count".
+  // starting from the size of k, move the i from left to right
+  // record the maximum length contains vowel base on the k length
   for (let i = k; i < s.length; i++) {
     count += vowels.includes(s.charAt(i)) ? 1 : 0;
     count -= vowels.includes(s.charAt(i - k)) ? 1 : 0;

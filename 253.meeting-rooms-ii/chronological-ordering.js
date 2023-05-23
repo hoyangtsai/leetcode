@@ -37,6 +37,7 @@ var minMeetingRooms = function(intervals) {
 };
 // @lc code=end
 
+
 /**
  * - Time complexity: O(n * log n)
  * - Space complexity: O(n), because we need two separate array size of 𝑁, one for recording the start times and one for the end times.

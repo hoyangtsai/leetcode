@@ -71,6 +71,7 @@
 - [198. House Robber](198.house-robber.js)
 - [213. House Robber II](213.house-robber-ii.js)
 - [256. Paint House](256.paint-house.js)
+- [265. Paint House II](265.paint-house-ii.js)
 - [322. Coin Change](322.coin-change.js)
 - [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
 - [518. Coin Change 2](518.coin-change-2.js)
@@ -230,7 +231,7 @@
 
 ## Big-O cheatsheet
 
-![big-O cheatsheet](big-o-cheatsheet.png)
+[![big-O cheatsheet](big-o-cheatsheet.png)](https://www.bigocheatsheet.com)
 
 ## VS Code Extension
 

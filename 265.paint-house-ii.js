@@ -4,6 +4,11 @@
  * [265] Paint House II
  */
 
+/**
+ * tags: #dynamic-programming
+ * {@link 256.paint-house.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} costs

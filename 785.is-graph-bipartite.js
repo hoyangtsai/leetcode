@@ -28,7 +28,7 @@ var isBipartite = function(graph) {
         for (const nei of graph[node]) {
           if (color[nei] == -1) {
             stack.push(nei);
-            color[nei] = color[node] ^ 1;
+            color[nei] = color[node] ^ 1; // reverse between 0 and 1
           } else if (color[nei] == color[node]) {
             return false;
           }
@@ -44,6 +44,5 @@ var isBipartite = function(graph) {
 
 /**
  * - Time complexity: O(N + E), where N is the number of nodes in the graph, and E is the number of edges.
- * 
  * - Space complexity: O(N), the space used to store the color.
  */

@@ -39,6 +39,7 @@ var minMeetingRooms = function(intervals) {
 };
 // @lc code=end
 
+
 /**
  * - Time complexity: O(N logN).
  *    - There are two major portions that take up time. One is sorting of the intervals that takes O(N log N) considering that the array consists of N elements.
