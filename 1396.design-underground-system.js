@@ -69,6 +69,5 @@ UndergroundSystem.prototype.getAverageTime = function(startStation, endStation) 
 
 /**
  * - Time complexity: O(1).
- * 
  * - Space complexity: O(P + S^2), where S is the number of stations on the network, and P is the number of passengers making a journey concurrently during peak time.
  */

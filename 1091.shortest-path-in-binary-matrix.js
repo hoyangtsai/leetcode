@@ -25,6 +25,22 @@ var shortestPathBinaryMatrix = function(grid) {
   let queue = [[0, 0]];
   grid[0][0] = 1;
 
+  function getNeighbors(row, col, grid) {
+    let neighbors = [];
+
+    for (const [dx, dy] of dirs) {
+      let newRow = row + dx;
+      let newCol = col + dy;
+      if (newRow < 0 || newCol < 0 || newRow >= grid.length || newCol >= grid[0].length // out of boundary
+        || grid[newRow][newCol] != 0 // the cell not movable
+      ) {
+        continue;
+      }
+      neighbors.push([newRow, newCol]);
+    }
+    return neighbors;
+  }
+
   // Carry out the BFS
   while (queue.length > 0) {
     let cell = queue.shift();
@@ -43,22 +59,11 @@ var shortestPathBinaryMatrix = function(grid) {
 
   // The target was unreachable.
   return -1;
-
-  function getNeighbors(row, col, grid) {
-    let neighbors = [];
-
-    for (const [dx, dy] of dirs) {
-      let newRow = row + dx;
-      let newCol = col + dy;
-      if (newRow < 0 || newCol < 0 
-        || newRow >= grid.length || newCol >= grid[0].length
-        || grid[newRow][newCol] != 0) {
-        continue;
-      }
-      neighbors.push([newRow, newCol]);
-    }
-    return neighbors;
-  }
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N).
+ * - Space complexity: O(N).
+ */

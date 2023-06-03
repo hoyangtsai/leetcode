@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #design, #hashmap
+ * tags: #design
  */
 
 // @lc code=start

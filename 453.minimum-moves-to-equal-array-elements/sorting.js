@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #sorting
+ * tags: #sorting, #array-number-transition
  * @link 462.minimum-moves-to-equal-array-elements-ii/sorting.js}
  */
 

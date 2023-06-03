@@ -5,7 +5,6 @@
  */
 
 /**
- * company: #google, #amazon, #microsoft
  * tags: #dynamic-programming, #subsequence
  */
 
@@ -38,6 +37,6 @@ var lengthOfLIS = function (nums) {
 
 
 /**
- * Time complexity: O(N^2).
- * Space complexity: O(N).
+ * - Time complexity: O(N^2).
+ * - Space complexity: O(N).
  */

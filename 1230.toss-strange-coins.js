@@ -4,7 +4,9 @@
  * [1230] Toss Strange Coins
  */
 
-// #dynamic-programming
+/**
+ * tags: #dynamic-programming, #probability
+ */
 
 // @lc code=start
 /**
@@ -14,7 +16,8 @@
  */
 var probabilityOfHeads = function(prob, target) {
   // dp[c][k] is the possibility to get k face with c coin
-  let dp = Array(prob.length + 1).fill().map(() => Array(target + 1).fill(0));
+  // let dp = Array(prob.length + 1).fill().map(() => Array(target + 1).fill(0));
+  let dp = Array.from(Array(prob.length + 1).fill(0), () => Array(target + 1).fill(0));
   dp[0][0] = 1;
 
   // there is no coin to get k face
@@ -38,5 +41,10 @@ var probabilityOfHeads = function(prob, target) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n * target).
+ * - Space complexity: O(n * target).
+ */
 
 probabilityOfHeads([0.5, 0.5, 0.5, 0.5, 0.5], 0);

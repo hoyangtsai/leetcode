@@ -158,7 +158,8 @@ class BSTree {
 
 
 /**
- * - Time complexity: O(log N/K), where 
- * 
- * - Space complexity: O(N + K) where K
+ * - Time complexity: O(log N/K), where N is the number of all possible values and K is the number of predefined buckets, which is 769.
+ *   - Assuming that the values are evenly distributed, we could consider that the average size of buckets is N/K.
+ *   - Where we traverse the BST, we are conducting binary search, as a result, the final time complexity of each operation is O(log N/K).
+ * - Space complexity: O(N + K) where K is the number of predefined buckets, and M is the number of unique values that have been inserted into the HashSet.
  */

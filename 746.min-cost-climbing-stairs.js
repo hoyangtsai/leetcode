@@ -4,8 +4,9 @@
  * [746] Min Cost Climbing Stairs
  */
 
-// @amazon, @uber
-// #dynamic-programming
+/**
+ * tags: #dynamic-programming
+ */
 
 // @lc code=start
 /**

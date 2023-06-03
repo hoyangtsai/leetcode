@@ -28,6 +28,7 @@
 
 ### Hash Table
 
+- [36. Valid Sudoku](36.valid-sudoku.js)
 - [141. Linked List Cycle](141.linked-list-cycle/hash-table.js)
 - [205. Isomorphic Strings](205.isomorphic-strings.js)
 - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/hash-table.js)
@@ -68,10 +69,11 @@
 - [63. Unique Paths II](63.unique-paths-ii.js) #matrix
 - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
 - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js) #greedy
-- [198. House Robber](198.house-robber.js)
+- [198. House Robber](198.house-robber/dynamic-programming.js)
 - [213. House Robber II](213.house-robber-ii.js)
 - [256. Paint House](256.paint-house.js)
 - [265. Paint House II](265.paint-house-ii.js)
+- [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/dynamic-programming.js)
 - [322. Coin Change](322.coin-change.js)
 - [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
 - [518. Coin Change 2](518.coin-change-2.js)
@@ -79,9 +81,12 @@
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
 - [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
 - [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
+- [746. Min Cost Climbing Stairs](746.min-cost-climbing-stairs.js)
 - [837. New 21 Game](837.new-21-game.js)
 - [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
+- [1137. N-th Tribonacci Number](1137.n-th-tribonacci-number.js)
 - [1140. Stone Game II](1140.stone-game-ii.js)
+- [1230. Toss Strange Coins](1230.toss-strange-coins.js)
 - [1312. Minimum Insertion Steps to Make a String Palindrome](1312.minimum-insertion-steps-to-make-a-string-palindrome.js)
 - [1406. Stone Game III](1406.stone-game-iii.js)
 - [1547. Minimum Cost to Cut a Stick](1547.minimum-cost-to-cut-a-stick.js)
@@ -184,6 +189,7 @@
 - [1260. Shift 2D Grid](1260.shift-2-d-grid.js)
 - [1337. The K Weakest Rows in a Matrix](1337.the-k-weakest-rows-in-a-matrix/vertical-iteration.js)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](1466.reorder-routes-to-make-all-paths-lead-to-the-city-zero.js)
+- [2101. Detonate the Maximum Bombs](2101.detonate-the-maximum-bombs.js)
 - [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](2316.count-unreachable-pairs-of-nodes-in-an-undirected-graph.js)
 - [2360. Longest Cycle in a Graph](2360.longest-cycle-in-a-graph.js)
 

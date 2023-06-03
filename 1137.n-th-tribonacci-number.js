@@ -4,6 +4,10 @@
  * [1137] N-th Tribonacci Number
  */
 
+/**
+ * tags: #dynamic-programming
+ */
+
 // @lc code=start
 /**
  * @param {number} n

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search, #string-group-possibility, #alternating-sequence
+ * tags: #binary-substring, #string-group-possibility, #alternating-sequence
  */
 
 // @lc code=start

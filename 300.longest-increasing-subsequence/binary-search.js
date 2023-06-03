@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search, #LIS, #binary-search
+ * tags: #binary-search, #LIS, #longest-increasing-sequence
  */
 
 // @lc code=start
@@ -53,6 +53,6 @@ var lengthOfLIS = function (nums) {
 
 
 /**
- * Time complexity: O(N log N).
- * Space complexity: O(N).
+ * - Time complexity: O(N log N).
+ * - Space complexity: O(N).
  */
