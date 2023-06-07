@@ -4,10 +4,6 @@
  * [338] Counting Bits
  */
 
-/**
- * tags: #bitwise-operation, #bit-manipulation
- */
-
 // @lc code=start
 /**
  * @param {number} n
@@ -33,8 +29,3 @@ var countBits = function(n) {
 };
 // @lc code=end
 
-
-/**
- * - Time complexity: O(n).
- * - Space complexity: O(1).
- */

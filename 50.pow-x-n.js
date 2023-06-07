@@ -4,6 +4,11 @@
  * [50] Pow(x, n)
  */
 
+/**
+ * @Nvidia
+ * tags: #math
+ */
+
 // @lc code=start
 /**
  * @param {number} x
@@ -11,25 +16,19 @@
  * @return {number}
  */
 var myPow = function(x, n) {
-  let N = n;
-  if (N < 0) {
-    x = 1 / x;
-    N = -N;
-  }
-
-  let ans = 1;
-  let currentProduct = x;
-  for (let i = N; i > 0; i /= 2) {
-    if ((i % 2) == 1) {
-      ans = ans * currentProduct;
-    }
-    currentProduct = currentProduct * currentProduct;
-  }
-  return ans;
+  if (n === 0) return 1;
+    
+  let pow = Math.abs(n);
+    
+	let result = pow % 2 === 0 ?
+    myPow(x*x, pow/2) : myPow(x*x, (pow-1)/2) * x;
+    
+  return n < 0 ? 1 / result : result;
 };
 // @lc code=end
 
 
-
-let ans = myPow(2.00000, 10);
-console.log(ans);
+/**
+ * - Time complexity: O(log n).
+ * - Space complexity: O(1).
+ */

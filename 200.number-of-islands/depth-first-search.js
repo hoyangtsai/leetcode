@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #depth-first-search, #matrix, #square-traverse, #4-way-traverse
+ * @Nvidia
+ * tags: #matrix, #square-traverse, #4-way-traverse, #square-grid
  */
 
 // @lc code=start

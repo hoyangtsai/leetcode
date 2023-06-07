@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #design, #trie, #字典樹
+ * tags: #design, #trie
  * {@link 211.design-add-and-search-words-data-structure.js}
  */
 

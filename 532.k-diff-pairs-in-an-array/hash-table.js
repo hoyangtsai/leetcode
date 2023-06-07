@@ -5,8 +5,9 @@
  */
 
 /**
- * #line, #shopback
- * tags: #hash-table, #number-pair
+ * @LINE, @Shopback
+ * tags: #hash-table, #array-number-pair
+ * #my-interview
  */
 
 // @lc code=start

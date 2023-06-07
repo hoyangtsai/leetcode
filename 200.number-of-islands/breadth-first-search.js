@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search, #matrix
+ * tags: #breadth-first-search
  */
 
 // @lc code=start
@@ -53,7 +53,8 @@ var numIslands = function(grid) {
 };
 // @lc code=end
 
+
 /**
- * - Time complexity: O(M x N), where M is the number of rows and N is the number of columns.
+ * - Time complexity: O(M * N), where M is the number of rows and N is the number of columns.
  * - Space complexity: O(min(M, N)) because in worst case where the grid is filled with island, the size of queue can grow up to min(M, N).
  */

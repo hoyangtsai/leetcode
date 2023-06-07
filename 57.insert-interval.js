@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #number-interval
+ * tags: #array-intervals
  * #google-interview
  * {@link 56.merge-intervals.js}
  */
@@ -38,6 +38,7 @@ var insert = function(intervals, newInterval) {
   return result;
 };
 // @lc code=end
+
 
 /**
  * Greedy

@@ -4,9 +4,10 @@
  * [753] Cracking the Safe
  */
 
-// @google
-// #depth-first-search, #graph
-// #google-interview
+/**
+ * tags: #graph, #crack-safe
+ * #google-interivew
+ */
 
 // @lc code=start
 /**
@@ -37,8 +38,8 @@ var crackSafe = function(n, k) {
 };
 // @lc code=end
 
+
 /**
- * DFS
  * Time complexity: O(n * k^n)
  * Space complexity: O(n * k^n)
  */

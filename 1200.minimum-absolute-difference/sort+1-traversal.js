@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #sorting, #number-pair
+ * tags: #array-number-pair
  * {@link 532.k-diff-pairs-in-an-array/two-pointers.js}
  */
 

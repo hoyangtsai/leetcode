@@ -5,8 +5,8 @@
  */
 
 /**
- * com: #amazon, #microsoft
- * tags: #linked-list
+ * @Nvidia
+ * tags: #linked-list, #reverse-linked-list
  */
 
 // @lc code=start
@@ -35,3 +35,8 @@ var reverseList = function(head) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(n).
+ */

@@ -4,6 +4,11 @@
  * [697] Degree of an Array
  */
 
+/**
+ * @Nvidia
+ * tags: #hash-table, #array-number-subarray
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

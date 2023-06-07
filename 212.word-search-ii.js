@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #backtracking, #matrix, #depth-first-search, #square-traverse, #4-way-traverse
+ * tags: #trie, #square-traverse, #4-way-traverse
  * #google-interview
  * {@link 79.word-search.js}
  */
@@ -64,9 +64,7 @@ var findWords = function(board, words) {
 // @lc code=end
 
 
-/**
- * Backtracking with Trie
- * 
+/** 
  * - Time complexity: O(M(4*3^L-1)), where M is the number of calls in the board and L is the maximum length of words.
  * - Space complexity: O(N), where N is the total number of letter in the dictionary.
  */

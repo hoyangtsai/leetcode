@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #trie
+ * tags: #trie, #design
  */
 
 // @lc code=start

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #counting-sort, #number-pair
+ * tags: #counting-sort
  */
 
 // @lc code=start

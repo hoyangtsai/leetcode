@@ -5,7 +5,8 @@
  */
 
  /**
-  * tags: #two-pointers, #zero
+  * @Nvidia
+  * tags: #two-pointers, #array-zero
   */
 
 // @lc code=start

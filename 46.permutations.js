@@ -4,12 +4,6 @@
  * [46] Permutations
  */
 
-/**
- * tags: #backtracking, #permutation
- * {@link 78.subsets.js}
- * {@link 47.permutations-ii.js}
- */
-
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -45,9 +39,3 @@ var permute = function(nums) {
 };
 // @lc code=end
 
-
-/**
- * - Time complexity: O(\sum_{n=1}^{N} P(N,k)), where P(N, k) = N!/(N - k)! = N(N-1)...(N-k+1) is so-called [k-permutations_of_N or partial permutation](https://en.wikipedia.org/wiki/Permutation#k-permutations_of_n). 
- * 
- * - Space complexity: O(N!) since one has to keep N! solutions.
- */

@@ -5,6 +5,7 @@
  */
 
 /**
+ * @Nvidia
  * tags: #hash-table
  */
 
@@ -38,7 +39,7 @@ var isValidSudoku = function(board) {
       // Check the box
       let idx = parseInt(r / 3) * 3 + parseInt(c / 3);
       if (boxes[idx].has(val)) {
-          return false;
+        return false;
       }
       boxes[idx].add(val);
     }

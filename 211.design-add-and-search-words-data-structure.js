@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #design, #trie, #字典樹
+ * @Nvidia
+ * tags: #design, #trie
  * {@link 1065.index-pairs-of-a-string.js}
  */
 

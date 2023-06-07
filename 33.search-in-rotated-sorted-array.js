@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #binary-search, #array-number-search
+ * @Nvidia
+ * tags: #binary-search, #array-number-find
  * {@link 153.find-minimum-in-rotated-sorted-array.js}
  * {@link 81.search-in-rotated-sorted-array-ii/binary-search.js}
  */

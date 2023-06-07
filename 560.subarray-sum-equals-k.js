@@ -5,8 +5,9 @@
  */
 
 /**
- * #facebook, #shopback
- * tags: #hash-table, #prefix-sum
+ * @Shopback, @Nvidia
+ * tags: #hash-table, #prefix-sum, #number-pair
+ * #my-interview
  * {@link 523.continuous-subarray-sum.js}
  */
 

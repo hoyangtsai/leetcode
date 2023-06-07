@@ -5,6 +5,7 @@
  */
 
 /**
+ * @Nvidia
  * tags: #square-grid, #diagonal-compute, #reflect-flip
  * #google-interview
  * {@link ./832.flipping-an-image/my-solution.js}

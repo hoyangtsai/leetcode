@@ -5,9 +5,9 @@
  */
 
 /**
- * #shopback
+ * @Shopback
  * tags: #dynamic-programming, #unbounded-knapsack, #背包最值問題
- * #google-interview
+ * #google-interview, #my-interview
  * {@link 518.coin-change-2.js}
  * {@link 1049.last-stone-weight-ii.js}
  */
@@ -37,8 +37,6 @@ var coinChange = function(coins, amount) {
 
 
 /**
- * Dynamic programming - Bottom up
- * 
  * - Time complexity: O(S * n).
  * - Space complexity: O(S). We use extra space for the memorization table.
  */

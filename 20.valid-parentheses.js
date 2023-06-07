@@ -5,7 +5,7 @@
  */
 
 /**
- * #amazon, #linkedin, #microsoft, #facebook, #google, #apple, #paypay
+ * @Nvidia
  * tags: #stack, #stack-parentheses
  * #google-interview
  */

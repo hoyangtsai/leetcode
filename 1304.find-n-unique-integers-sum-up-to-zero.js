@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #math, #zero
+ * tags: #math, #array-number-sum
  */
 
 // @lc code=start
@@ -21,3 +21,8 @@ var sumZero = function(n) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(n).
+ */

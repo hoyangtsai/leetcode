@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #dynamic-programming, #greedy, #stock
+ * @Nvidia
+ * tags: #greedy, #stock
  * #google-interview
  */
 

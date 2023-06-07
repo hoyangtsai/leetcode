@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #hash-table, #anagram, #palindrome, #string-group
+ * @Nvidia
+ * tags: #hash-map, #anagram, #palindrome, #string-group
  */
 
 // @lc code=start
@@ -35,3 +36,11 @@ var groupAnagrams = function(strs) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N * K log K).
+ * - Time complexity: O(N * K).
+ * 
+ * Can be improved by alphabet table
+ * looping str to get single character - 'a'.charCodeAt(0) to build a map
+ */

@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #number-interval
+ * @Nvidia
+ * tags: #array-merge-intervals
  * #google-interview
  * {@link 57.insert-interval.js}
  */

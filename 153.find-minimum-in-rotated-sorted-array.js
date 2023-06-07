@@ -6,7 +6,7 @@
 
 /**
  * @microsoft
- * tags: #binary-search, #array-number-search
+ * tags: #binary-search, #array-number-find
  * #my-interview
  * {@link 33.search-in-rotated-sorted-array.js}
  */

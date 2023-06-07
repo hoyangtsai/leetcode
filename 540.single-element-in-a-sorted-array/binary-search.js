@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #binary-search
+ * @Nvidia
+ * tags: #binary-search, #array-number-find-unique
  */
 
 // @lc code=start

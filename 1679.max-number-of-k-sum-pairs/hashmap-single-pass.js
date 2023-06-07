@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table, #number-pair
+ * tags: #hash-table, #array-number-pair
  */
 
 // @lc code=start

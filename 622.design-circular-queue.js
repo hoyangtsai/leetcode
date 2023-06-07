@@ -4,6 +4,11 @@
  * [622] Design Circular Queue
  */
 
+/**
+ * @Nvidia
+ * tags: #design
+ */
+
 // @lc code=start
 /**
  * @param {number} k

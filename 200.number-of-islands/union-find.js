@@ -21,7 +21,7 @@ var numIslands = function (grid) {
 
     let count = 0;
     let parent = Array.from(new Array(m).fill(0), () => new Array(n).fill(0));
-    let rank = Array.from(new Array(m).fill(0), () => new Array(n).fill(0));
+    // let rank = Array.from(new Array(m).fill(0), () => new Array(n).fill(0));
 
     for (let i = 0; i < m; i++) {
       for (let j = 0; j < n; j++) {

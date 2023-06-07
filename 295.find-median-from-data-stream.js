@@ -4,6 +4,11 @@
  * [295] Find Median from Data Stream
  */
 
+/**
+ * @Nvidia
+ * tags: #design, #binary-search
+ */
+
 // @lc code=start
 
 var MedianFinder = function() {

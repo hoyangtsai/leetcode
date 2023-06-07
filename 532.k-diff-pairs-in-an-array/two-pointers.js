@@ -5,8 +5,7 @@
  */
 
 /**
- * #line, #shopback
- * tags: #two-pointers, #number-pair
+ * tags: #two-pointers
  */
 
 // @lc code=start
