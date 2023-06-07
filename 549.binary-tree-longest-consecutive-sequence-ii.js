@@ -4,7 +4,10 @@
  * [549] Binary Tree Longest Consecutive Sequence II
  */
 
-// #binary-search
+/**
+ * tags: #binary-tree, #longest-sequence-tree, #tree-number-increasing-sequence
+ * {@link 673.number-of-longest-increasing-subsequence.js}
+ */
 
 // @lc code=start
 /**

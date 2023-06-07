@@ -4,9 +4,6 @@
  * [704] Binary Search
  */
 
-// #binary-search
-// @microsoft, @apple
-
 // @lc code=start
 /**
  * @param {number[]} nums

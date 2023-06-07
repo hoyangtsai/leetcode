@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-tree, #longest-depth-tree
+ * tags: #binary-tree, #longest-tree
  */
 
 // @lc code=start
@@ -46,7 +46,6 @@ var longestZigZag = function(root) {
 
 
 /**
- * Depth-first Search
  * - Time complexity: O(n).
  * - Space complexity: O(n).
  */

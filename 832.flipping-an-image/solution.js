@@ -5,8 +5,7 @@
  */
 
 /**
- * tags: #square-grid, #flip-binary, #reflect-flip
- * {@link 48.rotate-image/reverse-diagonal-then-reverse-left-to-right.js}
+ * tags: #square-grid, #flip-binary
  */
 
 // @lc code=start
@@ -20,8 +19,11 @@ var flipAndInvertImage = function(image) {
 
   // flip
   for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n / 2; j++) {
-      [image[i][j], image[i][n - j - 1]] = [image[i][n - j - 1], image[i][j]];
+    let j = 0, k = n - 1;
+    while (j <= k) {
+      [image[i][j], image[i][k]] = [image[i][k], image[i][j]];
+      j++;
+      k--;
     }
   }
 
@@ -37,7 +39,5 @@ var flipAndInvertImage = function(image) {
 // @lc code=end
 
 
-/**
- * - Time complexity: O(m * n).
- * - Space complexity: O(1).
- */
+
+flipAndInvertImage([[1, 1, 0], [1, 0, 1], [0, 0, 0]])

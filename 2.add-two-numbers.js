@@ -4,8 +4,9 @@
  * [2] Add Two Numbers
  */
 
-// #linked-list, #math
-// @adobe, @airbnb, @amazon, @bloomberg, @microsoft, @apple, @google, @facebook
+/**
+ * tags: #linked-list
+ */
 
 // @lc code=start
 /**

@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #stack, #string-remove-char, #asterisk
+ * tags: #stack, #string-removal, #string-remove-by-symbol
+ * {@link 844.backspace-string-compare/build-string.js}
  */
 
 // @lc code=start

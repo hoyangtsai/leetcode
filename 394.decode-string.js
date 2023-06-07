@@ -4,9 +4,10 @@
  * [394] Decode String
  */
 
-// @google, @microsoft, @bloomberg, @uber, @amazon
-// #string, #stack, #recursion
-// #google-interview
+/**
+ * tags: #stack, #string-convert
+ * #google-interview
+ */
 
 // @lc code=start
 /**

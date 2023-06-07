@@ -4,8 +4,9 @@
  * [28] Implement strStr()
  */
 
-// #two-pointers, #string
-// @apple, @facebook, @microsoft, @pocketgems
+/**
+ * tags: #two-pointers
+ */
 
 // @lc code=start
 /**

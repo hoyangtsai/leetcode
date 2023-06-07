@@ -4,9 +4,10 @@
  * [15] 3Sum
  */
 
-// @amazon, @apple, @facebook, @microsoft, @google, @uber
-// #aray, #two-pointers
-// #google-interview
+/**
+ * tags: #two-pointer
+ * #google-interview
+ */
 
 /**
  * @param {number[]} nums
@@ -20,11 +21,11 @@ var threeSum = function (nums) {
   // sort from min to max
   nums = nums.sort((a, b) => a - b);
   
-  for (i = 0; i < nums.length - 2;) {
+  for (let i = 0; i < nums.length - 2;) {
     // we don't want repeats, so skip numbers we've already seen
     if (i > 0 && nums[i] === nums[i - 1]) continue;
 
-    for (j = i + 1, k = nums.length - 1; j < k;) {
+    for (let j = i + 1, k = nums.length - 1; j < k;) {
       let sum = nums[i] + nums[j] + nums[k];
       let solution = [nums[i], nums[j], nums[k]];
       if (sum === 0) {

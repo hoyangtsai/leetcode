@@ -4,8 +4,9 @@
  * [702] Search in a Sorted Array of Unknown Size
  */
 
-// @microsoft, @facebook
-// #array, #binary-search, #interactive
+/**
+ * tags: #binary-search, #interactive
+ */
 
 // @lc code=start
 /**
@@ -20,7 +21,6 @@
  *     };
  * };
  */
-
 /**
  * @param {ArrayReader} reader
  * @param {number} target
@@ -52,9 +52,8 @@ var search = function (reader, target) {
 };
 // @lc code=end
 
+
 /** 
- * Binary search 
- * 
  * - Time complexity: O(log T), where T is an index of target value.
  * - Space complexity: O(1).
  */

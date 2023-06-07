@@ -4,6 +4,10 @@
  * [1] Two Sum
  */
 
+/**
+ * tags: #hash-map
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

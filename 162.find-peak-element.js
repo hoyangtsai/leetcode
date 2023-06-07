@@ -4,8 +4,9 @@
  * [162] Find Peak Element
  */
 
-// @facebook, @amazon, @microsoft
-// #array, #binary-search
+/**
+ * tags: #binary-search, #array-number-find
+ */
 
 // @lc code=start
 /**

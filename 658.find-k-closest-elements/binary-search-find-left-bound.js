@@ -4,10 +4,11 @@
  * [658] Find K Closest Elements
  */
 
-// @facebook, @amazon, @microsoft
-// #array, #two-pointers, #binary-search
+/**
+ * tags: #binary-search
+ */
 
-// find a Kth numbers close to x
+// find numbers of k close to x
 
 // @lc code=start
 /**
@@ -40,8 +41,6 @@ var findClosestElements = function(arr, k, x) {
 
 
 /**
- * Binary search to find the left bound
- * 
  * - Time complexity: O(log(N - k) + k).
  * - Space complexity: O(1).
  */

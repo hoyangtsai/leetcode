@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming, #subsequence
+ * tags: #dynamic-programming, #longest-subsequence, #array-number-max-increasing-sequence
  */
 
 // @lc code=start

@@ -4,13 +4,11 @@
  * [543] Diameter of Binary Tree
  */
 
-// @facebook, @amazon, @microsoft, @google
-// #depth-first-search, #binary-tree
-// #google-interview
-
 /** 
- * {@link maxPathSum|124.binary-tree-maximum-path-sum.js}
- * {@link longestUnivaluePath|687.longest-univalue-path.js}
+ * tags: #binary-tree, #tree-longest-depth
+ * #google-interview
+ * {@link 124.binary-tree-maximum-path-sum.js}
+ * {@link 687.longest-univalue-path.js}
  */
 
 // @lc code=start
@@ -29,8 +27,6 @@
 var diameterOfBinaryTree = function(root) {
     let diameter = 0;
 
-    dfs(root);
-
     function dfs(node) {
       if (!node) return 0;
 
@@ -42,15 +38,14 @@ var diameterOfBinaryTree = function(root) {
       return 1 + Math.max(left, right);
     }
 
+    dfs(root);
     return diameter;
 };
 // @lc code=end
 
+
 /**
- * Depth-first Search
- * 
  * Let N be the number of nodes in the tree.
- * 
  * - Time complexity:O(N).
  * - Space complexity:O(N).
  */

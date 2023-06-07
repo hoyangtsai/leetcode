@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search, #LIS, #longest-increasing-sequence
+ * tags: #binary-search
  */
 
 // @lc code=start

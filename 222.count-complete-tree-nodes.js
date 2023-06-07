@@ -4,9 +4,10 @@
  * [222] Count Complete Tree Nodes
  */
 
-// @microsoft
-// #tree, #binary-tree, #binary-search
-// #google-interview
+/**
+ * tags: #binary-tree, #binary-search, #tree-count-depth
+ * #google-interview
+ */
 
 // 
 // @lc code=start
@@ -77,8 +78,8 @@ var countNodes = function(root) {
 // @lc code=end
 
 
-/** Binary search
- * 
+/** 
+ * Binary search
  * - Time complexity: O(d^2) = O(log^2 N) where d is a tree depth
  * - Space complexity: O(1).
  */

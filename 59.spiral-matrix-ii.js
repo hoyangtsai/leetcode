@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix
+ * tags: #square-grid, #square-matrix
  * {@link ./54.spiral-matrix.js}
  */
 

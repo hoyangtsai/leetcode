@@ -4,8 +4,9 @@
  * [658] Find K Closest Elements
  */
 
-// @facebook, @amazon, @microsoft
-// #array, #two-pointers, #binary-search
+/**
+ * tags: #slide-window
+ */
 
 // @lc code=start
 /**
@@ -67,8 +68,6 @@ var findClosestElements = function(arr, k, x) {
 
 
 /**
- * Binary Search + Sliding Window
- * 
  * - Time complexity: O(log(N) + k).
  * - Space complexity: O(1).
  */

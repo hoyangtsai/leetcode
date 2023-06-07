@@ -13,10 +13,6 @@
  *    this.random = random;
  * };
  */
-
-// @amazon, @facebook, @microsoft
-// #hash-table, #linked-list
-
 /**
  * @param {Node} head
  * @return {Node}
@@ -40,9 +36,8 @@ var copyRandomList = function(head) {
 };
 // @lc code=end
 
+
 /**
- * Recursive
- * 
- * - Time complexity: 𝑂(𝑁), where 𝑁 is the number of nodes in the linked list.
- * - Space complexity: 𝑂(𝑁).
+ * - Time complexity: O(N), where N is the number of nodes in the linked list.
+ * - Space complexity: O(N).
  */

@@ -54,3 +54,8 @@ var findCircleNum = function(isConnected) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n^2).
+ * - Space complexity: O(n).
+ */

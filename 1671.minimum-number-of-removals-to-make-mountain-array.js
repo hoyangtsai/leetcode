@@ -5,8 +5,7 @@
  */
 
 /**
- * tags: #longest-increasing-sequence, #LIS, #binary-search
- * {@link 300.longest-increasing-subsequence/binary-search.js}
+ * tags: #dynamic-programming, #binary-search, #array-number-mutation
  */
 
 // @lc code=start
@@ -17,6 +16,7 @@
 var minimumMountainRemovals = function(nums) {
   const n = nums.length;
   let dp = Array(n).fill(0);
+  // by constraints, range of numbers
   let mono = Array(n).fill(Math.pow(10, 9) + 1);
 
   // bisect search, return a leftmost index

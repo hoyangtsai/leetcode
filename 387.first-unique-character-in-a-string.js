@@ -4,8 +4,9 @@
  * [387] First Unique Character in a String
  */
 
-// #hash-table, #string
-// @amazon, @bloomberg, @microsoft
+/**
+ * tags: #string-find-character, #two-pointer
+ */
 
 // @lc code=start
 /**
@@ -14,6 +15,8 @@
  */
 var firstUniqChar = function(s) {
   for (let i = 0; i < s.length; i++) {
+    // one find from start, another find from end
+    // if they have the same index means its unique character
     if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) return i;
   }
   return -1;

@@ -4,6 +4,10 @@
  * [1572] Matrix Diagonal Sum
  */
 
+/**
+ * tags: #square-grid, #diagonal-compute, #square-matrix
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} mat

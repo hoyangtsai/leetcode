@@ -4,6 +4,10 @@
  * [240] Search a 2D Matrix II
  */
 
+/**
+ * tags: #binary-search, #square-grid, #square-matrix
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} matrix

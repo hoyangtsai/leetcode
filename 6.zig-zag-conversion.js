@@ -3,6 +3,12 @@
  *
  * [6] ZigZag Conversion
  */
+
+/**
+ * tags: #string-convert-pattern
+ */
+
+// @lc code=start
 /**
  * @param {string} s
  * @param {number} numRows
@@ -24,4 +30,4 @@ var convert = function(s, numRows) {
 
     return arr.map(r => r.join('')).join('');
 };
-
+// @lc code=end

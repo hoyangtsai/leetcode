@@ -4,9 +4,12 @@
  * [105] Construct Binary Tree from Preorder and Inorder Traversal
  */
 
-// @amazon, @microsoft
-// #tree, #binary-tree, #DFS
-// #top-interview-questions
+/**
+ * tags: #binary-tree, #build-tree, #array-to-tree
+ * #top-interview-questions
+ * 
+ * preorder the first element is the root
+ */
 
 // @lc code=start
 /**
@@ -24,12 +27,13 @@
  */
 var buildTree = function (preorder, inorder) {
   let p = 0, i = 0;
-  function build(stop) {
-    if (inorder[i] != stop) {
-      let root = new TreeNode(preorder[p++]);
+  function build(value) {
+    if (inorder[i] != value) {
+      let root = new TreeNode(preorder[p]);
+      p++
       root.left = build(root.val);
       i++;
-      root.right = build(stop);
+      root.right = build(value);
       return root;
     }
     return null;

@@ -4,8 +4,9 @@
  * [437] Path Sum III
  */
 
-// @facebook, @amazon, @microsoft
-// #tree, #binary-tree
+/**
+ * tags: #binary-tree, #hash-map, #tree-path-sum
+ */
 
 // @lc code=start
 /**
@@ -31,7 +32,7 @@ var pathSum = function(root, targetSum) {
     currSum += node.val;
 
     if (currSum == targetSum) {
-      count ++;
+      count++;
     }
 
     count += (h.get(currSum - targetSum) || 0);

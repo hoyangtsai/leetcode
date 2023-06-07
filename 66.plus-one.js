@@ -4,9 +4,10 @@
  * [66] Plus One
  */
 
-// @google, @microsoft, @facebook
-// #array, #math
-// #google-interview
+/**
+ * tags: #array-number-calculation
+ * #google-interview
+ */
 
 // @lc code=start
 /**

@@ -4,8 +4,9 @@
  * [1155] Number of Dice Rolls With Target Sum
  */
 
-// @bloomberg, @amazon, @microsoft
-// #dynamic-programming, #01-knapsack-comb
+/**
+ * tags: #dynamic-programming, #01-knapsack-comb
+ */
 
 // @lc code=start
 /**

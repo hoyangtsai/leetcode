@@ -4,9 +4,10 @@
  * [384] Shuffle an Array
  */
 
-// @google, @microsoft
-// #math, #fisher-yates-algorithm
-// #top-google-questions
+/**
+ * tags: #design, #fisher-yates-algorithm
+ * #top-google-questions
+ */
 
 // @lc code=start
 /**

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #tree, #binary-tree
+ * tags: #tree, #binary-tree, #flip-binary-tree
  * #google-interview
  */
 

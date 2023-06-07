@@ -5,9 +5,9 @@
  */
 
 /**
- * tags: #binary-search
- * {@link 81.search-in-rotated-sorted-array-ii.js}
+ * tags: #binary-search, #array-number-search
  * {@link 153.find-minimum-in-rotated-sorted-array.js}
+ * {@link 81.search-in-rotated-sorted-array-ii/binary-search.js}
  */
 
 // @lc code=start

@@ -5,8 +5,9 @@
  */
 
 /**
- * tags: #build-string, #stack
+ * tags: #stack, #string-removal, #string-remove-by-symbol
  * #google-interview
+ * {@link 2390.removing-stars-from-a-string.js}
  */
 
 // @lc code=start

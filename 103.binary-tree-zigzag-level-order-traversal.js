@@ -4,9 +4,10 @@
  * [103] Binary Tree Zigzag Level Order Traversal
  */
 
-// @amazon, @microsoft, @adobe
-// #tree, #breadth-first-search
-// #top-interview-questions
+/**
+ * tags: #binary-tree, #tree-to-array
+ * #top-interview-questions
+ */
 
 // @lc code=start
 /**
@@ -30,10 +31,10 @@ var zigzagLevelOrder = function(root) {
   const queue = [root];
 
   while (queue.length > 0) {
-    const leng = queue.length;
+    const len = queue.length;
     const levelList = [];
 
-    for (let i = 0; i < leng; i++) {
+    for (let i = 0; i < len; i++) {
       const node = queue.shift();
 
       if (level % 2 == 0) {
@@ -47,7 +48,7 @@ var zigzagLevelOrder = function(root) {
     }
 
     res.push(levelList);
-    level ++;
+    level++;
   }
 
   return res;

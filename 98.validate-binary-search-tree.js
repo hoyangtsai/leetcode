@@ -4,8 +4,9 @@
  * [98] Validate Binary Search Tree
  */
 
- // #tree, #depth-first-search
- // @amazon, @bloomberg, @facebook, @microsoft
+ /**
+  * tags: #binary-tree, #validate-tree
+  */
 
 // @lc code=start
 /**

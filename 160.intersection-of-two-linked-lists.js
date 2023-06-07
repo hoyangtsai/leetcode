@@ -4,8 +4,9 @@
  * [160] Intersection of Two Linked Lists
  */
 
-// #linked-list
-// @airbnb, @amazon, @bloomberg, @microsoft
+/**
+ * tags: #linked-list
+ */
 
 // @lc code=start
 /**
@@ -15,7 +16,6 @@
  *     this.next = null;
  * }
  */
-
 /**
  * @param {ListNode} headA
  * @param {ListNode} headB

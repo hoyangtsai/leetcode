@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #depth-first-search
+ * tags: #depth-first-search, #flood-fill
+ * {@link 73.set-matrix-zeroes.js}
  * {@link 200.number-of-islands/depth-first-search.js}
  */
 

@@ -4,9 +4,11 @@
  * [158] Read N Characters Given Read4 II - Call multiple times
  */
 
-// @facebook, @microsoft
-// #string, #simulation, #interactive
-// #google-interview
+/**
+ * tags: #simulation, #interactive
+ * #google-interview
+ * {@link 157.read-n-characters-given-read-4.js}
+ */
 
 // @lc code=start
 /**

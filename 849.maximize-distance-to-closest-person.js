@@ -4,9 +4,10 @@
  * [849] Maximize Distance to Closest Person
  */
 
-// @yahoo, @google, @amazon, @microsoft
-// #array
-// #google-interview
+/**
+ * tags: #two-pointer, #maximum-distance-to-closest
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -39,13 +40,11 @@ var maxDistToClosest = function(seats) {
 };
 // @lc code=end
 
+
 /**
- * Two pointer
- * 
  * - Time complexity: O(N), where N is the length of seats
  * - Space complexity: O(1)
  */
-
 
 // const res = maxDistToClosest([1, 0, 0, 0, 0, 1]);
 const res = maxDistToClosest([1, 0, 0, 0]);

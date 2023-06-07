@@ -4,8 +4,9 @@
  * [139] Word Break
  */
 
-// @facebook, @amazon, @microsoft, @uber, @google
-// #dynamic-programming, #01-knapsack, #背包存在問題
+/**
+ * tags: #dynamic-programming, #01-knapsack, #背包存在問題
+ */
 
 // @lc code=start
 /**
@@ -30,8 +31,6 @@ var wordBreak = function(s, wordDict) {
 
 
 /**
- * Dynamic programming
- * 
  * - Time complexity: O(n^3).
  * - Space complexity: O(n).
  */

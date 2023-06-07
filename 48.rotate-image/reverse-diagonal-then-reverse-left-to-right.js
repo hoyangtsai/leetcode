@@ -5,8 +5,9 @@
  */
 
 /**
- * tags: #matrix
+ * tags: #square-grid, #diagonal-compute, #reflect-flip
  * #google-interview
+ * {@link ./832.flipping-an-image/my-solution.js}
  */
 
 // @lc code=start
@@ -36,6 +37,16 @@ var rotate = function (matrix) {
   reflect(matrix);
 };
 // @lc code=end
+
+// [
+//   [1,2,3],
+//   [4,5,6],
+//   [7,8,9]
+// ]
+
+let m = [[1,2,3],[4,5,6],[7,8,9]];
+rotate(m);
+console.log('m :>> ', m);   
 
 
 /**

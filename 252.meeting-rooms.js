@@ -4,8 +4,9 @@
  * [252] Meeting Rooms
  */
 
-// #array, #sort
-// @amazon, @microsoft, @facebook
+/**
+ * tags: #sorting
+ */
 
 // @lc code=start
 /**

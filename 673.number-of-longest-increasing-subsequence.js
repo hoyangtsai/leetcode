@@ -4,10 +4,10 @@
  * [673] Number of Longest Increasing Subsequence
  */
 
-// #dynamic-programming
-
 /**
- * {@link longestConsecutive|./549.binary-tree-longest-consecutive-sequence-ii.js}
+ * tags: #dynamic-programming, #longest-subsequence, #array-number-increasing-sequence
+ * {@link 300.longest-increasing-subsequence/dynamic-programming.js}
+ * {@link 549.binary-tree-longest-consecutive-sequence-ii.js}
  * 1. any subsequences are acceptable
  * 2. but we only want longest subsequences which can be multiple
  */

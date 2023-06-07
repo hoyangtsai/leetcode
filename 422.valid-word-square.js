@@ -5,7 +5,7 @@
  */
 
 /**
- * #matrix
+ * #matrix, #word-square, #word-puzzle
  */
 
 // @lc code=start

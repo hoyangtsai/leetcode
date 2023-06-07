@@ -4,8 +4,9 @@
  * [328] Odd Even Linked List
  */
 
-// #linked-list
-// @facebook, @microsoft
+/**
+ * tags: #linked-list
+ */
 
 // @lc code=start
 /**
