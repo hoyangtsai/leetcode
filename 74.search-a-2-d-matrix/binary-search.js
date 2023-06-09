@@ -5,9 +5,9 @@
  */
 
 /**
- * @Nvidia
- * tags: #binary-search, #matrix-find-number
+ * tags: #binary-search, #matrix-finding-number
  * {@link 240.search-a-2-d-matrix-ii/binary-search.js}
+ * {@link 1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js}
  */
 
 // @lc code=start
@@ -17,21 +17,24 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
-  // flatten the matrix
-  const nums = matrix.reduce((acc, cur) => acc.concat(cur), []);
+  const n = matrix[0].length;
 
-  let l = 0, r = nums.length - 1;
+  for (const row of matrix) {
+    let l = 0, r = n - 1;
+    
+    if (row[r] < target) continue;
 
-  while (l <= r) {
-    let mid = parseInt((l + r) / 2);
-
-    if (nums[mid] === target) {
-      return true;
-    } else if (nums[mid] < target) {
-      l = mid + 1;
-    } else {
-      r = mid - 1;
-    }
+    while (l <= r) {
+      let mid = parseInt((l + r) / 2);
+  
+      if (row[mid] === target) {
+        return true;
+      } else if (row[mid] < target) {
+        l = mid + 1;
+      } else {
+        r = mid - 1;
+      }
+    }  
   }
 
   return false;
@@ -40,6 +43,6 @@ var searchMatrix = function(matrix, target) {
 
 
 /**
- * - Time complexity: O(log (m * n))
+ * - Time complexity: O(m log n)
  * - Space complexity: O(1)
  */

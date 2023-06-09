@@ -102,9 +102,12 @@
 - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
 - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js)
 - [658. Find K Closest Elements](658.find-k-closest-elements/binary-search-find-left-bound.js)
+- [744. Find Smallest Letter Greater Than Target](744.find-smallest-letter-greater-than-target.js)
 - [875. Koko Eating Bananas](875.koko-eating-bananas.js)
 - [958. Check Completeness of a Binary Tree](958.check-completeness-of-a-binary-tree.js)
 - [1011. Capacity To Ship Packages Within D Days](1011.capacity-to-ship-packages-within-d-days.js)
+- [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array.js)
+- [1351. Count Negative Numbers in a Sorted Matrix](1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](1964.find-the-longest-valid-obstacle-course-at-each-position.js)
 
 ### Longest Increasing Sequence
@@ -239,7 +242,7 @@
 
 ### Boyer Moore Voting Algorithm
 
-- [169. Majority Element](169.majority-element.js)
+- [169. Majority Element](169.majority-element/boyer-moore-voting-algorithm.js)
 
 ## Big-O cheatsheet
 

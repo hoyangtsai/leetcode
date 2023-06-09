@@ -4,8 +4,9 @@
  * [744] Find Smallest Letter Greater Than Target
  */
 
-// @linkedin
-// #binary-search
+/**
+ * tags: #binary-search
+ */
 
 // @lc code=start
 /**
@@ -35,8 +36,6 @@ var nextGreatestLetter = function(letters, target) {
 
 
 /**
- * Binary search
- * 
  * - Time complexity: O(log N).
- * - Sapce complexity: O(1).
+ * - Space complexity: O(1).
  */

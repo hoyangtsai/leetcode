@@ -4,23 +4,24 @@
  * [169] Majority Element
  */
 
+/**
+ * tags: #sorting
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
  * @return {number}
  */
 var majorityElement = function(nums) {
-  let count = 0;
-  let candidate = null;
-
-  for (const num of nums) {
-    if (count == 0) {
-      candidate = num;
-    }
-    count += num == candidate ? 1 : -1;
-  }
-
-  return candidate;
+  nums.sort((a, b) => a - b);
+  let mid = parseInt(nums.length / 2);
+  return nums[mid];
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n log n).
+ * - Space complexity: O(n).
+ */

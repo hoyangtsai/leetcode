@@ -4,10 +4,6 @@
  * [74] Search a 2D Matrix
  */
 
-/**
- * {@link 240.search-a-2-d-matrix-ii/search-space-reduction.js}
- */
-
 // @lc code=start
 /**
  * @param {number[][]} matrix
@@ -15,7 +11,6 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
-  const m = matrix.length;
   const n = matrix[0].length;
 
   let row = matrix.length - 1, col = 0;

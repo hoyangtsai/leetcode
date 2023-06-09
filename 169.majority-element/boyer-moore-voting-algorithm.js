@@ -4,6 +4,10 @@
  * [169] Majority Element
  */
 
+/**
+ * tags: #boyer-moore-voting-algorithm, #majority-number
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -24,3 +28,8 @@ var majorityElement = function(nums) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n).
+ * - Space complexity: O(1).
+ */
