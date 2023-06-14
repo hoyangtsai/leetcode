@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #boyer-moore-voting-algorithm, #majority-number
+ * tags: #boyer-moore-voting-algorithm, #majority-element
  */
 
 // @lc code=start

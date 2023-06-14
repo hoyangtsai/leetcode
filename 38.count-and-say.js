@@ -4,8 +4,9 @@
  * [38] Count and Say
  */
 
-// #string
-// @facebook
+/**
+ * tags: #sequence-elements
+ */
 
 // @lc code=start
 /**

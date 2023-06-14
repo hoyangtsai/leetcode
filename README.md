@@ -108,6 +108,7 @@
 - [1011. Capacity To Ship Packages Within D Days](1011.capacity-to-ship-packages-within-d-days.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array.js)
 - [1351. Count Negative Numbers in a Sorted Matrix](1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js)
+- [1802. Maximum Value at a Given Index in a Bounded Array](1802.maximum-value-at-a-given-index-in-a-bounded-array.js)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](1964.find-the-longest-valid-obstacle-course-at-each-position.js)
 
 ### Longest Increasing Sequence
@@ -243,6 +244,7 @@
 ### Boyer Moore Voting Algorithm
 
 - [169. Majority Element](169.majority-element/boyer-moore-voting-algorithm.js)
+- [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array/boyer-moore-voting-algorithm.js)
 
 ## Big-O cheatsheet
 
