@@ -6,6 +6,7 @@
 
 /**
  * tags: #array-sequence-numbers
+ * {@link 163.missing-ranges.js}
  */
 
 // @lc code=start
@@ -36,6 +37,6 @@ var summaryRanges = function(nums) {
 
 
 /**
- * - Time complexity: O(n).
- * - Space complexity: O(1)/
+ * - Time complexity: O(n)
+ * - Space complexity: O(1)
  */
