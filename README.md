@@ -148,8 +148,11 @@
 
 ### Sliding Window
 
+- [209. Minimum Size Subarray Sum](209.minimum-size-subarray-sum.js)
 - [424. Longest Repeating Character Replacement](424.longest-repeating-character-replacement.js)
+- [487. Max Consecutive Ones II](487.max-consecutive-ones-ii.js)
 - [904. Fruit Into Baskets](904.fruit-into-baskets.js)
+- [1493. Longest Subarray of 1's After Deleting One Element](1493.longest-subarray-of-1-s-after-deleting-one-element.js)
 
 ### [Binary Search Tree](binary-search-tree/README.md)
 
@@ -219,6 +222,7 @@
 #### [Dijkstra Algorithm](dijkstra-algorithm/README.md)
 
 - [64. Minimum Path Sum](64.minimum-path-sum/dijkstra-algorithm.js)
+- [1514. Path with Maximum Probability](1514.path-with-maximum-probability.js)
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/dijkstra-algorithm.js)
 
 #### [Bellman-Ford Algorithm](bellman-ford-algorithm/README.md)

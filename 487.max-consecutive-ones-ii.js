@@ -6,6 +6,7 @@
 
 /**
  * tags: #sliding-window, #two-pointers, #array-zero
+ * {@link 1493.longest-subarray-of-1-s-after-deleting-one-element.js}
  */
 
 // @lc code=start
