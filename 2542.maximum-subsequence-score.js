@@ -12,6 +12,7 @@
 // https://github.com/datastructures-js/priority-queue
 
 // @lc code=start
+const { MinPriorityQueue } = require('@datastructures-js/priority-queue')
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2

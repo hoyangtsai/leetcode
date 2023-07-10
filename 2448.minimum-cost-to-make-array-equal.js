@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #prefix-sum
+ * tags: #prefix-sum, #minimum-cost-make-equal
  */
 
 // @lc code=start
@@ -25,8 +25,9 @@ var minCost = function(nums, cost) {
 
   let prefixCost = Array(n);
   prefixCost[0] = BigInt(numsAndCost[0][1]);
-  for (let i = 1; i < n; ++i)
+  for (let i = 1; i < n; ++i) {
     prefixCost[i] = BigInt(numsAndCost[i][1]) + prefixCost[i - 1];
+  }
 
   // Then we try every integer nums[i] and make every element equals nums[i],
   let totalCost = BigInt(0);
@@ -42,7 +43,7 @@ var minCost = function(nums, cost) {
   for (let i = 1; i < n; ++i) {
     let gap = BigInt(numsAndCost[i][0] - numsAndCost[i - 1][0]);
     totalCost += BigInt(prefixCost[i - 1] * gap);
-    totalCost -= BigInt((prefixCost[n - 1] - prefixCost[i - 1]) * gap);
+    totalCost -= BigInt((prefixCost[n - 1] - prefixCost[i - 1]) * gap); // the total cost from the last cost to the current previous cost
     // BigInt cannot be used with methods in the build-in Math Object
     // answer = Math.min(answer, totalCost);
     if (totalCost < answer) answer = totalCost

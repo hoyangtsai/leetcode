@@ -153,13 +153,15 @@
 - [487. Max Consecutive Ones II](487.max-consecutive-ones-ii.js)
 - [904. Fruit Into Baskets](904.fruit-into-baskets.js)
 - [1493. Longest Subarray of 1's After Deleting One Element](1493.longest-subarray-of-1-s-after-deleting-one-element.js)
+- [2024. Maximize the Confusion of an Exam](2024.maximize-the-confusion-of-an-exam.js)
 
 ### [Binary Search Tree](binary-search-tree/README.md)
 
 - [99. Recover Binary Search Tree](99.recover-binary-search-tree.js)
 - [101. Symmetric Tree](101.symmetric-tree.js)
-- [104. Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree/iteration.js)
+- [104. Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree/recursion.js)
 - [109. Convert Sorted List to Binary Search Tree](109.convert-sorted-list-to-binary-search-tree.js) #linked-list
+- [111. Minimum Depth of Binary Tree](111.minimum-depth-of-binary-tree/recursion.js)
 - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
 - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
 - [662. Maximum Width of Binary Tree](./662.maximum-width-of-binary-tree.js)
@@ -251,6 +253,12 @@
 
 - [169. Majority Element](169.majority-element/boyer-moore-voting-algorithm.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array/boyer-moore-voting-algorithm.js)
+
+### Kadane Algorithm
+
+- [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
+- [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
+- [2272. Substring With Largest Variance](2272.substring-with-largest-variance.js)
 
 ## Big-O cheatsheet
 

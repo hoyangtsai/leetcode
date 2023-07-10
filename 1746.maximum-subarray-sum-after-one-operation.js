@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming, #max-subarray
+ * tags: #dynamic-programming, #max-subarray, #kadane-algorithm
  * {@link 53.maximum-subarray/kadane-algorithm.js}
  */
 

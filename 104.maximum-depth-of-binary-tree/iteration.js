@@ -46,5 +46,5 @@ var maxDepth = function(root) {
 
 /**
  * - Time complexity: O(N)
- * - Space complexity: O(log N).
+ * - Space complexity: O(log N)
  */

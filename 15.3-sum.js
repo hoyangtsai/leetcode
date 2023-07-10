@@ -19,7 +19,7 @@ var threeSum = function (nums) {
   if (nums.length < 3) return results;
 
   // sort from min to max
-  nums = nums.sort((a, b) => a - b);
+  nums.sort((a, b) => a - b);
   
   for (let i = 0; i < nums.length - 2;) {
     // we don't want repeats, so skip numbers we've already seen
@@ -53,9 +53,8 @@ var threeSum = function (nums) {
 };
 // @lc code=end
 
+
 /**
- * Two-pointers
- * 
  * - Time complexity: O(n^2). twoSumII is O(n), and we call it n times.
  *   Sorting the array takes O(n log n). so overall complexity is O(n log n + n^2).
  *   This is asymptotically equivalent is O(n^2).

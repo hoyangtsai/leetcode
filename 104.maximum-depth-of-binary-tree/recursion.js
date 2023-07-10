@@ -6,6 +6,7 @@
 
 /**
  * tags: #binary-tree, #top-100-liked
+ * {@link 111.minimum-depth-of-binary-tree/recursion.js}
  * {@link 1302.deepest-leaves-sum/dfs.js}
  */
 

@@ -15,15 +15,15 @@
  * @return {number}
  */
 var maxSubArray = function(nums) {
-  let currentSub = 0;
-  let maxSub = -Infinity;
+  let currentSum = 0;
+  let maxSum = -Infinity;
 
   for (const num of nums) {
-    currentSub = Math.max(num, currentSub + num);
-    maxSub = Math.max(maxSub, currentSub);
+    currentSum = Math.max(num, currentSum + num);
+    maxSum = Math.max(maxSum, currentSum);
   }
 
-  return maxSub;
+  return maxSum;
 };
 // @lc code=end
 

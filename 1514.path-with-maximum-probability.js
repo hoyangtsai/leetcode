@@ -10,6 +10,7 @@
  */
 
 // @lc code=start
+const { MaxPriorityQueue } = require('@datastructures-js/priority-queue')
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -64,3 +65,6 @@ var maxProbability = function (n, edges, succProb, start, end) {
  * - Time complexity: O(m + n * log N)
  * - Space complexity: O(n + m)
  */
+
+
+console.log(maxProbability(3, [[0,1],[1,2],[0,2]], [0.5,0.5,0.3], 0, 2))
