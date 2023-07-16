@@ -87,6 +87,7 @@
 - [1027. Longest Arithmetic Subsequence](1027.longest-arithmetic-subsequence.js)
 - [1137. N-th Tribonacci Number](1137.n-th-tribonacci-number.js)
 - [1140. Stone Game II](1140.stone-game-ii.js)
+- [1218. Longest Arithmetic Subsequence of Given Difference](1218.longest-arithmetic-subsequence-of-given-difference.js)
 - [1230. Toss Strange Coins](1230.toss-strange-coins.js)
 - [1312. Minimum Insertion Steps to Make a String Palindrome](1312.minimum-insertion-steps-to-make-a-string-palindrome.js)
 - [1406. Stone Game III](1406.stone-game-iii.js)
@@ -169,6 +170,7 @@
 - [700. Search in a Binary Search Tree](700.search-in-a-binary-search-tree/iteration.js)
 - [701. Insert into a Binary Search Tree](701.insert-into-a-binary-search-tree/iteration.js)
 - [705. Design HashSet](705.design-hash-set.js)
+- [863. All Nodes Distance K in Binary Tree](863.all-nodes-distance-k-in-binary-tree.js)
 - [897. Increasing Order Search Tree](897.increasing-order-search-tree.js)
 - [1302. Deepest Leaves Sum](1302.deepest-leaves-sum/dfs-iteration.js) #preorder
 - [1372. Longest ZigZag Path in a Binary Tree](1372.longest-zig-zag-path-in-a-binary-tree.js)
@@ -254,11 +256,17 @@
 - [169. Majority Element](169.majority-element/boyer-moore-voting-algorithm.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array/boyer-moore-voting-algorithm.js)
 
-### Kadane Algorithm
+### [Kadane Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)
 
 - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 - [2272. Substring With Largest Variance](2272.substring-with-largest-variance.js)
+
+
+## Kahn Algorithm
+
+- [207. Course Schedule](207.course-schedule/topological-sort.js)
+- [210. Course Schedule II](210.course-schedule-ii.js)
 
 ## Big-O cheatsheet
 

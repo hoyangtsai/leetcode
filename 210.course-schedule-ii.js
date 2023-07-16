@@ -5,8 +5,9 @@
  */
 
 /**
- * tags: #graph, #topological-sort
+ * tags: #topological-sort, #kahn-algorithm
  * #google-interview
+ * {@link 207.course-schedule/topological-sort.js}
  */
 
 // @lc code=start
@@ -46,9 +47,8 @@ var findOrder = function(numCourses, prerequisites) {
 };
 // @lc code=end
 
+
 /**
- * Node Indegree
- * 
  * - Time complexity: O(V + E) where V represents the number of vertices and E represents the number of edges. We pop each node exactly once from the zero-in-degree queue and that gives us V. Also, for each vertex, we iterate over its adjacency list and in totality, we iterate over all the edges in the graph which gives us E. Hence, O(V + E)
  * - Space complexity: O(V + E).
  */

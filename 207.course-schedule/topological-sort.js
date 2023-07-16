@@ -6,9 +6,10 @@
 
 /**
  * @Nvidia
- * tags: #graph, #topological-sort, #array-intervals
+ * tags: #topological-sort, #kahn-algorithm
  * {@link 210.course-schedule-ii.js}
  * {@link 332.reconstruct-itinerary.js}
+ * {@link 802.find-eventual-safe-states.js}
  */
 
 // @lc code=start

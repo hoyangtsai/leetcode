@@ -6,6 +6,7 @@
 
 /**
  * tags: #binary-search, #bisect-right
+ * {@link 1751.maximum-number-of-events-that-can-be-attended-ii.js}
  */
 
 // @lc code=start
