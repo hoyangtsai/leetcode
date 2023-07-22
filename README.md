@@ -9,6 +9,7 @@
 - [71. Simplify Path](71.simplify-path.js)
 - [84. Largest Rectangle in Histogram](84.largest-rectangle-in-histogram.js)
 - [456. 132 Pattern](456.132-pattern/stack.js)
+- [735. Asteroid Collision](735.asteroid-collision.js)
 - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
 - [946. Validate Stack Sequences](946.validate-stack-sequences.js)
 - [1047. Remove All Adjacent Duplicates In String](1047.remove-all-adjacent-duplicates-in-string.js) #string-duplicates
@@ -66,9 +67,9 @@
 
 - [5. Longest Palindromic Substring](5.longest-palindromic-substring/dynamic-programming.js)
 - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
-- [63. Unique Paths II](63.unique-paths-ii.js) #matrix
-- [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
-- [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js) #greedy
+- [63. Unique Paths II](63.unique-paths-ii.js)
+- [64. Minimum Path Sum](64.minimum-path-sum.js)
+- [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js)
 - [198. House Robber](198.house-robber/dynamic-programming.js)
 - [213. House Robber II](213.house-robber-ii.js)
 - [256. Paint House](256.paint-house.js)
@@ -80,6 +81,7 @@
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
 - [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
+- [673. Number of Longest Increasing Subsequence](673.number-of-longest-increasing-subsequence.js)
 - [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
 - [746. Min Cost Climbing Stairs](746.min-cost-climbing-stairs.js)
 - [837. New 21 Game](837.new-21-game.js)
@@ -152,6 +154,7 @@
 - [209. Minimum Size Subarray Sum](209.minimum-size-subarray-sum.js)
 - [424. Longest Repeating Character Replacement](424.longest-repeating-character-replacement.js)
 - [487. Max Consecutive Ones II](487.max-consecutive-ones-ii.js)
+- [674. Longest Continuous Increasing Subsequence](674.longest-continuous-increasing-subsequence.js)
 - [904. Fruit Into Baskets](904.fruit-into-baskets.js)
 - [1493. Longest Subarray of 1's After Deleting One Element](1493.longest-subarray-of-1-s-after-deleting-one-element.js)
 - [2024. Maximize the Confusion of an Exam](2024.maximize-the-confusion-of-an-exam.js)
@@ -225,13 +228,13 @@
 
 #### [Dijkstra Algorithm](dijkstra-algorithm/README.md)
 
-- [64. Minimum Path Sum](64.minimum-path-sum/dijkstra-algorithm.js)
+- [743. Network Delay Time](743.network-delay-time.js)
 - [1514. Path with Maximum Probability](1514.path-with-maximum-probability.js)
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/dijkstra-algorithm.js)
 
 #### [Bellman-Ford Algorithm](bellman-ford-algorithm/README.md)
 
-- [743. Network Delay Time](743.network-delay-time.js) #directional-graph
+- [787. Cheapest Flights Within K Stops](787.cheapest-flights-within-k-stops.js)
 
 #### Minimum Spanning Tree
 
@@ -261,7 +264,6 @@
 - [53. Maximum Subarray](53.maximum-subarray/kadane-algorithm.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 - [2272. Substring With Largest Variance](2272.substring-with-largest-variance.js)
-
 
 ## Kahn Algorithm
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #design
+ * tags: #design, #least-recently-used, #LRU-cache
  */
 
 // @lc code=start

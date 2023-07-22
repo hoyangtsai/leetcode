@@ -44,6 +44,6 @@ var minKnightMoves = function(x, y) {
 
 
 /**
- * - Time complexity: O(|x * y|).
- * - Space complexity: O(|x * y|).
+ * - Time complexity: O(|x * y|)
+ * - Space complexity: O(|x * y|)
  */

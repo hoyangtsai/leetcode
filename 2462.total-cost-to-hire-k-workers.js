@@ -8,8 +8,8 @@
  * tags: #priority-queue
  */
 
-// @lc code=start
 const { PriorityQueue } = require('@datastructures-js/priority-queue')
+// @lc code=start
 /**
  * @param {number[]} costs
  * @param {number} k

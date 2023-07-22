@@ -4,6 +4,14 @@
  * [1631] Path With Minimum Effort
  */
 
+/**
+ * tags: #matrix, #dijkstra-algorithm, #square-traverse, #direction-grid
+ * {@link 64.minimum-path-sum/dijkstra-algorithm.js}
+ * {@link 743.network-delay-time.js}
+ * {@link 787.cheapest-flights-within-k-stops/dijkstra-algorithm.js}
+ */
+
+const { PriorityQueue } = require('@datastructures-js/priority-queue')
 // @lc code=start
 /**
  * @param {number[][]} heights
@@ -14,71 +22,53 @@ var minimumEffortPath = function(heights) {
   const col = heights[0].length;
   const dirs = [[1, 0], [-1, 0], [0, 1], [0, -1]];
 
-  function Edge(x, y, difference) {
+  let differenceMatrix = Array.from(new Array(row).fill(Infinity), () => new Array(col).fill(Infinity));
+  differenceMatrix[0][0] = 0;
+
+  let visited = Array.from(new Array(row).fill(false), () => new Array(col).fill(false));
+
+  function Cell(x, y, difference) {
     this.x = x;
     this.y = y;
     this.difference = difference;
   }
 
-  function UnionFind (heights) {
-    const row = heights.length;
-    const col = heights[0].length;
-    this.edgeList = [];
-    
-    const parent = new Array(row * col);
-    const rank = new Array(row * col);
-      
-    for (let currentRow = 0; currentRow < row; currentRow++) {
-      for (let currentCol = 0; currentCol < col; currentCol++) {
-        if (currentRow > 0) {
-          this.edgeList.push(new Edge(currentRow * col + currentCol,
-            (currentRow - 1) * col + currentCol,
-            Math.abs(heights[currentRow][currentCol] - heights[currentRow - 1][currentCol]))
-          );
-        }
-        if (currentCol > 0) {
-          this.edgeList.push(new Edge(currentRow * col + currentCol,
-            currentRow * col + currentCol - 1,
-            Math.abs(heights[currentRow][currentCol] - heights[currentRow][currentCol - 1]))
-          );
-        }
+  function isValidCell(x, y) {
+    return x >= 0 && x < row && y >= 0 && y < col;
+  }
 
-        parent[currentRow * col + currentCol] = currentRow * col + currentCol;
-      }
-    }
+  let pq = new PriorityQueue({ compare: (a, b) => a.difference - b.difference });
+  pq.enqueue(new Cell(0, 0, differenceMatrix[0][0]));
 
-    this.find = function(x) {
-      if (parent[x] != x) parent[x] = this.find(parent[x]);
-      return parent[x];
-    }
+  while(!pq.isEmpty()) {
+    const curr = pq.dequeue();
 
-    this.union = function(x, y) {
-      let parentX = this.find(x);
-      let parentY = this.find(y);
-      if (parentX != parentY) {
-        if (rank[parentX] > rank[parentY]) parent[parentY] = parentX;
-        else if (rank[parentX] < rank[parentY]) parent[parentX] = parentY;
-        else {
-          parent[parentY] = parentX;
-          rank[parentX] += 1;
+    if (curr.x == row - 1 && curr.y == col - 1) return curr.difference;
+
+    visited[curr.x][curr.y] = true;
+
+    for (const [dx, dy] of dirs) {
+      const nextX = curr.x + dx;
+      const nextY = curr.y + dy;
+
+      if (isValidCell(nextX, nextY) && !visited[nextX][nextY]) {
+        const currDiff = Math.abs(heights[nextX][nextY] - heights[curr.x][curr.y]);
+        const maxDiff = Math.max(currDiff, differenceMatrix[curr.x][curr.y]);
+
+        if (differenceMatrix[nextX][nextY] > maxDiff) {
+          differenceMatrix[nextX][nextY] = maxDiff;
+          pq.enqueue(new Cell(nextX, nextY, maxDiff));
         }
       }
     }
   }
 
-  if (row == 1 && col == 1) return 0;
-  let unionFind = new UnionFind(heights);
-  let edgeList = unionFind.edgeList;
-  edgeList.sort((a, b) => a.difference - b.difference);
-
-  for (let i = 0; i < edgeList.length; i++) {
-    let x = edgeList[i].x;
-    let y = edgeList[i].y;
-    unionFind.union(x, y);
-    if (unionFind.find(0) == unionFind.find(row * col - 1)) {
-      return edgeList[i].difference;
-    }
-  }
-  return -1;
+  return differenceMatrix[row - 1][col - 1];
 };
 // @lc code=end
+
+
+/**
+ * - Time complexity: O(m * n * log(m * n))
+ * - Space complexity: O(m * n), we use arrays edgeList, parent and size of size m * n
+ */

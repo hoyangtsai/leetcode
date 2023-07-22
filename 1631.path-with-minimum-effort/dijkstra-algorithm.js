@@ -5,10 +5,11 @@
  */
 
 /**
- * tags: #matrix, #dijkstra-algorithm, #square-traverse, #4-way-traverse
+ * tags: #matrix, #dijkstra-algorithm, #square-traverse, #direction-grid
  * {@link 64.minimum-path-sum/dijkstra-algorithm.js}
  */
 
+const { PriorityQueue } = require('@datastructures-js/priority-queue')
 // @lc code=start
 /**
  * @param {number[][]} heights

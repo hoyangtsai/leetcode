@@ -15,32 +15,34 @@
  * @return {number[]}
  */
 var asteroidCollision = function(asteroids) {
-  let res = [];
+  let stack = [];
 
   for (const ast of asteroids) {
     let destroyed = false;
-    while (res.length > 0 && // has elements
-        res[res.length - 1] > 0 && // last one is positive direction (different direction)
-        ast < 0 // current one is negative direction
-        && !destroyed
+    while (stack.length > 0 && // check has asteroids
+        ast < 0 && // current one is negative direction
+        stack[stack.length - 1] > 0 && // last one is positive direction (different direction)
+        !destroyed
     ) {
-      // current negative ast destroyed if less than last positive ast
-      if (res[res.length - 1] >= Math.abs(ast)) destroyed = true;
-      // the last of positive ast smaller than current negative ast pop out
+      // current negative ast is smaller or equal than the last positive ast then destroyed (will stop the while loop)
+      if (Math.abs(ast) <= stack[stack.length - 1]) {
+        destroyed = true;
+      }
+      // the last positive ast is smaller or equal than current negative ast pop out
       // and continue challenge the next one from the last
-      if (res[res.length - 1] <= Math.abs(ast)) res.pop();
+      if (Math.abs(ast) >= stack[stack.length - 1]) {
+        stack.pop();
+      }
     }
-    if (!destroyed) res.push(ast);
+    if (!destroyed) stack.push(ast);
   }
 
-  return res;
+  return stack;
 };
 // @lc code=end
 
 
 /**
- * Stack
- * 
- * - Time complexity: O(N).
- * - Space complexity: O(N).
+ * - Time complexity: O(N)
+ * - Space complexity: O(N)
  */

@@ -4,6 +4,11 @@
  * [253] Meeting Rooms II
  */
 
+/**
+ * tags: #two-pointers
+ * #google-interview
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} intervals
@@ -23,11 +28,19 @@ var minMeetingRooms = function(intervals) {
   let endIdx = 0;
   for (let i = 0; i < intervals.length; i++) {
     if (starts[i] < ends[endIdx]) {
-      rooms ++;
+      rooms++;
     } else {
-      endIdx ++;
+      endIdx++;
     }
   }
   return rooms;
 };
 // @lc code=end
+
+
+/**
+ * chronological-ordering
+ * 
+ * - Time complexity: O(n * log n)
+ * - Space complexity: O(n), because we need two separate array size of 𝑁, one for recording the start times and one for the end times.
+ */

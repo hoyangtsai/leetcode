@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #breadth-first-search, #matrix, #square-traverse, #4-way-traverse
+ * tags: #breadth-first-search, #matrix, #square-traverse, #direction-grid
  */
 
 // @lc code=start

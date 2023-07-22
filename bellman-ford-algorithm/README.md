@@ -1,7 +1,10 @@
 # Bellman-Ford Algorithm
 
+- Regular graph, graph has no cycle which means a vertex cannot go back the staring point
 - Vertex directional graph
 - Edge accepts positive and negative
+
+> "Bellman-Ford algorithm" is only applicable to "graphs" with no "negative weight cycles".
 
 Steps
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #trie, #square-traverse, #4-way-traverse
+ * tags: #trie, #square-traverse, #direction-grid
  * #google-interview
  * {@link 79.word-search.js}
  */

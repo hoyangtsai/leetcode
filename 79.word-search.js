@@ -6,7 +6,7 @@
 
 /**
  * @rakuten
- * tags: #backtracking, #matrix, #depth-first-search, #square-traverse, #4-way-traverse
+ * tags: #backtracking, #matrix, #depth-first-search, #square-traverse, #direction-grid
  * #my-interview
  * {@link 212.word-search-ii.js}
  */

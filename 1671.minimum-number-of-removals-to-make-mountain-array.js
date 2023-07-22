@@ -5,7 +5,8 @@
  */
 
 /**
- * tags: #dynamic-programming, #binary-search, #array-number-mutation
+ * tags: #dynamic-programming, #binary-search, #array-number-mutation, #LIS
+ * {@link 300.longest-increasing-subsequence/binary-search.js}
  */
 
 // @lc code=start

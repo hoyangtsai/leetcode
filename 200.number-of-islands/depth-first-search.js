@@ -6,7 +6,7 @@
 
 /**
  * @Nvidia
- * tags: #matrix, #square-traverse, #4-way-traverse, #square-grid
+ * tags: #matrix, #square-traverse, #direction-grid, #square-grid
  */
 
 // @lc code=start

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #bellman-ford, #directional-graph, #graph 
+ * tags: #directional-graph, #dijkstra-algorithm
  */
 
 // @lc code=start
@@ -37,6 +37,6 @@ var networkDelayTime = function(times, n, k) {
 
 
 /**
- * - Time complexity: O(n).
- * - Space complexity: O(n).
+ * - Time complexity: O(n)
+ * - Space complexity: O(n)
  */

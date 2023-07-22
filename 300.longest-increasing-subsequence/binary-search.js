@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search
+ * tags: #binary-search, #LIS
  */
 
 // @lc code=start

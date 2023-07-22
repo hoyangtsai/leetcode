@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dynamic-programming
+ * tags: #dynamic-programming, #longest-same-difference
  */
 
 // @lc code=start
