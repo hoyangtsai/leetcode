@@ -6,7 +6,7 @@
 
 /**
  * @Nvidia
- * tags: #binary-tree, #dynamic-programming
+ * tags: #binary-tree, #dynamic-programming. #dfs-build-tree
  */
 
 // @lc code=start
@@ -60,6 +60,6 @@ var allPossibleFBT = function(n) {
 
 
 /**
- * - Time complexity: O(2^n/2).
- * - Space complexity: O(n * 2^n/2).
+ * - Time complexity: O(2^n / 2).
+ * - Space complexity: O(n * 2^n / 2)
  */

@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #sliding-window
+ * tags: #sliding-window, #consecutive-string
  */
 
 // @lc code=start
@@ -42,3 +42,6 @@ var maxConsecutiveAnswers = function(answerKey, k) {
  * - Time complexity: O(n)
  * - Space complexity: O(1)
  */
+
+
+maxConsecutiveAnswers("TFFT", 1)

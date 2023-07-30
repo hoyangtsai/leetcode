@@ -16,11 +16,11 @@
  * @return {number}
  */
 var findKthLargest = function (nums, k) {
-  // a function of sorting array by the smallest number first
-  const sortSmallFirst = (a, b) => a - b;
+  // sorting smallest number first
+  nums.sort((a, b) => a - b);
   let heap = [];
   for (const n of nums) {
-    heap = heap.concat(n).sort(sortSmallFirst);
+    heap.push(n);
     // keep the size of heap as length as kth, so the first number always is the kth largest number
     if (heap.length > k) {
       heap.shift();

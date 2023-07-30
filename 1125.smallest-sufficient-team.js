@@ -30,6 +30,9 @@ var smallestSufficientTeam = function(req_skills, people) {
     
     let hisSkills = 0;        
     for (const skill of skills) {
+      // bit shifting calculate first then OR operator
+      // each calculation retains bit 1's
+      // ex. binary(2) | binary(4) = 6
       hisSkills |= 1 << skillId.get(skill);
     }
             
@@ -58,3 +61,5 @@ var smallestSufficientTeam = function(req_skills, people) {
  * - Time complexity: O(2^m * n)
  * - Space complexity: O(2^m)
  */
+
+smallestSufficientTeam(["java","nodejs","reactjs"], [["java"],["nodejs"],["nodejs","reactjs"]])

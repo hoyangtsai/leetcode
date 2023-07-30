@@ -4,9 +4,12 @@
  * [875] Koko Eating Bananas
  */
 
-// @google, @facebook
-// #binary-search, #top-google-questions
-// {@link 1011.capacity-to-ship-packages-within-d-days.js}
+/**
+ * tags: #binary-search
+ * #top-google-questions
+ * {@link 1011.capacity-to-ship-packages-within-d-days.js}
+ * {@link 1870.minimum-speed-to-arrive-on-time.js}
+ */
 
 // @lc code=start
 /**

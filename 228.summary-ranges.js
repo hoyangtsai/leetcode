@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #array-sequence-numbers
+ * tags: #array-sequence-numbers, #range-number
  * {@link 163.missing-ranges.js}
  */
 

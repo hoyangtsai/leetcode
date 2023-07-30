@@ -6,6 +6,7 @@
 
 /**
  * tags: #binary-search, #missing-number
+ * {@link 1060.missing-element-in-sorted-array.js}
  */
 
 // @lc code=start

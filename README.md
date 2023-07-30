@@ -13,7 +13,7 @@
 - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
 - [946. Validate Stack Sequences](946.validate-stack-sequences.js)
 - [1047. Remove All Adjacent Duplicates In String](1047.remove-all-adjacent-duplicates-in-string.js) #string-duplicates
-- [1209. Remove All Adjacent Duplicates in String II](1209.remove-all-adjacent-duplicates-in-string-ii.js) #string-duplicates
+- [1209. Remove All Adjacent Duplicates in String II](1209.remove-all-adjacent-duplicates-in-string-ii.js)
 - [1249. Minimum Remove to Make Valid Parentheses](1249.minimum-remove-to-make-valid-parentheses.js)
 - [2390. Removing Stars From a String](2390.removing-stars-from-a-string.js)
 
@@ -106,15 +106,19 @@
 - [74. Search a 2D Matrix](74.search-a-2-d-matrix/binary-search.js)
 - [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
 - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js)
+- [162. Find Peak Element](162.find-peak-element.js)
 - [658. Find K Closest Elements](658.find-k-closest-elements/binary-search-find-left-bound.js)
 - [744. Find Smallest Letter Greater Than Target](744.find-smallest-letter-greater-than-target.js)
+- [852. Peak Index in a Mountain Array](852.peak-index-in-a-mountain-array.js)
 - [875. Koko Eating Bananas](875.koko-eating-bananas.js)
 - [958. Check Completeness of a Binary Tree](958.check-completeness-of-a-binary-tree.js)
 - [1011. Capacity To Ship Packages Within D Days](1011.capacity-to-ship-packages-within-d-days.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array.js)
 - [1351. Count Negative Numbers in a Sorted Matrix](1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js)
 - [1802. Maximum Value at a Given Index in a Bounded Array](1802.maximum-value-at-a-given-index-in-a-bounded-array.js)
+- [1870. Minimum Speed to Arrive on Time](1870.minimum-speed-to-arrive-on-time.js)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](1964.find-the-longest-valid-obstacle-course-at-each-position.js)
+- [2141. Maximum Running Time of N Computers](2141.maximum-running-time-of-n-computers.js)
 
 ### Longest Increasing Sequence
   
@@ -167,6 +171,7 @@
 - [109. Convert Sorted List to Binary Search Tree](109.convert-sorted-list-to-binary-search-tree.js) #linked-list
 - [111. Minimum Depth of Binary Tree](111.minimum-depth-of-binary-tree/recursion.js)
 - [230. Kth Smallest Element in a BST](230.kth-smallest-element-in-a-bst.js)
+- [257. Binary Tree Paths](257.binary-tree-paths.js)
 - [538. Convert BST to Greater Tree](538.convert-bst-to-greater-tree/recursion.js)
 - [662. Maximum Width of Binary Tree](./662.maximum-width-of-binary-tree.js)
 - [669. Trim a Binary Search Tree](669.trim-a-binary-search-tree.js)
@@ -265,10 +270,11 @@
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 - [2272. Substring With Largest Variance](2272.substring-with-largest-variance.js)
 
-## Kahn Algorithm
+## Kahn Algorithm (Topological Sort)
 
 - [207. Course Schedule](207.course-schedule/topological-sort.js)
 - [210. Course Schedule II](210.course-schedule-ii.js)
+- [802. Find Eventual Safe States](802.find-eventual-safe-states.js)
 
 ## Big-O cheatsheet
 

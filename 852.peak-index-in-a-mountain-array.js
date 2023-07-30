@@ -4,9 +4,11 @@
  * [852] Peak Index in a Mountain Array
  */
 
-// @facebook
-// #array, #binary-search
-// #google-interview
+/**
+ * tags: #binary-search, #array-number-find
+ * {@link 162.find-peak-element.js}
+ * #google-interview
+ */
 
 // @lc code=start
 /**
@@ -14,9 +16,9 @@
  * @return {number}
  */
 var peakIndexInMountainArray = function(arr) {
-  let l = 0, r = arr.length - 1;
+  let l = 0, r = arr.length;
   while (l < r) {
-    let mid = ~~((l + r) / 2);
+    let mid = parseInt((l + r) / 2);
     if (arr[mid] < arr[mid + 1]) {
       l = mid + 1;
     } else {
@@ -27,9 +29,8 @@ var peakIndexInMountainArray = function(arr) {
 };
 // @lc code=end
 
+
 /**
- * Binary search
- * 
  * - Time complexity: O(log N), where N is the length arr.
  * - Space complexity: O(1).
  */

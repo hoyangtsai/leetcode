@@ -63,6 +63,6 @@ var findMin = function(nums) {
 
 
 /**
- * - Time complexity: O(log N).
- * - Space complexity: O(1).
+ * - Time complexity: O(logN)
+ * - Space complexity: O(1)
  */

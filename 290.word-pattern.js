@@ -50,6 +50,11 @@ var wordPattern = function(pattern, s) {
 // @lc code=end
 
 
+/**
+ * - Time complexity: O(N)
+ * - Space complexity: O(N)
+ */
+
 
 // console.log(wordPattern("abba", "dog dog dog dog")); // false
 console.log(wordPattern("abba", "dog cat cat fish")); // false

@@ -6,6 +6,7 @@
 
 /**
  * tags: #binary-search, #array-number-find
+ * {@link 852.peak-index-in-a-mountain-array.js}
  */
 
 // @lc code=start
@@ -30,8 +31,6 @@ var findPeakElement = function(nums) {
 
 
 /** 
- * Binary search
- * 
- * - Time complexity: O(log n).
- * - Space complexity: O(1).
+ * - Time complexity: O(log n)
+ * - Space complexity: O(1)
  */

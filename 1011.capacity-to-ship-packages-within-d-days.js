@@ -4,9 +4,10 @@
  * [1011] Capacity To Ship Packages Within D Days
  */
 
-// @facebook, @amazon
-// tags: #binary-search
-// {@link 875.koko-eating-bananas.js}
+/**
+ * tags: #binary-search
+ * @link 875.koko-eating-bananas.js}
+ */
 
 // @lc code=start
 /**

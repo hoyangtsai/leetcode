@@ -4,6 +4,10 @@
  * [1446] Consecutive Characters
  */
 
+/**
+ * tags: #consecutive-string
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -16,7 +20,7 @@ var maxPower = function(s) {
 
   for (let i = 0; i < s.length; i++) {
     if (s[i] == prevChar) {
-      count ++;
+      count++;
     } else {
       count = 1;
       prevChar = s[i];
@@ -28,9 +32,8 @@ var maxPower = function(s) {
 };
 // @lc code=end
 
+
 /**
- * One pass
- * 
- * - Time complexity: O(N).
- * - Space complexity: O(1).
+ * - Time complexity: O(N)
+ * - Space complexity: O(1)
  */

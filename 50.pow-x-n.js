@@ -29,6 +29,6 @@ var myPow = function(x, n) {
 
 
 /**
- * - Time complexity: O(log n).
- * - Space complexity: O(1).
+ * - Time complexity: O(log n)
+ * - Space complexity: O(1)
  */

@@ -5,7 +5,6 @@
  */
 
 /**
- * #facebook, #linkedin, #amazon
  * tags: #sorting, #quickselect
  * #google-interview
  * {@link 347.top-k-frequent-elements/quickselect.js}

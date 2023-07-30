@@ -4,6 +4,10 @@
  * [524] Longest Word in Dictionary through Deleting
  */
 
+/**
+ * tags: #array-words-subsequence, #word-dictionary, #word-subsequence
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -38,8 +42,8 @@ var findLongestWord = function(s, dictionary) {
 
 
 /**
- * - Time complexity: O(n * x).
- * - Space complexity: O(x).
+ * - Time complexity: O(n * x)
+ * - Space complexity: O(x)
  */
 
 console.log(findLongestWord("abce", ["abe","abc"])) // return 'abc'
