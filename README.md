@@ -38,12 +38,13 @@
 
 ### Backtracking
 
-- [17. Letter Combinations of a Phone Number](17.letter-combinations-of-a-phone-number.js) #string-combination
+- [17. Letter Combinations of a Phone Number](17.letter-combinations-of-a-phone-number.js)
 - [39. Combination Sum](39.combination-sum.js)
 - [40. Combination Sum II](40.combination-sum-ii.js)
 - [216. Combination Sum III](216.combination-sum-iii.js)
 - [46. Permutations](46.permutations.js)
 - [47. Permutations II](47.permutations-ii.js)
+- [77. Combinations](77.combinations.js)
 - [78. Subsets](78.subsets.js)
 - [90. Subsets II](90.subsets-ii.js)
 - [1641. Count Sorted Vowel Strings](1641.count-sorted-vowel-strings/backtracking.js)
@@ -70,6 +71,7 @@
 - [63. Unique Paths II](63.unique-paths-ii.js)
 - [64. Minimum Path Sum](64.minimum-path-sum.js)
 - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js)
+- [139. Word Break](139.word-break/bottom-up-dp.js)
 - [198. House Robber](198.house-robber/dynamic-programming.js)
 - [213. House Robber II](213.house-robber-ii.js)
 - [256. Paint House](256.paint-house.js)

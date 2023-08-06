@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-table, #backtracking, #string-combination
+ * tags: #backtracking, #string-combination
  * {@link 91.decode-ways.js}
  */
 

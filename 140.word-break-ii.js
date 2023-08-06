@@ -4,8 +4,9 @@
  * [140] Word Break II
  */
 
-// @facebook, @amazon, @bloomberg
-// #backtracking, #memoization
+/**
+ * tags: #backtracking, #memoization
+ */
 
 // @lc code=start
 /**

@@ -21,9 +21,11 @@ var minimumDeleteSum = function(s1, s2) {
   let dp = Array.from(Array(m + 1).fill(0), () => Array(n + 1).fill(0));
 
   // init boundaries
+  // tabulation s1
   for (let i = 1; i <= m; i++) {
     dp[i][0] = dp[i - 1][0] + s1.charCodeAt(i - 1);
   }
+  // tabulation s2
   for (let j = 1; j <= n; j++) {
     dp[0][j] = dp[0][j - 1] + s2.charCodeAt(j - 1);
   }
@@ -44,8 +46,8 @@ var minimumDeleteSum = function(s1, s2) {
 
 
 /**
- * Time complexity: O(M * N).
- * Space complexity: O(M * N).
+ * Time complexity: O(M * N)
+ * Space complexity: O(M * N)
  */
 
 minimumDeleteSum("sea", "eat");
