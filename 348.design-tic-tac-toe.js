@@ -4,6 +4,10 @@
  * [348] Design Tic-Tac-Toe
  */
 
+/**
+ * tags: #design
+ */
+
 // @lc code=start
 /**
  * @param {number} n

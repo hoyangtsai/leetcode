@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #dynamic-programming
+ * tags: #matrix, #dynamic-programming, #matrix-move-possibility
  */
 
 // @lc code=start

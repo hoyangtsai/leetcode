@@ -19,7 +19,7 @@
  * @return {number}
  */
 var findKthLargest = function (nums, k) {
-  function quickselect(nums, l, r, kSmallest) {
+  function quickselect(nums, l, r, kthSmallest) {
     // best case for the first input
     if (l === r) {
       return nums[l];
@@ -53,16 +53,17 @@ var findKthLargest = function (nums, k) {
     pivotIndex = partition(l, r, pivotIndex);
 
     // the pivotIndex is on (N - k)th smallest position
-    if (kSmallest == pivotIndex) return nums[kSmallest];
+    if (kthSmallest == pivotIndex) return nums[kthSmallest];
     // update right, go left side
-    else if (kSmallest < pivotIndex) return quickselect(nums, l, pivotIndex - 1, kSmallest);
+    else if (kthSmallest < pivotIndex) return quickselect(nums, l, pivotIndex - 1, kthSmallest);
     // update left, go right side
-    return quickselect(nums, pivotIndex + 1, r, kSmallest);
+    return quickselect(nums, pivotIndex + 1, r, kthSmallest);
   }
 
   return quickselect(nums, 0, nums.length - 1, nums.length - k);
 };
 // @lc code=end
+
 
 /**
  * - Time complexity: O(N) in the average case, O(N^2) in the worst case.

@@ -4,6 +4,10 @@
  * [542] 01 Matrix
  */
 
+/**
+ * tags: #breadth-first-search, #matrix
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} mat
@@ -13,32 +17,34 @@ var updateMatrix = function(mat) {
   const rows = mat.length;
   const cols = mat[0].length;
 
-  let dist = new Array(rows).fill(Infinity);
-  for (let i = 0; i < rows; i++) {
-    dist[i] = new Array(cols).fill(Infinity);
-  }
+  let q = [];
+  let dist = Array.from(new Array(rows).fill(Infinity), () => new Array(cols).fill(Infinity));
 
-  // First pass: check for left and top
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
       if (mat[i][j] == 0) {
         dist[i][j] = 0;
-      } else {
-        if (i > 0)
-          dist[i][j] = Math.min(dist[i][j], dist[i - 1][j] + 1);
-        if (j > 0)
-          dist[i][j] = Math.min(dist[i][j], dist[i][j - 1] + 1);
+        q.push([i, j]);
       }
     }
   }
 
-  //Second pass: check for bottom and right
-  for (let i = rows - 1; i >= 0; i--) {
-    for (let j = cols - 1; j >= 0; j--) {
-      if (i < rows - 1)
-        dist[i][j] = Math.min(dist[i][j], dist[i + 1][j] + 1);
-      if (j < cols - 1)
-        dist[i][j] = Math.min(dist[i][j], dist[i][j + 1] + 1);
+  // left, right, up, down
+  const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
+
+  while (q.length > 0) {
+    const curr = q.shift();
+
+    for (const [dx, dy] of dirs) {
+      const m = curr[0] + dx;
+      const n = curr[1] + dy;
+
+      if (m >= 0 && m < rows && n >= 0 && n < cols) {
+        if (dist[m][n] > dist[curr[0]][curr[1]] + 1) {
+          dist[m][n] = dist[curr[0]][curr[1]] + 1;
+          q.push([m, n]);
+        }
+      }
     }
   }
 
@@ -46,3 +52,10 @@ var updateMatrix = function(mat) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(r * c).
+ * 
+ * - Space complexity: O(r * c).
+ *   An additional O(r * c) space is required to maintain the queue.
+ */

@@ -9,7 +9,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var PredictTheWinner = function(nums) {
+var predictTheWinner = function(nums) {
   const n = nums.length;
 
   let dp = Array.from(Array(n).fill(-1), () => Array(n).fill(-1));

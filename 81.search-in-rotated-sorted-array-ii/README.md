@@ -2,8 +2,8 @@
 
 ## Intuition
 
-A Sorted nums of array `[5, 8, 8, 9, 9, 10, 12, 12, 15, 19]`<br>
-After rotated the array `[10, 12, 12, 15, 19, 5, 8, 8, 9, 9]`<br>
+A Sorted nums of array `[5, 8, 8, 9, 9, 10, 12, 12, 15, 19]`  
+After rotated the array `[10, 12, 12, 15, 19, 5, 8, 8, 9, 9]`  
 Divide nums into 2 arrays (F and S) `[10, 12, 12, 15, 19] [5, 8, 8, 9, 9]`
 
 All the elements of the second array S will be smaller or equal to the "first element" start of F.

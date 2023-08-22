@@ -4,6 +4,12 @@
  * [74] Search a 2D Matrix
  */
 
+/**
+ * tags: #binary-search, #matrix-finding-number
+ * {@link 240.search-a-2-d-matrix-ii/binary-search.js}
+ * {@link 1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} matrix
@@ -11,21 +17,33 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
-  const m = matrix.length;
   const n = matrix[0].length;
 
-  let row = matrix.length - 1, col = 0;
-  while (row >= 0 && col < n) {
-    if (matrix[row][col] > target) {
-      row--;
-    } else if (matrix[row][col] < target) {
-      col++;
-    } else {
-      return true;
-    }
+  for (const row of matrix) {
+    let l = 0, r = n - 1;
+    
+    // the last column in a row is less than target, then go to next row
+    if (row[r] < target) continue;
+
+    while (l <= r) {
+      let mid = parseInt((l + r) / 2);
+  
+      if (row[mid] === target) {
+        return true;
+      } else if (row[mid] < target) {
+        l = mid + 1;
+      } else {
+        r = mid - 1;
+      }
+    }  
   }
 
   return false;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(m * log(n))
+ * - Space complexity: O(1)
+ */

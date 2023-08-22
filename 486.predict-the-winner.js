@@ -13,7 +13,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var PredictTheWinner = function(nums) {
+var predictTheWinner = function(nums) {
   const n = nums.length;
   let dp = Array.from(Array(n).fill(0), () => Array(n).fill(0));
   for (let i = 0; i < n; i++) {
@@ -52,8 +52,8 @@ var PredictTheWinner = function(nums) {
 /**
  * Bottom-up DP
  * 
- * - Time complexity: O(n^2).
- * - Space complexity: O(n^2).
+ * - Time complexity: O(n^2)
+ * - Space complexity: O(n^2)
  */
 
 

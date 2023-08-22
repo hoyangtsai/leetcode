@@ -6,7 +6,7 @@
 
 /**
  * tags: #dynamic-programming, #unbounded-knapsack
- * {@link 70.climbing-stairs/dynamic-programming.js}
+ * {@link 70.climbing-stairs.js}
  * {@link 322.coin-change.js}
  */
 
@@ -24,7 +24,6 @@ var change = function(amount, coins) {
 
   for (const coin of coins) {
     for (let j = 1; j <= amount; j++) { // iterate amount
-      if (j < coin) continue; 
       // coin must greater or equal to amount
       if (j >= coin) {
         dp[j] += dp[j - coin];

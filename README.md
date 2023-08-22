@@ -74,10 +74,12 @@
 - [139. Word Break](139.word-break/bottom-up-dp.js)
 - [198. House Robber](198.house-robber/dynamic-programming.js)
 - [213. House Robber II](213.house-robber-ii.js)
+- [239. Sliding Window Maximum](239.sliding-window-maximum.js)
 - [256. Paint House](256.paint-house.js)
 - [265. Paint House II](265.paint-house-ii.js)
 - [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/dynamic-programming.js)
 - [322. Coin Change](322.coin-change.js)
+- [486. Predict the Winner](486.predict-the-winner.js)
 - [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
 - [518. Coin Change 2](518.coin-change-2.js)
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
@@ -87,6 +89,7 @@
 - [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
 - [746. Min Cost Climbing Stairs](746.min-cost-climbing-stairs.js)
 - [837. New 21 Game](837.new-21-game.js)
+- [920. Number of Music Playlists](920.number-of-music-playlists.js)
 - [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
 - [1027. Longest Arithmetic Subsequence](1027.longest-arithmetic-subsequence.js)
 - [1137. N-th Tribonacci Number](1137.n-th-tribonacci-number.js)
@@ -100,13 +103,14 @@
 - [1639. Number of Ways to Form a Target String Given a Dictionary](1639.number-of-ways-to-form-a-target-string-given-a-dictionary.js)
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 - [2140. Solving Questions With Brainpower](2140.solving-questions-with-brainpower.js)
+- [2369. Check if There is a Valid Partition For The Array](2369.check-if-there-is-a-valid-partition-for-the-array.js)
 - [2466. Count Ways To Build Good Strings](2466.count-ways-to-build-good-strings.js)
 
 ### [Binary Search](./binary-search/README.md)
 
 - [33. Search in Rotated Sorted Array](33.search-in-rotated-sorted-array.js)
-- [74. Search a 2D Matrix](74.search-a-2-d-matrix/binary-search.js)
-- [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii/binary-search.js)
+- [74. Search a 2D Matrix](74.search-a-2-d-matrix.js)
+- [81. Search in Rotated Sorted Array II](81.search-in-rotated-sorted-array-ii.js)
 - [153. Find Minimum in Rotated Sorted Array](153.find-minimum-in-rotated-sorted-array.js)
 - [162. Find Peak Element](162.find-peak-element.js)
 - [658. Find K Closest Elements](658.find-k-closest-elements/binary-search-find-left-bound.js)
@@ -121,6 +125,7 @@
 - [1870. Minimum Speed to Arrive on Time](1870.minimum-speed-to-arrive-on-time.js)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](1964.find-the-longest-valid-obstacle-course-at-each-position.js)
 - [2141. Maximum Running Time of N Computers](2141.maximum-running-time-of-n-computers.js)
+- [2616. Minimize the Maximum Difference of Pairs](2616.minimize-the-maximum-difference-of-pairs.js)
 
 ### Longest Increasing Sequence
   
@@ -272,11 +277,14 @@
 - [1746. Maximum Subarray Sum After One Operation](1746.maximum-subarray-sum-after-one-operation.js)
 - [2272. Substring With Largest Variance](2272.substring-with-largest-variance.js)
 
-## Kahn Algorithm (Topological Sort)
+## Kahn Algorithm
 
-- [207. Course Schedule](207.course-schedule/topological-sort.js)
+- [207. Course Schedule](207.course-schedule.js)
 - [210. Course Schedule II](210.course-schedule-ii.js)
+- [269. Alien Dictionary](269.alien-dictionary.js)
+- [332. Reconstruct Itinerary](332.reconstruct-itinerary.js)
 - [802. Find Eventual Safe States](802.find-eventual-safe-states.js)
+- [1136. Parallel Courses](1136.parallel-courses.js)
 
 ## Big-O cheatsheet
 

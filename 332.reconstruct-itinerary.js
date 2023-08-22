@@ -5,8 +5,8 @@
  */
 
 /**
- * tags: #depth-first-search, #graph , #directed-graph, #歐拉, #hierholzer
- * {@see hierholzer-algorithm.md}
+ * tags: #directed-graph, #歐拉, #hierholzer
+ * {@see hierholzer-algorithm/README.md}
  */
 
 // @lc code=start
@@ -30,7 +30,7 @@ var findItinerary = function(tickets) {
   }
 
   // Step 2). order the destinations
-  flightMap.forEach((i, k) => i.sort());
+  flightMap.forEach((dests) => dests.sort());
 
   let result = [];
 

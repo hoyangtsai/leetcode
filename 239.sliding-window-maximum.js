@@ -4,6 +4,10 @@
  * [239] Sliding Window Maximum
  */
 
+/**
+ * tags: #dynamic-programming
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -40,3 +44,8 @@ var maxSlidingWindow = function(nums, k) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n)
+ * - Space complexity: O(n)
+ */

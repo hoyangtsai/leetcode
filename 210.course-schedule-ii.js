@@ -7,7 +7,7 @@
 /**
  * tags: #topological-sort, #kahn-algorithm
  * #google-interview
- * {@link 207.course-schedule/topological-sort.js}
+ * {@link 207.course-schedule.js}
  */
 
 // @lc code=start
@@ -25,25 +25,26 @@ var findOrder = function(numCourses, prerequisites) {
   
   // Add all vertices with 0 in-degree to the queue
   // find course id is 0 
-  const q = [];
+  const queue = [];
   for (let i = 0; i < inDegrees.length; i++) {
-    if (inDegrees[i] === 0) q.push(i);
+    if (inDegrees[i] === 0) queue.push(i);
   }
 
   const res = [];
-  while (q.length) {
-    const pre0 = q.shift();
-    numCourses--;
+  let count = 0;
+  while (queue.length > 0) {
+    const pre0 = queue.shift();
+    count++;
     res.push(pre0);
     for (const [c, pre] of prerequisites) {
       if (pre === pre0) {
         inDegrees[c]--;
-        if (inDegrees[c] === 0) q.push(c);
+        if (inDegrees[c] === 0) queue.push(c);
       }
     }
   }
 
-  return numCourses === 0 ? res : [];
+  return numCourses === count ? res : [];
 };
 // @lc code=end
 

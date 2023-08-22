@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #repeat-string, #mirror
+ * tags: #sting-repeat, #string-mirror
  */
 
 // @lc code=start
@@ -14,10 +14,13 @@
  * @return {boolean}
  */
 var repeatedSubstringPattern = function(s) {
-  return s.repeat(2).slice(1, -1).includes(s);
+  const t = s.repeat(2).slice(1, -1);
+  return t.includes(s);
 };
 // @lc code=end
 
 
-repeatedSubstringPattern("aba")
-repeatedSubstringPattern("abab")
+/**
+ * - Time complexity: O(n)
+ * - Space complexity: O(n)
+ */

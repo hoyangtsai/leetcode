@@ -4,6 +4,12 @@
  * [81] Search in Rotated Sorted Array II
  */
 
+/**
+ * tags: #binary-search
+ * {@link 33.search-in-rotated-sorted-array.js}
+ * @see ./81.search-in-rotated-sorted-array-ii/README.md
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
@@ -22,38 +28,38 @@ var search = function(nums, target) {
   }
 
   const n = nums.length;
-  let start = 0, end = n - 1;
-  while (start <= end) {
-    let mid = parseInt(start + (end - start) / 2);
+  let left = 0, right = n - 1;
+  while (left <= right) {
+    let mid = parseInt(left + (right - left) / 2);
 
     if (nums[mid] == target) {
       return true;
     }
 
     // all the left side of numbers are the same
-    if (!isBinarySearchHelpful(nums, start, nums[mid])) {
-      start++;
+    if (!isBinarySearchHelpful(nums, left, nums[mid])) {
+      left++;
       continue;
     }
 
     // which array does pivot belong to
-    let pivotArray = existsInFirst(nums, start, nums[mid]);
+    let pivotArray = existsInFirst(nums, left, nums[mid]);
 
     // which array does target belong to
-    let targetArray = existsInFirst(nums, start, target);
+    let targetArray = existsInFirst(nums, left, target);
 
     // 0 ^ 1 || 1 ^ 0 = true
     if (pivotArray ^ targetArray) { // If pivot and target exist in different sorted arrays, recall that xor is true when both operands are distinct
       if (pivotArray) {
-        start = mid + 1; // pivot in the first, target in the second
+        left = mid + 1; // pivot in the first, target in the second
       } else {
-        end = mid - 1; // target in the first, pivot in the second
+        right = mid - 1; // target in the first, pivot in the second
       }
     } else { // If pivot and target exist in same sorted array (either F or S)
       if (nums[mid] < target) {
-        start = mid + 1;
+        left = mid + 1;
       } else {
-        end = mid - 1;
+        right = mid - 1;
       }
     }
   }
@@ -62,3 +68,8 @@ var search = function(nums, target) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N) worst case, O(log N) best case, where N is the length of the input array.
+ * - Space complexity: O(1).
+ */
