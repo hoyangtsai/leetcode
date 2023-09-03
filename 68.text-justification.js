@@ -5,6 +5,7 @@
  */
 
 /**
+ * tags: #simulation
  * @Nvidia
  */
 
@@ -15,34 +16,57 @@
  * @return {string[]}
  */
 var fullJustify = function(words, maxWidth) {
-  const res = [[]];
-  res[0].letters = 0;
-  for (let word of words) {
-    let row = res[res.length - 1];
-    if (row.length && row.letters + row.length + word.length > maxWidth) {
-      res.push([]);
-      row = res[res.length - 1];
-      row.letters = 0;
+  function getWords(i, words, maxWidth) {
+    let currentLine = [];
+    let currLength = 0;
+    while (i < words.length && currLength + words[i].length <= maxWidth) {
+      currentLine.push(words[i]);
+      currLength += words[i].length + 1;
+      i++;
     }
-    row.push(word);
-    row.letters += word.length;
+    return currentLine;
   }
-  for (let r = 0; r < res.length; r++) {
-    let row = res[r];
-    if (row.length === 1 || r === res.length - 1) {
-      res[r] = row.join(' ') + ' '.repeat(maxWidth - row.letters - row.length + 1);
-      continue;
+
+  function createLine(line, i, words, maxWidth) {
+    let baseLength = -1;
+    for (const word of line) {
+      baseLength += word.length + 1;
     }
-    let line = row[0];
-    let spaces = maxWidth - row.letters;
-    let minSpaces = ' '.repeat(Math.floor(spaces / (row.length - 1)));
-    let addSpace = spaces % (row.length - 1);
-    for (let w = 1; w < row.length; w++) {
-      line += minSpaces + (w <= addSpace ? ' ' : '') + row[w];
+
+    let extraSpaces = maxWidth - baseLength;
+
+    if (line.length == 1 || i == words.length) {
+      return line.join(" ") + " ".repeat(extraSpaces);
     }
-    res[r] = line;
+
+    let wordCount = line.length - 1;
+    let spacesPerWord = parseInt(extraSpaces / wordCount);
+    let needsExtraSpace = parseInt(extraSpaces % wordCount);
+
+    for (let j = 0; j < needsExtraSpace; j++) {
+      line[j] = line[j] + " ";
+    }
+
+    for (let j = 0; j < wordCount; j++) {
+      line[j] = line[j] + " ".repeat(spacesPerWord);
+    }
+
+    return line.join(" ");
   }
-  return res;
+
+  let ans = [];
+  let i = 0;
+  while (i < words.length) {
+    let currentLine = getWords(i, words, maxWidth);
+    i += currentLine.length;
+    ans.push(createLine(currentLine, i, words, maxWidth));
+  }
+  return ans;
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(n * k)
+ * - Space complexity: O(m)
+ */

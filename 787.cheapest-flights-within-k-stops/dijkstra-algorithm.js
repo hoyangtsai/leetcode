@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #dijkstra-algorithm
+ * tags: #dijkstra-algorithm, #priority-queue
  */
 
 const { PriorityQueue } = require('@datastructures-js/priority-queue')

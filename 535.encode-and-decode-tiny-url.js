@@ -16,7 +16,7 @@ const urlMap = new Map();
 function getCode() {
   let sb = '';
   for (let i = 0; i < 6; i++) {
-    sb += alphabet.charAt(~~(Math.random() * 62));
+    sb += alphabet.charAt(Math.floor(Math.random() * (10 + 26 * 2)));
   }
   return sb;
 }

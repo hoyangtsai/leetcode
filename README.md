@@ -68,6 +68,7 @@
 
 - [5. Longest Palindromic Substring](5.longest-palindromic-substring/dynamic-programming.js)
 - [42. Trapping Rain Water](42.trapping-rain-water/dynamic-programming.js)
+- [62. Unique Paths](62.unique-paths.js)
 - [63. Unique Paths II](63.unique-paths-ii.js)
 - [64. Minimum Path Sum](64.minimum-path-sum.js)
 - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js)
@@ -79,11 +80,13 @@
 - [265. Paint House II](265.paint-house-ii.js)
 - [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/dynamic-programming.js)
 - [322. Coin Change](322.coin-change.js)
+- [403. Frog Jump](403.frog-jump.js)
 - [486. Predict the Winner](486.predict-the-winner.js)
 - [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
 - [518. Coin Change 2](518.coin-change-2.js)
 - [542. 01 Matrix](542.01-matrix/dynamic-programming.js)
 - [629. K Inverse Pairs Array](629.k-inverse-pairs-array/dynamic-programming.js)
+- [646 Maximum Length of Pair Chain](646.maximum-length-of-pair-chain.js)
 - [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
 - [673. Number of Longest Increasing Subsequence](673.number-of-longest-increasing-subsequence.js)
 - [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
@@ -146,7 +149,9 @@
 - [605. Can Place Flowers](605.can-place-flowers.js)
 - [646. Maximum Length of Pair Chain](646.maximum-length-of-pair-chain/greedy.js)
 - [881. Boats to Save People](881.boats-to-save-people.js)
+- [1326. Minimum Number of Taps to Open to Water a Garden](1326.minimum-number-of-taps-to-open-to-water-a-garden.js)
 - [1402. Reducing Dishes](1402.reducing-dishes.js)
+- [2366. Minimum Replacements to Sort the Array](2366.minimum-replacements-to-sort-the-array.js)
 
 ### Prefix Sum
 
@@ -285,6 +290,16 @@
 - [332. Reconstruct Itinerary](332.reconstruct-itinerary.js)
 - [802. Find Eventual Safe States](802.find-eventual-safe-states.js)
 - [1136. Parallel Courses](1136.parallel-courses.js)
+
+## Design
+
+- [146. LRU Cache](146.lru-cache.js)
+- [155. Min Stack](155.min-stack.js)
+- [348. Design Tic-Tac-Toe](348.design-tic-tac-toe.js)
+- [384. Shuffle an Array](384.shuffle-an-array.js)
+- [535. Encode and Decode TinyURL](535.encode-and-decode-tiny-url.js)
+- [729. My Calendar I](729.my-calendar-i.js)
+- [1472. Design Browser History](1472.design-browser-history.js)
 
 ## Big-O cheatsheet
 

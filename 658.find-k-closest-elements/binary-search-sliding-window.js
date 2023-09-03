@@ -68,6 +68,6 @@ var findClosestElements = function(arr, k, x) {
 
 
 /**
- * - Time complexity: O(log(N) + k).
- * - Space complexity: O(1).
+ * - Time complexity: O(log(N) + k)
+ * - Space complexity: O(1)
  */

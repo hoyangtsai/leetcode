@@ -4,10 +4,6 @@
  * [729] My Calendar I
  */
 
-/**
- * tags: #design, #binary-search, #meeting
- */
-
 // @lc code=start
 
 var MyCalendar = function() {
@@ -20,21 +16,18 @@ var MyCalendar = function() {
  * @return {boolean}
  */
 MyCalendar.prototype.book = function(start, end) {
-  let l = 0, r = this.heap.length - 1;
-  while (l <= r) {
-    const mid = parseInt((l + r) / 2);
-    const [s, e] = this.heap[mid];
-    if (start < e && end > s) {
+  let bookings = [...this.heap, [start, end]];
+  bookings.sort((a, b) => a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]);
+
+  for (let i = 1; i < bookings.length; i++) {
+    const prev = bookings[i - 1];
+    const curr = bookings[i];
+    if (prev[1] > curr[0]) {
       return false;
     }
-    if (end <= s) {
-      r = mid - 1;
-    } else if (start >= e) {
-      l = mid + 1;
-    }
   }
-  // The splice makes it O(n)
-  this.heap.splice(l, 0, [start, end]);
+
+  this.heap = bookings;
   return true;
 };
 
@@ -45,8 +38,3 @@ MyCalendar.prototype.book = function(start, end) {
  */
 // @lc code=end
 
-
-/**
- * - Time complexity: O(N Log N).
- * - Space complexity: O(1).
- */

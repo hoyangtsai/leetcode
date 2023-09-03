@@ -6,7 +6,7 @@
 
 /**
  * tags: #dynamic-programming, #string-subsequence, #two-string-calculation
- * {@link 1143.longest-common-subsequence/}
+ * {@link 1143.longest-common-subsequence.js}
  */
 
 // @lc code=start

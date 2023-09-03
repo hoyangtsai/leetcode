@@ -20,7 +20,7 @@ var canAttendMeetings = function(intervals) {
 
   for (let i = 1; i < intervals.length; i++) {
     // if next meeting's start time less than previous meeting's end time which means cannot attend next meeting
-    if (intervals[i][0] < intervals[i - 1][1]) {
+    if (intervals[i - 1][1] > intervals[i][0]) {
       return false;
     }
   }

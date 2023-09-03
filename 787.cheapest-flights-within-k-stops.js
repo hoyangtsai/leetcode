@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #bellman-fold, #direction-graph
+ * tags: #bellman-fold, #direction-graph, #route-plan, #flight-route
  */
 
 // @lc code=start
