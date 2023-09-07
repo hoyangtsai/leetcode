@@ -4,6 +4,11 @@
  * [202] Happy Number
  */
 
+/**
+ * tags: #floyd-tortoise-and-hare
+ * {@link 141.linked-list-cycle.js}
+ */
+
 // @lc code=start
 /**
  * @param {number} n
@@ -12,7 +17,11 @@
 var isHappy = function(n) {
   function getNext(n) {
     let totalSum = 0;
-    while (n != 0) {
+    // 2+ numbers square
+    // 19
+    // d = 9, n = 1
+    // d = 1, n = 0
+    while (n > 0) {
       let d = n % 10;
       n = parseInt(n / 10);
       totalSum += d * d;
@@ -32,3 +41,11 @@ var isHappy = function(n) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(log n).
+ *   If there is no cycle, then the fast runner will get to 1, and the slow runner will get halfway to 1.
+ *   Because there were 2 runners instead of 1, we know that at worst, the cost was O(2 * log n) = O(log n).
+ * 
+ * - Space complexity: O(1). 
+ */

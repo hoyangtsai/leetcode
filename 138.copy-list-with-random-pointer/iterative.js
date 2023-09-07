@@ -5,8 +5,7 @@
  */
 
 /**
- * @Nvidia
- * tags: #linked-list, #hash-map
+ * tags: #linked-list
  */
 
 // @lc code=start

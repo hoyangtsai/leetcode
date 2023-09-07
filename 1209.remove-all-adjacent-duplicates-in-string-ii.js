@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #stack
+ * tags: #stack, #string-repeat
  * {@link 1047.remove-all-adjacent-duplicates-in-string.js}
  */
 

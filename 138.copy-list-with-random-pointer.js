@@ -4,6 +4,11 @@
  * [138] Copy List with Random Pointer
  */
 
+/**
+ * @Nvidia
+ * tags: #linked-list, #hash-map
+ */
+
 // @lc code=start
 /**
  * // Definition for a Node.
@@ -37,3 +42,8 @@ var copyRandomList = function(head) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N), where N is the number of nodes in the linked list.
+ * - Space complexity: O(N).
+ */

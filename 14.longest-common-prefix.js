@@ -4,6 +4,10 @@
  * [14] Longest Common Prefix
  */
 
+/**
+ * tags: #array-string-common
+ */
+
 // @lc code=start
 /**
  * @param {string[]} strs
@@ -12,27 +16,24 @@
 var longestCommonPrefix = function(strs) {
   if (strs.length === 0) return '';
 
-  let prefix = '';
-  // find shortest string length as maximum length
-  let maxPrefixLength = Math.min(...strs.map(str => str.length));
-
-  for (let i = 0; i < maxPrefixLength; i++) {
-    let char = strs[0][i];
-    if (strs.every(str => str[i] === char)) {
-      prefix += char;
-    } else {
-      break;
+  let prefix = strs[0];
+  for (const s of strs) {
+    // "lee".indexOf("leetcode") return -1
+    // not found sub-string yet
+    while (s.indexOf(prefix) != 0) { // s.indexOf(prefix) = -1
+      prefix = prefix.substring(0, prefix.length - 1);
+      // all sub-string not match
+      if (prefix === '') return '';
     }
-  };
-
+  }
   return prefix;
 };
 // @lc code=end
 
 
 /**
- * Time complexity: O(S log m).
- * Space complexity; O(1). Used one constant extra space.
+ * - Time complexity: O(S).
+ * - Space complexity; O(1). We use one constant extra space.
  */
 
-console.log('["flower","flow","flight"] =>', longestCommonPrefix(["flower", "flow", "flight"]));
+console.log(longestCommonPrefix(['leets', 'leetcode', 'leet', 'leeds'])) // lee

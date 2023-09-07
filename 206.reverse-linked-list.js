@@ -6,7 +6,8 @@
 
 /**
  * @Nvidia
- * tags: #linked-list, #reverse-linked-list
+ * tags: #linked-list
+ * {@link 92.reverse-linked-list-ii.js}
  */
 
 // @lc code=start

@@ -4,6 +4,10 @@
  * [202] Happy Number
  */
 
+/**
+ * tags: #modular-arithmetic
+ */
+
 // @lc code=start
 /**
  * @param {number} n

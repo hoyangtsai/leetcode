@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #hash-map
+ * tags: #hash-table
  */
 
 // @lc code=start

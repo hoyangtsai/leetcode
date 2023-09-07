@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #slide-window
+ * tags: sliding-window, #binary-search
  */
 
 // @lc code=start

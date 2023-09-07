@@ -4,6 +4,12 @@
  * [658] Find K Closest Elements
  */
 
+/**
+ * tags: #binary-search
+ */
+
+// find numbers of k close to x
+
 // @lc code=start
 /**
  * @param {number[]} arr
@@ -14,7 +20,7 @@
 var findClosestElements = function (arr, k, x) {
   let left = 0;
   let right = arr.length - k; // right bound based on k
-
+ 
   while (left < right) {
     mid = parseInt((left + right) / 2);
     // x - mid greater than right most (largest) - x
@@ -33,3 +39,8 @@ var findClosestElements = function (arr, k, x) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(log(N - k) + k)
+ * - Space complexity: O(1)
+ */
