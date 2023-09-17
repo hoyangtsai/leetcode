@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #matrix, #dijkstra-algorithm, #square-traverse, #direction-grid
+ * tags: #matrix, #dijkstra-algorithm, #square-traverse, #direction-grid, #priority-queue
  * {@link 64.minimum-path-sum/dijkstra-algorithm.js}
  * {@link 743.network-delay-time.js}
  * {@link 787.cheapest-flights-within-k-stops/dijkstra-algorithm.js}

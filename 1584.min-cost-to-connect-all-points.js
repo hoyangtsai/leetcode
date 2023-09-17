@@ -4,6 +4,11 @@
  * [1584] Min Cost to Connect All Points
  */
 
+/**
+ * tags: #minimum-spanning-tree, #kruskal-algorithm, #union-find, #disjoint-set
+ * {@see https://leetcode.com/explore/featured/card/graph/621/algorithms-to-construct-minimum-spanning-tree/3858/}
+ */
+
 // @lc code=start
 /**
  * @param {number[][]} points
@@ -11,39 +16,44 @@
  */
 var minCostConnectPoints = function(points) {
   function UnionFind(N) {
-    let group = Array(N).fill(0);
+    let root = Array.from(Array(N).keys());
     let rank = Array(N).fill(0);
-    for (let i = 0; i < N; i++) {
-      group[i] = i;
-    }
+    // for (let i = 0; i < N; i++) {
+    //   root[i] = i;
+    // }
 
     this.find = (node) => {
-      if (group[node] != node) {
-        group[node] = this.find(group[node]);
+      if (root[node] != node) {
+        root[node] = this.find(root[node]);
       }
-      return group[node];
+      return root[node];
     }
 
-    this.union = (node1, node2) => {
-      const group1 = this.find(node1);
-      const group2 = this.find(node2);
+    this.union = (x, y) => {
+      const rootX = this.find(x);
+      const rootY = this.find(y);
 
-      // node1 and node2 already belong to same group.
-      if (group1 == group2) {
-        return false;
+      if (rootX != rootY) {
+        if (rank[rootX] > rank[rootY]) {
+          root[rootY] = rootX;
+        } else if (rank[rootX] < rank[rootY]) {
+          root[rootX] = rootY;
+        } else {
+          root[rootX] = rootY;
+          rank[rootY] += 1;
+        }
       }
-
-      if (rank[group1] > rank[group2]) {
-        group[group2] = group1;
-      } else if (rank[group1] < rank[group2]) {
-        group[group1] = group2;
-      } else {
-        group[group1] = group2;
-        rank[group2] += 1;
-      }
-
-      return true;
     }
+
+    this.connected = (x, y) => {
+      return this.find(x) == this.find(y);
+    }
+  }
+
+  function Edge(node1, node2, cost) {
+    this.node1 = node1;
+    this.node2 = node2;
+    this.cost = cost;
   }
 
   const N = points.length;
@@ -51,25 +61,26 @@ var minCostConnectPoints = function(points) {
 
   for (let i = 0; i < N; i++) {
     for (let j = i + 1; j < N; j++) {
-      let weight = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
-      allEdges.push([weight, i, j]);
+      const cost = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
+      allEdges.push(new Edge(i, j, cost));
     }
   }
    
-  // Sort all edges in increasing order.
-  allEdges.sort((a, b) => a[0] - b[0]);
+  // Sort all edges in ascending order
+  allEdges.sort((a, b) => a.cost - b.cost);
 
   const uf = new UnionFind(N);
   let mstCost = 0;
   let edgesUsed = 0;
 
   for (let i = 0; i < allEdges.length && edgesUsed < N - 1; i++) {
-    const node1 = allEdges[i][1];
-    const node2 = allEdges[i][2];
-    const weight = allEdges[i][0];
+    const node1 = allEdges[i].node1;
+    const node2 = allEdges[i].node2;
+    const cost = allEdges[i].cost;
     
-    if (uf.union(node1, node2)) {
-      mstCost += weight;
+    if (!uf.connected(node1, node2)) {
+      uf.union(node1, node2);
+      mstCost += cost;
       edgesUsed++;
     }
   }
@@ -78,3 +89,8 @@ var minCostConnectPoints = function(points) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(N^2 * log(N)).
+ * - Space complexity: O(N^2).
+ */

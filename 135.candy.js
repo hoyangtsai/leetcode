@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #greedy, #bidirectional
+ * tags: #greedy
  * #google-interview
  */
 
@@ -15,16 +15,16 @@
  * @return {number}
  */
 var candy = function(ratings) {
-  const len = ratings.length;
+  const n = ratings.length;
 
-  let forward = new Array(len);
-  let backward = new Array(len);
+  let forward = Array(n);
+  let backward = Array(n);
 
   forward[0] = 1;
-  backward[len - 1] = 1;
+  backward[n - 1] = 1;
 
-  for (let i = 1; i < len; i++) {
-    // greater than left one
+  for (let i = 1; i < n; i++) {
+    // greater than left one  
     if (ratings[i] > ratings[i - 1]) {
       forward[i] = forward[i - 1] + 1;
     } else {
@@ -32,7 +32,7 @@ var candy = function(ratings) {
     }
   }
 
-  for (let i = len - 2; i >= 0; i--) {
+  for (let i = n - 2; i >= 0; i--) {
     // greater than right one
     if (ratings[i] > ratings[i + 1]) {
       backward[i] = backward[i + 1] + 1;
@@ -42,7 +42,7 @@ var candy = function(ratings) {
   }
 
   let sum = 0;
-  for (let i = 0; i < len; i++) {
+  for (let i = 0; i < n; i++) {
     sum += Math.max(forward[i], backward[i]);
   }
   return sum;

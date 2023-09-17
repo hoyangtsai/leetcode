@@ -15,41 +15,37 @@
  * @return {string[]}
  */
 var findItinerary = function(tickets) {
-  let flightMap = new Map();
+  let routes = new Map();
 
   // Step 1). build the graph first
-  for (const t of tickets) {
-    const origin = t[0];
-    const dest = t[1];
-    if (flightMap.has(origin)) {
-      flightMap.get(origin).push(dest);
-    } else {
-      let destList = [dest];
-      flightMap.set(origin, destList);
+  for (const [origin, dest] of tickets) {
+    if (!routes.has(origin)) {
+      routes.set(origin, []);
     }
+    routes.get(origin).push(dest);
   }
 
   // Step 2). order the destinations
-  flightMap.forEach((dests) => dests.sort());
+  routes.forEach((dests) => dests.sort());
 
-  let result = [];
+  let res = [];
 
   function dfs(origin) {
     // Visit all the outgoing edges first.
-    if (flightMap.has(origin)) {
-      let destList = flightMap.get(origin);
+    if (routes.has(origin)) {
+      let destList = routes.get(origin);
       while (destList.length > 0) {
         // while we visit the edge, we trim it off from graph.
         let dest = destList.shift();
         dfs(dest);
       }
     }
-    result.unshift(origin);
+    res.unshift(origin);
   }
 
   // Step 3). post-order DFS
   dfs('JFK');
-  return result;
+  return res;
 };
 // @lc code=end
 

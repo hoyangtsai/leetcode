@@ -42,6 +42,7 @@ var generate = function(numRows) {
 
 
 /**
- * - Time complexity: O(numRow^2).
- * - Space complexity: O(numRow^2).
+ * - Time complexity: O(numRows^2)
+ * - Space complexity: O(1)
+ *   While O(numRows^2) space is used to store the output, the input and output generally do not count towards the space complexity.
  */

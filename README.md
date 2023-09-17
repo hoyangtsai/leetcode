@@ -71,6 +71,7 @@
 - [62. Unique Paths](62.unique-paths.js)
 - [63. Unique Paths II](63.unique-paths-ii.js)
 - [64. Minimum Path Sum](64.minimum-path-sum.js)
+- [118. Pascal's Triangle](118.pascals-triangle.js)
 - [121. Best Time to Buy and Sell Stock](121.best-time-to-buy-and-sell-stock.js)
 - [139. Word Break](139.word-break/bottom-up-dp.js)
 - [198. House Robber](198.house-robber/dynamic-programming.js)
@@ -80,6 +81,7 @@
 - [265. Paint House II](265.paint-house-ii.js)
 - [300. Longest Increasing Subsequence](300.longest-increasing-subsequence/dynamic-programming.js)
 - [322. Coin Change](322.coin-change.js)
+- [377. Combination Sum IV](377.combination-sum-iv.js)
 - [403. Frog Jump](403.frog-jump.js)
 - [486. Predict the Winner](486.predict-the-winner.js)
 - [516. Longest Palindromic Subsequence](516.longest-palindromic-subsequence.js)
@@ -150,6 +152,7 @@
 - [605. Can Place Flowers](605.can-place-flowers.js)
 - [646. Maximum Length of Pair Chain](646.maximum-length-of-pair-chain/greedy.js)
 - [881. Boats to Save People](881.boats-to-save-people.js)
+- [1282. Group the People Given the Group Size They Belong To](1282.group-the-people-given-the-group-size-they-belong-to.js)
 - [1326. Minimum Number of Taps to Open to Water a Garden](1326.minimum-number-of-taps-to-open-to-water-a-garden.js)
 - [1402. Reducing Dishes](1402.reducing-dishes.js)
 - [2366. Minimum Replacements to Sort the Array](2366.minimum-replacements-to-sort-the-array.js)
@@ -239,7 +242,7 @@
 - [547. Number of Provinces](547.number-of-provinces/union-find.js)
 - [1202. Smallest String With Swaps](1202.smallest-string-with-swaps.js)
 - [1319. Number of Operations to Make Network Connected](1319.number-of-operations-to-make-network-connected.js)
-- [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
+- [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points.js)
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
 - [1697. Checking Existence of Edge Length Limited Paths](1697.checking-existence-of-edge-length-limited-paths.js)
 - [2492. Minimum Score of a Path Between Two Cities](2492.minimum-score-of-a-path-between-two-cities.js)
@@ -256,7 +259,7 @@
 
 #### Minimum Spanning Tree
 
-- [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points/kruskal-algorithm.js)
+- [1584. Min Cost to Connect All Points](1584.min-cost-to-connect-all-points.js)
 - [1631. Path With Minimum Effort](1631.path-with-minimum-effort/union-find.js)
 
 ### Floyd Tortoise and Hare

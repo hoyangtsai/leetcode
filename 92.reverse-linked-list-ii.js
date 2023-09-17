@@ -42,7 +42,7 @@ var reverseBetween = function(head, left, right) {
   // The two pointers that will fix the final connections.
   let con = prev, tail = cur;
 
-  // Iteratively reverse the nodes until n becomes 0.
+  // Iteratively reverse the nodes until right becomes 0.
   let third = null;
   while (right > 0) {
     third = cur.next;
