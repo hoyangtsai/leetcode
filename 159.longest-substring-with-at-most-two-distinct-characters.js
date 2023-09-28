@@ -6,7 +6,7 @@
 
 /**
  * tags: #hash-table, #sliding-window, #substring
- * {@link lengthOfLongestSubstring|./3.longest-substring-without-repeating-characters.js}
+ * {@link 3.longest-substring-without-repeating-characters.js}
  */
 
 // @lc code=start

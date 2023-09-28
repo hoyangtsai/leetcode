@@ -5,8 +5,9 @@
  */
 
 /**
- * tags: #sliding-window, #two-pointers, #substring
- * #google-interview
+ * @viewsonic
+ * tags: #sliding-window, #two-pointers, #longest-substring
+ * #google-interview, #my-interview
  */
 
 /**
@@ -19,7 +20,7 @@ var lengthOfLongestSubstring = function(s) {
   let str = '';
 
   while (r < s.length) {
-    if (str.indexOf(s[r]) < 0) {
+    if (!str.includes(s[r])) {
       str += s[r];
       max = Math.max(max, r - l + 1);
       r++;

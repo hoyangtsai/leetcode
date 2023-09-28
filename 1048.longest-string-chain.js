@@ -4,9 +4,10 @@
  * [1048] Longest String Chain
  */
 
-// @google
-// #hash-table, #dynamic-programming, #string-comb
-// #top-google-questions
+/**
+ * tags: #hash-table, #string-comb
+ * #top-google-questions
+ */
 
 // @lc code=start
 /**
@@ -16,12 +17,12 @@
 var longestStrChain = function(words) {
   const memo = {};
   
+  // sorting shortest words to longest
   words.sort((a, b) => a.length - b.length);
 
   let longestWordLength = 1;
   
   for (const word of words) {
-
     let presentLength = 1;
     
     // re-assemble the word, i.e. "abcd"->"abc"->"abd"->"acd"->"bcd"
@@ -43,9 +44,9 @@ var longestStrChain = function(words) {
 
 
 /**
- * - Time complexity: O(N * (logN + L^2)).
+ * - Time complexity: O(N * (logN + L^2))
  *   Sorting a list of size N takes O(N log N) time.
  *   Next we use two for loops in which the outer loop runs for O(N) iterations and the inner loop runs for O(L^2) iterations in the worst case scenario.
  *   The first L is for the inner loop and the second L is for creating each preprocessor. Thus the overall time complexity is O(N logN + (N + L^2)) which equals O(N * (LogN + L^2)).
- * - Space complexity: O(N).
+ * - Space complexity: O(N)
  */

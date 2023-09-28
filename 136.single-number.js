@@ -4,6 +4,12 @@
  * [136] Single Number
  */
 
+/**
+ * tags: #bit-manipulation, #bitwise-operation
+ * {@link 137.single-number-ii.js}
+ * {@link 287.find-the-duplicate-number.js}
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

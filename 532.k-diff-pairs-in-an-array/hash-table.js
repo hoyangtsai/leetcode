@@ -5,7 +5,7 @@
  */
 
 /**
- * @LINE, @Shopback
+ * @LINE, @shopback
  * tags: #hash-table, #array-number-pair
  * #my-interview
  */

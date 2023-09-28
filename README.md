@@ -8,6 +8,7 @@
 - [32. Longest Valid Parentheses](32.longest-valid-parentheses/stack.js)
 - [71. Simplify Path](71.simplify-path.js)
 - [84. Largest Rectangle in Histogram](84.largest-rectangle-in-histogram.js)
+- [316. Remove Duplicate Letters](316.remove-duplicate-letters.js)
 - [456. 132 Pattern](456.132-pattern/stack.js)
 - [735. Asteroid Collision](735.asteroid-collision.js)
 - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
@@ -171,6 +172,7 @@
 
 ### Sliding Window
 
+- [3. Longest Substring Without Repeating Characters](3.longest-substring-without-repeating-characters.js)
 - [209. Minimum Size Subarray Sum](209.minimum-size-subarray-sum.js)
 - [424. Longest Repeating Character Replacement](424.longest-repeating-character-replacement.js)
 - [487. Max Consecutive Ones II](487.max-consecutive-ones-ii.js)
@@ -264,8 +266,9 @@
 
 ### Floyd Tortoise and Hare
 
-- [141. Linked List Cycle](141.linked-list-cycle/floyd-tortoise-and-hare.js) 👍
-- [202. Happy Number](202.happy-number/floyd-tortoise-and-hare.js)
+- [141. Linked List Cycle](141.linked-list-cycle/floyd-tortoise-and-hare.js)
+- [202. Happy Number](202.happy-number.js)
+- [287. Find the Duplicate Number](287.find-the-duplicate-number.js)
 
 ### [Fisher-Yates Algorithm](fisher-yates-algorithm/README.md)
 

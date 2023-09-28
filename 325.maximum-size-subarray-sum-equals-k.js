@@ -6,6 +6,7 @@
 
 /**
  * tags: #prefix-sum, #hash-table
+ * {@link 1658.minimum-operations-to-reduce-x-to-zero.js}
  */
 
 // @lc code=start

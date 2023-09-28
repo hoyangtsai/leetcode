@@ -7,6 +7,7 @@
 /**
  * tags: #floyd-tortoise-and-hare
  * {@link 141.linked-list-cycle.js}
+ * {@link 287.find-the-duplicate-number.js}
  */
 
 // @lc code=start

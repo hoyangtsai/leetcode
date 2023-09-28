@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-search, #divide-and-conquer, #shift-assignment
+ * tags: #binary-search, #divide-and-conquer
  */
 
 // @lc code=start
@@ -23,8 +23,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
   let low = 0, high = x;
   while (low <= high) {
-    const partitionX = ~~((low + high) / 2);
-    const partitionY = ~~((x + y + 1) / 2) - partitionX;
+    const partitionX = parseInt((low + high) / 2);
+    const partitionY = parseInt((x + y + 1) / 2) - partitionX;
 
     const leftMaxX = partitionX == 0 ? Number.NEGATIVE_INFINITY : nums1[partitionX - 1];
     const leftMaxY = partitionY == 0 ? Number.NEGATIVE_INFINITY : nums2[partitionY - 1];
@@ -49,6 +49,11 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(log(min(m, n))
+ * - Space complexity: O(1)
+ */
 
 const med = findMedianSortedArrays([3, 6, 7, 8, 11], [2, 5, 9, 13, 14, 15, 18]);
 console.log('med =>', med);

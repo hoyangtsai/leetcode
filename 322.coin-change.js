@@ -5,7 +5,7 @@
  */
 
 /**
- * @Shopback
+ * @shopback
  * tags: #dynamic-programming, #unbounded-knapsack, #背包最值問題
  * #google-interview, #my-interview
  * {@link 518.coin-change-2.js}
