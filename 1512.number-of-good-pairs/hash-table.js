@@ -4,23 +4,28 @@
  * [1512] Number of Good Pairs
  */
 
+/**
+ * tags: #hash-table
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums
  * @return {number}
  */
 var numIdenticalPairs = function(nums) {
-  let count = Array(101).fill(0);
+  let count = new Map();
   let res = 0;
   for (const n of nums) {
-    res += count[n];
-    count[n]++;
+    res += count.get(n) || 0;
+    count.set(n, (count.get(n) || 0) + 1);
   }
   return res;
 };
 // @lc code=end
 
 
-
-const ans = numIdenticalPairs([1, 2, 3, 1, 1, 3])
-console.log('ans :>> ', ans);
+/**
+ * - Time complexity: O(n)
+ * - Space complexity: O(n)
+ */

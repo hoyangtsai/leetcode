@@ -35,6 +35,7 @@
 - [205. Isomorphic Strings](205.isomorphic-strings.js)
 - [532. K-diff Pairs in an Array](532.k-diff-pairs-in-an-array/hash-table.js)
 - [1436. Destination City](1436.destination-city.js)
+- [1512. Number of Good Pairs](1512.number-of-good-pairs/hash-table.js)
 - [1679. Max Number of K-Sum Pairs](1679.max-number-of-k-sum-pairs/hashmap-single-pass.js)
 
 ### Backtracking
