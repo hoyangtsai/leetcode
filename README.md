@@ -281,7 +281,8 @@
 
 ### Boyer Moore Voting Algorithm
 
-- [169. Majority Element](169.majority-element/boyer-moore-voting-algorithm.js)
+- [169. Majority Element](169.majority-element.js)
+- [229. Majority Element II](229.majority-element-ii.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array/boyer-moore-voting-algorithm.js)
 
 ### [Kadane Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)
