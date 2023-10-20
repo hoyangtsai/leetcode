@@ -5,7 +5,7 @@
  */
 
 /**
- * tags: #binary-tree, #hash-map, #tree-path-sum
+ * tags: #binary-tree, #hash-table, #tree-path-sum
  */
 
 // @lc code=start

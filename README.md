@@ -11,6 +11,7 @@
 - [316. Remove Duplicate Letters](316.remove-duplicate-letters.js)
 - [456. 132 Pattern](456.132-pattern/stack.js)
 - [735. Asteroid Collision](735.asteroid-collision.js)
+- [844. Backspace String Compare](844.backspace-string-compare.js)
 - [856. Score of Parentheses](856.score-of-parentheses/stack.js)
 - [946. Validate Stack Sequences](946.validate-stack-sequences.js)
 - [1047. Remove All Adjacent Duplicates In String](1047.remove-all-adjacent-duplicates-in-string.js) #string-duplicates
@@ -94,7 +95,7 @@
 - [647. Palindromic Substrings](647.palindromic-substrings/dynamic-programming.js)
 - [673. Number of Longest Increasing Subsequence](673.number-of-longest-increasing-subsequence.js)
 - [727. Minimum Window Subsequence](727.minimum-window-subsequence/dynamic-programming.js)
-- [746. Min Cost Climbing Stairs](746.min-cost-climbing-stairs.js)
+- [746. Min Cost Climbing Stairs](746.min-cost-climbing-stairs.js) 🩷
 - [837. New 21 Game](837.new-21-game.js)
 - [920. Number of Music Playlists](920.number-of-music-playlists.js)
 - [983. Minimum Cost For Tickets](983.minimum-cost-for-tickets.js)
@@ -127,6 +128,7 @@
 - [875. Koko Eating Bananas](875.koko-eating-bananas.js)
 - [958. Check Completeness of a Binary Tree](958.check-completeness-of-a-binary-tree.js)
 - [1011. Capacity To Ship Packages Within D Days](1011.capacity-to-ship-packages-within-d-days.js)
+- [1095. Find in Mountain Array](1095.find-in-mountain-array.js)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](1150.check-if-a-number-is-majority-element-in-a-sorted-array.js)
 - [1351. Count Negative Numbers in a Sorted Matrix](1351.count-negative-numbers-in-a-sorted-matrix/binary-search.js)
 - [1802. Maximum Value at a Given Index in a Bounded Array](1802.maximum-value-at-a-given-index-in-a-bounded-array.js)
@@ -299,6 +301,7 @@
 - [332. Reconstruct Itinerary](332.reconstruct-itinerary.js)
 - [802. Find Eventual Safe States](802.find-eventual-safe-states.js)
 - [1136. Parallel Courses](1136.parallel-courses.js)
+- [2050. Parallel Courses III](2050.parallel-courses-iii.js)
 
 ## Design
 

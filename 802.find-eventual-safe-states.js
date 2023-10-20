@@ -27,7 +27,7 @@ var eventualSafeNodes = function(graph) {
   }
 
   let q = [];
-  // Push all the nodes with indegree zero in the queue.
+  // Push all the nodes with inDegree zero in the queue.
   for (let i = 0; i < n; i++) {
     if (inDegrees[i] == 0) {
       q.push(i);

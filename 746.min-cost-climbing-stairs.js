@@ -28,6 +28,6 @@ var minCostClimbingStairs = function(cost) {
 
 
 /**
- * - Time complexity: O(N).
- * - Space complexity: O(N).
+ * - Time complexity: O(N)
+ * - Space complexity: O(N)
  */

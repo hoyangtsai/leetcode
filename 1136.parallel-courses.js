@@ -8,6 +8,7 @@
  * tags: #topological-sort, #kahn-algorithm
  * {@link 207.course-schedule.js}
  * {@link 210.course-schedule-ii.js}
+ * {@link 2050.parallel-courses-iii.js}
  */
 
 // @lc code=start

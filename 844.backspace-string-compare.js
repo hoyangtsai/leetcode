@@ -4,6 +4,12 @@
  * [844] Backspace String Compare
  */
 
+/**
+ * tags: #stack, #string-removal, #string-remove-by-symbol
+ * #google-interview
+ * {@link 2390.removing-stars-from-a-string.js}
+ */
+
 // @lc code=start
 /**
  * @param {string} s
@@ -11,15 +17,20 @@
  * @return {boolean}
  */
 var backspaceCompare = function(s, t) {
-  function process(s) {
-    const res = [];
-    for (const x of s.split('')) {
-      x === '#' ? res.pop() : res.push(x);
+  function build(s) {
+    let stack = [];
+    for (const c of s.split('')) {
+      c === '#' ? stack.pop() : stack.push(c);
     }
-    return res.join('');
+    return stack.join('');
   }
 
-  return process(s) == process(t);
+  return build(s) === build(t);
 };
 // @lc code=end
 
+
+/**
+ * - Time complexity: O(M + N), where M, N are the lengths of S and T respectively.
+ * - Space complexity: O(M + N).
+ */

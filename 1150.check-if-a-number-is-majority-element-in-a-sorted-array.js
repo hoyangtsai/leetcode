@@ -4,6 +4,10 @@
  * [1150] Check If a Number Is Majority Element in a Sorted Array
  */
 
+/**
+ * tags: #binary-search
+ */
+
 // @lc code=start
 /**
  * @param {number[]} nums

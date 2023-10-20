@@ -6,7 +6,7 @@
 
 /**
  * @Nvidia
- * tags: #hash-map, #anagram, #palindrome, #string-group
+ * tags: #hash-table, #anagram, #palindrome, #string-group
  */
 
 // @lc code=start

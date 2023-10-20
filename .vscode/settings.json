@@ -8,5 +8,11 @@
     "rakuten",
     "shopback",
     "Subarray"
+  ],
+  "python.analysis.extraPaths": [
+    "/Users/hoyang/.vscode/extensions/continue.continue-0.0.412-darwin-arm64"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/Users/hoyang/.vscode/extensions/continue.continue-0.0.412-darwin-arm64"
   ]
 }
