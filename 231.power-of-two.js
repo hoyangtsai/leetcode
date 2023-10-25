@@ -7,6 +7,7 @@
 /**
  * @Nvidia
  * tags: #bit-manipulation
+ * @link file://./342.power-of-four.js
  */
 
 // @lc code=start
