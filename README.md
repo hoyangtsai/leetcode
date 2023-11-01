@@ -103,6 +103,7 @@
 - [1137. N-th Tribonacci Number](1137.n-th-tribonacci-number.js)
 - [1140. Stone Game II](1140.stone-game-ii.js)
 - [1218. Longest Arithmetic Subsequence of Given Difference](1218.longest-arithmetic-subsequence-of-given-difference.js)
+- [1220. Count Vowels Permutation](1220.count-vowels-permutation.js)
 - [1230. Toss Strange Coins](1230.toss-strange-coins.js)
 - [1312. Minimum Insertion Steps to Make a String Palindrome](1312.minimum-insertion-steps-to-make-a-string-palindrome.js)
 - [1406. Stone Game III](1406.stone-game-iii.js)

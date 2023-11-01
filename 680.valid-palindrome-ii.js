@@ -5,9 +5,8 @@
  */
 
 /**
- * @facebook
  * tags: #two-pointers, #palindrome, #anagram
- * {@link 125.valid-palindrome.js}
+ * @link file://./125.valid-palindrome.js
  */
 
 // @lc code=start
