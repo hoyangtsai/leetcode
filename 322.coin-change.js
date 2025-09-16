@@ -37,6 +37,6 @@ var coinChange = function(coins, amount) {
 
 
 /**
- * - Time complexity: O(S * n).
- * - Space complexity: O(S). We use extra space for the memorization table.
+ * - Time complexity: O(amount * len(coins)).
+ * - Space complexity: O(amount). We use extra space for the memorization table.
  */

@@ -66,52 +66,54 @@
 
 0/1 背包問題母代碼 (二維)
 
-```cpp
-void bags()
-{
-    vector<int> weight = {1, 3, 4};   //各個物品的重量
-    vector<int> value = {15, 20, 30}; //對應的價值
-    int bagWeight = 4;                //揹包最大能放下多少重的物品
+```js
+function bags() {
+    const weight = [1, 3, 4];   // 各個物品的重量
+    const value = [15, 20, 30]; // 對應的價值
+    const bagWeight = 4;        // 揹包最大能放下多少重的物品
 
-    // 二維數組：狀態定義:dp[i][j]表示從0-i個物品中選擇不超過j重量的物品的最大價值
-    vector<vector<int>> dp(weight.size() + 1, vector<int>(bagWeight + 1, 0));
+    // 二維數組：狀態定義: dp[i][j] 表示從 0-i 個物品中選擇不超過 j 重量的物品的最大價值
+    const dp = Array.from({ length: weight.length }, () => Array(bagWeight + 1).fill(0));
 
-    // 初始化:第一列都是0，第一行表示只選取0號物品最大價值
-    for (int j = bagWeight; j >= weight[0]; j--)
+    // 初始化: 第一列都是 0，第一行表示只選取 0 號物品最大價值
+    for (let j = weight[0]; j <= bagWeight; j++) {
         dp[0][j] = dp[0][j - weight[0]] + value[0];
+    }
 
-    // weight數組的大小 就是物品個數
-    for (int i = 1; i < weight.size(); i++) // 遍歷物品(第0個物品已經初始化)
-    {
-        for (int j = 0; j <= bagWeight; j++) // 遍歷揹包容量
-        {
-            if (j < weight[i])           //揹包容量已經不足以拿第i個物品了
-                dp[i][j] = dp[i - 1][j]; //最大價值就是拿第i-1個物品的最大價值
-            //揹包容量足夠拿第i個物品,可拿可不拿：拿了最大價值是前i-1個物品扣除第i個物品的 重量的最大價值加上i個物品的價值
-            //不拿就是前i-1個物品的最大價值,兩者進行比較取較大的
-            else
-                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
+    // weight 數組的大小就是物品個數
+    for (let i = 1; i < weight.length; i++) { // 遍歷物品 (第 0 個物品已經初始化)
+        for (let j = 0; j <= bagWeight; j++) { // 遍歷揹包容量
+            if (j < weight[i]) {
+                // 揹包容量已經不足以拿第 i 個物品了
+                dp[i][j] = dp[i - 1][j]; // 最大價值就是拿第 i-1 個物品的最大價值
+            } else {
+                // 揹包容量足夠拿第 i 個物品, 可拿可不拿
+                // 拿了最大價值是前 i-1 個物品扣除第 i 個物品的重量的最大價值加上 i 個物品的價值
+                // 不拿就是前 i-1 個物品的最大價值, 兩者進行比較取較大的
+                dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
+            }
         }
     }
-    cout << dp[weight.size() - 1][bagWeight] << endl;
+    console.log(dp[weight.length - 1][bagWeight]);
 }
 ```
 
 二維代碼可以進行優化，去除選取物品的那一層，簡化為一維背包
 一維狀態定義： `dp[j]` 表示容量為 j 的背包能放下東西的最大價值
 
-```cpp
-void test_1_wei_bag_problem()
-{
- vector<int> weight = {1, 3, 4};
- vector<int> value = {15, 20, 30};
- int bagWeight = 4;
- // 初始化
- vector<int> dp(bagWeight + 1, 0);
- for (int i = 0; i < weight.size(); i++)// 遍歷物品
-     for (int j = bagWeight; j >= weight[i]; j--)// 遍歷揹包容量
-         dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); //不取或者取第i個
- cout << dp[bagWeight] << endl;
+```js
+function test_1_wei_bag_problem() {
+    const weight = [1, 3, 4];
+    const value = [15, 20, 30];
+    const bagWeight = 4;
+    // 初始化
+    const dp = new Array(bagWeight + 1).fill(0);
+    for (let i = 0; i < weight.length; i++) { // 遍歷物品
+        for (let j = bagWeight; j >= weight[i]; j--) { // 遍歷揹包容量
+            dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]); // 不取或者取第 i 個
+        }
+    }
+    console.log(dp[bagWeight]);
 }
 ```
 

@@ -6,12 +6,12 @@
 
 /**
  * tags: #binary-search
- * {@link 33.search-in-rotated-sorted-array.js}
- * @see ./81.search-in-rotated-sorted-array-ii/README.md
  */
 
 // @lc code=start
 /**
+ * [33.search-in-rotated-sorted-array]({@link ./33.search-in-rotated-sorted-array.js})
+ * @see [Search in Rotated Sorted Array II]({@link ./81.search-in-rotated-sorted-array-ii/README.md})
  * @param {number[]} nums
  * @param {number} target
  * @return {boolean}
